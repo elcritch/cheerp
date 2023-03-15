@@ -164,7 +164,7 @@ proc padStart*(this: String; a2: cint): ptr String {.noSideEffect,
 proc padStart*(this: String; a2: cint; a3: String): ptr String {.noSideEffect,
     importcpp: "padStart", header: "cheerp/types.h".}
 
-proc fromUtf8*(`in`: cstring; len: csize_t = 18446744073709551615'u32): ptr String {.
+proc fromUtf8*(`in`: cstring; len: csize_t = csize_t.high): ptr String {.
     importcpp: "client::String::fromUtf8(@)", header: "cheerp/types.h".}
 type
 

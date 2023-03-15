@@ -27,6 +27,7 @@ antExport ImporterConfig:
           substitutes:list:
             Replace(pattern: peg"'[[cheerp::genericjs]]'", repl: "")
             Replace(pattern: peg"'__attribute__((noinline))'", repl: "")
+            Replace(pattern: peg"'size_t len = 18446744073709551615UL'", repl: "size_t len = csize_t.high")
         - CSrcMods:
           fileMatch: peg"'client.h'"
           deletes:list:
