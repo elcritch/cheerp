@@ -1,0 +1,18 @@
+
+#pragma c2nim strict
+#pragma c2nim reordercomments
+#pragma c2nim mergeDuplicates
+#pragma c2nim skipFuncDefines
+
+#pragma c2nim mergeblocks
+#pragma c2nim stdints
+#pragma c2nim cppSkipCallOp
+#pragma c2nim cppSkipConverter
+#pragma c2nim cppskipconverter
+
+#pragma c2nim render extraNewLines
+#pragma c2nim render reIndentLongComments
+#pragma c2nim render NonNep1Imports
+
+#pragma c2nim mangle "'service_namespace_'$" "service_namespace"
+#pragma c2nim delete "typesupport_interface/macros"
