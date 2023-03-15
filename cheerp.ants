@@ -5,14 +5,14 @@ antExport ImporterConfig:
   cimports:list:
     - ImportConfig:
       name: "cheerp"
-      sources: "client/cheerp/"
+      sources: "client/"
       headerPrefix: "cheerp/"
       globs: ["**/*.h"]
       includes: [
         "client/",
-        ]
+      ]
       defines: ["LEAN_CXX_LIB"]
-      skipFiles: []
+      skipFiles: ["cheerpintrin.h"]
 
       # c2NimCfgs:list:
       #   - C2NimCfg:
@@ -36,6 +36,13 @@ antExport ImporterConfig:
               inclusive: true
             - LineDelete:
               match: peg"'#define _CHEERP'"
+        - CSrcMods:
+          fileMatch: peg"'cheerpintrin.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'template<class R, class P>'"
+              until: peg"'__builtin_cheerp_throw'"
+              inclusive: true
         - CSrcMods:
           fileMatch: peg"'types.h'"
           deletes:list:
