@@ -1,4 +1,5 @@
 import types
+export types
 
 proc `[]`*(this: Object; name: String): ptr Object {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/jsobject.h".}
