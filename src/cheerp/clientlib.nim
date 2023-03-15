@@ -17905,7 +17905,7 @@ proc info*(this: var Console; message: String) {.importcpp: "info",
 
 proc log*(this: var Console) {.importcpp: "log", header: "cheerp/clientlib.h".}
 
-proc log*(this: var Console; message: String) {.importcpp: "log",
+proc log*(this: var Console; message: var String) {.importcpp: "log",
     header: "cheerp/clientlib.h".}
 
 proc markTimeline*(this: var Console) {.importcpp: "markTimeline",

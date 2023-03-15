@@ -1,8 +1,17 @@
-import cheerp/clientlib
+# import cheerp/clientlib
 
-proc initString*(message: string): String =
-  constructString(message.cstring)
+
+# {.emit: """
+# [[cheerp::genericjs]] void domOutput(const char* str)
+# {
+#   client::console.log(str);
+# }
+# """.}
+
+# proc domOutput(msg: cstring) {.importc, header: "cheerpa/clientlib.h".}
+
+proc printf(frmt: cstring) {.varargs, importc, header: "<stdio.h>", cdecl.}
 
 # webMain is the entry point for web applications written in Cheerp
 proc webMain() {.exportc.} =
-  console.log("Hello, World Wide Web!".initString)
+  printf "hello world\n"

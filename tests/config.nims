@@ -3,7 +3,7 @@ switch("path", "$projectDir/../src")
 --compileOnly
 --noMain
 --cpu:arm
---os:any
+--os:standalone
 --d:useMalloc
 --mm:arc
 --nimcache:nimcache
