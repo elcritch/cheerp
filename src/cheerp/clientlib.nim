@@ -51339,16 +51339,16 @@ proc escape*(string: String): ptr String {.importcpp: "client::escape(@)",
 proc unescape*(string: String): ptr String {.importcpp: "client::unescape(@)",
     header: "cheerp/clientlib.h".}
 var
-  Math* {.importcpp: "client::Math", header: "cheerp/clientlib.h".}: Math
-  JSON* {.importcpp: "client::JSON", header: "cheerp/clientlib.h".}: JSON
-  CSS* {.importcpp: "client::CSS", header: "cheerp/clientlib.h".}: CSS
-  SVGUnitTypes* {.importcpp: "client::SVGUnitTypes",
-                  header: "cheerp/clientlib.h".}: SVGUnitTypes
-  ServiceUIFrameContext* {.importcpp: "client::ServiceUIFrameContext",
-                           header: "cheerp/clientlib.h".}: ServiceUIFrameContext
-  URL* {.importcpp: "client::URL", header: "cheerp/clientlib.h".}: URL
-  URLSearchParams* {.importcpp: "client::URLSearchParams",
-                     header: "cheerp/clientlib.h".}: URLSearchParams
+  extMath* {.importcpp: "client::extMath", header: "cheerp/clientlib.h".}: Math
+  extJSON* {.importcpp: "client::extJSON", header: "cheerp/clientlib.h".}: JSON
+  extCSS* {.importcpp: "client::extCSS", header: "cheerp/clientlib.h".}: CSS
+  extSVGUnitTypes* {.importcpp: "client::extSVGUnitTypes",
+                     header: "cheerp/clientlib.h".}: SVGUnitTypes
+  extServiceUIFrameContext* {.importcpp: "client::extServiceUIFrameContext",
+                              header: "cheerp/clientlib.h".}: ServiceUIFrameContext
+  extURL* {.importcpp: "client::extURL", header: "cheerp/clientlib.h".}: URL
+  extURLSearchParams* {.importcpp: "client::extURLSearchParams",
+                        header: "cheerp/clientlib.h".}: URLSearchParams
   applicationCache* {.importcpp: "client::applicationCache",
                       header: "cheerp/clientlib.h".}: ApplicationCache
   caches* {.importcpp: "client::caches", header: "cheerp/clientlib.h".}: CacheStorage
@@ -51969,5 +51969,5 @@ proc removeEventListener*(`type`: String; listener: ptr EventListenerObject;
 
 proc importScripts*() {.importcpp: "client::importScripts(@)",
                         header: "cheerp/clientlib.h".}
-var ActiveXObject* {.importcpp: "client::ActiveXObject",
-                     header: "cheerp/clientlib.h".}: ActiveXObject
+var extActiveXObject* {.importcpp: "client::extActiveXObject",
+                        header: "cheerp/clientlib.h".}: ActiveXObject

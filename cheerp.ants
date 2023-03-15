@@ -128,6 +128,31 @@ antExport ImporterConfig:
               inclusive: true
         - CSrcMods:
           fileMatch: peg"'clientlib.h'"
+          substitutes:list:
+            - Replace:
+              pattern: peg"'extern JSON JSON'"
+              repl: "extern JSON extJSON"
+            - Replace:
+              pattern: peg"'extern Math Math;'"
+              repl: "extern Math extMath;"
+            - Replace:
+              pattern: peg"'extern CSS CSS;'"
+              repl: "extern CSS extCSS;"
+            - Replace:
+              pattern: peg"'extern SVGUnitTypes SVGUnitTypes;'"
+              repl: "extern SVGUnitTypes extSVGUnitTypes;"
+            - Replace:
+              pattern: peg"'extern ServiceUIFrameContext ServiceUIFrameContext;'"
+              repl: "extern ServiceUIFrameContext extServiceUIFrameContext;"
+            - Replace:
+              pattern: peg"'extern URL URL;'"
+              repl: "extern URL extURL;"
+            - Replace:
+              pattern: peg"'extern URLSearchParams URLSearchParams;'"
+              repl: "extern URLSearchParams extURLSearchParams;"
+            - Replace:
+              pattern: peg"'extern ActiveXObject ActiveXObject;'"
+              repl: "extern ActiveXObject extActiveXObject;"
           deletes:list:
             - LineDelete:
               match: peg"'template<class ReturnType = Object*> ReturnType get_value'"
