@@ -55,6 +55,10 @@ antExport ImporterConfig:
               match: peg"'TArray(Args... args'"
               until: peg"'}'"
               inclusive: true
+            - LineDelete:
+              match: peg"'String(const wchar_t'"
+              until: peg"'}'"
+              inclusive: true
         - CSrcMods:
           fileMatch: peg"'jsobject.h'"
           deletes:list:

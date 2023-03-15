@@ -51,9 +51,6 @@ proc constructString*(a: cdouble): String {.constructor,
 proc constructString*(s: cstring): String {.constructor,
     importcpp: "client::String(@)", header: "cheerp/types.h".}
 
-proc constructString*(s: ptr wchar_t): String {.constructor,
-    importcpp: "client::String(@)", header: "cheerp/types.h".}
-
 proc substr*(this: String; start: cint): ptr String {.noSideEffect,
     importcpp: "substr", header: "cheerp/types.h".}
 
