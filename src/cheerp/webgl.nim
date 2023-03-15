@@ -10,8 +10,7 @@
 ## ===----------------------------------------------------------------------===//
 
 import
-  ./types, ./types, ./types, cheerpintrin, ./types, ./types, ./types, ./types,
-  ./types
+  ./types, ./types, ./types, ./types, ./types, ./types, ./types, ./types
 
 type
 

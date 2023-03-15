@@ -9,9 +9,6 @@
 ##
 ## ===----------------------------------------------------------------------===//
 
-import
-  cheerpintrin
-
 discard "forward decl of PropertyDescriptor"
 discard "forward decl of PropertyDescriptorMap"
 discard "forward decl of IArguments"

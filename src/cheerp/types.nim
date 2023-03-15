@@ -9,9 +9,6 @@
 ##
 ## ===----------------------------------------------------------------------===//
 
-import
-  cheerpintrin
-
 discard "forward decl of TArray"
 discard "forward decl of EventListener"
 discard "forward decl of RegExp"

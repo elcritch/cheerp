@@ -10,8 +10,8 @@
 ## ===----------------------------------------------------------------------===//
 
 import
-  ./types, ./types, ./types, cheerpintrin, ./types, ./types, ./types, ./types,
-  ./types, ./jsexception, ./clientlib, ./clientlib
+  ./types, ./types, ./types, ./types, ./types, ./types, ./types, ./types,
+  ./jsexception, ./clientlib, ./clientlib
 
 
 proc date_now*(): cdouble =
