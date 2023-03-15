@@ -27,9 +27,6 @@ proc valueOf*[T](this: var Object): T {.importcpp: "valueOf",
 proc `[]`*(this: Object; name: String): ptr Object {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/jsobject.h".}
 
-proc set_*(this: var Object; name: String; v: ptr Object) {.importcpp: "set_",
-    header: "cheerp/jsobject.h".}
-
 proc hasOwnProperty*(this: var Object; name: String): bool {.
     importcpp: "hasOwnProperty", header: "cheerp/jsobject.h".}
 

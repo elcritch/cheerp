@@ -1,3 +1,15 @@
+type
+
+  Object* {.importcpp: "client::Object", header: "cheerp/jsobject.h", inheritable, bycopy.} = object ##
+                              ##  Make it impossible to blindly copy a browser object
+
+proc constructObject*(): Object {.constructor, importcpp: "client::Object(@)",
+                                  header: "cheerp/jsobject.h".}
+
+proc valueOf*[T](this: var Object): T {.importcpp: "valueOf",
+                                        header: "cheerp/jsobject.h".}
+
+
 ## ===-- types.h - C++ definitions of JS basic types  --------------===//
 ##
 ##                      Cheerp: The C++ compiler for the Web
@@ -62,15 +74,6 @@ proc substring*(this: String; start: cint; `end`: cint): ptr String {.
 
 proc replace*(this: String; a2: String; a3: String): ptr String {.noSideEffect,
     importcpp: "replace", header: "cheerp/types.h".}
-
-proc replace*(this: String; a2: String; a3: ptr EventListener): ptr String {.
-    noSideEffect, importcpp: "replace", header: "cheerp/types.h".}
-
-proc replace*(this: String; a2: ptr RegExp; a3: String): ptr String {.
-    noSideEffect, importcpp: "replace", header: "cheerp/types.h".}
-
-proc replace*(this: String; a2: ptr RegExp; a3: ptr EventListener): ptr String {.
-    noSideEffect, importcpp: "replace", header: "cheerp/types.h".}
 
 proc charCodeAt*(this: String; index: cint): cint {.noSideEffect,
     importcpp: "charCodeAt", header: "cheerp/types.h".}

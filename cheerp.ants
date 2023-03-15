@@ -14,13 +14,45 @@ antExport ImporterConfig:
       defines: ["LEAN_CXX_LIB"]
       skipFiles: ["cheerpintrin.h"]
 
-      # c2NimCfgs:list:
-      #   - C2NimCfg:
-      #     fileMatch: peg"'u16string.h'"
-      #     rawNims: str"""
-      #         type
-      #           uintLeast16T * {.importc: "uint_least16_t", header: "stddef.h", bycopy.} = object
-      #         """
+      c2NimCfgs:list:
+        - C2NimCfg:
+          fileMatch: peg"'types.h'"
+          rawNims: str"""
+              type
+
+                Object* {.importcpp: "client::Object", header: "cheerp/jsobject.h", inheritable, bycopy.} = object ##
+                                            ##  Make it impossible to blindly copy a browser object
+
+              proc constructObject*(): Object {.constructor, importcpp: "client::Object(@)",
+                                                header: "cheerp/jsobject.h".}
+
+              proc valueOf*[T](this: var Object): T {.importcpp: "valueOf",
+                                                      header: "cheerp/jsobject.h".}
+
+              """
+        - C2NimCfg:
+          fileMatch: peg"'clientlib.h'"
+          rawNims: str"""
+              import types
+
+              proc `[]`*(this: Object; name: String): ptr Object {.noSideEffect,
+                  importcpp: "#[@]", header: "cheerp/jsobject.h".}
+
+              proc hasOwnProperty*(this: var Object; name: String): bool {.
+                  importcpp: "hasOwnProperty", header: "cheerp/jsobject.h".}
+
+              proc keys*(a1: ptr Object): ptr Array {.importcpp: "client::Object::keys(@)",
+                                                      header: "cheerp/jsobject.h".}
+                ##
+                                            ## cheerp::static
+
+              proc values*(a1: ptr Object): ptr Array {.
+                  importcpp: "client::Object::values(@)", header: "cheerp/jsobject.h".}
+                ##
+                                            ## cheerp::static
+
+
+              """
       sourceMods:list:
         - CSrcMods:
           fileMatch: peg"'.h'"
@@ -45,8 +77,17 @@ antExport ImporterConfig:
               until: peg"'__builtin_cheerp_throw'"
               inclusive: true
         - CSrcMods:
+          fileMatch: peg"'jsobject.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'void set_'"
+        - CSrcMods:
           fileMatch: peg"'types.h'"
           deletes:list:
+            - LineDelete:
+              match: peg"'String* replace(const String&, EventListener'"
+            - LineDelete:
+              match: peg"'String* replace(RegExp'"
             - LineDelete:
               match: peg"'static_cast<T*>((client::Object*)nullptr);'"
               until: peg"'Array::operator[](index)'"
