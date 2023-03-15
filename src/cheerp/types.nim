@@ -14,15 +14,6 @@ type
   EventListener* {.importcpp: "client::EventListener",
                     header: "cheerp/clientlib.h", bycopy.} = object of Object
 
-  WebAuthnExtensions* {.importcpp: "client::WebAuthnExtensions",
-          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-  MouseEventInit* {.importcpp: "client::MouseEventInit",
-      header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
-
-
-  WheelEventInit* {.importcpp: "client::WheelEventInit",
-      header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
 
 ## ===-- types.h - C++ definitions of JS basic types  --------------===//
 ##

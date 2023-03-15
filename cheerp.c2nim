@@ -16,5 +16,9 @@
 #pragma c2nim render NonNep1Imports
 
 #pragma c2nim mangle "'cheerp::genericjs'" ""
-#pragma c2nim mangle "'_catch'" "p_catch"
+#pragma c2nim mangle "'_' {\\ident+}" "p_$1"
+
 #pragma c2nim delete "cheerpintrin"
+
+
+#pragma c2nim inheritable WindowTimersExtension

@@ -2060,6 +2060,10 @@ type
                        header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
 
 
+  WebAuthnExtensions* {.importcpp: "client::WebAuthnExtensions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
   WheelEventInit* {.importcpp: "client::WheelEventInit",
                     header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
 
@@ -4644,7 +4648,8 @@ type
 
 
   WindowTimersExtension* {.importcpp: "client::WindowTimersExtension",
-                           header: "cheerp/clientlib.h", bycopy.} = object
+                           header: "cheerp/clientlib.h", inheritable, pure,
+                           bycopy.} = object
 
 
   WindowTimers* {.importcpp: "client::WindowTimers",
@@ -17014,17 +17019,17 @@ proc add*(this: var Cache; request: String): ptr Promise {.importcpp: "add",
 proc addAll*(this: var Cache; requests: ptr Array): ptr Promise {.
     importcpp: "addAll", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var Cache; request: ptr Request): ptr Promise {.
+proc p_delete*(this: var Cache; request: ptr Request): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var Cache; request: ptr Request;
-              options: ptr CacheQueryOptions): ptr Promise {.
+proc p_delete*(this: var Cache; request: ptr Request;
+               options: ptr CacheQueryOptions): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var Cache; request: String): ptr Promise {.
+proc p_delete*(this: var Cache; request: String): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var Cache; request: String; options: ptr CacheQueryOptions): ptr Promise {.
+proc p_delete*(this: var Cache; request: String; options: ptr CacheQueryOptions): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
 proc keys*(this: var Cache): ptr Promise {.importcpp: "keys",
@@ -17086,7 +17091,7 @@ proc set_prototype*(this: var Cache; a2: ptr Cache) {.
 proc constructCache*(): Cache {.constructor, importcpp: "client::Cache(@)",
                                 header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var CacheStorage; cacheName: String): ptr Promise {.
+proc p_delete*(this: var CacheStorage; cacheName: String): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
 proc has*(this: var CacheStorage; cacheName: String): ptr Promise {.
@@ -18395,16 +18400,6 @@ proc constructDOMRectReadOnly*(x: cdouble; y: cdouble; width: cdouble;
                                height: cdouble): DOMRectReadOnly {.constructor,
     importcpp: "client::DOMRectReadOnly(@)", header: "cheerp/clientlib.h".}
 
-proc fromRect*(): ptr DOMRectReadOnly {.importcpp: "client::DOMRectReadOnly::fromRect(@)",
-                                        header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc fromRect*(rectangle: ptr DOMRectInit): ptr DOMRectReadOnly {.
-    importcpp: "client::DOMRectReadOnly::fromRect(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
 proc get_height*(this: var DOMRect): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
 
@@ -18450,16 +18445,6 @@ proc constructDOMRect*(x: cdouble; y: cdouble; width: cdouble): DOMRect {.
 
 proc constructDOMRect*(x: cdouble; y: cdouble; width: cdouble; height: cdouble): DOMRect {.
     constructor, importcpp: "client::DOMRect(@)", header: "cheerp/clientlib.h".}
-
-proc fromRect*(): ptr DOMRect {.importcpp: "client::DOMRect::fromRect(@)",
-                                header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc fromRect*(rectangle: ptr DOMRectInit): ptr DOMRect {.
-    importcpp: "client::DOMRect::fromRect(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
 
 proc get_length*(this: var DOMRectList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -18786,7 +18771,7 @@ proc get_type*(this: var DataTransferItem): ptr String {.importcpp: "get_type",
 proc getAsFile*(this: var DataTransferItem): ptr File {.importcpp: "getAsFile",
     header: "cheerp/clientlib.h".}
 
-proc getAsString*(this: var DataTransferItem; _callback: ptr EventListener) {.
+proc getAsString*(this: var DataTransferItem; p_callback: ptr EventListener) {.
     importcpp: "getAsString", header: "cheerp/clientlib.h".}
 
 proc get_prototype*(this: var DataTransferItem): ptr DataTransferItem {.
@@ -22073,7 +22058,7 @@ proc append*(this: var FormData; name: String; value: ptr Blob) {.
 proc append*(this: var FormData; name: String; value: ptr Blob; fileName: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var FormData; name: String) {.importcpp: "_delete",
+proc p_delete*(this: var FormData; name: String) {.importcpp: "_delete",
     header: "cheerp/clientlib.h".}
 
 proc get*(this: var FormData; name: String): ptr String {.importcpp: "get",
@@ -30961,7 +30946,7 @@ proc constructHashChangeEvent*(`type`: String;
 proc append*(this: var Headers; name: String; value: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var Headers; name: String) {.importcpp: "_delete",
+proc p_delete*(this: var Headers; name: String) {.importcpp: "_delete",
     header: "cheerp/clientlib.h".}
 
 proc forEach*(this: var Headers; callback: ptr Function) {.importcpp: "forEach",
@@ -31079,25 +31064,25 @@ proc get_source*(this: var IDBCursor): ptr IDBObjectStore {.
 proc advance*(this: var IDBCursor; count: cdouble) {.importcpp: "advance",
     header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor) {.importcpp: "_continue",
-                                       header: "cheerp/clientlib.h".}
+proc p_continue*(this: var IDBCursor) {.importcpp: "_continue",
+                                        header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor; key: ptr IDBKeyRange) {.
+proc p_continue*(this: var IDBCursor; key: ptr IDBKeyRange) {.
     importcpp: "_continue", header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor; key: cdouble) {.importcpp: "_continue",
+proc p_continue*(this: var IDBCursor; key: cdouble) {.importcpp: "_continue",
     header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor; key: String) {.importcpp: "_continue",
+proc p_continue*(this: var IDBCursor; key: String) {.importcpp: "_continue",
     header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor; key: ptr Date) {.importcpp: "_continue",
+proc p_continue*(this: var IDBCursor; key: ptr Date) {.importcpp: "_continue",
     header: "cheerp/clientlib.h".}
 
-proc _continue*(this: var IDBCursor; key: ptr IDBArrayKey) {.
+proc p_continue*(this: var IDBCursor; key: ptr IDBArrayKey) {.
     importcpp: "_continue", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBCursor): ptr IDBRequest {.importcpp: "_delete",
+proc p_delete*(this: var IDBCursor): ptr IDBRequest {.importcpp: "_delete",
     header: "cheerp/clientlib.h".}
 
 proc update*(this: var IDBCursor; value: ptr Object): ptr IDBRequest {.
@@ -31481,19 +31466,19 @@ proc createIndex*(this: var IDBObjectStore; name: String; keyPath: ptr Array;
                   optionalParameters: ptr IDBIndexParameters): ptr IDBIndex {.
     importcpp: "createIndex", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBObjectStore; key: ptr IDBKeyRange): ptr IDBRequest {.
+proc p_delete*(this: var IDBObjectStore; key: ptr IDBKeyRange): ptr IDBRequest {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBObjectStore; key: cdouble): ptr IDBRequest {.
+proc p_delete*(this: var IDBObjectStore; key: cdouble): ptr IDBRequest {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBObjectStore; key: String): ptr IDBRequest {.
+proc p_delete*(this: var IDBObjectStore; key: String): ptr IDBRequest {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBObjectStore; key: ptr Date): ptr IDBRequest {.
+proc p_delete*(this: var IDBObjectStore; key: ptr Date): ptr IDBRequest {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var IDBObjectStore; key: ptr IDBArrayKey): ptr IDBRequest {.
+proc p_delete*(this: var IDBObjectStore; key: ptr IDBArrayKey): ptr IDBRequest {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
 
 proc deleteIndex*(this: var IDBObjectStore; indexName: String) {.
@@ -34161,7 +34146,7 @@ proc get_length*(this: var NamedNodeMap): cdouble {.importcpp: "get_length",
 proc getNamedItem*(this: var NamedNodeMap; qualifiedName: String): ptr Attr {.
     importcpp: "getNamedItem", header: "cheerp/clientlib.h".}
 
-proc getNamedItemNS*(this: var NamedNodeMap; _namespace: String;
+proc getNamedItemNS*(this: var NamedNodeMap; p_namespace: String;
                      localName: String): ptr Attr {.importcpp: "getNamedItemNS",
     header: "cheerp/clientlib.h".}
 
@@ -34171,7 +34156,7 @@ proc item*(this: var NamedNodeMap; index: cdouble): ptr Attr {.
 proc removeNamedItem*(this: var NamedNodeMap; qualifiedName: String): ptr Attr {.
     importcpp: "removeNamedItem", header: "cheerp/clientlib.h".}
 
-proc removeNamedItemNS*(this: var NamedNodeMap; _namespace: String;
+proc removeNamedItemNS*(this: var NamedNodeMap; p_namespace: String;
                         localName: String): ptr Attr {.
     importcpp: "removeNamedItemNS", header: "cheerp/clientlib.h".}
 
@@ -36749,16 +36734,6 @@ proc constructRTCRtpReceiver*(transport: ptr RTCSrtpSdesTransport; kind: String;
     constructor, importcpp: "client::RTCRtpReceiver(@)",
     header: "cheerp/clientlib.h".}
 
-proc getCapabilities*(): ptr RTCRtpCapabilities {.
-    importcpp: "client::RTCRtpReceiver::getCapabilities(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
-proc getCapabilities*(kind: String): ptr RTCRtpCapabilities {.
-    importcpp: "client::RTCRtpReceiver::getCapabilities(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
 proc get_error*(this: var RTCRtpSenderEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
 
@@ -36887,16 +36862,6 @@ proc constructRTCRtpSender*(track: ptr MediaStreamTrack;
                             rtcpTransport: ptr RTCDtlsTransport): RTCRtpSender {.
     constructor, importcpp: "client::RTCRtpSender(@)",
     header: "cheerp/clientlib.h".}
-
-proc getCapabilities*(): ptr RTCRtpCapabilities {.
-    importcpp: "client::RTCRtpSender::getCapabilities(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
-proc getCapabilities*(kind: String): ptr RTCRtpCapabilities {.
-    importcpp: "client::RTCRtpSender::getCapabilities(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
 
 proc get_sdp*(this: var RTCSessionDescription): ptr String {.
     importcpp: "get_sdp", header: "cheerp/clientlib.h".}
@@ -44136,11 +44101,11 @@ proc getRegistration*(this: var ServiceWorkerContainer; clientURL: String): ptr 
 proc getRegistrations*(this: var ServiceWorkerContainer): ptr Promise {.
     importcpp: "getRegistrations", header: "cheerp/clientlib.h".}
 
-proc _register*(this: var ServiceWorkerContainer; scriptURL: String): ptr Promise {.
+proc p_register*(this: var ServiceWorkerContainer; scriptURL: String): ptr Promise {.
     importcpp: "_register", header: "cheerp/clientlib.h".}
 
-proc _register*(this: var ServiceWorkerContainer; scriptURL: String;
-                options: ptr RegistrationOptions): ptr Promise {.
+proc p_register*(this: var ServiceWorkerContainer; scriptURL: String;
+                 options: ptr RegistrationOptions): ptr Promise {.
     importcpp: "_register", header: "cheerp/clientlib.h".}
 
 proc startMessages*(this: var ServiceWorkerContainer) {.
@@ -45560,7 +45525,7 @@ proc constructSubtleCrypto*(): SubtleCrypto {.constructor,
 proc getTags*(this: var SyncManager): ptr Promise {.importcpp: "getTags",
     header: "cheerp/clientlib.h".}
 
-proc _register*(this: var SyncManager; tag: String): ptr Promise {.
+proc p_register*(this: var SyncManager; tag: String): ptr Promise {.
     importcpp: "_register", header: "cheerp/clientlib.h".}
 
 proc get_prototype*(this: var SyncManager): ptr SyncManager {.
@@ -46338,7 +46303,7 @@ proc revokeObjectURL*(url: String) {.importcpp: "client::URL::revokeObjectURL(@)
 proc append*(this: var URLSearchParams; name: String; value: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
 
-proc _delete*(this: var URLSearchParams; name: String) {.importcpp: "_delete",
+proc p_delete*(this: var URLSearchParams; name: String) {.importcpp: "_delete",
     header: "cheerp/clientlib.h".}
 
 proc get*(this: var URLSearchParams; name: String): ptr String {.
@@ -49271,7 +49236,7 @@ proc prompt*(this: var Window): ptr String {.importcpp: "prompt",
 proc prompt*(this: var Window; message: String): ptr String {.
     importcpp: "prompt", header: "cheerp/clientlib.h".}
 
-proc prompt*(this: var Window; message: String; _default: String): ptr String {.
+proc prompt*(this: var Window; message: String; p_default: String): ptr String {.
     importcpp: "prompt", header: "cheerp/clientlib.h".}
 
 proc releaseEvents*(this: var Window) {.importcpp: "releaseEvents",
@@ -51796,7 +51761,7 @@ proc prompt*(): ptr String {.importcpp: "client::prompt(@)",
 proc prompt*(message: String): ptr String {.importcpp: "client::prompt(@)",
     header: "cheerp/clientlib.h".}
 
-proc prompt*(message: String; _default: String): ptr String {.
+proc prompt*(message: String; p_default: String): ptr String {.
     importcpp: "client::prompt(@)", header: "cheerp/clientlib.h".}
 
 proc releaseEvents*() {.importcpp: "client::releaseEvents(@)",
