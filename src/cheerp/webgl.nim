@@ -50,6 +50,26 @@ type
                      header: "cheerp/webgl.h", bycopy.} = object of Object
 
 
+  WebGLShaderPrecisionFormat* {.importcpp: "client::WebGLShaderPrecisionFormat",
+                                header: "cheerp/webgl.h", bycopy.} = object of Object
+
+
+  WebGLContextAttributes* {.importcpp: "client::WebGLContextAttributes",
+                            header: "cheerp/webgl.h", bycopy.} = object of Object
+
+
+  WebGLRenderingContext* {.importcpp: "client::WebGLRenderingContext",
+                           header: "cheerp/webgl.h", bycopy.} = object of Object
+
+
+  WebGLVertexArrayOES* {.importcpp: "client::WebGLVertexArrayOES",
+                         header: "cheerp/webgl.h", bycopy.} = object of WebGLObject
+
+
+  OESVertexArrayObject* {.importcpp: "client::OESVertexArrayObject",
+                          header: "cheerp/webgl.h", bycopy.} = object of Object
+
+
 
 proc get_size*(this: var WebGLActiveInfo): cdouble {.importcpp: "get_size",
     header: "cheerp/webgl.h".}
@@ -65,12 +85,6 @@ proc set_type*(this: var WebGLActiveInfo; a2: cdouble) {.importcpp: "set_type",
 
 proc get_name*(this: var WebGLActiveInfo): ptr String {.importcpp: "get_name",
     header: "cheerp/webgl.h".}
-type
-
-  WebGLShaderPrecisionFormat* {.importcpp: "client::WebGLShaderPrecisionFormat",
-                                header: "cheerp/webgl.h", bycopy.} = object of Object
-
-
 
 proc get_rangeMin*(this: var WebGLShaderPrecisionFormat): cdouble {.
     importcpp: "get_rangeMin", header: "cheerp/webgl.h".}
@@ -89,12 +103,6 @@ proc get_precision*(this: var WebGLShaderPrecisionFormat): cdouble {.
 
 proc set_precision*(this: var WebGLShaderPrecisionFormat; a2: cdouble) {.
     importcpp: "set_precision", header: "cheerp/webgl.h".}
-type
-
-  WebGLContextAttributes* {.importcpp: "client::WebGLContextAttributes",
-                            header: "cheerp/webgl.h", bycopy.} = object of Object
-
-
 
 proc get_alpha*(this: var WebGLContextAttributes): bool {.
     importcpp: "get_alpha", header: "cheerp/webgl.h".}
@@ -131,12 +139,6 @@ proc get_preserveDrawingBuffer*(this: var WebGLContextAttributes): bool {.
 
 proc set_preserveDrawingBuffer*(this: var WebGLContextAttributes; a2: bool) {.
     importcpp: "set_preserveDrawingBuffer", header: "cheerp/webgl.h".}
-type
-
-  WebGLRenderingContext* {.importcpp: "client::WebGLRenderingContext",
-                           header: "cheerp/webgl.h", bycopy.} = object of Object
-
-
 
 proc get_DEPTH_BUFFER_BIT*(this: var WebGLRenderingContext): cint {.
     importcpp: "get_DEPTH_BUFFER_BIT", header: "cheerp/webgl.h".}
@@ -2474,16 +2476,6 @@ proc vertexAttribPointer*(this: var WebGLRenderingContext; a2: cdouble;
 proc viewport*(this: var WebGLRenderingContext; a2: cdouble; a3: cdouble;
                a4: cdouble; a5: cdouble) {.importcpp: "viewport",
     header: "cheerp/webgl.h".}
-type
-
-  WebGLVertexArrayOES* {.importcpp: "client::WebGLVertexArrayOES",
-                         header: "cheerp/webgl.h", bycopy.} = object of WebGLObject
-
-
-  OESVertexArrayObject* {.importcpp: "client::OESVertexArrayObject",
-                          header: "cheerp/webgl.h", bycopy.} = object of Object
-
-
 
 proc get_VERTEX_ARRAY_BINDING_OES*(this: var OESVertexArrayObject): cint {.
     importcpp: "get_VERTEX_ARRAY_BINDING_OES", header: "cheerp/webgl.h".}

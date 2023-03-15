@@ -2,6 +2,7 @@
 #pragma c2nim cpp
 #pragma c2nim strict
 #pragma c2nim reordercomments
+#pragma c2nim reorderTypes
 #pragma c2nim mergeDuplicates
 #pragma c2nim skipFuncDefines
 
@@ -15,4 +16,5 @@
 #pragma c2nim render NonNep1Imports
 
 #pragma c2nim mangle "'cheerp::genericjs'" ""
+#pragma c2nim mangle "'_catch'" "p_catch"
 #pragma c2nim delete "cheerpintrin"

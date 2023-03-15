@@ -29,6 +29,20 @@ antExport ImporterConfig:
               proc valueOf*[T](this: var Object): T {.importcpp: "valueOf",
                                                       header: "cheerp/jsobject.h".}
 
+              type
+
+                EventListener* {.importcpp: "client::EventListener",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+                WebAuthnExtensions* {.importcpp: "client::WebAuthnExtensions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+                
+                MouseEventInit* {.importcpp: "client::MouseEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
+
+
+                WheelEventInit* {.importcpp: "client::WheelEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
               """
         - C2NimCfg:
           fileMatch: peg"'clientlib.h'"
@@ -84,8 +98,8 @@ antExport ImporterConfig:
         - CSrcMods:
           fileMatch: peg"'types.h'"
           deletes:list:
-            - LineDelete:
-              match: peg"'String* replace(const String&, EventListener'"
+            # - LineDelete:
+            #   match: peg"'String* replace(const String&, EventListener'"
             - LineDelete:
               match: peg"'String* replace(RegExp'"
             - LineDelete:
@@ -152,6 +166,18 @@ antExport ImporterConfig:
               match: peg"'Console();'"
               until: peg"'void _assert(bool condition'"
               inclusive: true
+            - LineDelete:
+              match: peg"'class EventListener: public Object'"
+              until: peg"'};'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'class WebAuthnExtensions: public Object'"
+              until: peg"'};'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'of()'"
+            - LineDelete:
+              match: peg"'from(ArrayLike'"
 
 
 

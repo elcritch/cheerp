@@ -9,6 +9,20 @@ proc constructObject*(): Object {.constructor, importcpp: "client::Object(@)",
 proc valueOf*[T](this: var Object): T {.importcpp: "valueOf",
                                         header: "cheerp/jsobject.h".}
 
+type
+
+  EventListener* {.importcpp: "client::EventListener",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+  WebAuthnExtensions* {.importcpp: "client::WebAuthnExtensions",
+          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+  MouseEventInit* {.importcpp: "client::MouseEventInit",
+      header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
+
+
+  WheelEventInit* {.importcpp: "client::WheelEventInit",
+      header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
 
 ## ===-- types.h - C++ definitions of JS basic types  --------------===//
 ##
@@ -28,6 +42,36 @@ type
 
   String* {.importcpp: "client::String", header: "cheerp/types.h", bycopy.} = object of Object
 
+
+  Array* {.importcpp: "client::Array", header: "cheerp/types.h", bycopy.} = object of Object
+
+
+  TArray*[T] {.importcpp: "client::TArray<\'0>", header: "cheerp/types.h",
+               bycopy.} = object of Array ##  TArray can only be used with client types
+
+
+  Map* {.importcpp: "client::Map", header: "cheerp/types.h", bycopy.} = object of Object
+
+
+  Number* {.importcpp: "client::Number", header: "cheerp/types.h", bycopy.} = object of Object
+
+
+  Function* {.importcpp: "client::Function", header: "cheerp/types.h", bycopy.} = object of Object
+
+
+  UnsignedShort* = cuint
+
+  UnsignedLong* = cuint
+
+  Long* = cint
+
+  UnsignedLongLong* = cdouble
+
+  Boolean* = cuint
+
+  Double* = cdouble
+
+  Any* = ptr Object
 
 
 proc constructString*(): String {.constructor, importcpp: "client::String(@)",
@@ -74,6 +118,9 @@ proc substring*(this: String; start: cint; `end`: cint): ptr String {.
 
 proc replace*(this: String; a2: String; a3: String): ptr String {.noSideEffect,
     importcpp: "replace", header: "cheerp/types.h".}
+
+proc replace*(this: String; a2: String; a3: ptr EventListener): ptr String {.
+    noSideEffect, importcpp: "replace", header: "cheerp/types.h".}
 
 proc charCodeAt*(this: String; index: cint): cint {.noSideEffect,
     importcpp: "charCodeAt", header: "cheerp/types.h".}
@@ -148,11 +195,6 @@ proc padStart*(this: String; a2: cint; a3: String): ptr String {.noSideEffect,
 
 proc fromUtf8*(`in`: cstring; len: csize_t = csize_t.high): ptr String {.
     importcpp: "client::String::fromUtf8(@)", header: "cheerp/types.h".}
-type
-
-  Array* {.importcpp: "client::Array", header: "cheerp/types.h", bycopy.} = object of Object
-
-
 
 proc `[]`*(this: var Array; index: cint): ptr Object {.importcpp: "#[@]",
     header: "cheerp/types.h".}
@@ -224,23 +266,12 @@ proc isArray*(a1: ptr Object): bool {.importcpp: "client::Array::isArray(@)",
                                       header: "cheerp/types.h".}
   ##
                               ## cheerp::static
-type
-
-  TArray*[T] {.importcpp: "client::TArray<\'0>", header: "cheerp/types.h",
-               bycopy.} = object of Array ##  TArray can only be used with client types
-
-
 
 proc `[]`*[T](this: var TArray[T]; index: cint): ptr T {.importcpp: "#[@]",
     header: "cheerp/types.h".}
 
 proc `[]`*[T](this: TArray[T]; index: cint): ptr T {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/types.h".}
-type
-
-  Map* {.importcpp: "client::Map", header: "cheerp/types.h", bycopy.} = object of Object
-
-
 
 proc constructMap*(): Map {.constructor, importcpp: "client::Map(@)",
                             header: "cheerp/types.h".}
@@ -249,37 +280,12 @@ proc get_size*(this: var Map): cint {.importcpp: "get_size",
                                       header: "cheerp/types.h".}
 
 proc clear*(this: var Map) {.importcpp: "clear", header: "cheerp/types.h".}
-type
-
-  Number* {.importcpp: "client::Number", header: "cheerp/types.h", bycopy.} = object of Object
-
-
 
 proc constructNumber*(a1: cdouble): Number {.constructor,
     importcpp: "client::Number(@)", header: "cheerp/types.h".}
 
 proc toString*(this: var Number; base: cint = 10): ptr String {.
     importcpp: "toString", header: "cheerp/types.h".}
-type
-
-  Function* {.importcpp: "client::Function", header: "cheerp/types.h", bycopy.} = object of Object
-
-
 
 proc get_name*(this: var Function): ptr String {.importcpp: "get_name",
     header: "cheerp/types.h".}
-type
-
-  UnsignedShort* = cuint
-
-  UnsignedLong* = cuint
-
-  Long* = cint
-
-  UnsignedLongLong* = cdouble
-
-  Boolean* = cuint
-
-  Double* = cdouble
-
-  Any* = ptr Object

@@ -1010,6 +1010,3862 @@ type
                         header: "cheerp/clientlib.h", bycopy.} = object of Object
 
 
+  PropertyDescriptorMap* {.importcpp: "client::PropertyDescriptorMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IArguments* {.importcpp: "client::IArguments", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  ReadonlyArray*[T] {.importcpp: "client::ReadonlyArray<\'0>",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TemplateStringsArray* {.importcpp: "client::TemplateStringsArray",
+                          header: "cheerp/clientlib.h", bycopy.} = object of ReadonlyArray[
+      String]
+
+
+  ImportMeta* {.importcpp: "client::ImportMeta", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  Math* {.importcpp: "client::Math", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Date* {.importcpp: "client::Date", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RegExpMatchArray* {.importcpp: "client::RegExpMatchArray",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Array
+
+
+  RegExpExecArray* {.importcpp: "client::RegExpExecArray",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Array
+
+
+  RegExp* {.importcpp: "client::RegExp", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Error* {.importcpp: "client::Error", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EvalError* {.importcpp: "client::EvalError", header: "cheerp/clientlib.h",
+               bycopy.} = object of Error
+
+
+  RangeError* {.importcpp: "client::RangeError", header: "cheerp/clientlib.h",
+                bycopy.} = object of Error
+
+
+  ReferenceError* {.importcpp: "client::ReferenceError",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Error
+
+
+  SyntaxError* {.importcpp: "client::SyntaxError", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Error
+
+
+  TypeError* {.importcpp: "client::TypeError", header: "cheerp/clientlib.h",
+               bycopy.} = object of Error
+
+
+  URIError* {.importcpp: "client::URIError", header: "cheerp/clientlib.h",
+              bycopy.} = object of Error
+
+
+  JSON* {.importcpp: "client::JSON", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConcatArray*[T] {.importcpp: "client::ConcatArray<\'0>",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TypedPropertyDescriptor*[T] {.importcpp: "client::TypedPropertyDescriptor<\'0>",
+                                header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Promise* {.importcpp: "client::Promise", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ThisType*[T] {.importcpp: "client::ThisType<\'0>",
+                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ArrayBuffer* {.importcpp: "client::ArrayBuffer", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  ArrayBufferTypes* {.importcpp: "client::ArrayBufferTypes",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ArrayBufferView* {.importcpp: "client::ArrayBufferView",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DataView* {.importcpp: "client::DataView", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  Int8Array* {.importcpp: "client::Int8Array", header: "cheerp/clientlib.h",
+               bycopy.} = object of ArrayBufferView
+
+
+  Uint8Array* {.importcpp: "client::Uint8Array", header: "cheerp/clientlib.h",
+                bycopy.} = object of ArrayBufferView
+
+
+  Uint8ClampedArray* {.importcpp: "client::Uint8ClampedArray",
+                       header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
+
+
+  Int16Array* {.importcpp: "client::Int16Array", header: "cheerp/clientlib.h",
+                bycopy.} = object of ArrayBufferView
+
+
+  Uint16Array* {.importcpp: "client::Uint16Array", header: "cheerp/clientlib.h",
+                 bycopy.} = object of ArrayBufferView
+
+
+  Int32Array* {.importcpp: "client::Int32Array", header: "cheerp/clientlib.h",
+                bycopy.} = object of ArrayBufferView
+
+
+  Uint32Array* {.importcpp: "client::Uint32Array", header: "cheerp/clientlib.h",
+                 bycopy.} = object of ArrayBufferView
+
+
+  Float32Array* {.importcpp: "client::Float32Array",
+                  header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
+
+
+  Float64Array* {.importcpp: "client::Float64Array",
+                  header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
+
+
+  Account* {.importcpp: "client::Account", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EventListenerOptions* {.importcpp: "client::EventListenerOptions",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AddEventListenerOptions* {.importcpp: "client::AddEventListenerOptions",
+                             header: "cheerp/clientlib.h", bycopy.} = object of EventListenerOptions
+
+
+  Algorithm* {.importcpp: "client::Algorithm", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  AesCbcParams* {.importcpp: "client::AesCbcParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AesCtrParams* {.importcpp: "client::AesCtrParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AesDerivedKeyParams* {.importcpp: "client::AesDerivedKeyParams",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AesGcmParams* {.importcpp: "client::AesGcmParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  KeyAlgorithm* {.importcpp: "client::KeyAlgorithm",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AesKeyAlgorithm* {.importcpp: "client::AesKeyAlgorithm",
+                     header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
+
+
+  AesKeyGenParams* {.importcpp: "client::AesKeyGenParams",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AudioNodeOptions* {.importcpp: "client::AudioNodeOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AnalyserOptions* {.importcpp: "client::AnalyserOptions",
+                     header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  EventInit* {.importcpp: "client::EventInit", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  AnimationEventInit* {.importcpp: "client::AnimationEventInit",
+                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  AssertionOptions* {.importcpp: "client::AssertionOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioBufferOptions* {.importcpp: "client::AudioBufferOptions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioBufferSourceOptions* {.importcpp: "client::AudioBufferSourceOptions",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioContextInfo* {.importcpp: "client::AudioContextInfo",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioContextOptions* {.importcpp: "client::AudioContextOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioParamDescriptor* {.importcpp: "client::AudioParamDescriptor",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioProcessingEventInit* {.importcpp: "client::AudioProcessingEventInit",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  AudioTimestamp* {.importcpp: "client::AudioTimestamp",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  BiquadFilterOptions* {.importcpp: "client::BiquadFilterOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  ByteLengthChunk* {.importcpp: "client::ByteLengthChunk",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CacheQueryOptions* {.importcpp: "client::CacheQueryOptions",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ChannelMergerOptions* {.importcpp: "client::ChannelMergerOptions",
+                          header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  ChannelSplitterOptions* {.importcpp: "client::ChannelSplitterOptions",
+                            header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  ClientData* {.importcpp: "client::ClientData", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  ClientQueryOptions* {.importcpp: "client::ClientQueryOptions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CloseEventInit* {.importcpp: "client::CloseEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  UIEventInit* {.importcpp: "client::UIEventInit", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventInit
+
+
+  CompositionEventInit* {.importcpp: "client::CompositionEventInit",
+                          header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
+
+
+  ExceptionInformation* {.importcpp: "client::ExceptionInformation",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConfirmSiteSpecificExceptionsInformation* {.
+      importcpp: "client::ConfirmSiteSpecificExceptionsInformation",
+      header: "cheerp/clientlib.h", bycopy.} = object of ExceptionInformation
+
+
+  ConstantSourceOptions* {.importcpp: "client::ConstantSourceOptions",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConstrainBooleanParameters* {.importcpp: "client::ConstrainBooleanParameters",
+                                header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConstrainDOMStringParameters* {.importcpp: "client::ConstrainDOMStringParameters",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DoubleRange* {.importcpp: "client::DoubleRange", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  ConstrainDoubleRange* {.importcpp: "client::ConstrainDoubleRange",
+                          header: "cheerp/clientlib.h", bycopy.} = object of DoubleRange
+
+
+  LongRange* {.importcpp: "client::LongRange", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  ConstrainLongRange* {.importcpp: "client::ConstrainLongRange",
+                        header: "cheerp/clientlib.h", bycopy.} = object of LongRange
+
+
+  ConstrainVideoFacingModeParameters* {.importcpp: "client::ConstrainVideoFacingModeParameters",
+                                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConvolverOptions* {.importcpp: "client::ConvolverOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  CustomEventInit*[T] {.importcpp: "client::CustomEventInit<\'0>",
+                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  DOMRectInit* {.importcpp: "client::DOMRectInit", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  DelayOptions* {.importcpp: "client::DelayOptions",
+                  header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  DeviceAccelerationDict* {.importcpp: "client::DeviceAccelerationDict",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DeviceLightEventInit* {.importcpp: "client::DeviceLightEventInit",
+                          header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  DeviceMotionEventInit* {.importcpp: "client::DeviceMotionEventInit",
+                           header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  DeviceOrientationEventInit* {.importcpp: "client::DeviceOrientationEventInit",
+                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  DeviceRotationRateDict* {.importcpp: "client::DeviceRotationRateDict",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DynamicsCompressorOptions* {.importcpp: "client::DynamicsCompressorOptions",
+                               header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  EcKeyAlgorithm* {.importcpp: "client::EcKeyAlgorithm",
+                    header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
+
+
+  EcKeyGenParams* {.importcpp: "client::EcKeyGenParams",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  EcKeyImportParams* {.importcpp: "client::EcKeyImportParams",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  EcdhKeyDeriveParams* {.importcpp: "client::EcdhKeyDeriveParams",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  EcdsaParams* {.importcpp: "client::EcdsaParams", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Algorithm
+
+
+  ErrorEventInit* {.importcpp: "client::ErrorEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  EventModifierInit* {.importcpp: "client::EventModifierInit",
+                       header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
+
+
+  ExtendableEventInit* {.importcpp: "client::ExtendableEventInit",
+                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  ExtendableMessageEventInit* {.importcpp: "client::ExtendableMessageEventInit",
+                                header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  FetchEventInit* {.importcpp: "client::FetchEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  FocusEventInit* {.importcpp: "client::FocusEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
+
+
+  FocusNavigationEventInit* {.importcpp: "client::FocusNavigationEventInit",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  FocusNavigationOrigin* {.importcpp: "client::FocusNavigationOrigin",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  GainOptions* {.importcpp: "client::GainOptions", header: "cheerp/clientlib.h",
+                 bycopy.} = object of AudioNodeOptions
+
+
+  GamepadEventInit* {.importcpp: "client::GamepadEventInit",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  GetNotificationOptions* {.importcpp: "client::GetNotificationOptions",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HashChangeEventInit* {.importcpp: "client::HashChangeEventInit",
+                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  HkdfParams* {.importcpp: "client::HkdfParams", header: "cheerp/clientlib.h",
+                bycopy.} = object of Algorithm
+
+
+  HmacImportParams* {.importcpp: "client::HmacImportParams",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  HmacKeyAlgorithm* {.importcpp: "client::HmacKeyAlgorithm",
+                      header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
+
+
+  HmacKeyGenParams* {.importcpp: "client::HmacKeyGenParams",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  IDBIndexParameters* {.importcpp: "client::IDBIndexParameters",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IDBObjectStoreParameters* {.importcpp: "client::IDBObjectStoreParameters",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IIRFilterOptions* {.importcpp: "client::IIRFilterOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  IntersectionObserverEntryInit* {.importcpp: "client::IntersectionObserverEntryInit",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IntersectionObserverInit* {.importcpp: "client::IntersectionObserverInit",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  JsonWebKey* {.importcpp: "client::JsonWebKey", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  KeyboardEventInit* {.importcpp: "client::KeyboardEventInit",
+                       header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
+
+
+  MSAccountInfo* {.importcpp: "client::MSAccountInfo",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCStats* {.importcpp: "client::RTCStats", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  MSLocalClientEventBase* {.importcpp: "client::MSLocalClientEventBase",
+                            header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  MSAudioLocalClientEvent* {.importcpp: "client::MSAudioLocalClientEvent",
+                             header: "cheerp/clientlib.h", bycopy.} = object of MSLocalClientEventBase
+
+
+  MSPayloadBase* {.importcpp: "client::MSPayloadBase",
+                   header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  MSAudioRecvPayload* {.importcpp: "client::MSAudioRecvPayload",
+                        header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
+
+
+  MSAudioRecvSignal* {.importcpp: "client::MSAudioRecvSignal",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSAudioSendPayload* {.importcpp: "client::MSAudioSendPayload",
+                        header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
+
+
+  MSAudioSendSignal* {.importcpp: "client::MSAudioSendSignal",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSConnectivity* {.importcpp: "client::MSConnectivity",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSCredentialFilter* {.importcpp: "client::MSCredentialFilter",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSCredentialParameters* {.importcpp: "client::MSCredentialParameters",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSCredentialSpec* {.importcpp: "client::MSCredentialSpec",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSDCCEventInit* {.importcpp: "client::MSDCCEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MSDSHEventInit* {.importcpp: "client::MSDSHEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MSDelay* {.importcpp: "client::MSDelay", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSDescription* {.importcpp: "client::MSDescription",
+                   header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  MSFIDOCredentialParameters* {.importcpp: "client::MSFIDOCredentialParameters",
+                                header: "cheerp/clientlib.h", bycopy.} = object of MSCredentialParameters
+
+
+  MSIPAddressInfo* {.importcpp: "client::MSIPAddressInfo",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSIceWarningFlags* {.importcpp: "client::MSIceWarningFlags",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSJitter* {.importcpp: "client::MSJitter", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  MSNetwork* {.importcpp: "client::MSNetwork", header: "cheerp/clientlib.h",
+               bycopy.} = object of RTCStats
+
+
+  MSNetworkConnectivityInfo* {.importcpp: "client::MSNetworkConnectivityInfo",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSNetworkInterfaceType* {.importcpp: "client::MSNetworkInterfaceType",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSOutboundNetwork* {.importcpp: "client::MSOutboundNetwork",
+                       header: "cheerp/clientlib.h", bycopy.} = object of MSNetwork
+
+
+  MSPacketLoss* {.importcpp: "client::MSPacketLoss",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSPortRange* {.importcpp: "client::MSPortRange", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  MSRelayAddress* {.importcpp: "client::MSRelayAddress",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSSignatureParameters* {.importcpp: "client::MSSignatureParameters",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSTransportDiagnosticsStats* {.importcpp: "client::MSTransportDiagnosticsStats",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  MSUtilization* {.importcpp: "client::MSUtilization",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSVideoPayload* {.importcpp: "client::MSVideoPayload",
+                    header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
+
+
+  MSVideoRecvPayload* {.importcpp: "client::MSVideoRecvPayload",
+                        header: "cheerp/clientlib.h", bycopy.} = object of MSVideoPayload
+
+
+  MSVideoResolutionDistribution* {.importcpp: "client::MSVideoResolutionDistribution",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSVideoSendPayload* {.importcpp: "client::MSVideoSendPayload",
+                        header: "cheerp/clientlib.h", bycopy.} = object of MSVideoPayload
+
+
+  MediaElementAudioSourceOptions* {.importcpp: "client::MediaElementAudioSourceOptions",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaEncryptedEventInit* {.importcpp: "client::MediaEncryptedEventInit",
+                             header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MediaKeyMessageEventInit* {.importcpp: "client::MediaKeyMessageEventInit",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MediaKeySystemConfiguration* {.importcpp: "client::MediaKeySystemConfiguration",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaKeySystemMediaCapability* {.importcpp: "client::MediaKeySystemMediaCapability",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaStreamConstraints* {.importcpp: "client::MediaStreamConstraints",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaStreamErrorEventInit* {.importcpp: "client::MediaStreamErrorEventInit",
+                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MediaStreamEventInit* {.importcpp: "client::MediaStreamEventInit",
+                          header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MediaStreamTrackEventInit* {.importcpp: "client::MediaStreamTrackEventInit",
+                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MediaTrackCapabilities* {.importcpp: "client::MediaTrackCapabilities",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaTrackConstraintSet* {.importcpp: "client::MediaTrackConstraintSet",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaTrackConstraints* {.importcpp: "client::MediaTrackConstraints",
+                           header: "cheerp/clientlib.h", bycopy.} = object of MediaTrackConstraintSet
+
+
+  MediaTrackSettings* {.importcpp: "client::MediaTrackSettings",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaTrackSupportedConstraints* {.importcpp: "client::MediaTrackSupportedConstraints",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MessageEventInit* {.importcpp: "client::MessageEventInit",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  MouseEventInit* {.importcpp: "client::MouseEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
+
+
+  MsZoomToOptions* {.importcpp: "client::MsZoomToOptions",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MutationObserverInit* {.importcpp: "client::MutationObserverInit",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NotificationEventInit* {.importcpp: "client::NotificationEventInit",
+                           header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  NotificationOptions* {.importcpp: "client::NotificationOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ObjectURLOptions* {.importcpp: "client::ObjectURLOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  OfflineAudioCompletionEventInit* {.importcpp: "client::OfflineAudioCompletionEventInit",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  OscillatorOptions* {.importcpp: "client::OscillatorOptions",
+                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  PannerOptions* {.importcpp: "client::PannerOptions",
+                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  PaymentCurrencyAmount* {.importcpp: "client::PaymentCurrencyAmount",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentDetailsBase* {.importcpp: "client::PaymentDetailsBase",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentDetailsInit* {.importcpp: "client::PaymentDetailsInit",
+                        header: "cheerp/clientlib.h", bycopy.} = object of PaymentDetailsBase
+
+
+  PaymentDetailsModifier* {.importcpp: "client::PaymentDetailsModifier",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentDetailsUpdate* {.importcpp: "client::PaymentDetailsUpdate",
+                          header: "cheerp/clientlib.h", bycopy.} = object of PaymentDetailsBase
+
+
+  PaymentItem* {.importcpp: "client::PaymentItem", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  PaymentMethodData* {.importcpp: "client::PaymentMethodData",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentOptions* {.importcpp: "client::PaymentOptions",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentRequestUpdateEventInit* {.importcpp: "client::PaymentRequestUpdateEventInit",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  PaymentShippingOption* {.importcpp: "client::PaymentShippingOption",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Pbkdf2Params* {.importcpp: "client::Pbkdf2Params",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  PeriodicWaveConstraints* {.importcpp: "client::PeriodicWaveConstraints",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PeriodicWaveOptions* {.importcpp: "client::PeriodicWaveOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of PeriodicWaveConstraints
+
+
+  PointerEventInit* {.importcpp: "client::PointerEventInit",
+                      header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
+
+
+  PopStateEventInit* {.importcpp: "client::PopStateEventInit",
+                       header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  PositionOptions* {.importcpp: "client::PositionOptions",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ProgressEventInit* {.importcpp: "client::ProgressEventInit",
+                       header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  PushEventInit* {.importcpp: "client::PushEventInit",
+                   header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  PushSubscriptionChangeInit* {.importcpp: "client::PushSubscriptionChangeInit",
+                                header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  PushSubscriptionOptionsInit* {.importcpp: "client::PushSubscriptionOptionsInit",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  QueuingStrategy* {.importcpp: "client::QueuingStrategy",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCConfiguration* {.importcpp: "client::RTCConfiguration",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCDTMFToneChangeEventInit* {.importcpp: "client::RTCDTMFToneChangeEventInit",
+                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  RTCDtlsFingerprint* {.importcpp: "client::RTCDtlsFingerprint",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCDtlsParameters* {.importcpp: "client::RTCDtlsParameters",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidateAttributes* {.importcpp: "client::RTCIceCandidateAttributes",
+                               header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  RTCIceCandidateComplete* {.importcpp: "client::RTCIceCandidateComplete",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidateDictionary* {.importcpp: "client::RTCIceCandidateDictionary",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidateInit* {.importcpp: "client::RTCIceCandidateInit",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidatePair* {.importcpp: "client::RTCIceCandidatePair",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidatePairStats* {.importcpp: "client::RTCIceCandidatePairStats",
+                              header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  RTCIceGatherOptions* {.importcpp: "client::RTCIceGatherOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceParameters* {.importcpp: "client::RTCIceParameters",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceServer* {.importcpp: "client::RTCIceServer",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRTPStreamStats* {.importcpp: "client::RTCRTPStreamStats",
+                       header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  RTCInboundRTPStreamStats* {.importcpp: "client::RTCInboundRTPStreamStats",
+                              header: "cheerp/clientlib.h", bycopy.} = object of RTCRTPStreamStats
+
+
+  RTCMediaStreamTrackStats* {.importcpp: "client::RTCMediaStreamTrackStats",
+                              header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  RTCOfferOptions* {.importcpp: "client::RTCOfferOptions",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCOutboundRTPStreamStats* {.importcpp: "client::RTCOutboundRTPStreamStats",
+                               header: "cheerp/clientlib.h", bycopy.} = object of RTCRTPStreamStats
+
+
+  RTCPeerConnectionIceEventInit* {.importcpp: "client::RTCPeerConnectionIceEventInit",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  RTCRtcpFeedback* {.importcpp: "client::RTCRtcpFeedback",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtcpParameters* {.importcpp: "client::RTCRtcpParameters",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpCapabilities* {.importcpp: "client::RTCRtpCapabilities",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpCodecCapability* {.importcpp: "client::RTCRtpCodecCapability",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpCodecParameters* {.importcpp: "client::RTCRtpCodecParameters",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpContributingSource* {.importcpp: "client::RTCRtpContributingSource",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpEncodingParameters* {.importcpp: "client::RTCRtpEncodingParameters",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpFecParameters* {.importcpp: "client::RTCRtpFecParameters",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpHeaderExtension* {.importcpp: "client::RTCRtpHeaderExtension",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpHeaderExtensionParameters* {.importcpp: "client::RTCRtpHeaderExtensionParameters",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpParameters* {.importcpp: "client::RTCRtpParameters",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpRtxParameters* {.importcpp: "client::RTCRtpRtxParameters",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpUnhandled* {.importcpp: "client::RTCRtpUnhandled",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSessionDescriptionInit* {.importcpp: "client::RTCSessionDescriptionInit",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSrtpKeyParam* {.importcpp: "client::RTCSrtpKeyParam",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSrtpSdesParameters* {.importcpp: "client::RTCSrtpSdesParameters",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSsrcRange* {.importcpp: "client::RTCSsrcRange",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCStatsReport* {.importcpp: "client::RTCStatsReport",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCTransportStats* {.importcpp: "client::RTCTransportStats",
+                       header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
+
+
+  RegistrationOptions* {.importcpp: "client::RegistrationOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RequestInit* {.importcpp: "client::RequestInit", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  ResponseInit* {.importcpp: "client::ResponseInit",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RsaHashedImportParams* {.importcpp: "client::RsaHashedImportParams",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  RsaKeyAlgorithm* {.importcpp: "client::RsaKeyAlgorithm",
+                     header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
+
+
+  RsaHashedKeyAlgorithm* {.importcpp: "client::RsaHashedKeyAlgorithm",
+                           header: "cheerp/clientlib.h", bycopy.} = object of RsaKeyAlgorithm
+
+
+  RsaKeyGenParams* {.importcpp: "client::RsaKeyGenParams",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  RsaHashedKeyGenParams* {.importcpp: "client::RsaHashedKeyGenParams",
+                           header: "cheerp/clientlib.h", bycopy.} = object of RsaKeyGenParams
+
+
+  RsaOaepParams* {.importcpp: "client::RsaOaepParams",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  RsaOtherPrimesInfo* {.importcpp: "client::RsaOtherPrimesInfo",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RsaPssParams* {.importcpp: "client::RsaPssParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  ScopedCredentialDescriptor* {.importcpp: "client::ScopedCredentialDescriptor",
+                                header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScopedCredentialOptions* {.importcpp: "client::ScopedCredentialOptions",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScopedCredentialParameters* {.importcpp: "client::ScopedCredentialParameters",
+                                header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SecurityPolicyViolationEventInit* {.importcpp: "client::SecurityPolicyViolationEventInit",
+                                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  ServiceWorkerMessageEventInit* {.importcpp: "client::ServiceWorkerMessageEventInit",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  SpeechSynthesisEventInit* {.importcpp: "client::SpeechSynthesisEventInit",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  StereoPannerOptions* {.importcpp: "client::StereoPannerOptions",
+                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  StoreExceptionsInformation* {.importcpp: "client::StoreExceptionsInformation",
+                                header: "cheerp/clientlib.h", bycopy.} = object of ExceptionInformation
+
+
+  StoreSiteSpecificExceptionsInformation* {.
+      importcpp: "client::StoreSiteSpecificExceptionsInformation",
+      header: "cheerp/clientlib.h", bycopy.} = object of StoreExceptionsInformation
+
+
+  SyncEventInit* {.importcpp: "client::SyncEventInit",
+                   header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
+
+
+  TextDecodeOptions* {.importcpp: "client::TextDecodeOptions",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextDecoderOptions* {.importcpp: "client::TextDecoderOptions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TrackEventInit* {.importcpp: "client::TrackEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  TransitionEventInit* {.importcpp: "client::TransitionEventInit",
+                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  UnderlyingSink* {.importcpp: "client::UnderlyingSink",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRDisplayEventInit* {.importcpp: "client::VRDisplayEventInit",
+                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  VRLayer* {.importcpp: "client::VRLayer", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRStageParameters* {.importcpp: "client::VRStageParameters",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WaveShaperOptions* {.importcpp: "client::WaveShaperOptions",
+                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
+
+
+  WheelEventInit* {.importcpp: "client::WheelEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
+
+
+  ANGLE_instanced_arrays* {.importcpp: "client::ANGLE_instanced_arrays",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AbortController* {.importcpp: "client::AbortController",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AbortSignalEventMap* {.importcpp: "client::AbortSignalEventMap",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EventTarget* {.importcpp: "client::EventTarget", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  AbortSignal* {.importcpp: "client::AbortSignal", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  AbstractWorkerEventMap* {.importcpp: "client::AbstractWorkerEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AbstractWorker* {.importcpp: "client::AbstractWorker",
+                    header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  AesCfbParams* {.importcpp: "client::AesCfbParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AesCmacParams* {.importcpp: "client::AesCmacParams",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  AudioNode* {.importcpp: "client::AudioNode", header: "cheerp/clientlib.h",
+               bycopy.} = object of EventTarget
+
+
+  AnalyserNode* {.importcpp: "client::AnalyserNode",
+                  header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  Animation* {.importcpp: "client::Animation", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  AnimationEffectReadOnly* {.importcpp: "client::AnimationEffectReadOnly",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Event* {.importcpp: "client::Event", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AnimationEvent* {.importcpp: "client::AnimationEvent",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  AnimationKeyFrame* {.importcpp: "client::AnimationKeyFrame",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AnimationOptions* {.importcpp: "client::AnimationOptions",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AnimationPlaybackEvent* {.importcpp: "client::AnimationPlaybackEvent",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  AnimationPlaybackEventInit* {.importcpp: "client::AnimationPlaybackEventInit",
+                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  AnimationTimeline* {.importcpp: "client::AnimationTimeline",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ApplicationCacheEventMap* {.importcpp: "client::ApplicationCacheEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ApplicationCache* {.importcpp: "client::ApplicationCache",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  AssignedNodesOptions* {.importcpp: "client::AssignedNodesOptions",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Node* {.importcpp: "client::Node", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  Attr* {.importcpp: "client::Attr", header: "cheerp/clientlib.h", bycopy.} = object of Node
+
+
+  AudioBuffer* {.importcpp: "client::AudioBuffer", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  AudioBufferSourceNodeEventMap* {.importcpp: "client::AudioBufferSourceNodeEventMap",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioBufferSourceNode* {.importcpp: "client::AudioBufferSourceNode",
+                           header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  AudioContextEventMap* {.importcpp: "client::AudioContextEventMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioContextBase* {.importcpp: "client::AudioContextBase",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  AudioContext* {.importcpp: "client::AudioContext",
+                  header: "cheerp/clientlib.h", bycopy.} = object of AudioContextBase
+
+
+  AudioDestinationNode* {.importcpp: "client::AudioDestinationNode",
+                          header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  AudioListener* {.importcpp: "client::AudioListener",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioParam* {.importcpp: "client::AudioParam", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  AudioProcessingEvent* {.importcpp: "client::AudioProcessingEvent",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  AudioTrack* {.importcpp: "client::AudioTrack", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  AudioTrackListEventMap* {.importcpp: "client::AudioTrackListEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  AudioTrackList* {.importcpp: "client::AudioTrackList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  BarProp* {.importcpp: "client::BarProp", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  BeforeUnloadEvent* {.importcpp: "client::BeforeUnloadEvent",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  BhxBrowser* {.importcpp: "client::BhxBrowser", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  BiquadFilterNode* {.importcpp: "client::BiquadFilterNode",
+                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  Blob* {.importcpp: "client::Blob", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  BlobPropertyBag* {.importcpp: "client::BlobPropertyBag",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Body* {.importcpp: "client::Body", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  BroadcastChannel* {.importcpp: "client::BroadcastChannel",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  BroadcastChannelEventMap* {.importcpp: "client::BroadcastChannelEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ByteLengthQueuingStrategy* {.importcpp: "client::ByteLengthQueuingStrategy",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ChildNode* {.importcpp: "client::ChildNode", header: "cheerp/clientlib.h",
+               bycopy.} = object
+
+
+  CharacterData* {.importcpp: "client::CharacterData",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Node
+
+
+  Text* {.importcpp: "client::Text", header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
+
+
+  CDATASection* {.importcpp: "client::CDATASection",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Text
+
+
+  CSS* {.importcpp: "client::CSS", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CSSRule* {.importcpp: "client::CSSRule", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CSSGroupingRule* {.importcpp: "client::CSSGroupingRule",
+                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSConditionRule* {.importcpp: "client::CSSConditionRule",
+                      header: "cheerp/clientlib.h", bycopy.} = object of CSSGroupingRule
+
+
+  CSSFontFaceRule* {.importcpp: "client::CSSFontFaceRule",
+                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSImportRule* {.importcpp: "client::CSSImportRule",
+                   header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSKeyframeRule* {.importcpp: "client::CSSKeyframeRule",
+                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSKeyframesRule* {.importcpp: "client::CSSKeyframesRule",
+                      header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSMediaRule* {.importcpp: "client::CSSMediaRule",
+                  header: "cheerp/clientlib.h", bycopy.} = object of CSSConditionRule
+
+
+  CSSNamespaceRule* {.importcpp: "client::CSSNamespaceRule",
+                      header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  CSSPageRule* {.importcpp: "client::CSSPageRule", header: "cheerp/clientlib.h",
+                 bycopy.} = object of CSSRule
+
+
+  CSSRuleList* {.importcpp: "client::CSSRuleList", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  CSSStyleDeclaration* {.importcpp: "client::CSSStyleDeclaration",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CSSStyleRule* {.importcpp: "client::CSSStyleRule",
+                  header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
+
+
+  StyleSheet* {.importcpp: "client::StyleSheet", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  CSSStyleSheet* {.importcpp: "client::CSSStyleSheet",
+                   header: "cheerp/clientlib.h", bycopy.} = object of StyleSheet
+
+
+  CSSSupportsRule* {.importcpp: "client::CSSSupportsRule",
+                     header: "cheerp/clientlib.h", bycopy.} = object of CSSConditionRule
+
+
+  Cache* {.importcpp: "client::Cache", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CacheStorage* {.importcpp: "client::CacheStorage",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object ##
+                              ## cheerp::interface_name(("delete"))
+
+
+  Canvas2DContextAttributes* {.importcpp: "client::Canvas2DContextAttributes",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CanvasGradient* {.importcpp: "client::CanvasGradient",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CanvasPathMethods* {.importcpp: "client::CanvasPathMethods",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CanvasPattern* {.importcpp: "client::CanvasPattern",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CanvasRenderingContext2D* {.importcpp: "client::CanvasRenderingContext2D",
+                              header: "cheerp/clientlib.h", bycopy.} = object of CanvasPathMethods
+
+
+  ChannelMergerNode* {.importcpp: "client::ChannelMergerNode",
+                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  ChannelSplitterNode* {.importcpp: "client::ChannelSplitterNode",
+                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  ClientRect* {.importcpp: "client::ClientRect", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  ClientRectList* {.importcpp: "client::ClientRectList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ClipboardEvent* {.importcpp: "client::ClipboardEvent",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  ClipboardEventInit* {.importcpp: "client::ClipboardEventInit",
+                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  CloseEvent* {.importcpp: "client::CloseEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of Event
+
+
+  Comment* {.importcpp: "client::Comment", header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
+
+
+  UIEvent* {.importcpp: "client::UIEvent", header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  CompositionEvent* {.importcpp: "client::CompositionEvent",
+                      header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
+
+
+  ComputedTimingProperties* {.importcpp: "client::ComputedTimingProperties",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ConcatParams* {.importcpp: "client::ConcatParams",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  Console* {.importcpp: "client::Console", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ContentScriptGlobalScope* {.importcpp: "client::ContentScriptGlobalScope",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  ConvolverNode* {.importcpp: "client::ConvolverNode",
+                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  Coordinates* {.importcpp: "client::Coordinates", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  CountQueuingStrategy* {.importcpp: "client::CountQueuingStrategy",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Crypto* {.importcpp: "client::Crypto", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CryptoKey* {.importcpp: "client::CryptoKey", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  CryptoKeyPair* {.importcpp: "client::CryptoKeyPair",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CustomElementRegistry* {.importcpp: "client::CustomElementRegistry",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  CustomEvent*[T] {.importcpp: "client::CustomEvent<\'0>",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  DOMError* {.importcpp: "client::DOMError", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  DOMException* {.importcpp: "client::DOMException",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DOMImplementation* {.importcpp: "client::DOMImplementation",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DOML2DeprecatedColorProperty* {.importcpp: "client::DOML2DeprecatedColorProperty",
+                                  header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  DOML2DeprecatedSizeProperty* {.importcpp: "client::DOML2DeprecatedSizeProperty",
+                                 header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  DOMParser* {.importcpp: "client::DOMParser", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  DOMRectReadOnly* {.importcpp: "client::DOMRectReadOnly",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DOMRect* {.importcpp: "client::DOMRect", header: "cheerp/clientlib.h", bycopy.} = object of DOMRectReadOnly
+
+
+  DOMRectList* {.importcpp: "client::DOMRectList", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  DOMTokenList* {.importcpp: "client::DOMTokenList",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DOMSettableTokenList* {.importcpp: "client::DOMSettableTokenList",
+                          header: "cheerp/clientlib.h", bycopy.} = object of DOMTokenList
+
+
+  DOMStringList* {.importcpp: "client::DOMStringList",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DOMStringMap* {.importcpp: "client::DOMStringMap",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextTrackCue* {.importcpp: "client::TextTrackCue",
+                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  DataCue* {.importcpp: "client::DataCue", header: "cheerp/clientlib.h", bycopy.} = object of TextTrackCue
+
+
+  DataTransfer* {.importcpp: "client::DataTransfer",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DataTransferItem* {.importcpp: "client::DataTransferItem",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DataTransferItemList* {.importcpp: "client::DataTransferItemList",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DeferredPermissionRequest* {.importcpp: "client::DeferredPermissionRequest",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DelayNode* {.importcpp: "client::DelayNode", header: "cheerp/clientlib.h",
+               bycopy.} = object of AudioNode
+
+
+  DeviceAcceleration* {.importcpp: "client::DeviceAcceleration",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DeviceLightEvent* {.importcpp: "client::DeviceLightEvent",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  DeviceMotionEvent* {.importcpp: "client::DeviceMotionEvent",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  DeviceOrientationEvent* {.importcpp: "client::DeviceOrientationEvent",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  DeviceRotationRate* {.importcpp: "client::DeviceRotationRate",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DhImportKeyParams* {.importcpp: "client::DhImportKeyParams",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  DhKeyAlgorithm* {.importcpp: "client::DhKeyAlgorithm",
+                    header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
+
+
+  DhKeyDeriveParams* {.importcpp: "client::DhKeyDeriveParams",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  DhKeyGenParams* {.importcpp: "client::DhKeyGenParams",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  GlobalEventHandlersEventMap* {.importcpp: "client::GlobalEventHandlersEventMap",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DocumentEventMap* {.importcpp: "client::DocumentEventMap",
+                      header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
+
+
+  GlobalEventHandlers* {.importcpp: "client::GlobalEventHandlers",
+                         header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  ParentNode* {.importcpp: "client::ParentNode", header: "cheerp/clientlib.h",
+                bycopy.} = object
+
+
+  DocumentEvent* {.importcpp: "client::DocumentEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  Document* {.importcpp: "client::Document", header: "cheerp/clientlib.h",
+              bycopy.} = object of Node
+
+
+  DocumentFragment* {.importcpp: "client::DocumentFragment",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Node
+
+
+  DocumentOrShadowRoot* {.importcpp: "client::DocumentOrShadowRoot",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DocumentType* {.importcpp: "client::DocumentType",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Node
+
+
+  MouseEvent* {.importcpp: "client::MouseEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of UIEvent
+
+
+  DragEvent* {.importcpp: "client::DragEvent", header: "cheerp/clientlib.h",
+               bycopy.} = object of MouseEvent
+
+
+  DynamicsCompressorNode* {.importcpp: "client::DynamicsCompressorNode",
+                            header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  EXT_blend_minmax* {.importcpp: "client::EXT_blend_minmax",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EXT_frag_depth* {.importcpp: "client::EXT_frag_depth",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EXT_sRGB* {.importcpp: "client::EXT_sRGB", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  EXT_shader_texture_lod* {.importcpp: "client::EXT_shader_texture_lod",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EXT_texture_filter_anisotropic* {.importcpp: "client::EXT_texture_filter_anisotropic",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ElementEventMap* {.importcpp: "client::ElementEventMap",
+                     header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
+
+
+  ElementTraversal* {.importcpp: "client::ElementTraversal",
+                      header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  Element* {.importcpp: "client::Element", header: "cheerp/clientlib.h", bycopy.} = object of Node
+
+
+  ElementCSSInlineStyle* {.importcpp: "client::ElementCSSInlineStyle",
+                           header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  ElementCreationOptions* {.importcpp: "client::ElementCreationOptions",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ElementDefinitionOptions* {.importcpp: "client::ElementDefinitionOptions",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ErrorEvent* {.importcpp: "client::ErrorEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of Event
+
+
+  EventListenerObject* {.importcpp: "client::EventListenerObject",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EventSource* {.importcpp: "client::EventSource", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  EventSourceInit* {.importcpp: "client::EventSourceInit",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ExtensionScriptApis* {.importcpp: "client::ExtensionScriptApis",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  External* {.importcpp: "client::External", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  File* {.importcpp: "client::File", header: "cheerp/clientlib.h", bycopy.} = object of Blob
+
+
+  FileList* {.importcpp: "client::FileList", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  FilePropertyBag* {.importcpp: "client::FilePropertyBag",
+                     header: "cheerp/clientlib.h", bycopy.} = object of BlobPropertyBag
+
+
+  FileReaderEventMap* {.importcpp: "client::FileReaderEventMap",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  FileReader* {.importcpp: "client::FileReader", header: "cheerp/clientlib.h",
+                bycopy.} = object of EventTarget
+
+
+  ProgressEvent* {.importcpp: "client::ProgressEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  FileReaderProgressEvent* {.importcpp: "client::FileReaderProgressEvent",
+                             header: "cheerp/clientlib.h", bycopy.} = object of ProgressEvent
+
+
+  FocusEvent* {.importcpp: "client::FocusEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of UIEvent
+
+
+  FocusNavigationEvent* {.importcpp: "client::FocusNavigationEvent",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  FormData* {.importcpp: "client::FormData", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  GainNode* {.importcpp: "client::GainNode", header: "cheerp/clientlib.h",
+              bycopy.} = object of AudioNode
+
+
+  Gamepad* {.importcpp: "client::Gamepad", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  GamepadButton* {.importcpp: "client::GamepadButton",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  GamepadEvent* {.importcpp: "client::GamepadEvent",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  GamepadHapticActuator* {.importcpp: "client::GamepadHapticActuator",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  GamepadPose* {.importcpp: "client::GamepadPose", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  Geolocation* {.importcpp: "client::Geolocation", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  GetSVGDocument* {.importcpp: "client::GetSVGDocument",
+                    header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  GlobalFetch* {.importcpp: "client::GlobalFetch", header: "cheerp/clientlib.h",
+                 bycopy.} = object
+
+
+  HTMLAllCollection* {.importcpp: "client::HTMLAllCollection",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HTMLElement* {.importcpp: "client::HTMLElement", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Element
+
+
+  HTMLHyperlinkElementUtils* {.importcpp: "client::HTMLHyperlinkElementUtils",
+                               header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  HTMLAnchorElement* {.importcpp: "client::HTMLAnchorElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLAppletElement* {.importcpp: "client::HTMLAppletElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLAreaElement* {.importcpp: "client::HTMLAreaElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLCollectionBase* {.importcpp: "client::HTMLCollectionBase",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HTMLAreasCollection* {.importcpp: "client::HTMLAreasCollection",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
+
+
+  HTMLMediaElement* {.importcpp: "client::HTMLMediaElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLAudioElement* {.importcpp: "client::HTMLAudioElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElement
+
+
+  HTMLBRElement* {.importcpp: "client::HTMLBRElement",
+                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLBaseElement* {.importcpp: "client::HTMLBaseElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLBaseFontElement* {.importcpp: "client::HTMLBaseFontElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLElementEventMap* {.importcpp: "client::HTMLElementEventMap",
+                         header: "cheerp/clientlib.h", bycopy.} = object of ElementEventMap
+
+
+  WindowEventHandlersEventMap* {.importcpp: "client::WindowEventHandlersEventMap",
+                                 header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  HTMLBodyElementEventMap* {.importcpp: "client::HTMLBodyElementEventMap",
+                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  WindowEventHandlers* {.importcpp: "client::WindowEventHandlers",
+                         header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  HTMLBodyElement* {.importcpp: "client::HTMLBodyElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLButtonElement* {.importcpp: "client::HTMLButtonElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLCanvasElement* {.importcpp: "client::HTMLCanvasElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLCollection* {.importcpp: "client::HTMLCollection",
+                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
+
+
+  HTMLCollectionOf*[T] {.importcpp: "client::HTMLCollectionOf<\'0>",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
+
+
+  HTMLDListElement* {.importcpp: "client::HTMLDListElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDataElement* {.importcpp: "client::HTMLDataElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDataListElement* {.importcpp: "client::HTMLDataListElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDetailsElement* {.importcpp: "client::HTMLDetailsElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDialogElement* {.importcpp: "client::HTMLDialogElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDirectoryElement* {.importcpp: "client::HTMLDirectoryElement",
+                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDivElement* {.importcpp: "client::HTMLDivElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLDocument* {.importcpp: "client::HTMLDocument",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Document
+
+
+  HTMLEmbedElement* {.importcpp: "client::HTMLEmbedElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLFieldSetElement* {.importcpp: "client::HTMLFieldSetElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLFontElement* {.importcpp: "client::HTMLFontElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLFormControlsCollection* {.importcpp: "client::HTMLFormControlsCollection",
+                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
+
+
+  HTMLFormElement* {.importcpp: "client::HTMLFormElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLFrameElementEventMap* {.importcpp: "client::HTMLFrameElementEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  HTMLFrameElement* {.importcpp: "client::HTMLFrameElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLFrameSetElementEventMap* {.importcpp: "client::HTMLFrameSetElementEventMap",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  HTMLFrameSetElement* {.importcpp: "client::HTMLFrameSetElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLHRElement* {.importcpp: "client::HTMLHRElement",
+                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLHeadElement* {.importcpp: "client::HTMLHeadElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLHeadingElement* {.importcpp: "client::HTMLHeadingElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLHtmlElement* {.importcpp: "client::HTMLHtmlElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLIFrameElementEventMap* {.importcpp: "client::HTMLIFrameElementEventMap",
+                               header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  HTMLIFrameElement* {.importcpp: "client::HTMLIFrameElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLImageElement* {.importcpp: "client::HTMLImageElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLInputElement* {.importcpp: "client::HTMLInputElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLLIElement* {.importcpp: "client::HTMLLIElement",
+                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLLabelElement* {.importcpp: "client::HTMLLabelElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLLegendElement* {.importcpp: "client::HTMLLegendElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  LinkStyle* {.importcpp: "client::LinkStyle", header: "cheerp/clientlib.h",
+               bycopy.} = object
+
+
+  HTMLLinkElement* {.importcpp: "client::HTMLLinkElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMainElement* {.importcpp: "client::HTMLMainElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMapElement* {.importcpp: "client::HTMLMapElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMarqueeElementEventMap* {.importcpp: "client::HTMLMarqueeElementEventMap",
+                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  HTMLMarqueeElement* {.importcpp: "client::HTMLMarqueeElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMediaElementEventMap* {.importcpp: "client::HTMLMediaElementEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
+
+
+  HTMLMenuElement* {.importcpp: "client::HTMLMenuElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMetaElement* {.importcpp: "client::HTMLMetaElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLMeterElement* {.importcpp: "client::HTMLMeterElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLModElement* {.importcpp: "client::HTMLModElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLOListElement* {.importcpp: "client::HTMLOListElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLObjectElement* {.importcpp: "client::HTMLObjectElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLOptGroupElement* {.importcpp: "client::HTMLOptGroupElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLOptionElement* {.importcpp: "client::HTMLOptionElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLOptionsCollection* {.importcpp: "client::HTMLOptionsCollection",
+                           header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionOf[
+      HTMLOptionElement]
+
+
+  HTMLOutputElement* {.importcpp: "client::HTMLOutputElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLParagraphElement* {.importcpp: "client::HTMLParagraphElement",
+                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLParamElement* {.importcpp: "client::HTMLParamElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLPictureElement* {.importcpp: "client::HTMLPictureElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLPreElement* {.importcpp: "client::HTMLPreElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLProgressElement* {.importcpp: "client::HTMLProgressElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLQuoteElement* {.importcpp: "client::HTMLQuoteElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLScriptElement* {.importcpp: "client::HTMLScriptElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLSelectElement* {.importcpp: "client::HTMLSelectElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLSlotElement* {.importcpp: "client::HTMLSlotElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLSourceElement* {.importcpp: "client::HTMLSourceElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLSpanElement* {.importcpp: "client::HTMLSpanElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLStyleElement* {.importcpp: "client::HTMLStyleElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLSummaryElement* {.importcpp: "client::HTMLSummaryElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableCaptionElement* {.importcpp: "client::HTMLTableCaptionElement",
+                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableCellElement* {.importcpp: "client::HTMLTableCellElement",
+                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableColElement* {.importcpp: "client::HTMLTableColElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableDataCellElement* {.importcpp: "client::HTMLTableDataCellElement",
+                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLTableCellElement
+
+
+  HTMLTableElement* {.importcpp: "client::HTMLTableElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableHeaderCellElement* {.importcpp: "client::HTMLTableHeaderCellElement",
+                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLTableCellElement
+
+
+  HTMLTableRowElement* {.importcpp: "client::HTMLTableRowElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTableSectionElement* {.importcpp: "client::HTMLTableSectionElement",
+                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTemplateElement* {.importcpp: "client::HTMLTemplateElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTextAreaElement* {.importcpp: "client::HTMLTextAreaElement",
+                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTimeElement* {.importcpp: "client::HTMLTimeElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTitleElement* {.importcpp: "client::HTMLTitleElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLTrackElement* {.importcpp: "client::HTMLTrackElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLUListElement* {.importcpp: "client::HTMLUListElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLUnknownElement* {.importcpp: "client::HTMLUnknownElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
+
+
+  HTMLVideoElementEventMap* {.importcpp: "client::HTMLVideoElementEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElementEventMap
+
+
+  HTMLVideoElement* {.importcpp: "client::HTMLVideoElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElement
+
+
+  HTMLegendElement* {.importcpp: "client::HTMLegendElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HashChangeEvent* {.importcpp: "client::HashChangeEvent",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  Headers* {.importcpp: "client::Headers", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  History* {.importcpp: "client::History", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HkdfCtrParams* {.importcpp: "client::HkdfCtrParams",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
+
+
+  IDBArrayKey* {.importcpp: "client::IDBArrayKey", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Array
+
+
+  IDBCursor* {.importcpp: "client::IDBCursor", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  IDBCursorWithValue* {.importcpp: "client::IDBCursorWithValue",
+                        header: "cheerp/clientlib.h", bycopy.} = object of IDBCursor
+
+
+  IDBDatabaseEventMap* {.importcpp: "client::IDBDatabaseEventMap",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IDBDatabase* {.importcpp: "client::IDBDatabase", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  IDBEnvironment* {.importcpp: "client::IDBEnvironment",
+                    header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  IDBFactory* {.importcpp: "client::IDBFactory", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  IDBIndex* {.importcpp: "client::IDBIndex", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  IDBKeyRange* {.importcpp: "client::IDBKeyRange", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  IDBObjectStore* {.importcpp: "client::IDBObjectStore",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IDBRequestEventMap* {.importcpp: "client::IDBRequestEventMap",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IDBOpenDBRequestEventMap* {.importcpp: "client::IDBOpenDBRequestEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of IDBRequestEventMap
+
+
+  IDBRequest* {.importcpp: "client::IDBRequest", header: "cheerp/clientlib.h",
+                bycopy.} = object of EventTarget
+
+
+  IDBOpenDBRequest* {.importcpp: "client::IDBOpenDBRequest",
+                      header: "cheerp/clientlib.h", bycopy.} = object of IDBRequest
+
+
+  IDBTransactionEventMap* {.importcpp: "client::IDBTransactionEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IDBTransaction* {.importcpp: "client::IDBTransaction",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  IDBVersionChangeEvent* {.importcpp: "client::IDBVersionChangeEvent",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  IIRFilterNode* {.importcpp: "client::IIRFilterNode",
+                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  ImageBitmap* {.importcpp: "client::ImageBitmap", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  ImageBitmapOptions* {.importcpp: "client::ImageBitmapOptions",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ImageData* {.importcpp: "client::ImageData", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  IntersectionObserver* {.importcpp: "client::IntersectionObserver",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IntersectionObserverEntry* {.importcpp: "client::IntersectionObserverEntry",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  KeyboardEvent* {.importcpp: "client::KeyboardEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
+
+
+  ListeningStateChangedEvent* {.importcpp: "client::ListeningStateChangedEvent",
+                                header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  Location* {.importcpp: "client::Location", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  MSAssertion* {.importcpp: "client::MSAssertion", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  MSBlobBuilder* {.importcpp: "client::MSBlobBuilder",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSCredentials* {.importcpp: "client::MSCredentials",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSDCCEvent* {.importcpp: "client::MSDCCEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of Event
+
+
+  MSDSHEvent* {.importcpp: "client::MSDSHEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of Event
+
+
+  MSFIDOCredentialAssertion* {.importcpp: "client::MSFIDOCredentialAssertion",
+                               header: "cheerp/clientlib.h", bycopy.} = object of MSAssertion
+
+
+  MSFIDOSignature* {.importcpp: "client::MSFIDOSignature",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSFIDOSignatureAssertion* {.importcpp: "client::MSFIDOSignatureAssertion",
+                              header: "cheerp/clientlib.h", bycopy.} = object of MSAssertion
+
+
+  MSFileSaver* {.importcpp: "client::MSFileSaver", header: "cheerp/clientlib.h",
+                 bycopy.} = object
+
+
+  MSGesture* {.importcpp: "client::MSGesture", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  MSGestureEvent* {.importcpp: "client::MSGestureEvent",
+                    header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
+
+
+  MSGraphicsTrust* {.importcpp: "client::MSGraphicsTrust",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSInputMethodContextEventMap* {.importcpp: "client::MSInputMethodContextEventMap",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSInputMethodContext* {.importcpp: "client::MSInputMethodContext",
+                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MSMediaKeyError* {.importcpp: "client::MSMediaKeyError",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSMediaKeyMessageEvent* {.importcpp: "client::MSMediaKeyMessageEvent",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MSMediaKeyNeededEvent* {.importcpp: "client::MSMediaKeyNeededEvent",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MSMediaKeySession* {.importcpp: "client::MSMediaKeySession",
+                       header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MSMediaKeys* {.importcpp: "client::MSMediaKeys", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  MSNavigatorDoNotTrack* {.importcpp: "client::MSNavigatorDoNotTrack",
+                           header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  MSPointerEvent* {.importcpp: "client::MSPointerEvent",
+                    header: "cheerp/clientlib.h", bycopy.} = object of MouseEvent
+
+
+  MSStream* {.importcpp: "client::MSStream", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  MSStreamReaderEventMap* {.importcpp: "client::MSStreamReaderEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSStreamReader* {.importcpp: "client::MSStreamReader",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MediaDeviceInfo* {.importcpp: "client::MediaDeviceInfo",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaDevicesEventMap* {.importcpp: "client::MediaDevicesEventMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaDevices* {.importcpp: "client::MediaDevices",
+                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MediaElementAudioSourceNode* {.importcpp: "client::MediaElementAudioSourceNode",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  MediaEncryptedEvent* {.importcpp: "client::MediaEncryptedEvent",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MediaError* {.importcpp: "client::MediaError", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  MediaKeyMessageEvent* {.importcpp: "client::MediaKeyMessageEvent",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MediaKeySession* {.importcpp: "client::MediaKeySession",
+                     header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MediaKeyStatusMap* {.importcpp: "client::MediaKeyStatusMap",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaKeySystemAccess* {.importcpp: "client::MediaKeySystemAccess",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaKeys* {.importcpp: "client::MediaKeys", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  MediaList* {.importcpp: "client::MediaList", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  MediaQueryList* {.importcpp: "client::MediaQueryList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaSource* {.importcpp: "client::MediaSource", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  MediaStreamEventMap* {.importcpp: "client::MediaStreamEventMap",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaStream* {.importcpp: "client::MediaStream", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  MediaStreamAudioSourceNode* {.importcpp: "client::MediaStreamAudioSourceNode",
+                                header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  MediaStreamError* {.importcpp: "client::MediaStreamError",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaStreamErrorEvent* {.importcpp: "client::MediaStreamErrorEvent",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MediaStreamEvent* {.importcpp: "client::MediaStreamEvent",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MediaStreamTrackEventMap* {.importcpp: "client::MediaStreamTrackEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaStreamTrack* {.importcpp: "client::MediaStreamTrack",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  MediaStreamTrackEvent* {.importcpp: "client::MediaStreamTrackEvent",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MessageChannel* {.importcpp: "client::MessageChannel",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MessageEvent* {.importcpp: "client::MessageEvent",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MessagePortEventMap* {.importcpp: "client::MessagePortEventMap",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MessagePort* {.importcpp: "client::MessagePort", header: "cheerp/clientlib.h",
+                 bycopy.} = object of EventTarget
+
+
+  MimeType* {.importcpp: "client::MimeType", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  MimeTypeArray* {.importcpp: "client::MimeTypeArray",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MutationEvent* {.importcpp: "client::MutationEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  MutationObserver* {.importcpp: "client::MutationObserver",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MutationRecord* {.importcpp: "client::MutationRecord",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NamedNodeMap* {.importcpp: "client::NamedNodeMap",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NavigatorID* {.importcpp: "client::NavigatorID", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  NavigatorOnLine* {.importcpp: "client::NavigatorOnLine",
+                     header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorContentUtils* {.importcpp: "client::NavigatorContentUtils",
+                           header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorStorageUtils* {.importcpp: "client::NavigatorStorageUtils",
+                           header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorBeacon* {.importcpp: "client::NavigatorBeacon",
+                     header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorConcurrentHardware* {.importcpp: "client::NavigatorConcurrentHardware",
+                                 header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorUserMedia* {.importcpp: "client::NavigatorUserMedia",
+                        header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  NavigatorLanguage* {.importcpp: "client::NavigatorLanguage",
+                       header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  Navigator* {.importcpp: "client::Navigator", header: "cheerp/clientlib.h",
+               bycopy.} = object of NavigatorID
+
+
+  NodeFilter* {.importcpp: "client::NodeFilter", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  NodeIterator* {.importcpp: "client::NodeIterator",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NodeList* {.importcpp: "client::NodeList", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  NodeListOf*[TNode] {.importcpp: "client::NodeListOf<\'0>",
+                       header: "cheerp/clientlib.h", bycopy.} = object of NodeList
+
+
+  NodeSelector* {.importcpp: "client::NodeSelector",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NotificationEventMap* {.importcpp: "client::NotificationEventMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Notification* {.importcpp: "client::Notification",
+                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  OfflineAudioCompletionEvent* {.importcpp: "client::OfflineAudioCompletionEvent",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  OfflineAudioContextEventMap* {.importcpp: "client::OfflineAudioContextEventMap",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of AudioContextEventMap
+
+
+  OfflineAudioContext* {.importcpp: "client::OfflineAudioContext",
+                         header: "cheerp/clientlib.h", bycopy.} = object of AudioContextBase
+
+
+  OscillatorNodeEventMap* {.importcpp: "client::OscillatorNodeEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  OscillatorNode* {.importcpp: "client::OscillatorNode",
+                    header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  OverflowEvent* {.importcpp: "client::OverflowEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
+
+
+  PageTransitionEvent* {.importcpp: "client::PageTransitionEvent",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  PannerNode* {.importcpp: "client::PannerNode", header: "cheerp/clientlib.h",
+                bycopy.} = object of AudioNode
+
+
+  Path2D* {.importcpp: "client::Path2D", header: "cheerp/clientlib.h", bycopy.} = object of CanvasPathMethods
+
+
+  PaymentAddress* {.importcpp: "client::PaymentAddress",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentRequestEventMap* {.importcpp: "client::PaymentRequestEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PaymentRequest* {.importcpp: "client::PaymentRequest",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  PaymentRequestUpdateEvent* {.importcpp: "client::PaymentRequestUpdateEvent",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  PaymentResponse* {.importcpp: "client::PaymentResponse",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PerfWidgetExternal* {.importcpp: "client::PerfWidgetExternal",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Performance* {.importcpp: "client::Performance", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  PerformanceEntry* {.importcpp: "client::PerformanceEntry",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PerformanceMark* {.importcpp: "client::PerformanceMark",
+                     header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
+
+
+  PerformanceMeasure* {.importcpp: "client::PerformanceMeasure",
+                        header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
+
+
+  PerformanceNavigation* {.importcpp: "client::PerformanceNavigation",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PerformanceNavigationTiming* {.importcpp: "client::PerformanceNavigationTiming",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
+
+
+  PerformanceResourceTiming* {.importcpp: "client::PerformanceResourceTiming",
+                               header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
+
+
+  PerformanceTiming* {.importcpp: "client::PerformanceTiming",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PeriodicWave* {.importcpp: "client::PeriodicWave",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PermissionRequest* {.importcpp: "client::PermissionRequest",
+                       header: "cheerp/clientlib.h", bycopy.} = object of DeferredPermissionRequest
+
+
+  PermissionRequestedEvent* {.importcpp: "client::PermissionRequestedEvent",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  Plugin* {.importcpp: "client::Plugin", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PluginArray* {.importcpp: "client::PluginArray", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  PointerEvent* {.importcpp: "client::PointerEvent",
+                  header: "cheerp/clientlib.h", bycopy.} = object of MouseEvent
+
+
+  PopStateEvent* {.importcpp: "client::PopStateEvent",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  Position* {.importcpp: "client::Position", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  PositionError* {.importcpp: "client::PositionError",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ProcessingInstruction* {.importcpp: "client::ProcessingInstruction",
+                           header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
+
+
+  PromiseRejectionEvent* {.importcpp: "client::PromiseRejectionEvent",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  PromiseRejectionEventInit* {.importcpp: "client::PromiseRejectionEventInit",
+                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  PushManager* {.importcpp: "client::PushManager", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  PushSubscription* {.importcpp: "client::PushSubscription",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PushSubscriptionOptions* {.importcpp: "client::PushSubscriptionOptions",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCDTMFToneChangeEvent* {.importcpp: "client::RTCDTMFToneChangeEvent",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCDtlsTransportEventMap* {.importcpp: "client::RTCDtlsTransportEventMap",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCStatsProvider* {.importcpp: "client::RTCStatsProvider",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  RTCDtlsTransport* {.importcpp: "client::RTCDtlsTransport",
+                      header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
+
+
+  RTCDtlsTransportStateChangedEvent* {.importcpp: "client::RTCDtlsTransportStateChangedEvent",
+                                       header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCDtmfSenderEventMap* {.importcpp: "client::RTCDtmfSenderEventMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCDtmfSender* {.importcpp: "client::RTCDtmfSender",
+                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  RTCIceCandidate* {.importcpp: "client::RTCIceCandidate",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceCandidatePairChangedEvent* {.importcpp: "client::RTCIceCandidatePairChangedEvent",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCIceGathererEventMap* {.importcpp: "client::RTCIceGathererEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceGatherer* {.importcpp: "client::RTCIceGatherer",
+                    header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
+
+
+  RTCIceGathererEvent* {.importcpp: "client::RTCIceGathererEvent",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCIceTransportEventMap* {.importcpp: "client::RTCIceTransportEventMap",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCIceTransport* {.importcpp: "client::RTCIceTransport",
+                     header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
+
+
+  RTCIceTransportStateChangedEvent* {.importcpp: "client::RTCIceTransportStateChangedEvent",
+                                      header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCPeerConnectionEventMap* {.importcpp: "client::RTCPeerConnectionEventMap",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCPeerConnection* {.importcpp: "client::RTCPeerConnection",
+                       header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  RTCPeerConnectionIceEvent* {.importcpp: "client::RTCPeerConnectionIceEvent",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RTCRtpReceiverEventMap* {.importcpp: "client::RTCRtpReceiverEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpReceiver* {.importcpp: "client::RTCRtpReceiver",
+                    header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
+
+
+  RTCRtpSenderEventMap* {.importcpp: "client::RTCRtpSenderEventMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCRtpSender* {.importcpp: "client::RTCRtpSender",
+                  header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
+
+
+  RTCSessionDescription* {.importcpp: "client::RTCSessionDescription",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSrtpSdesTransportEventMap* {.importcpp: "client::RTCSrtpSdesTransportEventMap",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSrtpSdesTransport* {.importcpp: "client::RTCSrtpSdesTransport",
+                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  RTCSsrcConflictEvent* {.importcpp: "client::RTCSsrcConflictEvent",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  RandomSource* {.importcpp: "client::RandomSource",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Range* {.importcpp: "client::Range", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ReadableStream* {.importcpp: "client::ReadableStream",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ReadableStreamReader* {.importcpp: "client::ReadableStreamReader",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Request* {.importcpp: "client::Request", header: "cheerp/clientlib.h", bycopy.} = object of Body
+
+
+  Response* {.importcpp: "client::Response", header: "cheerp/clientlib.h",
+              bycopy.} = object of Body
+
+
+  SVGElement* {.importcpp: "client::SVGElement", header: "cheerp/clientlib.h",
+                bycopy.} = object of Element
+
+
+  SVGTests* {.importcpp: "client::SVGTests", header: "cheerp/clientlib.h",
+              bycopy.} = object
+
+
+  SVGGraphicsElement* {.importcpp: "client::SVGGraphicsElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGURIReference* {.importcpp: "client::SVGURIReference",
+                     header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  SVGAElement* {.importcpp: "client::SVGAElement", header: "cheerp/clientlib.h",
+                 bycopy.} = object of SVGGraphicsElement
+
+
+  SVGAngle* {.importcpp: "client::SVGAngle", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  SVGAnimatedAngle* {.importcpp: "client::SVGAnimatedAngle",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedBoolean* {.importcpp: "client::SVGAnimatedBoolean",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedEnumeration* {.importcpp: "client::SVGAnimatedEnumeration",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedInteger* {.importcpp: "client::SVGAnimatedInteger",
+                        header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedLength* {.importcpp: "client::SVGAnimatedLength",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedLengthList* {.importcpp: "client::SVGAnimatedLengthList",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedNumber* {.importcpp: "client::SVGAnimatedNumber",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedNumberList* {.importcpp: "client::SVGAnimatedNumberList",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedPoints* {.importcpp: "client::SVGAnimatedPoints",
+                       header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  SVGAnimatedPreserveAspectRatio* {.importcpp: "client::SVGAnimatedPreserveAspectRatio",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedRect* {.importcpp: "client::SVGAnimatedRect",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedString* {.importcpp: "client::SVGAnimatedString",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGAnimatedTransformList* {.importcpp: "client::SVGAnimatedTransformList",
+                              header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGCircleElement* {.importcpp: "client::SVGCircleElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGUnitTypes* {.importcpp: "client::SVGUnitTypes",
+                  header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  SVGClipPathElement* {.importcpp: "client::SVGClipPathElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGComponentTransferFunctionElement* {.
+      importcpp: "client::SVGComponentTransferFunctionElement",
+      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGDefsElement* {.importcpp: "client::SVGDefsElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGDescElement* {.importcpp: "client::SVGDescElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGElementEventMap* {.importcpp: "client::SVGElementEventMap",
+                        header: "cheerp/clientlib.h", bycopy.} = object of ElementEventMap
+
+
+  SVGElementInstance* {.importcpp: "client::SVGElementInstance",
+                        header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  SVGElementInstanceList* {.importcpp: "client::SVGElementInstanceList",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGEllipseElement* {.importcpp: "client::SVGEllipseElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGFilterPrimitiveStandardAttributes* {.
+      importcpp: "client::SVGFilterPrimitiveStandardAttributes",
+      header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  SVGFEBlendElement* {.importcpp: "client::SVGFEBlendElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEColorMatrixElement* {.importcpp: "client::SVGFEColorMatrixElement",
+                             header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEComponentTransferElement* {.importcpp: "client::SVGFEComponentTransferElement",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFECompositeElement* {.importcpp: "client::SVGFECompositeElement",
+                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEConvolveMatrixElement* {.importcpp: "client::SVGFEConvolveMatrixElement",
+                                header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEDiffuseLightingElement* {.importcpp: "client::SVGFEDiffuseLightingElement",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEDisplacementMapElement* {.importcpp: "client::SVGFEDisplacementMapElement",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEDistantLightElement* {.importcpp: "client::SVGFEDistantLightElement",
+                              header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEFloodElement* {.importcpp: "client::SVGFEFloodElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEFuncAElement* {.importcpp: "client::SVGFEFuncAElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
+
+
+  SVGFEFuncBElement* {.importcpp: "client::SVGFEFuncBElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
+
+
+  SVGFEFuncGElement* {.importcpp: "client::SVGFEFuncGElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
+
+
+  SVGFEFuncRElement* {.importcpp: "client::SVGFEFuncRElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
+
+
+  SVGFEGaussianBlurElement* {.importcpp: "client::SVGFEGaussianBlurElement",
+                              header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEImageElement* {.importcpp: "client::SVGFEImageElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEMergeElement* {.importcpp: "client::SVGFEMergeElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEMergeNodeElement* {.importcpp: "client::SVGFEMergeNodeElement",
+                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEMorphologyElement* {.importcpp: "client::SVGFEMorphologyElement",
+                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEOffsetElement* {.importcpp: "client::SVGFEOffsetElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFEPointLightElement* {.importcpp: "client::SVGFEPointLightElement",
+                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFESpecularLightingElement* {.importcpp: "client::SVGFESpecularLightingElement",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFESpotLightElement* {.importcpp: "client::SVGFESpotLightElement",
+                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFETileElement* {.importcpp: "client::SVGFETileElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFETurbulenceElement* {.importcpp: "client::SVGFETurbulenceElement",
+                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFilterElement* {.importcpp: "client::SVGFilterElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGFitToViewBox* {.importcpp: "client::SVGFitToViewBox",
+                     header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  SVGForeignObjectElement* {.importcpp: "client::SVGForeignObjectElement",
+                             header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGGElement* {.importcpp: "client::SVGGElement", header: "cheerp/clientlib.h",
+                 bycopy.} = object of SVGGraphicsElement
+
+
+  SVGGradientElement* {.importcpp: "client::SVGGradientElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGImageElement* {.importcpp: "client::SVGImageElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGLength* {.importcpp: "client::SVGLength", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  SVGLengthList* {.importcpp: "client::SVGLengthList",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGLineElement* {.importcpp: "client::SVGLineElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGLinearGradientElement* {.importcpp: "client::SVGLinearGradientElement",
+                              header: "cheerp/clientlib.h", bycopy.} = object of SVGGradientElement
+
+
+  SVGMarkerElement* {.importcpp: "client::SVGMarkerElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGMaskElement* {.importcpp: "client::SVGMaskElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGMatrix* {.importcpp: "client::SVGMatrix", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  SVGMetadataElement* {.importcpp: "client::SVGMetadataElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGNumber* {.importcpp: "client::SVGNumber", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  SVGNumberList* {.importcpp: "client::SVGNumberList",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGPathElement* {.importcpp: "client::SVGPathElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGPathSeg* {.importcpp: "client::SVGPathSeg", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  SVGPathSegArcAbs* {.importcpp: "client::SVGPathSegArcAbs",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegArcRel* {.importcpp: "client::SVGPathSegArcRel",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegClosePath* {.importcpp: "client::SVGPathSegClosePath",
+                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoCubicAbs* {.importcpp: "client::SVGPathSegCurvetoCubicAbs",
+                               header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoCubicRel* {.importcpp: "client::SVGPathSegCurvetoCubicRel",
+                               header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoCubicSmoothAbs* {.importcpp: "client::SVGPathSegCurvetoCubicSmoothAbs",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoCubicSmoothRel* {.importcpp: "client::SVGPathSegCurvetoCubicSmoothRel",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoQuadraticAbs* {.importcpp: "client::SVGPathSegCurvetoQuadraticAbs",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoQuadraticRel* {.importcpp: "client::SVGPathSegCurvetoQuadraticRel",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoQuadraticSmoothAbs* {.
+      importcpp: "client::SVGPathSegCurvetoQuadraticSmoothAbs",
+      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegCurvetoQuadraticSmoothRel* {.
+      importcpp: "client::SVGPathSegCurvetoQuadraticSmoothRel",
+      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoAbs* {.importcpp: "client::SVGPathSegLinetoAbs",
+                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoHorizontalAbs* {.importcpp: "client::SVGPathSegLinetoHorizontalAbs",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoHorizontalRel* {.importcpp: "client::SVGPathSegLinetoHorizontalRel",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoRel* {.importcpp: "client::SVGPathSegLinetoRel",
+                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoVerticalAbs* {.importcpp: "client::SVGPathSegLinetoVerticalAbs",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegLinetoVerticalRel* {.importcpp: "client::SVGPathSegLinetoVerticalRel",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegList* {.importcpp: "client::SVGPathSegList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGPathSegMovetoAbs* {.importcpp: "client::SVGPathSegMovetoAbs",
+                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPathSegMovetoRel* {.importcpp: "client::SVGPathSegMovetoRel",
+                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
+
+
+  SVGPatternElement* {.importcpp: "client::SVGPatternElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGPoint* {.importcpp: "client::SVGPoint", header: "cheerp/clientlib.h",
+              bycopy.} = object of Object
+
+
+  SVGPointList* {.importcpp: "client::SVGPointList",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGPolygonElement* {.importcpp: "client::SVGPolygonElement",
+                       header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGPolylineElement* {.importcpp: "client::SVGPolylineElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGPreserveAspectRatio* {.importcpp: "client::SVGPreserveAspectRatio",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGRadialGradientElement* {.importcpp: "client::SVGRadialGradientElement",
+                              header: "cheerp/clientlib.h", bycopy.} = object of SVGGradientElement
+
+
+  SVGRect* {.importcpp: "client::SVGRect", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGRectElement* {.importcpp: "client::SVGRectElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGSVGElementEventMap* {.importcpp: "client::SVGSVGElementEventMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElementEventMap
+
+
+  SVGZoomAndPan* {.importcpp: "client::SVGZoomAndPan",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGSVGElement* {.importcpp: "client::SVGSVGElement",
+                   header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGScriptElement* {.importcpp: "client::SVGScriptElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGStopElement* {.importcpp: "client::SVGStopElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGStringList* {.importcpp: "client::SVGStringList",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGStylable* {.importcpp: "client::SVGStylable", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  SVGStyleElement* {.importcpp: "client::SVGStyleElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGSwitchElement* {.importcpp: "client::SVGSwitchElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGSymbolElement* {.importcpp: "client::SVGSymbolElement",
+                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGTextContentElement* {.importcpp: "client::SVGTextContentElement",
+                           header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGTextPositioningElement* {.importcpp: "client::SVGTextPositioningElement",
+                               header: "cheerp/clientlib.h", bycopy.} = object of SVGTextContentElement
+
+
+  SVGTSpanElement* {.importcpp: "client::SVGTSpanElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of SVGTextPositioningElement
+
+
+  SVGTextElement* {.importcpp: "client::SVGTextElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGTextPositioningElement
+
+
+  SVGTextPathElement* {.importcpp: "client::SVGTextPathElement",
+                        header: "cheerp/clientlib.h", bycopy.} = object of SVGTextContentElement
+
+
+  SVGTitleElement* {.importcpp: "client::SVGTitleElement",
+                     header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGTransform* {.importcpp: "client::SVGTransform",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGTransformList* {.importcpp: "client::SVGTransformList",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGUseElement* {.importcpp: "client::SVGUseElement",
+                   header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
+
+
+  SVGViewElement* {.importcpp: "client::SVGViewElement",
+                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
+
+
+  SVGZoomEvent* {.importcpp: "client::SVGZoomEvent",
+                  header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
+
+
+  ScopedCredential* {.importcpp: "client::ScopedCredential",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScopedCredentialInfo* {.importcpp: "client::ScopedCredentialInfo",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScreenEventMap* {.importcpp: "client::ScreenEventMap",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  Screen* {.importcpp: "client::Screen", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  ScriptProcessorNodeEventMap* {.importcpp: "client::ScriptProcessorNodeEventMap",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScriptProcessorNode* {.importcpp: "client::ScriptProcessorNode",
+                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  ScrollOptions* {.importcpp: "client::ScrollOptions",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ScrollIntoViewOptions* {.importcpp: "client::ScrollIntoViewOptions",
+                           header: "cheerp/clientlib.h", bycopy.} = object of ScrollOptions
+
+
+  ScrollToOptions* {.importcpp: "client::ScrollToOptions",
+                     header: "cheerp/clientlib.h", bycopy.} = object of ScrollOptions
+
+
+  SecurityPolicyViolationEvent* {.importcpp: "client::SecurityPolicyViolationEvent",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  Selection* {.importcpp: "client::Selection", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  ServiceUIFrameContext* {.importcpp: "client::ServiceUIFrameContext",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ServiceWorkerEventMap* {.importcpp: "client::ServiceWorkerEventMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of AbstractWorkerEventMap
+
+
+  ServiceWorker* {.importcpp: "client::ServiceWorker",
+                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  ServiceWorkerContainerEventMap* {.importcpp: "client::ServiceWorkerContainerEventMap",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ServiceWorkerContainer* {.importcpp: "client::ServiceWorkerContainer",
+                            header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  ServiceWorkerMessageEvent* {.importcpp: "client::ServiceWorkerMessageEvent",
+                               header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  ServiceWorkerRegistrationEventMap* {.importcpp: "client::ServiceWorkerRegistrationEventMap",
+                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ServiceWorkerRegistration* {.importcpp: "client::ServiceWorkerRegistration",
+                               header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  ShadowRoot* {.importcpp: "client::ShadowRoot", header: "cheerp/clientlib.h",
+                bycopy.} = object of DocumentOrShadowRoot
+
+
+  ShadowRootInit* {.importcpp: "client::ShadowRootInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SourceBuffer* {.importcpp: "client::SourceBuffer",
+                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  SourceBufferList* {.importcpp: "client::SourceBufferList",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  SpeechSynthesisEventMap* {.importcpp: "client::SpeechSynthesisEventMap",
+                             header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SpeechSynthesis* {.importcpp: "client::SpeechSynthesis",
+                     header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  SpeechSynthesisEvent* {.importcpp: "client::SpeechSynthesisEvent",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  SpeechSynthesisUtteranceEventMap* {.importcpp: "client::SpeechSynthesisUtteranceEventMap",
+                                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SpeechSynthesisUtterance* {.importcpp: "client::SpeechSynthesisUtterance",
+                              header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  SpeechSynthesisVoice* {.importcpp: "client::SpeechSynthesisVoice",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  StereoPannerNode* {.importcpp: "client::StereoPannerNode",
+                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  Storage* {.importcpp: "client::Storage", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  StorageEvent* {.importcpp: "client::StorageEvent",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  StorageEventInit* {.importcpp: "client::StorageEventInit",
+                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
+
+
+  StyleMedia* {.importcpp: "client::StyleMedia", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  StyleSheetList* {.importcpp: "client::StyleSheetList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SubtleCrypto* {.importcpp: "client::SubtleCrypto",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SyncManager* {.importcpp: "client::SyncManager", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  TextDecoder* {.importcpp: "client::TextDecoder", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  TextEncoder* {.importcpp: "client::TextEncoder", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  TextEvent* {.importcpp: "client::TextEvent", header: "cheerp/clientlib.h",
+               bycopy.} = object of UIEvent
+
+
+  TextMetrics* {.importcpp: "client::TextMetrics", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  TextTrackEventMap* {.importcpp: "client::TextTrackEventMap",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextTrack* {.importcpp: "client::TextTrack", header: "cheerp/clientlib.h",
+               bycopy.} = object of EventTarget
+
+
+  TextTrackCueEventMap* {.importcpp: "client::TextTrackCueEventMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextTrackCueList* {.importcpp: "client::TextTrackCueList",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextTrackListEventMap* {.importcpp: "client::TextTrackListEventMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextTrackList* {.importcpp: "client::TextTrackList",
+                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  TimeRanges* {.importcpp: "client::TimeRanges", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  Touch* {.importcpp: "client::Touch", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TouchEvent* {.importcpp: "client::TouchEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of UIEvent
+
+
+  TouchEventInit* {.importcpp: "client::TouchEventInit",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
+
+
+  TouchList* {.importcpp: "client::TouchList", header: "cheerp/clientlib.h",
+               bycopy.} = object of Object
+
+
+  TrackEvent* {.importcpp: "client::TrackEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of Event
+
+
+  TransitionEvent* {.importcpp: "client::TransitionEvent",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  TreeWalker* {.importcpp: "client::TreeWalker", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  URL* {.importcpp: "client::URL", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  URLSearchParams* {.importcpp: "client::URLSearchParams",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRDisplay* {.importcpp: "client::VRDisplay", header: "cheerp/clientlib.h",
+               bycopy.} = object of EventTarget
+
+
+  VRDisplayCapabilities* {.importcpp: "client::VRDisplayCapabilities",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRDisplayEvent* {.importcpp: "client::VRDisplayEvent",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Event
+
+
+  VREyeParameters* {.importcpp: "client::VREyeParameters",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRFieldOfView* {.importcpp: "client::VRFieldOfView",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VRFrameData* {.importcpp: "client::VRFrameData", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  VRPose* {.importcpp: "client::VRPose", header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ValidityState* {.importcpp: "client::ValidityState",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VideoPlaybackQuality* {.importcpp: "client::VideoPlaybackQuality",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VideoTrack* {.importcpp: "client::VideoTrack", header: "cheerp/clientlib.h",
+                bycopy.} = object of Object
+
+
+  VideoTrackListEventMap* {.importcpp: "client::VideoTrackListEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VideoTrackList* {.importcpp: "client::VideoTrackList",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  WaveShaperNode* {.importcpp: "client::WaveShaperNode",
+                    header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
+
+
+  WebAuthentication* {.importcpp: "client::WebAuthentication",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebAuthnAssertion* {.importcpp: "client::WebAuthnAssertion",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebKitCSSMatrix* {.importcpp: "client::WebKitCSSMatrix",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebKitEntry* {.importcpp: "client::WebKitEntry", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  WebKitDirectoryEntry* {.importcpp: "client::WebKitDirectoryEntry",
+                          header: "cheerp/clientlib.h", bycopy.} = object of WebKitEntry
+
+
+  WebKitDirectoryReader* {.importcpp: "client::WebKitDirectoryReader",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebKitFileEntry* {.importcpp: "client::WebKitFileEntry",
+                     header: "cheerp/clientlib.h", bycopy.} = object of WebKitEntry
+
+
+  WebKitFileSystem* {.importcpp: "client::WebKitFileSystem",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebKitPoint* {.importcpp: "client::WebKitPoint", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  WebSocketEventMap* {.importcpp: "client::WebSocketEventMap",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WebSocket* {.importcpp: "client::WebSocket", header: "cheerp/clientlib.h",
+               bycopy.} = object of EventTarget
+
+
+  WheelEvent* {.importcpp: "client::WheelEvent", header: "cheerp/clientlib.h",
+                bycopy.} = object of MouseEvent
+
+
+  WindowEventMap* {.importcpp: "client::WindowEventMap",
+                    header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
+
+
+  WindowTimersExtension* {.importcpp: "client::WindowTimersExtension",
+                           header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  WindowTimers* {.importcpp: "client::WindowTimers",
+                  header: "cheerp/clientlib.h", bycopy.} = object of WindowTimersExtension
+
+
+  WindowSessionStorage* {.importcpp: "client::WindowSessionStorage",
+                          header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  WindowLocalStorage* {.importcpp: "client::WindowLocalStorage",
+                        header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  WindowConsole* {.importcpp: "client::WindowConsole",
+                   header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  WindowBase64* {.importcpp: "client::WindowBase64",
+                  header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  Window* {.importcpp: "client::Window", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  WorkerEventMap* {.importcpp: "client::WorkerEventMap",
+                    header: "cheerp/clientlib.h", bycopy.} = object of AbstractWorkerEventMap
+
+
+  Worker* {.importcpp: "client::Worker", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  WritableStream* {.importcpp: "client::WritableStream",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WritableStreamDefaultController* {.importcpp: "client::WritableStreamDefaultController",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WritableStreamDefaultWriter* {.importcpp: "client::WritableStreamDefaultWriter",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XMLDocument* {.importcpp: "client::XMLDocument", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Document
+
+
+  XMLHttpRequestEventTargetEventMap* {.importcpp: "client::XMLHttpRequestEventTargetEventMap",
+                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XMLHttpRequestEventMap* {.importcpp: "client::XMLHttpRequestEventMap",
+                            header: "cheerp/clientlib.h", bycopy.} = object of XMLHttpRequestEventTargetEventMap
+
+
+  XMLHttpRequestEventTarget* {.importcpp: "client::XMLHttpRequestEventTarget",
+                               header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  XMLHttpRequest* {.importcpp: "client::XMLHttpRequest",
+                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  XMLHttpRequestUpload* {.importcpp: "client::XMLHttpRequestUpload",
+                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
+
+
+  XMLSerializer* {.importcpp: "client::XMLSerializer",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XPathEvaluator* {.importcpp: "client::XPathEvaluator",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XPathExpression* {.importcpp: "client::XPathExpression",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XPathNSResolver* {.importcpp: "client::XPathNSResolver",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  XPathResult* {.importcpp: "client::XPathResult", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  XSLTProcessor* {.importcpp: "client::XSLTProcessor",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  webkitRTCPeerConnection* {.importcpp: "client::webkitRTCPeerConnection",
+                             header: "cheerp/clientlib.h", bycopy.} = object of RTCPeerConnection
+
+
+  DecodeErrorCallback* {.importcpp: "client::DecodeErrorCallback",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  DecodeSuccessCallback* {.importcpp: "client::DecodeSuccessCallback",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ErrorEventHandler* {.importcpp: "client::ErrorEventHandler",
+                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  EventHandlerNonNull* {.importcpp: "client::EventHandlerNonNull",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ForEachCallback* {.importcpp: "client::ForEachCallback",
+                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  FrameRequestCallback* {.importcpp: "client::FrameRequestCallback",
+                          header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  FunctionStringCallback* {.importcpp: "client::FunctionStringCallback",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  IntersectionObserverCallback* {.importcpp: "client::IntersectionObserverCallback",
+                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MSLaunchUriCallback* {.importcpp: "client::MSLaunchUriCallback",
+                         header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MediaQueryListListener* {.importcpp: "client::MediaQueryListListener",
+                            header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  MutationCallback* {.importcpp: "client::MutationCallback",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NavigatorUserMediaErrorCallback* {.importcpp: "client::NavigatorUserMediaErrorCallback",
+                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NavigatorUserMediaSuccessCallback* {.importcpp: "client::NavigatorUserMediaSuccessCallback",
+                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  NotificationPermissionCallback* {.importcpp: "client::NotificationPermissionCallback",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PositionCallback* {.importcpp: "client::PositionCallback",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  PositionErrorCallback* {.importcpp: "client::PositionErrorCallback",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCPeerConnectionErrorCallback* {.importcpp: "client::RTCPeerConnectionErrorCallback",
+                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCSessionDescriptionCallback* {.importcpp: "client::RTCSessionDescriptionCallback",
+                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  RTCStatsCallback* {.importcpp: "client::RTCStatsCallback",
+                      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  VoidFunction* {.importcpp: "client::VoidFunction",
+                  header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WritableStreamChunkCallback* {.importcpp: "client::WritableStreamChunkCallback",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WritableStreamDefaultControllerCallback* {.
+      importcpp: "client::WritableStreamDefaultControllerCallback",
+      header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  WritableStreamErrorCallback* {.importcpp: "client::WritableStreamErrorCallback",
+                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  HTMLElementTagNameMap* {.importcpp: "client::HTMLElementTagNameMap",
+                           header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  SVGElementTagNameMap* {.importcpp: "client::SVGElementTagNameMap",
+                          header: "cheerp/clientlib.h", bycopy.} = object
+
+
+  ElementTagNameMap* {.importcpp: "client::ElementTagNameMap",
+                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementTagNameMap
+
+
+  ActiveXObject* {.importcpp: "client::ActiveXObject",
+                   header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  ITextWriter* {.importcpp: "client::ITextWriter", header: "cheerp/clientlib.h",
+                 bycopy.} = object of Object
+
+
+  TextStreamBase* {.importcpp: "client::TextStreamBase",
+                    header: "cheerp/clientlib.h", bycopy.} = object of Object
+
+
+  TextStreamWriter* {.importcpp: "client::TextStreamWriter",
+                      header: "cheerp/clientlib.h", bycopy.} = object of TextStreamBase
+
+
+  TextStreamReader* {.importcpp: "client::TextStreamReader",
+                      header: "cheerp/clientlib.h", bycopy.} = object of TextStreamBase
+
+
 
 proc get_configurable*(this: var PropertyDescriptor): bool {.
     importcpp: "get_configurable", header: "cheerp/clientlib.h".}
@@ -1034,24 +4890,12 @@ proc set_writable*(this: var PropertyDescriptor; a2: bool) {.
 
 proc set*(this: var PropertyDescriptor; v: ptr Object) {.importcpp: "set",
     header: "cheerp/clientlib.h".}
-type
-
-  PropertyDescriptorMap* {.importcpp: "client::PropertyDescriptorMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc `[]`*(this: var PropertyDescriptorMap; index: cint): ptr PropertyDescriptor {.
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
 
 proc `[]`*(this: PropertyDescriptorMap; index: cint): ptr PropertyDescriptor {.
     noSideEffect, importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  IArguments* {.importcpp: "client::IArguments", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc `[]`*(this: var IArguments; index: cint): ptr Object {.importcpp: "#[@]",
     header: "cheerp/clientlib.h".}
@@ -1070,12 +4914,6 @@ proc get_callee*(this: var IArguments): ptr Function {.importcpp: "get_callee",
 
 proc set_callee*(this: var IArguments; a2: ptr Function) {.
     importcpp: "set_callee", header: "cheerp/clientlib.h".}
-type
-
-  ReadonlyArray*[T] {.importcpp: "client::ReadonlyArray<\'0>",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*[T](this: var ReadonlyArray[T]): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -1180,25 +5018,9 @@ proc `[]`*[T](this: var ReadonlyArray[T]; index: cint): ptr T {.
 
 proc `[]`*[T](this: ReadonlyArray[T]; index: cint): ptr T {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  TemplateStringsArray* {.importcpp: "client::TemplateStringsArray",
-                          header: "cheerp/clientlib.h", bycopy.} = object of ReadonlyArray[
-      String]
-
-
 
 proc get_raw*(this: var TemplateStringsArray): ptr ReadonlyArray[String] {.
     importcpp: "get_raw", header: "cheerp/clientlib.h".}
-type
-
-  ImportMeta* {.importcpp: "client::ImportMeta", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
-  Math* {.importcpp: "client::Math", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_E*(this: var Math): cdouble {.importcpp: "get_E",
                                        header: "cheerp/clientlib.h".}
@@ -1277,11 +5099,6 @@ proc sqrt*(this: var Math; x: cdouble): cdouble {.importcpp: "sqrt",
 
 proc tan*(this: var Math; x: cdouble): cdouble {.importcpp: "tan",
     header: "cheerp/clientlib.h".}
-type
-
-  Date* {.importcpp: "client::Date", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc toString*(this: var Date): ptr String {.importcpp: "toString",
     header: "cheerp/clientlib.h".}
@@ -1554,12 +5371,6 @@ proc now*(): cdouble {.importcpp: "client::Date::now(@)",
                        header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  RegExpMatchArray* {.importcpp: "client::RegExpMatchArray",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Array
-
-
 
 proc get_index*(this: var RegExpMatchArray): cdouble {.importcpp: "get_index",
     header: "cheerp/clientlib.h".}
@@ -1572,12 +5383,6 @@ proc get_input*(this: var RegExpMatchArray): ptr String {.
 
 proc set_input*(this: var RegExpMatchArray; a2: String) {.
     importcpp: "set_input", header: "cheerp/clientlib.h".}
-type
-
-  RegExpExecArray* {.importcpp: "client::RegExpExecArray",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Array
-
-
 
 proc get_index*(this: var RegExpExecArray): cdouble {.importcpp: "get_index",
     header: "cheerp/clientlib.h".}
@@ -1590,11 +5395,6 @@ proc get_input*(this: var RegExpExecArray): ptr String {.importcpp: "get_input",
 
 proc set_input*(this: var RegExpExecArray; a2: String) {.importcpp: "set_input",
     header: "cheerp/clientlib.h".}
-type
-
-  RegExp* {.importcpp: "client::RegExp", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc exec*(this: var RegExp; string: String): ptr RegExpExecArray {.
     importcpp: "exec", header: "cheerp/clientlib.h".}
@@ -1637,11 +5437,6 @@ proc get_lastMatch*(this: var RegExp): ptr String {.importcpp: "get_lastMatch",
 
 proc set_lastMatch*(this: var RegExp; a2: String) {.importcpp: "set_lastMatch",
     header: "cheerp/clientlib.h".}
-type
-
-  Error* {.importcpp: "client::Error", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_name*(this: var Error): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -1669,12 +5464,6 @@ proc constructError*(message: String): Error {.constructor,
 
 proc get_prototype*(this: var Error): ptr Error {.importcpp: "get_prototype",
     header: "cheerp/clientlib.h".}
-type
-
-  EvalError* {.importcpp: "client::EvalError", header: "cheerp/clientlib.h",
-               bycopy.} = object of Error
-
-
 
 proc constructEvalError*(): EvalError {.constructor,
                                         importcpp: "client::EvalError(@)",
@@ -1685,12 +5474,6 @@ proc constructEvalError*(message: String): EvalError {.constructor,
 
 proc get_prototype*(this: var EvalError): ptr EvalError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  RangeError* {.importcpp: "client::RangeError", header: "cheerp/clientlib.h",
-                bycopy.} = object of Error
-
-
 
 proc constructRangeError*(): RangeError {.constructor,
     importcpp: "client::RangeError(@)", header: "cheerp/clientlib.h".}
@@ -1700,12 +5483,6 @@ proc constructRangeError*(message: String): RangeError {.constructor,
 
 proc get_prototype*(this: var RangeError): ptr RangeError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  ReferenceError* {.importcpp: "client::ReferenceError",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Error
-
-
 
 proc constructReferenceError*(): ReferenceError {.constructor,
     importcpp: "client::ReferenceError(@)", header: "cheerp/clientlib.h".}
@@ -1715,12 +5492,6 @@ proc constructReferenceError*(message: String): ReferenceError {.constructor,
 
 proc get_prototype*(this: var ReferenceError): ptr ReferenceError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  SyntaxError* {.importcpp: "client::SyntaxError", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Error
-
-
 
 proc constructSyntaxError*(): SyntaxError {.constructor,
     importcpp: "client::SyntaxError(@)", header: "cheerp/clientlib.h".}
@@ -1730,12 +5501,6 @@ proc constructSyntaxError*(message: String): SyntaxError {.constructor,
 
 proc get_prototype*(this: var SyntaxError): ptr SyntaxError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  TypeError* {.importcpp: "client::TypeError", header: "cheerp/clientlib.h",
-               bycopy.} = object of Error
-
-
 
 proc constructTypeError*(): TypeError {.constructor,
                                         importcpp: "client::TypeError(@)",
@@ -1746,12 +5511,6 @@ proc constructTypeError*(message: String): TypeError {.constructor,
 
 proc get_prototype*(this: var TypeError): ptr TypeError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  URIError* {.importcpp: "client::URIError", header: "cheerp/clientlib.h",
-              bycopy.} = object of Error
-
-
 
 proc constructURIError*(): URIError {.constructor,
                                       importcpp: "client::URIError(@)",
@@ -1762,11 +5521,6 @@ proc constructURIError*(message: String): URIError {.constructor,
 
 proc get_prototype*(this: var URIError): ptr URIError {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
-type
-
-  JSON* {.importcpp: "client::JSON", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc stringify*(this: var JSON; value: ptr Object): ptr String {.
     importcpp: "stringify", header: "cheerp/clientlib.h".}
@@ -1792,12 +5546,6 @@ proc stringify*(this: var JSON; value: ptr Object; replacer: ptr Array;
 proc stringify*(this: var JSON; value: ptr Object; replacer: ptr Array;
                 space: cdouble): ptr String {.importcpp: "stringify",
     header: "cheerp/clientlib.h".}
-type
-
-  ConcatArray*[T] {.importcpp: "client::ConcatArray<\'0>",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*[T](this: var ConcatArray[T]): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -1822,12 +5570,6 @@ proc slice*[T](this: var ConcatArray[T]; start: cdouble): ptr Array {.
 
 proc slice*[T](this: var ConcatArray[T]; start: cdouble; `end`: cdouble): ptr Array {.
     importcpp: "slice", header: "cheerp/clientlib.h".}
-type
-
-  TypedPropertyDescriptor*[T] {.importcpp: "client::TypedPropertyDescriptor<\'0>",
-                                header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_enumerable*[T](this: var TypedPropertyDescriptor[T]): bool {.
     importcpp: "get_enumerable", header: "cheerp/clientlib.h".}
@@ -1864,11 +5606,6 @@ proc get_set*[T](this: var TypedPropertyDescriptor[T]): ptr EventListener {.
 
 proc set_set*[T](this: var TypedPropertyDescriptor[T]; a2: ptr EventListener) {.
     importcpp: "set_set", header: "cheerp/clientlib.h".}
-type
-
-  Promise* {.importcpp: "client::Promise", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc then*(this: var Promise): ptr Promise {.importcpp: "then",
     header: "cheerp/clientlib.h".}
@@ -1880,21 +5617,11 @@ proc then*(this: var Promise; onfulfilled: ptr EventListener;
            onrejected: ptr EventListener): ptr Promise {.importcpp: "then",
     header: "cheerp/clientlib.h".}
 
-proc _catch*(this: var Promise): ptr Promise {.importcpp: "_catch",
+proc p_catch*(this: var Promise): ptr Promise {.importcpp: "_catch",
     header: "cheerp/clientlib.h".}
 
-proc _catch*(this: var Promise; onrejected: ptr EventListener): ptr Promise {.
+proc p_catch*(this: var Promise; onrejected: ptr EventListener): ptr Promise {.
     importcpp: "_catch", header: "cheerp/clientlib.h".}
-type
-
-  ThisType*[T] {.importcpp: "client::ThisType<\'0>",
-                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  ArrayBuffer* {.importcpp: "client::ArrayBuffer", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_byteLength*(this: var ArrayBuffer): cdouble {.
     importcpp: "get_byteLength", header: "cheerp/clientlib.h".}
@@ -1915,24 +5642,12 @@ proc isView*(arg: ptr Object): bool {.importcpp: "client::ArrayBuffer::isView(@)
                                       header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  ArrayBufferTypes* {.importcpp: "client::ArrayBufferTypes",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ArrayBuffer*(this: var ArrayBufferTypes): ptr ArrayBuffer {.
     importcpp: "get_ArrayBuffer", header: "cheerp/clientlib.h".}
 
 proc set_ArrayBuffer*(this: var ArrayBufferTypes; a2: ptr ArrayBuffer) {.
     importcpp: "set_ArrayBuffer", header: "cheerp/clientlib.h".}
-type
-
-  ArrayBufferView* {.importcpp: "client::ArrayBufferView",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_buffer*(this: var ArrayBufferView): ptr ArrayBuffer {.
     importcpp: "get_buffer", header: "cheerp/clientlib.h".}
@@ -1951,12 +5666,6 @@ proc get_byteOffset*(this: var ArrayBufferView): cdouble {.
 
 proc set_byteOffset*(this: var ArrayBufferView; a2: cdouble) {.
     importcpp: "set_byteOffset", header: "cheerp/clientlib.h".}
-type
-
-  DataView* {.importcpp: "client::DataView", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_buffer*(this: var DataView): ptr ArrayBuffer {.importcpp: "get_buffer",
     header: "cheerp/clientlib.h".}
@@ -2068,12 +5777,6 @@ proc constructDataView*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc constructDataView*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
     byteOffset: cdouble; byteLength: cdouble): DataView {.constructor,
     importcpp: "client::DataView(@)", header: "cheerp/clientlib.h".}
-type
-
-  Int8Array* {.importcpp: "client::Int8Array", header: "cheerp/clientlib.h",
-               bycopy.} = object of ArrayBufferView
-
-
 
 proc every*(this: var Int8Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
@@ -2225,33 +5928,6 @@ proc constructInt8Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc get_BYTES_PER_ELEMENT*(this: var Int8Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
 
-proc `of`*(): ptr Int8Array {.importcpp: "client::Int8Array::of(@)",
-                              header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Int8Array {.
-    importcpp: "client::Int8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Int8Array {.
-    importcpp: "client::Int8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Int8Array {.
-    importcpp: "client::Int8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Uint8Array* {.importcpp: "client::Uint8Array", header: "cheerp/clientlib.h",
-                bycopy.} = object of ArrayBufferView
-
-
-
 proc every*(this: var Uint8Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
 
@@ -2402,33 +6078,6 @@ proc constructUint8Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 
 proc get_BYTES_PER_ELEMENT*(this: var Uint8Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
-
-proc `of`*(): ptr Uint8Array {.importcpp: "client::Uint8Array::of(@)",
-                               header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Uint8Array {.
-    importcpp: "client::Uint8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Uint8Array {.
-    importcpp: "client::Uint8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Uint8Array {.
-    importcpp: "client::Uint8Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Uint8ClampedArray* {.importcpp: "client::Uint8ClampedArray",
-                       header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
-
-
 
 proc every*(this: var Uint8ClampedArray; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
@@ -2583,33 +6232,6 @@ proc constructUint8ClampedArray*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc get_BYTES_PER_ELEMENT*(this: var Uint8ClampedArray): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
 
-proc `of`*(): ptr Uint8ClampedArray {.importcpp: "client::Uint8ClampedArray::of(@)",
-                                      header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Uint8ClampedArray {.
-    importcpp: "client::Uint8ClampedArray::from(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Uint8ClampedArray {.
-    importcpp: "client::Uint8ClampedArray::from(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Uint8ClampedArray {.
-    importcpp: "client::Uint8ClampedArray::from(@)",
-    header: "cheerp/clientlib.h".}
-  ## cheerp::static
-type
-
-  Int16Array* {.importcpp: "client::Int16Array", header: "cheerp/clientlib.h",
-                bycopy.} = object of ArrayBufferView
-
-
-
 proc every*(this: var Int16Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
 
@@ -2760,33 +6382,6 @@ proc constructInt16Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 
 proc get_BYTES_PER_ELEMENT*(this: var Int16Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
-
-proc `of`*(): ptr Int16Array {.importcpp: "client::Int16Array::of(@)",
-                               header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Int16Array {.
-    importcpp: "client::Int16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Int16Array {.
-    importcpp: "client::Int16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Int16Array {.
-    importcpp: "client::Int16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Uint16Array* {.importcpp: "client::Uint16Array", header: "cheerp/clientlib.h",
-                 bycopy.} = object of ArrayBufferView
-
-
 
 proc every*(this: var Uint16Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
@@ -2940,33 +6535,6 @@ proc constructUint16Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc get_BYTES_PER_ELEMENT*(this: var Uint16Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
 
-proc `of`*(): ptr Uint16Array {.importcpp: "client::Uint16Array::of(@)",
-                                header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Uint16Array {.
-    importcpp: "client::Uint16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Uint16Array {.
-    importcpp: "client::Uint16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Uint16Array {.
-    importcpp: "client::Uint16Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Int32Array* {.importcpp: "client::Int32Array", header: "cheerp/clientlib.h",
-                bycopy.} = object of ArrayBufferView
-
-
-
 proc every*(this: var Int32Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
 
@@ -3117,33 +6685,6 @@ proc constructInt32Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 
 proc get_BYTES_PER_ELEMENT*(this: var Int32Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
-
-proc `of`*(): ptr Int32Array {.importcpp: "client::Int32Array::of(@)",
-                               header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Int32Array {.
-    importcpp: "client::Int32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Int32Array {.
-    importcpp: "client::Int32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Int32Array {.
-    importcpp: "client::Int32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Uint32Array* {.importcpp: "client::Uint32Array", header: "cheerp/clientlib.h",
-                 bycopy.} = object of ArrayBufferView
-
-
 
 proc every*(this: var Uint32Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
@@ -3297,33 +6838,6 @@ proc constructUint32Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc get_BYTES_PER_ELEMENT*(this: var Uint32Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
 
-proc `of`*(): ptr Uint32Array {.importcpp: "client::Uint32Array::of(@)",
-                                header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Uint32Array {.
-    importcpp: "client::Uint32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Uint32Array {.
-    importcpp: "client::Uint32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Uint32Array {.
-    importcpp: "client::Uint32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Float32Array* {.importcpp: "client::Float32Array",
-                  header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
-
-
-
 proc every*(this: var Float32Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
 
@@ -3474,33 +6988,6 @@ proc constructFloat32Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 
 proc get_BYTES_PER_ELEMENT*(this: var Float32Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
-
-proc `of`*(): ptr Float32Array {.importcpp: "client::Float32Array::of(@)",
-                                 header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Float32Array {.
-    importcpp: "client::Float32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Float32Array {.
-    importcpp: "client::Float32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Float32Array {.
-    importcpp: "client::Float32Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Float64Array* {.importcpp: "client::Float64Array",
-                  header: "cheerp/clientlib.h", bycopy.} = object of ArrayBufferView
-
-
 
 proc every*(this: var Float64Array; callbackfn: ptr EventListener): bool {.
     importcpp: "every", header: "cheerp/clientlib.h".}
@@ -3653,32 +7140,6 @@ proc constructFloat64Array*[ArrayBufferLike](buffer: ptr ArrayBufferLike;
 proc get_BYTES_PER_ELEMENT*(this: var Float64Array): cdouble {.
     importcpp: "get_BYTES_PER_ELEMENT", header: "cheerp/clientlib.h".}
 
-proc `of`*(): ptr Float64Array {.importcpp: "client::Float64Array::of(@)",
-                                 header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike): ptr Float64Array {.
-    importcpp: "client::Float64Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener): ptr Float64Array {.
-    importcpp: "client::Float64Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-
-proc `from`*[ArrayLike](arrayLike: ptr ArrayLike; mapfn: ptr EventListener;
-                        thisArg: ptr Object): ptr Float64Array {.
-    importcpp: "client::Float64Array::from(@)", header: "cheerp/clientlib.h".}
-  ##
-                              ## cheerp::static
-type
-
-  Account* {.importcpp: "client::Account", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-
 proc get_displayName*(this: var Account): ptr String {.
     importcpp: "get_displayName", header: "cheerp/clientlib.h".}
 
@@ -3708,24 +7169,12 @@ proc get_rpDisplayName*(this: var Account): ptr String {.
 
 proc set_rpDisplayName*(this: var Account; a2: String) {.
     importcpp: "set_rpDisplayName", header: "cheerp/clientlib.h".}
-type
-
-  EventListenerOptions* {.importcpp: "client::EventListenerOptions",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_capture*(this: var EventListenerOptions): bool {.
     importcpp: "get_capture", header: "cheerp/clientlib.h".}
 
 proc set_capture*(this: var EventListenerOptions; a2: bool) {.
     importcpp: "set_capture", header: "cheerp/clientlib.h".}
-type
-
-  AddEventListenerOptions* {.importcpp: "client::AddEventListenerOptions",
-                             header: "cheerp/clientlib.h", bycopy.} = object of EventListenerOptions
-
-
 
 proc get_once*(this: var AddEventListenerOptions): bool {.importcpp: "get_once",
     header: "cheerp/clientlib.h".}
@@ -3738,36 +7187,18 @@ proc get_passive*(this: var AddEventListenerOptions): bool {.
 
 proc set_passive*(this: var AddEventListenerOptions; a2: bool) {.
     importcpp: "set_passive", header: "cheerp/clientlib.h".}
-type
-
-  Algorithm* {.importcpp: "client::Algorithm", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_name*(this: var Algorithm): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
 
 proc set_name*(this: var Algorithm; a2: String) {.importcpp: "set_name",
     header: "cheerp/clientlib.h".}
-type
-
-  AesCbcParams* {.importcpp: "client::AesCbcParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_iv*(this: var AesCbcParams): ptr Int8Array {.importcpp: "get_iv",
     header: "cheerp/clientlib.h".}
 
 proc set_iv*(this: var AesCbcParams; a2: ptr Int8Array) {.importcpp: "set_iv",
     header: "cheerp/clientlib.h".}
-type
-
-  AesCtrParams* {.importcpp: "client::AesCtrParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_counter*(this: var AesCtrParams): ptr Int8Array {.
     importcpp: "get_counter", header: "cheerp/clientlib.h".}
@@ -3780,24 +7211,12 @@ proc get_length*(this: var AesCtrParams): cdouble {.importcpp: "get_length",
 
 proc set_length*(this: var AesCtrParams; a2: cdouble) {.importcpp: "set_length",
     header: "cheerp/clientlib.h".}
-type
-
-  AesDerivedKeyParams* {.importcpp: "client::AesDerivedKeyParams",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_length*(this: var AesDerivedKeyParams): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
 
 proc set_length*(this: var AesDerivedKeyParams; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  AesGcmParams* {.importcpp: "client::AesGcmParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_additionalData*(this: var AesGcmParams): ptr Int8Array {.
     importcpp: "get_additionalData", header: "cheerp/clientlib.h".}
@@ -3816,48 +7235,24 @@ proc get_tagLength*(this: var AesGcmParams): cdouble {.
 
 proc set_tagLength*(this: var AesGcmParams; a2: cdouble) {.
     importcpp: "set_tagLength", header: "cheerp/clientlib.h".}
-type
-
-  KeyAlgorithm* {.importcpp: "client::KeyAlgorithm",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_name*(this: var KeyAlgorithm): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
 
 proc set_name*(this: var KeyAlgorithm; a2: String) {.importcpp: "set_name",
     header: "cheerp/clientlib.h".}
-type
-
-  AesKeyAlgorithm* {.importcpp: "client::AesKeyAlgorithm",
-                     header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
-
-
 
 proc get_length*(this: var AesKeyAlgorithm): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
 
 proc set_length*(this: var AesKeyAlgorithm; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  AesKeyGenParams* {.importcpp: "client::AesKeyGenParams",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_length*(this: var AesKeyGenParams): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
 
 proc set_length*(this: var AesKeyGenParams; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  AudioNodeOptions* {.importcpp: "client::AudioNodeOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_channelCount*(this: var AudioNodeOptions): cdouble {.
     importcpp: "get_channelCount", header: "cheerp/clientlib.h".}
@@ -3876,12 +7271,6 @@ proc get_channelInterpretation*(this: var AudioNodeOptions): ptr String {.
 
 proc set_channelInterpretation*(this: var AudioNodeOptions; a2: String) {.
     importcpp: "set_channelInterpretation", header: "cheerp/clientlib.h".}
-type
-
-  AnalyserOptions* {.importcpp: "client::AnalyserOptions",
-                     header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_fftSize*(this: var AnalyserOptions): cdouble {.
     importcpp: "get_fftSize", header: "cheerp/clientlib.h".}
@@ -3906,12 +7295,6 @@ proc get_smoothingTimeConstant*(this: var AnalyserOptions): cdouble {.
 
 proc set_smoothingTimeConstant*(this: var AnalyserOptions; a2: cdouble) {.
     importcpp: "set_smoothingTimeConstant", header: "cheerp/clientlib.h".}
-type
-
-  EventInit* {.importcpp: "client::EventInit", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_bubbles*(this: var EventInit): bool {.importcpp: "get_bubbles",
     header: "cheerp/clientlib.h".}
@@ -3930,12 +7313,6 @@ proc get_scoped*(this: var EventInit): bool {.importcpp: "get_scoped",
 
 proc set_scoped*(this: var EventInit; a2: bool) {.importcpp: "set_scoped",
     header: "cheerp/clientlib.h".}
-type
-
-  AnimationEventInit* {.importcpp: "client::AnimationEventInit",
-                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_animationName*(this: var AnimationEventInit): ptr String {.
     importcpp: "get_animationName", header: "cheerp/clientlib.h".}
@@ -3948,12 +7325,6 @@ proc get_elapsedTime*(this: var AnimationEventInit): cdouble {.
 
 proc set_elapsedTime*(this: var AnimationEventInit; a2: cdouble) {.
     importcpp: "set_elapsedTime", header: "cheerp/clientlib.h".}
-type
-
-  AssertionOptions* {.importcpp: "client::AssertionOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_allowList*(this: var AssertionOptions): ptr Array {.
     importcpp: "get_allowList", header: "cheerp/clientlib.h".}
@@ -3978,12 +7349,6 @@ proc get_timeoutSeconds*(this: var AssertionOptions): cdouble {.
 
 proc set_timeoutSeconds*(this: var AssertionOptions; a2: cdouble) {.
     importcpp: "set_timeoutSeconds", header: "cheerp/clientlib.h".}
-type
-
-  AudioBufferOptions* {.importcpp: "client::AudioBufferOptions",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var AudioBufferOptions): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -4002,12 +7367,6 @@ proc get_sampleRate*(this: var AudioBufferOptions): cdouble {.
 
 proc set_sampleRate*(this: var AudioBufferOptions; a2: cdouble) {.
     importcpp: "set_sampleRate", header: "cheerp/clientlib.h".}
-type
-
-  AudioBufferSourceOptions* {.importcpp: "client::AudioBufferSourceOptions",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_buffer*(this: var AudioBufferSourceOptions): ptr AudioBuffer {.
     importcpp: "get_buffer", header: "cheerp/clientlib.h".}
@@ -4044,12 +7403,6 @@ proc get_playbackRate*(this: var AudioBufferSourceOptions): cdouble {.
 
 proc set_playbackRate*(this: var AudioBufferSourceOptions; a2: cdouble) {.
     importcpp: "set_playbackRate", header: "cheerp/clientlib.h".}
-type
-
-  AudioContextInfo* {.importcpp: "client::AudioContextInfo",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_currentTime*(this: var AudioContextInfo): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
@@ -4062,12 +7415,6 @@ proc get_sampleRate*(this: var AudioContextInfo): cdouble {.
 
 proc set_sampleRate*(this: var AudioContextInfo; a2: cdouble) {.
     importcpp: "set_sampleRate", header: "cheerp/clientlib.h".}
-type
-
-  AudioContextOptions* {.importcpp: "client::AudioContextOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_latencyHint*(this: var AudioContextOptions): ptr String {.
     importcpp: "get_latencyHint", header: "cheerp/clientlib.h".}
@@ -4080,12 +7427,6 @@ proc get_sampleRate*(this: var AudioContextOptions): cdouble {.
 
 proc set_sampleRate*(this: var AudioContextOptions; a2: cdouble) {.
     importcpp: "set_sampleRate", header: "cheerp/clientlib.h".}
-type
-
-  AudioParamDescriptor* {.importcpp: "client::AudioParamDescriptor",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_defaultValue*(this: var AudioParamDescriptor): cdouble {.
     importcpp: "get_defaultValue", header: "cheerp/clientlib.h".}
@@ -4110,12 +7451,6 @@ proc get_name*(this: var AudioParamDescriptor): ptr String {.
 
 proc set_name*(this: var AudioParamDescriptor; a2: String) {.
     importcpp: "set_name", header: "cheerp/clientlib.h".}
-type
-
-  AudioProcessingEventInit* {.importcpp: "client::AudioProcessingEventInit",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_inputBuffer*(this: var AudioProcessingEventInit): ptr AudioBuffer {.
     importcpp: "get_inputBuffer", header: "cheerp/clientlib.h".}
@@ -4134,12 +7469,6 @@ proc get_playbackTime*(this: var AudioProcessingEventInit): cdouble {.
 
 proc set_playbackTime*(this: var AudioProcessingEventInit; a2: cdouble) {.
     importcpp: "set_playbackTime", header: "cheerp/clientlib.h".}
-type
-
-  AudioTimestamp* {.importcpp: "client::AudioTimestamp",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_contextTime*(this: var AudioTimestamp): cdouble {.
     importcpp: "get_contextTime", header: "cheerp/clientlib.h".}
@@ -4152,12 +7481,6 @@ proc get_performanceTime*(this: var AudioTimestamp): cdouble {.
 
 proc set_performanceTime*(this: var AudioTimestamp; a2: cdouble) {.
     importcpp: "set_performanceTime", header: "cheerp/clientlib.h".}
-type
-
-  BiquadFilterOptions* {.importcpp: "client::BiquadFilterOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_Q*(this: var BiquadFilterOptions): cdouble {.importcpp: "get_Q",
     header: "cheerp/clientlib.h".}
@@ -4185,24 +7508,12 @@ proc get_type*(this: var BiquadFilterOptions): ptr String {.
 
 proc set_type*(this: var BiquadFilterOptions; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  ByteLengthChunk* {.importcpp: "client::ByteLengthChunk",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_byteLength*(this: var ByteLengthChunk): cdouble {.
     importcpp: "get_byteLength", header: "cheerp/clientlib.h".}
 
 proc set_byteLength*(this: var ByteLengthChunk; a2: cdouble) {.
     importcpp: "set_byteLength", header: "cheerp/clientlib.h".}
-type
-
-  CacheQueryOptions* {.importcpp: "client::CacheQueryOptions",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cacheName*(this: var CacheQueryOptions): ptr String {.
     importcpp: "get_cacheName", header: "cheerp/clientlib.h".}
@@ -4227,36 +7538,18 @@ proc get_ignoreVary*(this: var CacheQueryOptions): bool {.
 
 proc set_ignoreVary*(this: var CacheQueryOptions; a2: bool) {.
     importcpp: "set_ignoreVary", header: "cheerp/clientlib.h".}
-type
-
-  ChannelMergerOptions* {.importcpp: "client::ChannelMergerOptions",
-                          header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_numberOfInputs*(this: var ChannelMergerOptions): cdouble {.
     importcpp: "get_numberOfInputs", header: "cheerp/clientlib.h".}
 
 proc set_numberOfInputs*(this: var ChannelMergerOptions; a2: cdouble) {.
     importcpp: "set_numberOfInputs", header: "cheerp/clientlib.h".}
-type
-
-  ChannelSplitterOptions* {.importcpp: "client::ChannelSplitterOptions",
-                            header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_numberOfOutputs*(this: var ChannelSplitterOptions): cdouble {.
     importcpp: "get_numberOfOutputs", header: "cheerp/clientlib.h".}
 
 proc set_numberOfOutputs*(this: var ChannelSplitterOptions; a2: cdouble) {.
     importcpp: "set_numberOfOutputs", header: "cheerp/clientlib.h".}
-type
-
-  ClientData* {.importcpp: "client::ClientData", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_challenge*(this: var ClientData): ptr String {.
     importcpp: "get_challenge", header: "cheerp/clientlib.h".}
@@ -4293,12 +7586,6 @@ proc get_tokenBinding*(this: var ClientData): ptr String {.
 
 proc set_tokenBinding*(this: var ClientData; a2: String) {.
     importcpp: "set_tokenBinding", header: "cheerp/clientlib.h".}
-type
-
-  ClientQueryOptions* {.importcpp: "client::ClientQueryOptions",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_includeReserved*(this: var ClientQueryOptions): bool {.
     importcpp: "get_includeReserved", header: "cheerp/clientlib.h".}
@@ -4317,12 +7604,6 @@ proc get_type*(this: var ClientQueryOptions): ptr String {.
 
 proc set_type*(this: var ClientQueryOptions; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  CloseEventInit* {.importcpp: "client::CloseEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_code*(this: var CloseEventInit): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -4341,12 +7622,6 @@ proc get_wasClean*(this: var CloseEventInit): bool {.importcpp: "get_wasClean",
 
 proc set_wasClean*(this: var CloseEventInit; a2: bool) {.
     importcpp: "set_wasClean", header: "cheerp/clientlib.h".}
-type
-
-  UIEventInit* {.importcpp: "client::UIEventInit", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventInit
-
-
 
 proc get_detail*(this: var UIEventInit): cdouble {.importcpp: "get_detail",
     header: "cheerp/clientlib.h".}
@@ -4359,37 +7634,18 @@ proc get_view*(this: var UIEventInit): ptr Window {.importcpp: "get_view",
 
 proc set_view*(this: var UIEventInit; a2: ptr Window) {.importcpp: "set_view",
     header: "cheerp/clientlib.h".}
-type
-
-  CompositionEventInit* {.importcpp: "client::CompositionEventInit",
-                          header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
-
-
 
 proc get_data*(this: var CompositionEventInit): ptr String {.
     importcpp: "get_data", header: "cheerp/clientlib.h".}
 
 proc set_data*(this: var CompositionEventInit; a2: String) {.
     importcpp: "set_data", header: "cheerp/clientlib.h".}
-type
-
-  ExceptionInformation* {.importcpp: "client::ExceptionInformation",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_domain*(this: var ExceptionInformation): ptr String {.
     importcpp: "get_domain", header: "cheerp/clientlib.h".}
 
 proc set_domain*(this: var ExceptionInformation; a2: String) {.
     importcpp: "set_domain", header: "cheerp/clientlib.h".}
-type
-
-  ConfirmSiteSpecificExceptionsInformation* {.
-      importcpp: "client::ConfirmSiteSpecificExceptionsInformation",
-      header: "cheerp/clientlib.h", bycopy.} = object of ExceptionInformation
-
-
 
 proc get_arrayOfDomainStrings*(this: var ConfirmSiteSpecificExceptionsInformation): ptr Array {.
     importcpp: "get_arrayOfDomainStrings", header: "cheerp/clientlib.h".}
@@ -4397,24 +7653,12 @@ proc get_arrayOfDomainStrings*(this: var ConfirmSiteSpecificExceptionsInformatio
 proc set_arrayOfDomainStrings*(this: var ConfirmSiteSpecificExceptionsInformation;
                                a2: ptr Array) {.
     importcpp: "set_arrayOfDomainStrings", header: "cheerp/clientlib.h".}
-type
-
-  ConstantSourceOptions* {.importcpp: "client::ConstantSourceOptions",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_offset*(this: var ConstantSourceOptions): cdouble {.
     importcpp: "get_offset", header: "cheerp/clientlib.h".}
 
 proc set_offset*(this: var ConstantSourceOptions; a2: cdouble) {.
     importcpp: "set_offset", header: "cheerp/clientlib.h".}
-type
-
-  ConstrainBooleanParameters* {.importcpp: "client::ConstrainBooleanParameters",
-                                header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_exact*(this: var ConstrainBooleanParameters): bool {.
     importcpp: "get_exact", header: "cheerp/clientlib.h".}
@@ -4427,12 +7671,6 @@ proc get_ideal*(this: var ConstrainBooleanParameters): bool {.
 
 proc set_ideal*(this: var ConstrainBooleanParameters; a2: bool) {.
     importcpp: "set_ideal", header: "cheerp/clientlib.h".}
-type
-
-  ConstrainDOMStringParameters* {.importcpp: "client::ConstrainDOMStringParameters",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_exact*(this: var ConstrainDOMStringParameters): ptr String {.
     importcpp: "get_exact", header: "cheerp/clientlib.h".}
@@ -4445,12 +7683,6 @@ proc get_ideal*(this: var ConstrainDOMStringParameters): ptr String {.
 
 proc set_ideal*(this: var ConstrainDOMStringParameters; a2: String) {.
     importcpp: "set_ideal", header: "cheerp/clientlib.h".}
-type
-
-  DoubleRange* {.importcpp: "client::DoubleRange", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_max*(this: var DoubleRange): cdouble {.importcpp: "get_max",
     header: "cheerp/clientlib.h".}
@@ -4463,12 +7695,6 @@ proc get_min*(this: var DoubleRange): cdouble {.importcpp: "get_min",
 
 proc set_min*(this: var DoubleRange; a2: cdouble) {.importcpp: "set_min",
     header: "cheerp/clientlib.h".}
-type
-
-  ConstrainDoubleRange* {.importcpp: "client::ConstrainDoubleRange",
-                          header: "cheerp/clientlib.h", bycopy.} = object of DoubleRange
-
-
 
 proc get_exact*(this: var ConstrainDoubleRange): cdouble {.
     importcpp: "get_exact", header: "cheerp/clientlib.h".}
@@ -4481,12 +7707,6 @@ proc get_ideal*(this: var ConstrainDoubleRange): cdouble {.
 
 proc set_ideal*(this: var ConstrainDoubleRange; a2: cdouble) {.
     importcpp: "set_ideal", header: "cheerp/clientlib.h".}
-type
-
-  LongRange* {.importcpp: "client::LongRange", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_max*(this: var LongRange): cdouble {.importcpp: "get_max",
     header: "cheerp/clientlib.h".}
@@ -4499,12 +7719,6 @@ proc get_min*(this: var LongRange): cdouble {.importcpp: "get_min",
 
 proc set_min*(this: var LongRange; a2: cdouble) {.importcpp: "set_min",
     header: "cheerp/clientlib.h".}
-type
-
-  ConstrainLongRange* {.importcpp: "client::ConstrainLongRange",
-                        header: "cheerp/clientlib.h", bycopy.} = object of LongRange
-
-
 
 proc get_exact*(this: var ConstrainLongRange): cdouble {.importcpp: "get_exact",
     header: "cheerp/clientlib.h".}
@@ -4517,24 +7731,12 @@ proc get_ideal*(this: var ConstrainLongRange): cdouble {.importcpp: "get_ideal",
 
 proc set_ideal*(this: var ConstrainLongRange; a2: cdouble) {.
     importcpp: "set_ideal", header: "cheerp/clientlib.h".}
-type
-
-  ConstrainVideoFacingModeParameters* {.importcpp: "client::ConstrainVideoFacingModeParameters",
-                                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc set_exact*(this: var ConstrainVideoFacingModeParameters; a2: ptr Object) {.
     importcpp: "set_exact", header: "cheerp/clientlib.h".}
 
 proc set_ideal*(this: var ConstrainVideoFacingModeParameters; a2: ptr Object) {.
     importcpp: "set_ideal", header: "cheerp/clientlib.h".}
-type
-
-  ConvolverOptions* {.importcpp: "client::ConvolverOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_buffer*(this: var ConvolverOptions): ptr AudioBuffer {.
     importcpp: "get_buffer", header: "cheerp/clientlib.h".}
@@ -4547,24 +7749,12 @@ proc get_disableNormalization*(this: var ConvolverOptions): bool {.
 
 proc set_disableNormalization*(this: var ConvolverOptions; a2: bool) {.
     importcpp: "set_disableNormalization", header: "cheerp/clientlib.h".}
-type
-
-  CustomEventInit*[T] {.importcpp: "client::CustomEventInit<\'0>",
-                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_detail*[T](this: var CustomEventInit[T]): ptr T {.
     importcpp: "get_detail", header: "cheerp/clientlib.h".}
 
 proc set_detail*[T](this: var CustomEventInit[T]; a2: ptr T) {.
     importcpp: "set_detail", header: "cheerp/clientlib.h".}
-type
-
-  DOMRectInit* {.importcpp: "client::DOMRectInit", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_height*(this: var DOMRectInit): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -4589,12 +7779,6 @@ proc get_y*(this: var DOMRectInit): cdouble {.importcpp: "get_y",
 
 proc set_y*(this: var DOMRectInit; a2: cdouble) {.importcpp: "set_y",
     header: "cheerp/clientlib.h".}
-type
-
-  DelayOptions* {.importcpp: "client::DelayOptions",
-                  header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_delayTime*(this: var DelayOptions): cdouble {.
     importcpp: "get_delayTime", header: "cheerp/clientlib.h".}
@@ -4607,12 +7791,6 @@ proc get_maxDelayTime*(this: var DelayOptions): cdouble {.
 
 proc set_maxDelayTime*(this: var DelayOptions; a2: cdouble) {.
     importcpp: "set_maxDelayTime", header: "cheerp/clientlib.h".}
-type
-
-  DeviceAccelerationDict* {.importcpp: "client::DeviceAccelerationDict",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_x*(this: var DeviceAccelerationDict): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -4631,24 +7809,12 @@ proc get_z*(this: var DeviceAccelerationDict): cdouble {.importcpp: "get_z",
 
 proc set_z*(this: var DeviceAccelerationDict; a2: cdouble) {.importcpp: "set_z",
     header: "cheerp/clientlib.h".}
-type
-
-  DeviceLightEventInit* {.importcpp: "client::DeviceLightEventInit",
-                          header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_value*(this: var DeviceLightEventInit): cdouble {.
     importcpp: "get_value", header: "cheerp/clientlib.h".}
 
 proc set_value*(this: var DeviceLightEventInit; a2: cdouble) {.
     importcpp: "set_value", header: "cheerp/clientlib.h".}
-type
-
-  DeviceMotionEventInit* {.importcpp: "client::DeviceMotionEventInit",
-                           header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_acceleration*(this: var DeviceMotionEventInit): ptr DeviceAccelerationDict {.
     importcpp: "get_acceleration", header: "cheerp/clientlib.h".}
@@ -4676,12 +7842,6 @@ proc get_rotationRate*(this: var DeviceMotionEventInit): ptr DeviceRotationRateD
 proc set_rotationRate*(this: var DeviceMotionEventInit;
                        a2: ptr DeviceRotationRateDict) {.
     importcpp: "set_rotationRate", header: "cheerp/clientlib.h".}
-type
-
-  DeviceOrientationEventInit* {.importcpp: "client::DeviceOrientationEventInit",
-                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_absolute*(this: var DeviceOrientationEventInit): bool {.
     importcpp: "get_absolute", header: "cheerp/clientlib.h".}
@@ -4706,12 +7866,6 @@ proc get_gamma*(this: var DeviceOrientationEventInit): cdouble {.
 
 proc set_gamma*(this: var DeviceOrientationEventInit; a2: cdouble) {.
     importcpp: "set_gamma", header: "cheerp/clientlib.h".}
-type
-
-  DeviceRotationRateDict* {.importcpp: "client::DeviceRotationRateDict",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_alpha*(this: var DeviceRotationRateDict): cdouble {.
     importcpp: "get_alpha", header: "cheerp/clientlib.h".}
@@ -4730,12 +7884,6 @@ proc get_gamma*(this: var DeviceRotationRateDict): cdouble {.
 
 proc set_gamma*(this: var DeviceRotationRateDict; a2: cdouble) {.
     importcpp: "set_gamma", header: "cheerp/clientlib.h".}
-type
-
-  DynamicsCompressorOptions* {.importcpp: "client::DynamicsCompressorOptions",
-                               header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_attack*(this: var DynamicsCompressorOptions): cdouble {.
     importcpp: "get_attack", header: "cheerp/clientlib.h".}
@@ -4766,72 +7914,36 @@ proc get_threshold*(this: var DynamicsCompressorOptions): cdouble {.
 
 proc set_threshold*(this: var DynamicsCompressorOptions; a2: cdouble) {.
     importcpp: "set_threshold", header: "cheerp/clientlib.h".}
-type
-
-  EcKeyAlgorithm* {.importcpp: "client::EcKeyAlgorithm",
-                    header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
-
-
 
 proc get_namedCurve*(this: var EcKeyAlgorithm): ptr String {.
     importcpp: "get_namedCurve", header: "cheerp/clientlib.h".}
 
 proc set_namedCurve*(this: var EcKeyAlgorithm; a2: String) {.
     importcpp: "set_namedCurve", header: "cheerp/clientlib.h".}
-type
-
-  EcKeyGenParams* {.importcpp: "client::EcKeyGenParams",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_namedCurve*(this: var EcKeyGenParams): ptr String {.
     importcpp: "get_namedCurve", header: "cheerp/clientlib.h".}
 
 proc set_namedCurve*(this: var EcKeyGenParams; a2: String) {.
     importcpp: "set_namedCurve", header: "cheerp/clientlib.h".}
-type
-
-  EcKeyImportParams* {.importcpp: "client::EcKeyImportParams",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_namedCurve*(this: var EcKeyImportParams): ptr String {.
     importcpp: "get_namedCurve", header: "cheerp/clientlib.h".}
 
 proc set_namedCurve*(this: var EcKeyImportParams; a2: String) {.
     importcpp: "set_namedCurve", header: "cheerp/clientlib.h".}
-type
-
-  EcdhKeyDeriveParams* {.importcpp: "client::EcdhKeyDeriveParams",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_public*(this: var EcdhKeyDeriveParams): ptr CryptoKey {.
     importcpp: "get_public", header: "cheerp/clientlib.h".}
 
 proc set_public*(this: var EcdhKeyDeriveParams; a2: ptr CryptoKey) {.
     importcpp: "set_public", header: "cheerp/clientlib.h".}
-type
-
-  EcdsaParams* {.importcpp: "client::EcdsaParams", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var EcdsaParams): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
 
 proc set_hash*(this: var EcdsaParams; a2: String) {.importcpp: "set_hash",
     header: "cheerp/clientlib.h".}
-type
-
-  ErrorEventInit* {.importcpp: "client::ErrorEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_colno*(this: var ErrorEventInit): cdouble {.importcpp: "get_colno",
     header: "cheerp/clientlib.h".}
@@ -4859,12 +7971,6 @@ proc get_message*(this: var ErrorEventInit): ptr String {.
 
 proc set_message*(this: var ErrorEventInit; a2: String) {.
     importcpp: "set_message", header: "cheerp/clientlib.h".}
-type
-
-  EventModifierInit* {.importcpp: "client::EventModifierInit",
-                       header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
-
-
 
 proc get_altKey*(this: var EventModifierInit): bool {.importcpp: "get_altKey",
     header: "cheerp/clientlib.h".}
@@ -4955,16 +8061,6 @@ proc get_shiftKey*(this: var EventModifierInit): bool {.
 
 proc set_shiftKey*(this: var EventModifierInit; a2: bool) {.
     importcpp: "set_shiftKey", header: "cheerp/clientlib.h".}
-type
-
-  ExtendableEventInit* {.importcpp: "client::ExtendableEventInit",
-                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
-  ExtendableMessageEventInit* {.importcpp: "client::ExtendableMessageEventInit",
-                                header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc set_data*(this: var ExtendableMessageEventInit; a2: ptr Object) {.
     importcpp: "set_data", header: "cheerp/clientlib.h".}
@@ -4989,12 +8085,6 @@ proc set_ports*(this: var ExtendableMessageEventInit; a2: ptr Array) {.
 
 proc set_source*(this: var ExtendableMessageEventInit; a2: ptr Object) {.
     importcpp: "set_source", header: "cheerp/clientlib.h".}
-type
-
-  FetchEventInit* {.importcpp: "client::FetchEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc get_clientId*(this: var FetchEventInit): ptr String {.
     importcpp: "get_clientId", header: "cheerp/clientlib.h".}
@@ -5019,24 +8109,12 @@ proc get_targetClientId*(this: var FetchEventInit): ptr String {.
 
 proc set_targetClientId*(this: var FetchEventInit; a2: String) {.
     importcpp: "set_targetClientId", header: "cheerp/clientlib.h".}
-type
-
-  FocusEventInit* {.importcpp: "client::FocusEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of UIEventInit
-
-
 
 proc get_relatedTarget*(this: var FocusEventInit): ptr EventTarget {.
     importcpp: "get_relatedTarget", header: "cheerp/clientlib.h".}
 
 proc set_relatedTarget*(this: var FocusEventInit; a2: ptr EventTarget) {.
     importcpp: "set_relatedTarget", header: "cheerp/clientlib.h".}
-type
-
-  FocusNavigationEventInit* {.importcpp: "client::FocusNavigationEventInit",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_navigationReason*(this: var FocusNavigationEventInit): ptr String {.
     importcpp: "get_navigationReason", header: "cheerp/clientlib.h".}
@@ -5067,12 +8145,6 @@ proc get_originWidth*(this: var FocusNavigationEventInit): cdouble {.
 
 proc set_originWidth*(this: var FocusNavigationEventInit; a2: cdouble) {.
     importcpp: "set_originWidth", header: "cheerp/clientlib.h".}
-type
-
-  FocusNavigationOrigin* {.importcpp: "client::FocusNavigationOrigin",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_originHeight*(this: var FocusNavigationOrigin): cdouble {.
     importcpp: "get_originHeight", header: "cheerp/clientlib.h".}
@@ -5097,48 +8169,24 @@ proc get_originWidth*(this: var FocusNavigationOrigin): cdouble {.
 
 proc set_originWidth*(this: var FocusNavigationOrigin; a2: cdouble) {.
     importcpp: "set_originWidth", header: "cheerp/clientlib.h".}
-type
-
-  GainOptions* {.importcpp: "client::GainOptions", header: "cheerp/clientlib.h",
-                 bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_gain*(this: var GainOptions): cdouble {.importcpp: "get_gain",
     header: "cheerp/clientlib.h".}
 
 proc set_gain*(this: var GainOptions; a2: cdouble) {.importcpp: "set_gain",
     header: "cheerp/clientlib.h".}
-type
-
-  GamepadEventInit* {.importcpp: "client::GamepadEventInit",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_gamepad*(this: var GamepadEventInit): ptr Gamepad {.
     importcpp: "get_gamepad", header: "cheerp/clientlib.h".}
 
 proc set_gamepad*(this: var GamepadEventInit; a2: ptr Gamepad) {.
     importcpp: "set_gamepad", header: "cheerp/clientlib.h".}
-type
-
-  GetNotificationOptions* {.importcpp: "client::GetNotificationOptions",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_tag*(this: var GetNotificationOptions): ptr String {.
     importcpp: "get_tag", header: "cheerp/clientlib.h".}
 
 proc set_tag*(this: var GetNotificationOptions; a2: String) {.
     importcpp: "set_tag", header: "cheerp/clientlib.h".}
-type
-
-  HashChangeEventInit* {.importcpp: "client::HashChangeEventInit",
-                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_newURL*(this: var HashChangeEventInit): ptr String {.
     importcpp: "get_newURL", header: "cheerp/clientlib.h".}
@@ -5151,12 +8199,6 @@ proc get_oldURL*(this: var HashChangeEventInit): ptr String {.
 
 proc set_oldURL*(this: var HashChangeEventInit; a2: String) {.
     importcpp: "set_oldURL", header: "cheerp/clientlib.h".}
-type
-
-  HkdfParams* {.importcpp: "client::HkdfParams", header: "cheerp/clientlib.h",
-                bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var HkdfParams): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -5175,12 +8217,6 @@ proc get_salt*(this: var HkdfParams): ptr Int8Array {.importcpp: "get_salt",
 
 proc set_salt*(this: var HkdfParams; a2: ptr Int8Array) {.importcpp: "set_salt",
     header: "cheerp/clientlib.h".}
-type
-
-  HmacImportParams* {.importcpp: "client::HmacImportParams",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var HmacImportParams): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -5193,12 +8229,6 @@ proc get_length*(this: var HmacImportParams): cdouble {.importcpp: "get_length",
 
 proc set_length*(this: var HmacImportParams; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  HmacKeyAlgorithm* {.importcpp: "client::HmacKeyAlgorithm",
-                      header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
-
-
 
 proc get_hash*(this: var HmacKeyAlgorithm): ptr KeyAlgorithm {.
     importcpp: "get_hash", header: "cheerp/clientlib.h".}
@@ -5211,12 +8241,6 @@ proc get_length*(this: var HmacKeyAlgorithm): cdouble {.importcpp: "get_length",
 
 proc set_length*(this: var HmacKeyAlgorithm; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  HmacKeyGenParams* {.importcpp: "client::HmacKeyGenParams",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var HmacKeyGenParams): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -5229,12 +8253,6 @@ proc get_length*(this: var HmacKeyGenParams): cdouble {.importcpp: "get_length",
 
 proc set_length*(this: var HmacKeyGenParams; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  IDBIndexParameters* {.importcpp: "client::IDBIndexParameters",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_multiEntry*(this: var IDBIndexParameters): bool {.
     importcpp: "get_multiEntry", header: "cheerp/clientlib.h".}
@@ -5247,12 +8265,6 @@ proc get_unique*(this: var IDBIndexParameters): bool {.importcpp: "get_unique",
 
 proc set_unique*(this: var IDBIndexParameters; a2: bool) {.
     importcpp: "set_unique", header: "cheerp/clientlib.h".}
-type
-
-  IDBObjectStoreParameters* {.importcpp: "client::IDBObjectStoreParameters",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_autoIncrement*(this: var IDBObjectStoreParameters): bool {.
     importcpp: "get_autoIncrement", header: "cheerp/clientlib.h".}
@@ -5265,12 +8277,6 @@ proc get_keyPath*(this: var IDBObjectStoreParameters): ptr String {.
 
 proc set_keyPath*(this: var IDBObjectStoreParameters; a2: String) {.
     importcpp: "set_keyPath", header: "cheerp/clientlib.h".}
-type
-
-  IIRFilterOptions* {.importcpp: "client::IIRFilterOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_feedback*(this: var IIRFilterOptions): ptr Array {.
     importcpp: "get_feedback", header: "cheerp/clientlib.h".}
@@ -5283,12 +8289,6 @@ proc get_feedforward*(this: var IIRFilterOptions): ptr Array {.
 
 proc set_feedforward*(this: var IIRFilterOptions; a2: ptr Array) {.
     importcpp: "set_feedforward", header: "cheerp/clientlib.h".}
-type
-
-  IntersectionObserverEntryInit* {.importcpp: "client::IntersectionObserverEntryInit",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_boundingClientRect*(this: var IntersectionObserverEntryInit): ptr DOMRectInit {.
     importcpp: "get_boundingClientRect", header: "cheerp/clientlib.h".}
@@ -5328,12 +8328,6 @@ proc get_time*(this: var IntersectionObserverEntryInit): cdouble {.
 
 proc set_time*(this: var IntersectionObserverEntryInit; a2: cdouble) {.
     importcpp: "set_time", header: "cheerp/clientlib.h".}
-type
-
-  IntersectionObserverInit* {.importcpp: "client::IntersectionObserverInit",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_root*(this: var IntersectionObserverInit): ptr Element {.
     importcpp: "get_root", header: "cheerp/clientlib.h".}
@@ -5352,12 +8346,6 @@ proc get_threshold*(this: var IntersectionObserverInit): cdouble {.
 
 proc set_threshold*(this: var IntersectionObserverInit; a2: cdouble) {.
     importcpp: "set_threshold", header: "cheerp/clientlib.h".}
-type
-
-  JsonWebKey* {.importcpp: "client::JsonWebKey", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_alg*(this: var JsonWebKey): ptr String {.importcpp: "get_alg",
     header: "cheerp/clientlib.h".}
@@ -5466,12 +8454,6 @@ proc get_y*(this: var JsonWebKey): ptr String {.importcpp: "get_y",
 
 proc set_y*(this: var JsonWebKey; a2: String) {.importcpp: "set_y",
     header: "cheerp/clientlib.h".}
-type
-
-  KeyboardEventInit* {.importcpp: "client::KeyboardEventInit",
-                       header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
-
-
 
 proc get_code*(this: var KeyboardEventInit): ptr String {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -5496,12 +8478,6 @@ proc get_repeat*(this: var KeyboardEventInit): bool {.importcpp: "get_repeat",
 
 proc set_repeat*(this: var KeyboardEventInit; a2: bool) {.
     importcpp: "set_repeat", header: "cheerp/clientlib.h".}
-type
-
-  MSAccountInfo* {.importcpp: "client::MSAccountInfo",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_accountImageUri*(this: var MSAccountInfo): ptr String {.
     importcpp: "get_accountImageUri", header: "cheerp/clientlib.h".}
@@ -5532,12 +8508,6 @@ proc get_userId*(this: var MSAccountInfo): ptr String {.importcpp: "get_userId",
 
 proc set_userId*(this: var MSAccountInfo; a2: String) {.importcpp: "set_userId",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCStats* {.importcpp: "client::RTCStats", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_id*(this: var RTCStats): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -5562,12 +8532,6 @@ proc get_type*(this: var RTCStats): ptr String {.importcpp: "get_type",
 
 proc set_type*(this: var RTCStats; a2: String) {.importcpp: "set_type",
     header: "cheerp/clientlib.h".}
-type
-
-  MSLocalClientEventBase* {.importcpp: "client::MSLocalClientEventBase",
-                            header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_networkBandwidthLowEventRatio*(this: var MSLocalClientEventBase): cdouble {.
     importcpp: "get_networkBandwidthLowEventRatio", header: "cheerp/clientlib.h".}
@@ -5583,12 +8547,6 @@ proc get_networkReceiveQualityEventRatio*(this: var MSLocalClientEventBase): cdo
 proc set_networkReceiveQualityEventRatio*(this: var MSLocalClientEventBase;
     a2: cdouble) {.importcpp: "set_networkReceiveQualityEventRatio",
                    header: "cheerp/clientlib.h".}
-type
-
-  MSAudioLocalClientEvent* {.importcpp: "client::MSAudioLocalClientEvent",
-                             header: "cheerp/clientlib.h", bycopy.} = object of MSLocalClientEventBase
-
-
 
 proc get_cpuInsufficientEventRatio*(this: var MSAudioLocalClientEvent): cdouble {.
     importcpp: "get_cpuInsufficientEventRatio", header: "cheerp/clientlib.h".}
@@ -5706,24 +8664,12 @@ proc get_networkSendQualityEventRatio*(this: var MSAudioLocalClientEvent): cdoub
 proc set_networkSendQualityEventRatio*(this: var MSAudioLocalClientEvent;
                                        a2: cdouble) {.
     importcpp: "set_networkSendQualityEventRatio", header: "cheerp/clientlib.h".}
-type
-
-  MSPayloadBase* {.importcpp: "client::MSPayloadBase",
-                   header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_payloadDescription*(this: var MSPayloadBase): ptr String {.
     importcpp: "get_payloadDescription", header: "cheerp/clientlib.h".}
 
 proc set_payloadDescription*(this: var MSPayloadBase; a2: String) {.
     importcpp: "set_payloadDescription", header: "cheerp/clientlib.h".}
-type
-
-  MSAudioRecvPayload* {.importcpp: "client::MSAudioRecvPayload",
-                        header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
-
-
 
 proc get_burstLossLength1*(this: var MSAudioRecvPayload): cdouble {.
     importcpp: "get_burstLossLength1", header: "cheerp/clientlib.h".}
@@ -5838,12 +8784,6 @@ proc get_signal*(this: var MSAudioRecvPayload): ptr MSAudioRecvSignal {.
 
 proc set_signal*(this: var MSAudioRecvPayload; a2: ptr MSAudioRecvSignal) {.
     importcpp: "set_signal", header: "cheerp/clientlib.h".}
-type
-
-  MSAudioRecvSignal* {.importcpp: "client::MSAudioRecvSignal",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_initialSignalLevelRMS*(this: var MSAudioRecvSignal): cdouble {.
     importcpp: "get_initialSignalLevelRMS", header: "cheerp/clientlib.h".}
@@ -5880,12 +8820,6 @@ proc get_renderSignalLevel*(this: var MSAudioRecvSignal): cdouble {.
 
 proc set_renderSignalLevel*(this: var MSAudioRecvSignal; a2: cdouble) {.
     importcpp: "set_renderSignalLevel", header: "cheerp/clientlib.h".}
-type
-
-  MSAudioSendPayload* {.importcpp: "client::MSAudioSendPayload",
-                        header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
-
-
 
 proc get_audioFECUsed*(this: var MSAudioSendPayload): bool {.
     importcpp: "get_audioFECUsed", header: "cheerp/clientlib.h".}
@@ -5910,12 +8844,6 @@ proc get_signal*(this: var MSAudioSendPayload): ptr MSAudioSendSignal {.
 
 proc set_signal*(this: var MSAudioSendPayload; a2: ptr MSAudioSendSignal) {.
     importcpp: "set_signal", header: "cheerp/clientlib.h".}
-type
-
-  MSAudioSendSignal* {.importcpp: "client::MSAudioSendSignal",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_noiseLevel*(this: var MSAudioSendSignal): cdouble {.
     importcpp: "get_noiseLevel", header: "cheerp/clientlib.h".}
@@ -5934,12 +8862,6 @@ proc get_sendSignalLevelCh1*(this: var MSAudioSendSignal): cdouble {.
 
 proc set_sendSignalLevelCh1*(this: var MSAudioSendSignal; a2: cdouble) {.
     importcpp: "set_sendSignalLevelCh1", header: "cheerp/clientlib.h".}
-type
-
-  MSConnectivity* {.importcpp: "client::MSConnectivity",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_iceType*(this: var MSConnectivity): ptr String {.
     importcpp: "get_iceType", header: "cheerp/clientlib.h".}
@@ -5958,36 +8880,18 @@ proc get_relayAddress*(this: var MSConnectivity): ptr MSRelayAddress {.
 
 proc set_relayAddress*(this: var MSConnectivity; a2: ptr MSRelayAddress) {.
     importcpp: "set_relayAddress", header: "cheerp/clientlib.h".}
-type
-
-  MSCredentialFilter* {.importcpp: "client::MSCredentialFilter",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_accept*(this: var MSCredentialFilter): ptr Array {.
     importcpp: "get_accept", header: "cheerp/clientlib.h".}
 
 proc set_accept*(this: var MSCredentialFilter; a2: ptr Array) {.
     importcpp: "set_accept", header: "cheerp/clientlib.h".}
-type
-
-  MSCredentialParameters* {.importcpp: "client::MSCredentialParameters",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_type*(this: var MSCredentialParameters): ptr String {.
     importcpp: "get_type", header: "cheerp/clientlib.h".}
 
 proc set_type*(this: var MSCredentialParameters; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  MSCredentialSpec* {.importcpp: "client::MSCredentialSpec",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_id*(this: var MSCredentialSpec): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -6000,12 +8904,6 @@ proc get_type*(this: var MSCredentialSpec): ptr String {.importcpp: "get_type",
 
 proc set_type*(this: var MSCredentialSpec; a2: String) {.importcpp: "set_type",
     header: "cheerp/clientlib.h".}
-type
-
-  MSDCCEventInit* {.importcpp: "client::MSDCCEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_maxFr*(this: var MSDCCEventInit): cdouble {.importcpp: "get_maxFr",
     header: "cheerp/clientlib.h".}
@@ -6018,12 +8916,6 @@ proc get_maxFs*(this: var MSDCCEventInit): cdouble {.importcpp: "get_maxFs",
 
 proc set_maxFs*(this: var MSDCCEventInit; a2: cdouble) {.importcpp: "set_maxFs",
     header: "cheerp/clientlib.h".}
-type
-
-  MSDSHEventInit* {.importcpp: "client::MSDSHEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_sources*(this: var MSDSHEventInit): ptr Array {.
     importcpp: "get_sources", header: "cheerp/clientlib.h".}
@@ -6036,11 +8928,6 @@ proc get_timestamp*(this: var MSDSHEventInit): cdouble {.
 
 proc set_timestamp*(this: var MSDSHEventInit; a2: cdouble) {.
     importcpp: "set_timestamp", header: "cheerp/clientlib.h".}
-type
-
-  MSDelay* {.importcpp: "client::MSDelay", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_roundTrip*(this: var MSDelay): cdouble {.importcpp: "get_roundTrip",
     header: "cheerp/clientlib.h".}
@@ -6053,12 +8940,6 @@ proc get_roundTripMax*(this: var MSDelay): cdouble {.
 
 proc set_roundTripMax*(this: var MSDelay; a2: cdouble) {.
     importcpp: "set_roundTripMax", header: "cheerp/clientlib.h".}
-type
-
-  MSDescription* {.importcpp: "client::MSDescription",
-                   header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_connectivity*(this: var MSDescription): ptr MSConnectivity {.
     importcpp: "get_connectivity", header: "cheerp/clientlib.h".}
@@ -6102,12 +8983,6 @@ proc get_transport*(this: var MSDescription): ptr String {.
 
 proc set_transport*(this: var MSDescription; a2: String) {.
     importcpp: "set_transport", header: "cheerp/clientlib.h".}
-type
-
-  MSFIDOCredentialParameters* {.importcpp: "client::MSFIDOCredentialParameters",
-                                header: "cheerp/clientlib.h", bycopy.} = object of MSCredentialParameters
-
-
 
 proc get_algorithm*(this: var MSFIDOCredentialParameters): ptr String {.
     importcpp: "get_algorithm", header: "cheerp/clientlib.h".}
@@ -6120,12 +8995,6 @@ proc get_authenticators*(this: var MSFIDOCredentialParameters): ptr Array {.
 
 proc set_authenticators*(this: var MSFIDOCredentialParameters; a2: ptr Array) {.
     importcpp: "set_authenticators", header: "cheerp/clientlib.h".}
-type
-
-  MSIPAddressInfo* {.importcpp: "client::MSIPAddressInfo",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ipAddr*(this: var MSIPAddressInfo): ptr String {.
     importcpp: "get_ipAddr", header: "cheerp/clientlib.h".}
@@ -6144,12 +9013,6 @@ proc get_port*(this: var MSIPAddressInfo): cdouble {.importcpp: "get_port",
 
 proc set_port*(this: var MSIPAddressInfo; a2: cdouble) {.importcpp: "set_port",
     header: "cheerp/clientlib.h".}
-type
-
-  MSIceWarningFlags* {.importcpp: "client::MSIceWarningFlags",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_allocationMessageIntegrityFailed*(this: var MSIceWarningFlags): bool {.
     importcpp: "get_allocationMessageIntegrityFailed",
@@ -6286,12 +9149,6 @@ proc get_useCandidateChecksFailed*(this: var MSIceWarningFlags): bool {.
 
 proc set_useCandidateChecksFailed*(this: var MSIceWarningFlags; a2: bool) {.
     importcpp: "set_useCandidateChecksFailed", header: "cheerp/clientlib.h".}
-type
-
-  MSJitter* {.importcpp: "client::MSJitter", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_interArrival*(this: var MSJitter): cdouble {.
     importcpp: "get_interArrival", header: "cheerp/clientlib.h".}
@@ -6310,12 +9167,6 @@ proc get_interArrivalSD*(this: var MSJitter): cdouble {.
 
 proc set_interArrivalSD*(this: var MSJitter; a2: cdouble) {.
     importcpp: "set_interArrivalSD", header: "cheerp/clientlib.h".}
-type
-
-  MSNetwork* {.importcpp: "client::MSNetwork", header: "cheerp/clientlib.h",
-               bycopy.} = object of RTCStats
-
-
 
 proc get_delay*(this: var MSNetwork): ptr MSDelay {.importcpp: "get_delay",
     header: "cheerp/clientlib.h".}
@@ -6340,12 +9191,6 @@ proc get_utilization*(this: var MSNetwork): ptr MSUtilization {.
 
 proc set_utilization*(this: var MSNetwork; a2: ptr MSUtilization) {.
     importcpp: "set_utilization", header: "cheerp/clientlib.h".}
-type
-
-  MSNetworkConnectivityInfo* {.importcpp: "client::MSNetworkConnectivityInfo",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_linkspeed*(this: var MSNetworkConnectivityInfo): cdouble {.
     importcpp: "get_linkspeed", header: "cheerp/clientlib.h".}
@@ -6365,12 +9210,6 @@ proc get_vpn*(this: var MSNetworkConnectivityInfo): bool {.importcpp: "get_vpn",
 
 proc set_vpn*(this: var MSNetworkConnectivityInfo; a2: bool) {.
     importcpp: "set_vpn", header: "cheerp/clientlib.h".}
-type
-
-  MSNetworkInterfaceType* {.importcpp: "client::MSNetworkInterfaceType",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_interfaceTypeEthernet*(this: var MSNetworkInterfaceType): bool {.
     importcpp: "get_interfaceTypeEthernet", header: "cheerp/clientlib.h".}
@@ -6401,24 +9240,12 @@ proc get_interfaceTypeWireless*(this: var MSNetworkInterfaceType): bool {.
 
 proc set_interfaceTypeWireless*(this: var MSNetworkInterfaceType; a2: bool) {.
     importcpp: "set_interfaceTypeWireless", header: "cheerp/clientlib.h".}
-type
-
-  MSOutboundNetwork* {.importcpp: "client::MSOutboundNetwork",
-                       header: "cheerp/clientlib.h", bycopy.} = object of MSNetwork
-
-
 
 proc get_appliedBandwidthLimit*(this: var MSOutboundNetwork): cdouble {.
     importcpp: "get_appliedBandwidthLimit", header: "cheerp/clientlib.h".}
 
 proc set_appliedBandwidthLimit*(this: var MSOutboundNetwork; a2: cdouble) {.
     importcpp: "set_appliedBandwidthLimit", header: "cheerp/clientlib.h".}
-type
-
-  MSPacketLoss* {.importcpp: "client::MSPacketLoss",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_lossRate*(this: var MSPacketLoss): cdouble {.importcpp: "get_lossRate",
     header: "cheerp/clientlib.h".}
@@ -6431,12 +9258,6 @@ proc get_lossRateMax*(this: var MSPacketLoss): cdouble {.
 
 proc set_lossRateMax*(this: var MSPacketLoss; a2: cdouble) {.
     importcpp: "set_lossRateMax", header: "cheerp/clientlib.h".}
-type
-
-  MSPortRange* {.importcpp: "client::MSPortRange", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_max*(this: var MSPortRange): cdouble {.importcpp: "get_max",
     header: "cheerp/clientlib.h".}
@@ -6449,12 +9270,6 @@ proc get_min*(this: var MSPortRange): cdouble {.importcpp: "get_min",
 
 proc set_min*(this: var MSPortRange; a2: cdouble) {.importcpp: "set_min",
     header: "cheerp/clientlib.h".}
-type
-
-  MSRelayAddress* {.importcpp: "client::MSRelayAddress",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_port*(this: var MSRelayAddress): cdouble {.importcpp: "get_port",
     header: "cheerp/clientlib.h".}
@@ -6467,24 +9282,12 @@ proc get_relayAddress*(this: var MSRelayAddress): ptr String {.
 
 proc set_relayAddress*(this: var MSRelayAddress; a2: String) {.
     importcpp: "set_relayAddress", header: "cheerp/clientlib.h".}
-type
-
-  MSSignatureParameters* {.importcpp: "client::MSSignatureParameters",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_userPrompt*(this: var MSSignatureParameters): ptr String {.
     importcpp: "get_userPrompt", header: "cheerp/clientlib.h".}
 
 proc set_userPrompt*(this: var MSSignatureParameters; a2: String) {.
     importcpp: "set_userPrompt", header: "cheerp/clientlib.h".}
-type
-
-  MSTransportDiagnosticsStats* {.importcpp: "client::MSTransportDiagnosticsStats",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_allocationTimeInMs*(this: var MSTransportDiagnosticsStats): cdouble {.
     importcpp: "get_allocationTimeInMs", header: "cheerp/clientlib.h".}
@@ -6659,12 +9462,6 @@ proc get_stunVer*(this: var MSTransportDiagnosticsStats): cdouble {.
 
 proc set_stunVer*(this: var MSTransportDiagnosticsStats; a2: cdouble) {.
     importcpp: "set_stunVer", header: "cheerp/clientlib.h".}
-type
-
-  MSUtilization* {.importcpp: "client::MSUtilization",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_bandwidthEstimation*(this: var MSUtilization): cdouble {.
     importcpp: "get_bandwidthEstimation", header: "cheerp/clientlib.h".}
@@ -6701,12 +9498,6 @@ proc get_packets*(this: var MSUtilization): cdouble {.importcpp: "get_packets",
 
 proc set_packets*(this: var MSUtilization; a2: cdouble) {.
     importcpp: "set_packets", header: "cheerp/clientlib.h".}
-type
-
-  MSVideoPayload* {.importcpp: "client::MSVideoPayload",
-                    header: "cheerp/clientlib.h", bycopy.} = object of MSPayloadBase
-
-
 
 proc get_durationSeconds*(this: var MSVideoPayload): cdouble {.
     importcpp: "get_durationSeconds", header: "cheerp/clientlib.h".}
@@ -6743,12 +9534,6 @@ proc get_videoPacketLossRate*(this: var MSVideoPayload): cdouble {.
 
 proc set_videoPacketLossRate*(this: var MSVideoPayload; a2: cdouble) {.
     importcpp: "set_videoPacketLossRate", header: "cheerp/clientlib.h".}
-type
-
-  MSVideoRecvPayload* {.importcpp: "client::MSVideoRecvPayload",
-                        header: "cheerp/clientlib.h", bycopy.} = object of MSVideoPayload
-
-
 
 proc get_lowBitRateCallPercent*(this: var MSVideoRecvPayload): cdouble {.
     importcpp: "get_lowBitRateCallPercent", header: "cheerp/clientlib.h".}
@@ -6900,12 +9685,6 @@ proc get_videoResolutions*(this: var MSVideoRecvPayload): ptr MSVideoResolutionD
 proc set_videoResolutions*(this: var MSVideoRecvPayload;
                            a2: ptr MSVideoResolutionDistribution) {.
     importcpp: "set_videoResolutions", header: "cheerp/clientlib.h".}
-type
-
-  MSVideoResolutionDistribution* {.importcpp: "client::MSVideoResolutionDistribution",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cifQuality*(this: var MSVideoResolutionDistribution): cdouble {.
     importcpp: "get_cifQuality", header: "cheerp/clientlib.h".}
@@ -6942,12 +9721,6 @@ proc get_vgaQuality*(this: var MSVideoResolutionDistribution): cdouble {.
 
 proc set_vgaQuality*(this: var MSVideoResolutionDistribution; a2: cdouble) {.
     importcpp: "set_vgaQuality", header: "cheerp/clientlib.h".}
-type
-
-  MSVideoSendPayload* {.importcpp: "client::MSVideoSendPayload",
-                        header: "cheerp/clientlib.h", bycopy.} = object of MSVideoPayload
-
-
 
 proc get_sendBitRateAverage*(this: var MSVideoSendPayload): cdouble {.
     importcpp: "get_sendBitRateAverage", header: "cheerp/clientlib.h".}
@@ -6984,12 +9757,6 @@ proc get_sendVideoStreamsMax*(this: var MSVideoSendPayload): cdouble {.
 
 proc set_sendVideoStreamsMax*(this: var MSVideoSendPayload; a2: cdouble) {.
     importcpp: "set_sendVideoStreamsMax", header: "cheerp/clientlib.h".}
-type
-
-  MediaElementAudioSourceOptions* {.importcpp: "client::MediaElementAudioSourceOptions",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_mediaElement*(this: var MediaElementAudioSourceOptions): ptr HTMLMediaElement {.
     importcpp: "get_mediaElement", header: "cheerp/clientlib.h".}
@@ -6997,12 +9764,6 @@ proc get_mediaElement*(this: var MediaElementAudioSourceOptions): ptr HTMLMediaE
 proc set_mediaElement*(this: var MediaElementAudioSourceOptions;
                        a2: ptr HTMLMediaElement) {.
     importcpp: "set_mediaElement", header: "cheerp/clientlib.h".}
-type
-
-  MediaEncryptedEventInit* {.importcpp: "client::MediaEncryptedEventInit",
-                             header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_initData*(this: var MediaEncryptedEventInit): ptr ArrayBuffer {.
     importcpp: "get_initData", header: "cheerp/clientlib.h".}
@@ -7015,12 +9776,6 @@ proc get_initDataType*(this: var MediaEncryptedEventInit): ptr String {.
 
 proc set_initDataType*(this: var MediaEncryptedEventInit; a2: String) {.
     importcpp: "set_initDataType", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeyMessageEventInit* {.importcpp: "client::MediaKeyMessageEventInit",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_message*(this: var MediaKeyMessageEventInit): ptr ArrayBuffer {.
     importcpp: "get_message", header: "cheerp/clientlib.h".}
@@ -7033,12 +9788,6 @@ proc get_messageType*(this: var MediaKeyMessageEventInit): ptr String {.
 
 proc set_messageType*(this: var MediaKeyMessageEventInit; a2: String) {.
     importcpp: "set_messageType", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeySystemConfiguration* {.importcpp: "client::MediaKeySystemConfiguration",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_audioCapabilities*(this: var MediaKeySystemConfiguration): ptr Array {.
     importcpp: "get_audioCapabilities", header: "cheerp/clientlib.h".}
@@ -7070,12 +9819,6 @@ proc get_videoCapabilities*(this: var MediaKeySystemConfiguration): ptr Array {.
 
 proc set_videoCapabilities*(this: var MediaKeySystemConfiguration; a2: ptr Array) {.
     importcpp: "set_videoCapabilities", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeySystemMediaCapability* {.importcpp: "client::MediaKeySystemMediaCapability",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_contentType*(this: var MediaKeySystemMediaCapability): ptr String {.
     importcpp: "get_contentType", header: "cheerp/clientlib.h".}
@@ -7088,12 +9831,6 @@ proc get_robustness*(this: var MediaKeySystemMediaCapability): ptr String {.
 
 proc set_robustness*(this: var MediaKeySystemMediaCapability; a2: String) {.
     importcpp: "set_robustness", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamConstraints* {.importcpp: "client::MediaStreamConstraints",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_audio*(this: var MediaStreamConstraints): bool {.
     importcpp: "get_audio", header: "cheerp/clientlib.h".}
@@ -7106,48 +9843,24 @@ proc get_video*(this: var MediaStreamConstraints): bool {.
 
 proc set_video*(this: var MediaStreamConstraints; a2: bool) {.
     importcpp: "set_video", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamErrorEventInit* {.importcpp: "client::MediaStreamErrorEventInit",
-                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_error*(this: var MediaStreamErrorEventInit): ptr MediaStreamError {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
 
 proc set_error*(this: var MediaStreamErrorEventInit; a2: ptr MediaStreamError) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamEventInit* {.importcpp: "client::MediaStreamEventInit",
-                          header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_stream*(this: var MediaStreamEventInit): ptr MediaStream {.
     importcpp: "get_stream", header: "cheerp/clientlib.h".}
 
 proc set_stream*(this: var MediaStreamEventInit; a2: ptr MediaStream) {.
     importcpp: "set_stream", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamTrackEventInit* {.importcpp: "client::MediaStreamTrackEventInit",
-                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_track*(this: var MediaStreamTrackEventInit): ptr MediaStreamTrack {.
     importcpp: "get_track", header: "cheerp/clientlib.h".}
 
 proc set_track*(this: var MediaStreamTrackEventInit; a2: ptr MediaStreamTrack) {.
     importcpp: "set_track", header: "cheerp/clientlib.h".}
-type
-
-  MediaTrackCapabilities* {.importcpp: "client::MediaTrackCapabilities",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_aspectRatio*(this: var MediaTrackCapabilities): cdouble {.
     importcpp: "get_aspectRatio", header: "cheerp/clientlib.h".}
@@ -7214,12 +9927,6 @@ proc get_width*(this: var MediaTrackCapabilities): cdouble {.
 
 proc set_width*(this: var MediaTrackCapabilities; a2: cdouble) {.
     importcpp: "set_width", header: "cheerp/clientlib.h".}
-type
-
-  MediaTrackConstraintSet* {.importcpp: "client::MediaTrackConstraintSet",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_aspectRatio*(this: var MediaTrackConstraintSet): cdouble {.
     importcpp: "get_aspectRatio", header: "cheerp/clientlib.h".}
@@ -7310,24 +10017,12 @@ proc get_width*(this: var MediaTrackConstraintSet): cdouble {.
 
 proc set_width*(this: var MediaTrackConstraintSet; a2: cdouble) {.
     importcpp: "set_width", header: "cheerp/clientlib.h".}
-type
-
-  MediaTrackConstraints* {.importcpp: "client::MediaTrackConstraints",
-                           header: "cheerp/clientlib.h", bycopy.} = object of MediaTrackConstraintSet
-
-
 
 proc get_advanced*(this: var MediaTrackConstraints): ptr Array {.
     importcpp: "get_advanced", header: "cheerp/clientlib.h".}
 
 proc set_advanced*(this: var MediaTrackConstraints; a2: ptr Array) {.
     importcpp: "set_advanced", header: "cheerp/clientlib.h".}
-type
-
-  MediaTrackSettings* {.importcpp: "client::MediaTrackSettings",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_aspectRatio*(this: var MediaTrackSettings): cdouble {.
     importcpp: "get_aspectRatio", header: "cheerp/clientlib.h".}
@@ -7394,12 +10089,6 @@ proc get_width*(this: var MediaTrackSettings): cdouble {.importcpp: "get_width",
 
 proc set_width*(this: var MediaTrackSettings; a2: cdouble) {.
     importcpp: "set_width", header: "cheerp/clientlib.h".}
-type
-
-  MediaTrackSupportedConstraints* {.importcpp: "client::MediaTrackSupportedConstraints",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_aspectRatio*(this: var MediaTrackSupportedConstraints): bool {.
     importcpp: "get_aspectRatio", header: "cheerp/clientlib.h".}
@@ -7466,12 +10155,6 @@ proc get_width*(this: var MediaTrackSupportedConstraints): bool {.
 
 proc set_width*(this: var MediaTrackSupportedConstraints; a2: bool) {.
     importcpp: "set_width", header: "cheerp/clientlib.h".}
-type
-
-  MessageEventInit* {.importcpp: "client::MessageEventInit",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_channel*(this: var MessageEventInit): ptr String {.
     importcpp: "get_channel", header: "cheerp/clientlib.h".}
@@ -7505,12 +10188,6 @@ proc get_source*(this: var MessageEventInit): ptr Window {.
 
 proc set_source*(this: var MessageEventInit; a2: ptr Window) {.
     importcpp: "set_source", header: "cheerp/clientlib.h".}
-type
-
-  MouseEventInit* {.importcpp: "client::MouseEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
-
-
 
 proc get_button*(this: var MouseEventInit): cdouble {.importcpp: "get_button",
     header: "cheerp/clientlib.h".}
@@ -7553,12 +10230,6 @@ proc get_screenY*(this: var MouseEventInit): cdouble {.importcpp: "get_screenY",
 
 proc set_screenY*(this: var MouseEventInit; a2: cdouble) {.
     importcpp: "set_screenY", header: "cheerp/clientlib.h".}
-type
-
-  MsZoomToOptions* {.importcpp: "client::MsZoomToOptions",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animate*(this: var MsZoomToOptions): ptr String {.
     importcpp: "get_animate", header: "cheerp/clientlib.h".}
@@ -7595,12 +10266,6 @@ proc get_viewportY*(this: var MsZoomToOptions): ptr String {.
 
 proc set_viewportY*(this: var MsZoomToOptions; a2: String) {.
     importcpp: "set_viewportY", header: "cheerp/clientlib.h".}
-type
-
-  MutationObserverInit* {.importcpp: "client::MutationObserverInit",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_attributeFilter*(this: var MutationObserverInit): ptr Array {.
     importcpp: "get_attributeFilter", header: "cheerp/clientlib.h".}
@@ -7643,12 +10308,6 @@ proc get_subtree*(this: var MutationObserverInit): bool {.
 
 proc set_subtree*(this: var MutationObserverInit; a2: bool) {.
     importcpp: "set_subtree", header: "cheerp/clientlib.h".}
-type
-
-  NotificationEventInit* {.importcpp: "client::NotificationEventInit",
-                           header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc get_action*(this: var NotificationEventInit): ptr String {.
     importcpp: "get_action", header: "cheerp/clientlib.h".}
@@ -7661,12 +10320,6 @@ proc get_notification*(this: var NotificationEventInit): ptr Notification {.
 
 proc set_notification*(this: var NotificationEventInit; a2: ptr Notification) {.
     importcpp: "set_notification", header: "cheerp/clientlib.h".}
-type
-
-  NotificationOptions* {.importcpp: "client::NotificationOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_body*(this: var NotificationOptions): ptr String {.
     importcpp: "get_body", header: "cheerp/clientlib.h".}
@@ -7700,24 +10353,12 @@ proc get_tag*(this: var NotificationOptions): ptr String {.importcpp: "get_tag",
 
 proc set_tag*(this: var NotificationOptions; a2: String) {.importcpp: "set_tag",
     header: "cheerp/clientlib.h".}
-type
-
-  ObjectURLOptions* {.importcpp: "client::ObjectURLOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_oneTimeOnly*(this: var ObjectURLOptions): bool {.
     importcpp: "get_oneTimeOnly", header: "cheerp/clientlib.h".}
 
 proc set_oneTimeOnly*(this: var ObjectURLOptions; a2: bool) {.
     importcpp: "set_oneTimeOnly", header: "cheerp/clientlib.h".}
-type
-
-  OfflineAudioCompletionEventInit* {.importcpp: "client::OfflineAudioCompletionEventInit",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_renderedBuffer*(this: var OfflineAudioCompletionEventInit): ptr AudioBuffer {.
     importcpp: "get_renderedBuffer", header: "cheerp/clientlib.h".}
@@ -7725,12 +10366,6 @@ proc get_renderedBuffer*(this: var OfflineAudioCompletionEventInit): ptr AudioBu
 proc set_renderedBuffer*(this: var OfflineAudioCompletionEventInit;
                          a2: ptr AudioBuffer) {.importcpp: "set_renderedBuffer",
     header: "cheerp/clientlib.h".}
-type
-
-  OscillatorOptions* {.importcpp: "client::OscillatorOptions",
-                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_detune*(this: var OscillatorOptions): cdouble {.
     importcpp: "get_detune", header: "cheerp/clientlib.h".}
@@ -7755,12 +10390,6 @@ proc get_type*(this: var OscillatorOptions): ptr String {.importcpp: "get_type",
 
 proc set_type*(this: var OscillatorOptions; a2: String) {.importcpp: "set_type",
     header: "cheerp/clientlib.h".}
-type
-
-  PannerOptions* {.importcpp: "client::PannerOptions",
-                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_coneInnerAngle*(this: var PannerOptions): cdouble {.
     importcpp: "get_coneInnerAngle", header: "cheerp/clientlib.h".}
@@ -7845,12 +10474,6 @@ proc get_rolloffFactor*(this: var PannerOptions): cdouble {.
 
 proc set_rolloffFactor*(this: var PannerOptions; a2: cdouble) {.
     importcpp: "set_rolloffFactor", header: "cheerp/clientlib.h".}
-type
-
-  PaymentCurrencyAmount* {.importcpp: "client::PaymentCurrencyAmount",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_currency*(this: var PaymentCurrencyAmount): ptr String {.
     importcpp: "get_currency", header: "cheerp/clientlib.h".}
@@ -7869,12 +10492,6 @@ proc get_value*(this: var PaymentCurrencyAmount): ptr String {.
 
 proc set_value*(this: var PaymentCurrencyAmount; a2: String) {.
     importcpp: "set_value", header: "cheerp/clientlib.h".}
-type
-
-  PaymentDetailsBase* {.importcpp: "client::PaymentDetailsBase",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_displayItems*(this: var PaymentDetailsBase): ptr Array {.
     importcpp: "get_displayItems", header: "cheerp/clientlib.h".}
@@ -7893,12 +10510,6 @@ proc get_shippingOptions*(this: var PaymentDetailsBase): ptr Array {.
 
 proc set_shippingOptions*(this: var PaymentDetailsBase; a2: ptr Array) {.
     importcpp: "set_shippingOptions", header: "cheerp/clientlib.h".}
-type
-
-  PaymentDetailsInit* {.importcpp: "client::PaymentDetailsInit",
-                        header: "cheerp/clientlib.h", bycopy.} = object of PaymentDetailsBase
-
-
 
 proc get_id*(this: var PaymentDetailsInit): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -7911,12 +10522,6 @@ proc get_total*(this: var PaymentDetailsInit): ptr PaymentItem {.
 
 proc set_total*(this: var PaymentDetailsInit; a2: ptr PaymentItem) {.
     importcpp: "set_total", header: "cheerp/clientlib.h".}
-type
-
-  PaymentDetailsModifier* {.importcpp: "client::PaymentDetailsModifier",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_additionalDisplayItems*(this: var PaymentDetailsModifier): ptr Array {.
     importcpp: "get_additionalDisplayItems", header: "cheerp/clientlib.h".}
@@ -7938,12 +10543,6 @@ proc get_total*(this: var PaymentDetailsModifier): ptr PaymentItem {.
 
 proc set_total*(this: var PaymentDetailsModifier; a2: ptr PaymentItem) {.
     importcpp: "set_total", header: "cheerp/clientlib.h".}
-type
-
-  PaymentDetailsUpdate* {.importcpp: "client::PaymentDetailsUpdate",
-                          header: "cheerp/clientlib.h", bycopy.} = object of PaymentDetailsBase
-
-
 
 proc get_error*(this: var PaymentDetailsUpdate): ptr String {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -7956,12 +10555,6 @@ proc get_total*(this: var PaymentDetailsUpdate): ptr PaymentItem {.
 
 proc set_total*(this: var PaymentDetailsUpdate; a2: ptr PaymentItem) {.
     importcpp: "set_total", header: "cheerp/clientlib.h".}
-type
-
-  PaymentItem* {.importcpp: "client::PaymentItem", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_amount*(this: var PaymentItem): ptr PaymentCurrencyAmount {.
     importcpp: "get_amount", header: "cheerp/clientlib.h".}
@@ -7980,12 +10573,6 @@ proc get_pending*(this: var PaymentItem): bool {.importcpp: "get_pending",
 
 proc set_pending*(this: var PaymentItem; a2: bool) {.importcpp: "set_pending",
     header: "cheerp/clientlib.h".}
-type
-
-  PaymentMethodData* {.importcpp: "client::PaymentMethodData",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc set_data*(this: var PaymentMethodData; a2: ptr Object) {.
     importcpp: "set_data", header: "cheerp/clientlib.h".}
@@ -7995,12 +10582,6 @@ proc get_supportedMethods*(this: var PaymentMethodData): ptr String {.
 
 proc set_supportedMethods*(this: var PaymentMethodData; a2: String) {.
     importcpp: "set_supportedMethods", header: "cheerp/clientlib.h".}
-type
-
-  PaymentOptions* {.importcpp: "client::PaymentOptions",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_requestPayerEmail*(this: var PaymentOptions): bool {.
     importcpp: "get_requestPayerEmail", header: "cheerp/clientlib.h".}
@@ -8031,16 +10612,6 @@ proc get_shippingType*(this: var PaymentOptions): ptr String {.
 
 proc set_shippingType*(this: var PaymentOptions; a2: String) {.
     importcpp: "set_shippingType", header: "cheerp/clientlib.h".}
-type
-
-  PaymentRequestUpdateEventInit* {.importcpp: "client::PaymentRequestUpdateEventInit",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
-  PaymentShippingOption* {.importcpp: "client::PaymentShippingOption",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_amount*(this: var PaymentShippingOption): ptr PaymentCurrencyAmount {.
     importcpp: "get_amount", header: "cheerp/clientlib.h".}
@@ -8065,12 +10636,6 @@ proc get_selected*(this: var PaymentShippingOption): bool {.
 
 proc set_selected*(this: var PaymentShippingOption; a2: bool) {.
     importcpp: "set_selected", header: "cheerp/clientlib.h".}
-type
-
-  Pbkdf2Params* {.importcpp: "client::Pbkdf2Params",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var Pbkdf2Params): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -8089,24 +10654,12 @@ proc get_salt*(this: var Pbkdf2Params): ptr Int8Array {.importcpp: "get_salt",
 
 proc set_salt*(this: var Pbkdf2Params; a2: ptr Int8Array) {.
     importcpp: "set_salt", header: "cheerp/clientlib.h".}
-type
-
-  PeriodicWaveConstraints* {.importcpp: "client::PeriodicWaveConstraints",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_disableNormalization*(this: var PeriodicWaveConstraints): bool {.
     importcpp: "get_disableNormalization", header: "cheerp/clientlib.h".}
 
 proc set_disableNormalization*(this: var PeriodicWaveConstraints; a2: bool) {.
     importcpp: "set_disableNormalization", header: "cheerp/clientlib.h".}
-type
-
-  PeriodicWaveOptions* {.importcpp: "client::PeriodicWaveOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of PeriodicWaveConstraints
-
-
 
 proc get_imag*(this: var PeriodicWaveOptions): ptr Array {.
     importcpp: "get_imag", header: "cheerp/clientlib.h".}
@@ -8119,12 +10672,6 @@ proc get_real*(this: var PeriodicWaveOptions): ptr Array {.
 
 proc set_real*(this: var PeriodicWaveOptions; a2: ptr Array) {.
     importcpp: "set_real", header: "cheerp/clientlib.h".}
-type
-
-  PointerEventInit* {.importcpp: "client::PointerEventInit",
-                      header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
-
-
 
 proc get_height*(this: var PointerEventInit): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -8173,21 +10720,9 @@ proc get_width*(this: var PointerEventInit): cdouble {.importcpp: "get_width",
 
 proc set_width*(this: var PointerEventInit; a2: cdouble) {.
     importcpp: "set_width", header: "cheerp/clientlib.h".}
-type
-
-  PopStateEventInit* {.importcpp: "client::PopStateEventInit",
-                       header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc set_state*(this: var PopStateEventInit; a2: ptr Object) {.
     importcpp: "set_state", header: "cheerp/clientlib.h".}
-type
-
-  PositionOptions* {.importcpp: "client::PositionOptions",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_enableHighAccuracy*(this: var PositionOptions): bool {.
     importcpp: "get_enableHighAccuracy", header: "cheerp/clientlib.h".}
@@ -8206,12 +10741,6 @@ proc get_timeout*(this: var PositionOptions): cdouble {.
 
 proc set_timeout*(this: var PositionOptions; a2: cdouble) {.
     importcpp: "set_timeout", header: "cheerp/clientlib.h".}
-type
-
-  ProgressEventInit* {.importcpp: "client::ProgressEventInit",
-                       header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_lengthComputable*(this: var ProgressEventInit): bool {.
     importcpp: "get_lengthComputable", header: "cheerp/clientlib.h".}
@@ -8230,24 +10759,12 @@ proc get_total*(this: var ProgressEventInit): cdouble {.importcpp: "get_total",
 
 proc set_total*(this: var ProgressEventInit; a2: cdouble) {.
     importcpp: "set_total", header: "cheerp/clientlib.h".}
-type
-
-  PushEventInit* {.importcpp: "client::PushEventInit",
-                   header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc get_data*(this: var PushEventInit): ptr Int8Array {.importcpp: "get_data",
     header: "cheerp/clientlib.h".}
 
 proc set_data*(this: var PushEventInit; a2: ptr Int8Array) {.
     importcpp: "set_data", header: "cheerp/clientlib.h".}
-type
-
-  PushSubscriptionChangeInit* {.importcpp: "client::PushSubscriptionChangeInit",
-                                header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc get_newSubscription*(this: var PushSubscriptionChangeInit): ptr PushSubscription {.
     importcpp: "get_newSubscription", header: "cheerp/clientlib.h".}
@@ -8262,12 +10779,6 @@ proc get_oldSubscription*(this: var PushSubscriptionChangeInit): ptr PushSubscri
 proc set_oldSubscription*(this: var PushSubscriptionChangeInit;
                           a2: ptr PushSubscription) {.
     importcpp: "set_oldSubscription", header: "cheerp/clientlib.h".}
-type
-
-  PushSubscriptionOptionsInit* {.importcpp: "client::PushSubscriptionOptionsInit",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_applicationServerKey*(this: var PushSubscriptionOptionsInit): ptr Int8Array {.
     importcpp: "get_applicationServerKey", header: "cheerp/clientlib.h".}
@@ -8281,12 +10792,6 @@ proc get_userVisibleOnly*(this: var PushSubscriptionOptionsInit): bool {.
 
 proc set_userVisibleOnly*(this: var PushSubscriptionOptionsInit; a2: bool) {.
     importcpp: "set_userVisibleOnly", header: "cheerp/clientlib.h".}
-type
-
-  QueuingStrategy* {.importcpp: "client::QueuingStrategy",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_highWaterMark*(this: var QueuingStrategy): cdouble {.
     importcpp: "get_highWaterMark", header: "cheerp/clientlib.h".}
@@ -8299,12 +10804,6 @@ proc get_size*(this: var QueuingStrategy): ptr EventListener {.
 
 proc set_size*(this: var QueuingStrategy; a2: ptr EventListener) {.
     importcpp: "set_size", header: "cheerp/clientlib.h".}
-type
-
-  RTCConfiguration* {.importcpp: "client::RTCConfiguration",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_bundlePolicy*(this: var RTCConfiguration): ptr String {.
     importcpp: "get_bundlePolicy", header: "cheerp/clientlib.h".}
@@ -8329,24 +10828,12 @@ proc get_peerIdentity*(this: var RTCConfiguration): ptr String {.
 
 proc set_peerIdentity*(this: var RTCConfiguration; a2: String) {.
     importcpp: "set_peerIdentity", header: "cheerp/clientlib.h".}
-type
-
-  RTCDTMFToneChangeEventInit* {.importcpp: "client::RTCDTMFToneChangeEventInit",
-                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_tone*(this: var RTCDTMFToneChangeEventInit): ptr String {.
     importcpp: "get_tone", header: "cheerp/clientlib.h".}
 
 proc set_tone*(this: var RTCDTMFToneChangeEventInit; a2: String) {.
     importcpp: "set_tone", header: "cheerp/clientlib.h".}
-type
-
-  RTCDtlsFingerprint* {.importcpp: "client::RTCDtlsFingerprint",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_algorithm*(this: var RTCDtlsFingerprint): ptr String {.
     importcpp: "get_algorithm", header: "cheerp/clientlib.h".}
@@ -8359,12 +10846,6 @@ proc get_value*(this: var RTCDtlsFingerprint): ptr String {.
 
 proc set_value*(this: var RTCDtlsFingerprint; a2: String) {.
     importcpp: "set_value", header: "cheerp/clientlib.h".}
-type
-
-  RTCDtlsParameters* {.importcpp: "client::RTCDtlsParameters",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_fingerprints*(this: var RTCDtlsParameters): ptr Array {.
     importcpp: "get_fingerprints", header: "cheerp/clientlib.h".}
@@ -8377,12 +10858,6 @@ proc get_role*(this: var RTCDtlsParameters): ptr String {.importcpp: "get_role",
 
 proc set_role*(this: var RTCDtlsParameters; a2: String) {.importcpp: "set_role",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidateAttributes* {.importcpp: "client::RTCIceCandidateAttributes",
-                               header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_addressSourceUrl*(this: var RTCIceCandidateAttributes): ptr String {.
     importcpp: "get_addressSourceUrl", header: "cheerp/clientlib.h".}
@@ -8419,16 +10894,6 @@ proc get_transport*(this: var RTCIceCandidateAttributes): ptr String {.
 
 proc set_transport*(this: var RTCIceCandidateAttributes; a2: String) {.
     importcpp: "set_transport", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidateComplete* {.importcpp: "client::RTCIceCandidateComplete",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  RTCIceCandidateDictionary* {.importcpp: "client::RTCIceCandidateDictionary",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_foundation*(this: var RTCIceCandidateDictionary): ptr String {.
     importcpp: "get_foundation", header: "cheerp/clientlib.h".}
@@ -8489,12 +10954,6 @@ proc get_type*(this: var RTCIceCandidateDictionary): ptr String {.
 
 proc set_type*(this: var RTCIceCandidateDictionary; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidateInit* {.importcpp: "client::RTCIceCandidateInit",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_candidate*(this: var RTCIceCandidateInit): ptr String {.
     importcpp: "get_candidate", header: "cheerp/clientlib.h".}
@@ -8513,12 +10972,6 @@ proc get_sdpMid*(this: var RTCIceCandidateInit): ptr String {.
 
 proc set_sdpMid*(this: var RTCIceCandidateInit; a2: String) {.
     importcpp: "set_sdpMid", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidatePair* {.importcpp: "client::RTCIceCandidatePair",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_local*(this: var RTCIceCandidatePair): ptr RTCIceCandidateDictionary {.
     importcpp: "get_local", header: "cheerp/clientlib.h".}
@@ -8532,12 +10985,6 @@ proc get_remote*(this: var RTCIceCandidatePair): ptr RTCIceCandidateDictionary {
 proc set_remote*(this: var RTCIceCandidatePair;
                  a2: ptr RTCIceCandidateDictionary) {.importcpp: "set_remote",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidatePairStats* {.importcpp: "client::RTCIceCandidatePairStats",
-                              header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_availableIncomingBitrate*(this: var RTCIceCandidatePairStats): cdouble {.
     importcpp: "get_availableIncomingBitrate", header: "cheerp/clientlib.h".}
@@ -8618,12 +11065,6 @@ proc get_writable*(this: var RTCIceCandidatePairStats): bool {.
 
 proc set_writable*(this: var RTCIceCandidatePairStats; a2: bool) {.
     importcpp: "set_writable", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceGatherOptions* {.importcpp: "client::RTCIceGatherOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_gatherPolicy*(this: var RTCIceGatherOptions): ptr String {.
     importcpp: "get_gatherPolicy", header: "cheerp/clientlib.h".}
@@ -8642,12 +11083,6 @@ proc get_portRange*(this: var RTCIceGatherOptions): ptr MSPortRange {.
 
 proc set_portRange*(this: var RTCIceGatherOptions; a2: ptr MSPortRange) {.
     importcpp: "set_portRange", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceParameters* {.importcpp: "client::RTCIceParameters",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_iceLite*(this: var RTCIceParameters): bool {.importcpp: "get_iceLite",
     header: "cheerp/clientlib.h".}
@@ -8666,12 +11101,6 @@ proc get_usernameFragment*(this: var RTCIceParameters): ptr String {.
 
 proc set_usernameFragment*(this: var RTCIceParameters; a2: String) {.
     importcpp: "set_usernameFragment", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceServer* {.importcpp: "client::RTCIceServer",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_credential*(this: var RTCIceServer): ptr String {.
     importcpp: "get_credential", header: "cheerp/clientlib.h".}
@@ -8687,12 +11116,6 @@ proc get_username*(this: var RTCIceServer): ptr String {.
 
 proc set_username*(this: var RTCIceServer; a2: String) {.
     importcpp: "set_username", header: "cheerp/clientlib.h".}
-type
-
-  RTCRTPStreamStats* {.importcpp: "client::RTCRTPStreamStats",
-                       header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_associateStatsId*(this: var RTCRTPStreamStats): ptr String {.
     importcpp: "get_associateStatsId", header: "cheerp/clientlib.h".}
@@ -8759,12 +11182,6 @@ proc get_transportId*(this: var RTCRTPStreamStats): ptr String {.
 
 proc set_transportId*(this: var RTCRTPStreamStats; a2: String) {.
     importcpp: "set_transportId", header: "cheerp/clientlib.h".}
-type
-
-  RTCInboundRTPStreamStats* {.importcpp: "client::RTCInboundRTPStreamStats",
-                              header: "cheerp/clientlib.h", bycopy.} = object of RTCRTPStreamStats
-
-
 
 proc get_bytesReceived*(this: var RTCInboundRTPStreamStats): cdouble {.
     importcpp: "get_bytesReceived", header: "cheerp/clientlib.h".}
@@ -8795,12 +11212,6 @@ proc get_packetsReceived*(this: var RTCInboundRTPStreamStats): cdouble {.
 
 proc set_packetsReceived*(this: var RTCInboundRTPStreamStats; a2: cdouble) {.
     importcpp: "set_packetsReceived", header: "cheerp/clientlib.h".}
-type
-
-  RTCMediaStreamTrackStats* {.importcpp: "client::RTCMediaStreamTrackStats",
-                              header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_audioLevel*(this: var RTCMediaStreamTrackStats): cdouble {.
     importcpp: "get_audioLevel", header: "cheerp/clientlib.h".}
@@ -8886,12 +11297,6 @@ proc get_trackIdentifier*(this: var RTCMediaStreamTrackStats): ptr String {.
 
 proc set_trackIdentifier*(this: var RTCMediaStreamTrackStats; a2: String) {.
     importcpp: "set_trackIdentifier", header: "cheerp/clientlib.h".}
-type
-
-  RTCOfferOptions* {.importcpp: "client::RTCOfferOptions",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_iceRestart*(this: var RTCOfferOptions): bool {.
     importcpp: "get_iceRestart", header: "cheerp/clientlib.h".}
@@ -8916,12 +11321,6 @@ proc get_voiceActivityDetection*(this: var RTCOfferOptions): bool {.
 
 proc set_voiceActivityDetection*(this: var RTCOfferOptions; a2: bool) {.
     importcpp: "set_voiceActivityDetection", header: "cheerp/clientlib.h".}
-type
-
-  RTCOutboundRTPStreamStats* {.importcpp: "client::RTCOutboundRTPStreamStats",
-                               header: "cheerp/clientlib.h", bycopy.} = object of RTCRTPStreamStats
-
-
 
 proc get_bytesSent*(this: var RTCOutboundRTPStreamStats): cdouble {.
     importcpp: "get_bytesSent", header: "cheerp/clientlib.h".}
@@ -8946,12 +11345,6 @@ proc get_targetBitrate*(this: var RTCOutboundRTPStreamStats): cdouble {.
 
 proc set_targetBitrate*(this: var RTCOutboundRTPStreamStats; a2: cdouble) {.
     importcpp: "set_targetBitrate", header: "cheerp/clientlib.h".}
-type
-
-  RTCPeerConnectionIceEventInit* {.importcpp: "client::RTCPeerConnectionIceEventInit",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_candidate*(this: var RTCPeerConnectionIceEventInit): ptr RTCIceCandidate {.
     importcpp: "get_candidate", header: "cheerp/clientlib.h".}
@@ -8959,12 +11352,6 @@ proc get_candidate*(this: var RTCPeerConnectionIceEventInit): ptr RTCIceCandidat
 proc set_candidate*(this: var RTCPeerConnectionIceEventInit;
                     a2: ptr RTCIceCandidate) {.importcpp: "set_candidate",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCRtcpFeedback* {.importcpp: "client::RTCRtcpFeedback",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_parameter*(this: var RTCRtcpFeedback): ptr String {.
     importcpp: "get_parameter", header: "cheerp/clientlib.h".}
@@ -8977,12 +11364,6 @@ proc get_type*(this: var RTCRtcpFeedback): ptr String {.importcpp: "get_type",
 
 proc set_type*(this: var RTCRtcpFeedback; a2: String) {.importcpp: "set_type",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCRtcpParameters* {.importcpp: "client::RTCRtcpParameters",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cname*(this: var RTCRtcpParameters): ptr String {.
     importcpp: "get_cname", header: "cheerp/clientlib.h".}
@@ -9007,12 +11388,6 @@ proc get_ssrc*(this: var RTCRtcpParameters): cdouble {.importcpp: "get_ssrc",
 
 proc set_ssrc*(this: var RTCRtcpParameters; a2: cdouble) {.
     importcpp: "set_ssrc", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpCapabilities* {.importcpp: "client::RTCRtpCapabilities",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_codecs*(this: var RTCRtpCapabilities): ptr Array {.
     importcpp: "get_codecs", header: "cheerp/clientlib.h".}
@@ -9031,12 +11406,6 @@ proc get_headerExtensions*(this: var RTCRtpCapabilities): ptr Array {.
 
 proc set_headerExtensions*(this: var RTCRtpCapabilities; a2: ptr Array) {.
     importcpp: "set_headerExtensions", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpCodecCapability* {.importcpp: "client::RTCRtpCodecCapability",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_clockRate*(this: var RTCRtpCodecCapability): cdouble {.
     importcpp: "get_clockRate", header: "cheerp/clientlib.h".}
@@ -9109,12 +11478,6 @@ proc get_svcMultiStreamSupport*(this: var RTCRtpCodecCapability): bool {.
 
 proc set_svcMultiStreamSupport*(this: var RTCRtpCodecCapability; a2: bool) {.
     importcpp: "set_svcMultiStreamSupport", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpCodecParameters* {.importcpp: "client::RTCRtpCodecParameters",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_clockRate*(this: var RTCRtpCodecParameters): cdouble {.
     importcpp: "get_clockRate", header: "cheerp/clientlib.h".}
@@ -9160,12 +11523,6 @@ proc get_rtcpFeedback*(this: var RTCRtpCodecParameters): ptr Array {.
 
 proc set_rtcpFeedback*(this: var RTCRtpCodecParameters; a2: ptr Array) {.
     importcpp: "set_rtcpFeedback", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpContributingSource* {.importcpp: "client::RTCRtpContributingSource",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_audioLevel*(this: var RTCRtpContributingSource): cdouble {.
     importcpp: "get_audioLevel", header: "cheerp/clientlib.h".}
@@ -9184,12 +11541,6 @@ proc get_timestamp*(this: var RTCRtpContributingSource): cdouble {.
 
 proc set_timestamp*(this: var RTCRtpContributingSource; a2: cdouble) {.
     importcpp: "set_timestamp", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpEncodingParameters* {.importcpp: "client::RTCRtpEncodingParameters",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_active*(this: var RTCRtpEncodingParameters): bool {.
     importcpp: "get_active", header: "cheerp/clientlib.h".}
@@ -9275,12 +11626,6 @@ proc get_ssrcRange*(this: var RTCRtpEncodingParameters): ptr RTCSsrcRange {.
 
 proc set_ssrcRange*(this: var RTCRtpEncodingParameters; a2: ptr RTCSsrcRange) {.
     importcpp: "set_ssrcRange", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpFecParameters* {.importcpp: "client::RTCRtpFecParameters",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_mechanism*(this: var RTCRtpFecParameters): ptr String {.
     importcpp: "get_mechanism", header: "cheerp/clientlib.h".}
@@ -9293,12 +11638,6 @@ proc get_ssrc*(this: var RTCRtpFecParameters): cdouble {.importcpp: "get_ssrc",
 
 proc set_ssrc*(this: var RTCRtpFecParameters; a2: cdouble) {.
     importcpp: "set_ssrc", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpHeaderExtension* {.importcpp: "client::RTCRtpHeaderExtension",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_kind*(this: var RTCRtpHeaderExtension): ptr String {.
     importcpp: "get_kind", header: "cheerp/clientlib.h".}
@@ -9323,12 +11662,6 @@ proc get_uri*(this: var RTCRtpHeaderExtension): ptr String {.
 
 proc set_uri*(this: var RTCRtpHeaderExtension; a2: String) {.
     importcpp: "set_uri", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpHeaderExtensionParameters* {.importcpp: "client::RTCRtpHeaderExtensionParameters",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_encrypt*(this: var RTCRtpHeaderExtensionParameters): bool {.
     importcpp: "get_encrypt", header: "cheerp/clientlib.h".}
@@ -9347,12 +11680,6 @@ proc get_uri*(this: var RTCRtpHeaderExtensionParameters): ptr String {.
 
 proc set_uri*(this: var RTCRtpHeaderExtensionParameters; a2: String) {.
     importcpp: "set_uri", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpParameters* {.importcpp: "client::RTCRtpParameters",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_codecs*(this: var RTCRtpParameters): ptr Array {.
     importcpp: "get_codecs", header: "cheerp/clientlib.h".}
@@ -9389,24 +11716,12 @@ proc get_rtcp*(this: var RTCRtpParameters): ptr RTCRtcpParameters {.
 
 proc set_rtcp*(this: var RTCRtpParameters; a2: ptr RTCRtcpParameters) {.
     importcpp: "set_rtcp", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpRtxParameters* {.importcpp: "client::RTCRtpRtxParameters",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ssrc*(this: var RTCRtpRtxParameters): cdouble {.importcpp: "get_ssrc",
     header: "cheerp/clientlib.h".}
 
 proc set_ssrc*(this: var RTCRtpRtxParameters; a2: cdouble) {.
     importcpp: "set_ssrc", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpUnhandled* {.importcpp: "client::RTCRtpUnhandled",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_muxId*(this: var RTCRtpUnhandled): ptr String {.importcpp: "get_muxId",
     header: "cheerp/clientlib.h".}
@@ -9425,12 +11740,6 @@ proc get_ssrc*(this: var RTCRtpUnhandled): cdouble {.importcpp: "get_ssrc",
 
 proc set_ssrc*(this: var RTCRtpUnhandled; a2: cdouble) {.importcpp: "set_ssrc",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCSessionDescriptionInit* {.importcpp: "client::RTCSessionDescriptionInit",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_sdp*(this: var RTCSessionDescriptionInit): ptr String {.
     importcpp: "get_sdp", header: "cheerp/clientlib.h".}
@@ -9443,12 +11752,6 @@ proc get_type*(this: var RTCSessionDescriptionInit): ptr String {.
 
 proc set_type*(this: var RTCSessionDescriptionInit; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  RTCSrtpKeyParam* {.importcpp: "client::RTCSrtpKeyParam",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_keyMethod*(this: var RTCSrtpKeyParam): ptr String {.
     importcpp: "get_keyMethod", header: "cheerp/clientlib.h".}
@@ -9479,12 +11782,6 @@ proc get_mkiValue*(this: var RTCSrtpKeyParam): cdouble {.
 
 proc set_mkiValue*(this: var RTCSrtpKeyParam; a2: cdouble) {.
     importcpp: "set_mkiValue", header: "cheerp/clientlib.h".}
-type
-
-  RTCSrtpSdesParameters* {.importcpp: "client::RTCSrtpSdesParameters",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cryptoSuite*(this: var RTCSrtpSdesParameters): ptr String {.
     importcpp: "get_cryptoSuite", header: "cheerp/clientlib.h".}
@@ -9509,12 +11806,6 @@ proc get_tag*(this: var RTCSrtpSdesParameters): cdouble {.importcpp: "get_tag",
 
 proc set_tag*(this: var RTCSrtpSdesParameters; a2: cdouble) {.
     importcpp: "set_tag", header: "cheerp/clientlib.h".}
-type
-
-  RTCSsrcRange* {.importcpp: "client::RTCSsrcRange",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_max*(this: var RTCSsrcRange): cdouble {.importcpp: "get_max",
     header: "cheerp/clientlib.h".}
@@ -9527,16 +11818,6 @@ proc get_min*(this: var RTCSsrcRange): cdouble {.importcpp: "get_min",
 
 proc set_min*(this: var RTCSsrcRange; a2: cdouble) {.importcpp: "set_min",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCStatsReport* {.importcpp: "client::RTCStatsReport",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  RTCTransportStats* {.importcpp: "client::RTCTransportStats",
-                       header: "cheerp/clientlib.h", bycopy.} = object of RTCStats
-
-
 
 proc get_activeConnection*(this: var RTCTransportStats): bool {.
     importcpp: "get_activeConnection", header: "cheerp/clientlib.h".}
@@ -9579,24 +11860,12 @@ proc get_selectedCandidatePairId*(this: var RTCTransportStats): ptr String {.
 
 proc set_selectedCandidatePairId*(this: var RTCTransportStats; a2: String) {.
     importcpp: "set_selectedCandidatePairId", header: "cheerp/clientlib.h".}
-type
-
-  RegistrationOptions* {.importcpp: "client::RegistrationOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_scope*(this: var RegistrationOptions): ptr String {.
     importcpp: "get_scope", header: "cheerp/clientlib.h".}
 
 proc set_scope*(this: var RegistrationOptions; a2: String) {.
     importcpp: "set_scope", header: "cheerp/clientlib.h".}
-type
-
-  RequestInit* {.importcpp: "client::RequestInit", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_body*(this: var RequestInit): ptr Blob {.importcpp: "get_body",
     header: "cheerp/clientlib.h".}
@@ -9672,12 +11941,6 @@ proc set_signal*(this: var RequestInit; a2: ptr AbortSignal) {.
 
 proc set_window*(this: var RequestInit; a2: ptr Object) {.
     importcpp: "set_window", header: "cheerp/clientlib.h".}
-type
-
-  ResponseInit* {.importcpp: "client::ResponseInit",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_headers*(this: var ResponseInit): ptr Headers {.
     importcpp: "get_headers", header: "cheerp/clientlib.h".}
@@ -9696,24 +11959,12 @@ proc get_statusText*(this: var ResponseInit): ptr String {.
 
 proc set_statusText*(this: var ResponseInit; a2: String) {.
     importcpp: "set_statusText", header: "cheerp/clientlib.h".}
-type
-
-  RsaHashedImportParams* {.importcpp: "client::RsaHashedImportParams",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_hash*(this: var RsaHashedImportParams): ptr String {.
     importcpp: "get_hash", header: "cheerp/clientlib.h".}
 
 proc set_hash*(this: var RsaHashedImportParams; a2: String) {.
     importcpp: "set_hash", header: "cheerp/clientlib.h".}
-type
-
-  RsaKeyAlgorithm* {.importcpp: "client::RsaKeyAlgorithm",
-                     header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
-
-
 
 proc get_modulusLength*(this: var RsaKeyAlgorithm): cdouble {.
     importcpp: "get_modulusLength", header: "cheerp/clientlib.h".}
@@ -9726,24 +11977,12 @@ proc get_publicExponent*(this: var RsaKeyAlgorithm): ptr Uint8Array {.
 
 proc set_publicExponent*(this: var RsaKeyAlgorithm; a2: ptr Uint8Array) {.
     importcpp: "set_publicExponent", header: "cheerp/clientlib.h".}
-type
-
-  RsaHashedKeyAlgorithm* {.importcpp: "client::RsaHashedKeyAlgorithm",
-                           header: "cheerp/clientlib.h", bycopy.} = object of RsaKeyAlgorithm
-
-
 
 proc get_hash*(this: var RsaHashedKeyAlgorithm): ptr KeyAlgorithm {.
     importcpp: "get_hash", header: "cheerp/clientlib.h".}
 
 proc set_hash*(this: var RsaHashedKeyAlgorithm; a2: ptr KeyAlgorithm) {.
     importcpp: "set_hash", header: "cheerp/clientlib.h".}
-type
-
-  RsaKeyGenParams* {.importcpp: "client::RsaKeyGenParams",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_modulusLength*(this: var RsaKeyGenParams): cdouble {.
     importcpp: "get_modulusLength", header: "cheerp/clientlib.h".}
@@ -9756,36 +11995,18 @@ proc get_publicExponent*(this: var RsaKeyGenParams): ptr Uint8Array {.
 
 proc set_publicExponent*(this: var RsaKeyGenParams; a2: ptr Uint8Array) {.
     importcpp: "set_publicExponent", header: "cheerp/clientlib.h".}
-type
-
-  RsaHashedKeyGenParams* {.importcpp: "client::RsaHashedKeyGenParams",
-                           header: "cheerp/clientlib.h", bycopy.} = object of RsaKeyGenParams
-
-
 
 proc get_hash*(this: var RsaHashedKeyGenParams): ptr String {.
     importcpp: "get_hash", header: "cheerp/clientlib.h".}
 
 proc set_hash*(this: var RsaHashedKeyGenParams; a2: String) {.
     importcpp: "set_hash", header: "cheerp/clientlib.h".}
-type
-
-  RsaOaepParams* {.importcpp: "client::RsaOaepParams",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_label*(this: var RsaOaepParams): ptr Int8Array {.
     importcpp: "get_label", header: "cheerp/clientlib.h".}
 
 proc set_label*(this: var RsaOaepParams; a2: ptr Int8Array) {.
     importcpp: "set_label", header: "cheerp/clientlib.h".}
-type
-
-  RsaOtherPrimesInfo* {.importcpp: "client::RsaOtherPrimesInfo",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_d*(this: var RsaOtherPrimesInfo): ptr String {.importcpp: "get_d",
     header: "cheerp/clientlib.h".}
@@ -9804,24 +12025,12 @@ proc get_t*(this: var RsaOtherPrimesInfo): ptr String {.importcpp: "get_t",
 
 proc set_t*(this: var RsaOtherPrimesInfo; a2: String) {.importcpp: "set_t",
     header: "cheerp/clientlib.h".}
-type
-
-  RsaPssParams* {.importcpp: "client::RsaPssParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_saltLength*(this: var RsaPssParams): cdouble {.
     importcpp: "get_saltLength", header: "cheerp/clientlib.h".}
 
 proc set_saltLength*(this: var RsaPssParams; a2: cdouble) {.
     importcpp: "set_saltLength", header: "cheerp/clientlib.h".}
-type
-
-  ScopedCredentialDescriptor* {.importcpp: "client::ScopedCredentialDescriptor",
-                                header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_id*(this: var ScopedCredentialDescriptor): ptr Int8Array {.
     importcpp: "get_id", header: "cheerp/clientlib.h".}
@@ -9840,12 +12049,6 @@ proc get_type*(this: var ScopedCredentialDescriptor): ptr String {.
 
 proc set_type*(this: var ScopedCredentialDescriptor; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  ScopedCredentialOptions* {.importcpp: "client::ScopedCredentialOptions",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_excludeList*(this: var ScopedCredentialOptions): ptr Array {.
     importcpp: "get_excludeList", header: "cheerp/clientlib.h".}
@@ -9871,12 +12074,6 @@ proc get_timeoutSeconds*(this: var ScopedCredentialOptions): cdouble {.
 
 proc set_timeoutSeconds*(this: var ScopedCredentialOptions; a2: cdouble) {.
     importcpp: "set_timeoutSeconds", header: "cheerp/clientlib.h".}
-type
-
-  ScopedCredentialParameters* {.importcpp: "client::ScopedCredentialParameters",
-                                header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_algorithm*(this: var ScopedCredentialParameters): ptr String {.
     importcpp: "get_algorithm", header: "cheerp/clientlib.h".}
@@ -9889,12 +12086,6 @@ proc get_type*(this: var ScopedCredentialParameters): ptr String {.
 
 proc set_type*(this: var ScopedCredentialParameters; a2: String) {.
     importcpp: "set_type", header: "cheerp/clientlib.h".}
-type
-
-  SecurityPolicyViolationEventInit* {.importcpp: "client::SecurityPolicyViolationEventInit",
-                                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_blockedURI*(this: var SecurityPolicyViolationEventInit): ptr String {.
     importcpp: "get_blockedURI", header: "cheerp/clientlib.h".}
@@ -9957,12 +12148,6 @@ proc get_violatedDirective*(this: var SecurityPolicyViolationEventInit): ptr Str
 proc set_violatedDirective*(this: var SecurityPolicyViolationEventInit;
                             a2: String) {.importcpp: "set_violatedDirective",
     header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerMessageEventInit* {.importcpp: "client::ServiceWorkerMessageEventInit",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc set_data*(this: var ServiceWorkerMessageEventInit; a2: ptr Object) {.
     importcpp: "set_data", header: "cheerp/clientlib.h".}
@@ -9990,12 +12175,6 @@ proc get_source*(this: var ServiceWorkerMessageEventInit): ptr ServiceWorker {.
 
 proc set_source*(this: var ServiceWorkerMessageEventInit; a2: ptr ServiceWorker) {.
     importcpp: "set_source", header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisEventInit* {.importcpp: "client::SpeechSynthesisEventInit",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_charIndex*(this: var SpeechSynthesisEventInit): cdouble {.
     importcpp: "get_charIndex", header: "cheerp/clientlib.h".}
@@ -10027,24 +12206,12 @@ proc get_utterance*(this: var SpeechSynthesisEventInit): ptr SpeechSynthesisUtte
 proc set_utterance*(this: var SpeechSynthesisEventInit;
                     a2: ptr SpeechSynthesisUtterance) {.
     importcpp: "set_utterance", header: "cheerp/clientlib.h".}
-type
-
-  StereoPannerOptions* {.importcpp: "client::StereoPannerOptions",
-                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_pan*(this: var StereoPannerOptions): cdouble {.importcpp: "get_pan",
     header: "cheerp/clientlib.h".}
 
 proc set_pan*(this: var StereoPannerOptions; a2: cdouble) {.
     importcpp: "set_pan", header: "cheerp/clientlib.h".}
-type
-
-  StoreExceptionsInformation* {.importcpp: "client::StoreExceptionsInformation",
-                                header: "cheerp/clientlib.h", bycopy.} = object of ExceptionInformation
-
-
 
 proc get_detailURI*(this: var StoreExceptionsInformation): ptr String {.
     importcpp: "get_detailURI", header: "cheerp/clientlib.h".}
@@ -10063,13 +12230,6 @@ proc get_siteName*(this: var StoreExceptionsInformation): ptr String {.
 
 proc set_siteName*(this: var StoreExceptionsInformation; a2: String) {.
     importcpp: "set_siteName", header: "cheerp/clientlib.h".}
-type
-
-  StoreSiteSpecificExceptionsInformation* {.
-      importcpp: "client::StoreSiteSpecificExceptionsInformation",
-      header: "cheerp/clientlib.h", bycopy.} = object of StoreExceptionsInformation
-
-
 
 proc get_arrayOfDomainStrings*(this: var StoreSiteSpecificExceptionsInformation): ptr Array {.
     importcpp: "get_arrayOfDomainStrings", header: "cheerp/clientlib.h".}
@@ -10077,12 +12237,6 @@ proc get_arrayOfDomainStrings*(this: var StoreSiteSpecificExceptionsInformation)
 proc set_arrayOfDomainStrings*(this: var StoreSiteSpecificExceptionsInformation;
                                a2: ptr Array) {.
     importcpp: "set_arrayOfDomainStrings", header: "cheerp/clientlib.h".}
-type
-
-  SyncEventInit* {.importcpp: "client::SyncEventInit",
-                   header: "cheerp/clientlib.h", bycopy.} = object of ExtendableEventInit
-
-
 
 proc get_lastChance*(this: var SyncEventInit): bool {.
     importcpp: "get_lastChance", header: "cheerp/clientlib.h".}
@@ -10095,24 +12249,12 @@ proc get_tag*(this: var SyncEventInit): ptr String {.importcpp: "get_tag",
 
 proc set_tag*(this: var SyncEventInit; a2: String) {.importcpp: "set_tag",
     header: "cheerp/clientlib.h".}
-type
-
-  TextDecodeOptions* {.importcpp: "client::TextDecodeOptions",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_stream*(this: var TextDecodeOptions): bool {.importcpp: "get_stream",
     header: "cheerp/clientlib.h".}
 
 proc set_stream*(this: var TextDecodeOptions; a2: bool) {.
     importcpp: "set_stream", header: "cheerp/clientlib.h".}
-type
-
-  TextDecoderOptions* {.importcpp: "client::TextDecoderOptions",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_fatal*(this: var TextDecoderOptions): bool {.importcpp: "get_fatal",
     header: "cheerp/clientlib.h".}
@@ -10125,24 +12267,12 @@ proc get_ignoreBOM*(this: var TextDecoderOptions): bool {.
 
 proc set_ignoreBOM*(this: var TextDecoderOptions; a2: bool) {.
     importcpp: "set_ignoreBOM", header: "cheerp/clientlib.h".}
-type
-
-  TrackEventInit* {.importcpp: "client::TrackEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_track*(this: var TrackEventInit): ptr VideoTrack {.
     importcpp: "get_track", header: "cheerp/clientlib.h".}
 
 proc set_track*(this: var TrackEventInit; a2: ptr VideoTrack) {.
     importcpp: "set_track", header: "cheerp/clientlib.h".}
-type
-
-  TransitionEventInit* {.importcpp: "client::TransitionEventInit",
-                         header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_elapsedTime*(this: var TransitionEventInit): cdouble {.
     importcpp: "get_elapsedTime", header: "cheerp/clientlib.h".}
@@ -10155,12 +12285,6 @@ proc get_propertyName*(this: var TransitionEventInit): ptr String {.
 
 proc set_propertyName*(this: var TransitionEventInit; a2: String) {.
     importcpp: "set_propertyName", header: "cheerp/clientlib.h".}
-type
-
-  UnderlyingSink* {.importcpp: "client::UnderlyingSink",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var UnderlyingSink): ptr EventListener {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -10185,12 +12309,6 @@ proc get_write*(this: var UnderlyingSink): ptr EventListener {.
 
 proc set_write*(this: var UnderlyingSink; a2: ptr EventListener) {.
     importcpp: "set_write", header: "cheerp/clientlib.h".}
-type
-
-  VRDisplayEventInit* {.importcpp: "client::VRDisplayEventInit",
-                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_display*(this: var VRDisplayEventInit): ptr VRDisplay {.
     importcpp: "get_display", header: "cheerp/clientlib.h".}
@@ -10203,11 +12321,6 @@ proc get_reason*(this: var VRDisplayEventInit): ptr String {.
 
 proc set_reason*(this: var VRDisplayEventInit; a2: String) {.
     importcpp: "set_reason", header: "cheerp/clientlib.h".}
-type
-
-  VRLayer* {.importcpp: "client::VRLayer", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_leftBounds*(this: var VRLayer): ptr Array {.
     importcpp: "get_leftBounds", header: "cheerp/clientlib.h".}
@@ -10226,12 +12339,6 @@ proc get_source*(this: var VRLayer): ptr HTMLCanvasElement {.
 
 proc set_source*(this: var VRLayer; a2: ptr HTMLCanvasElement) {.
     importcpp: "set_source", header: "cheerp/clientlib.h".}
-type
-
-  VRStageParameters* {.importcpp: "client::VRStageParameters",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_sittingToStandingTransform*(this: var VRStageParameters): ptr Float32Array {.
     importcpp: "get_sittingToStandingTransform", header: "cheerp/clientlib.h".}
@@ -10251,12 +12358,6 @@ proc get_sizeY*(this: var VRStageParameters): cdouble {.importcpp: "get_sizeY",
 
 proc set_sizeY*(this: var VRStageParameters; a2: cdouble) {.
     importcpp: "set_sizeY", header: "cheerp/clientlib.h".}
-type
-
-  WaveShaperOptions* {.importcpp: "client::WaveShaperOptions",
-                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNodeOptions
-
-
 
 proc get_curve*(this: var WaveShaperOptions): ptr Array {.
     importcpp: "get_curve", header: "cheerp/clientlib.h".}
@@ -10269,16 +12370,6 @@ proc get_oversample*(this: var WaveShaperOptions): ptr String {.
 
 proc set_oversample*(this: var WaveShaperOptions; a2: String) {.
     importcpp: "set_oversample", header: "cheerp/clientlib.h".}
-type
-
-  WebAuthnExtensions* {.importcpp: "client::WebAuthnExtensions",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  WheelEventInit* {.importcpp: "client::WheelEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of MouseEventInit
-
-
 
 proc get_deltaMode*(this: var WheelEventInit): cdouble {.
     importcpp: "get_deltaMode", header: "cheerp/clientlib.h".}
@@ -10303,16 +12394,6 @@ proc get_deltaZ*(this: var WheelEventInit): cdouble {.importcpp: "get_deltaZ",
 
 proc set_deltaZ*(this: var WheelEventInit; a2: cdouble) {.
     importcpp: "set_deltaZ", header: "cheerp/clientlib.h".}
-type
-
-  EventListener* {.importcpp: "client::EventListener",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  ANGLE_instanced_arrays* {.importcpp: "client::ANGLE_instanced_arrays",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc drawArraysInstancedANGLE*(this: var ANGLE_instanced_arrays; mode: cdouble;
                                first: cdouble; count: cdouble;
@@ -10341,12 +12422,6 @@ proc constructANGLE_instanced_arrays*(): ANGLE_instanced_arrays {.constructor,
 proc get_VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE*(this: var ANGLE_instanced_arrays): cdouble {.
     importcpp: "get_VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE",
     header: "cheerp/clientlib.h".}
-type
-
-  AbortController* {.importcpp: "client::AbortController",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_signal*(this: var AbortController): ptr AbortSignal {.
     importcpp: "get_signal", header: "cheerp/clientlib.h".}
@@ -10362,24 +12437,12 @@ proc set_prototype*(this: var AbortController; a2: ptr AbortController) {.
 
 proc constructAbortController*(): AbortController {.constructor,
     importcpp: "client::AbortController(@)", header: "cheerp/clientlib.h".}
-type
-
-  AbortSignalEventMap* {.importcpp: "client::AbortSignalEventMap",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var AbortSignalEventMap): ptr ProgressEvent {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
 
 proc set_abort*(this: var AbortSignalEventMap; a2: ptr ProgressEvent) {.
     importcpp: "set_abort", header: "cheerp/clientlib.h".}
-type
-
-  EventTarget* {.importcpp: "client::EventTarget", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc addEventListener*(this: var EventTarget; `type`: String;
                        listener: ptr EventListener) {.
@@ -10438,12 +12501,6 @@ proc set_prototype*(this: var EventTarget; a2: ptr EventTarget) {.
 
 proc constructEventTarget*(): EventTarget {.constructor,
     importcpp: "client::EventTarget(@)", header: "cheerp/clientlib.h".}
-type
-
-  AbortSignal* {.importcpp: "client::AbortSignal", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_aborted*(this: var AbortSignal): bool {.importcpp: "get_aborted",
     header: "cheerp/clientlib.h".}
@@ -10506,24 +12563,12 @@ proc set_prototype*(this: var AbortSignal; a2: ptr AbortSignal) {.
 
 proc constructAbortSignal*(): AbortSignal {.constructor,
     importcpp: "client::AbortSignal(@)", header: "cheerp/clientlib.h".}
-type
-
-  AbstractWorkerEventMap* {.importcpp: "client::AbstractWorkerEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var AbstractWorkerEventMap): ptr ErrorEvent {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
 
 proc set_error*(this: var AbstractWorkerEventMap; a2: ptr ErrorEvent) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  AbstractWorker* {.importcpp: "client::AbstractWorker",
-                    header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_onerror*(this: var AbstractWorker): ptr EventListener {.
     importcpp: "get_onerror", header: "cheerp/clientlib.h".}
@@ -10574,36 +12619,18 @@ proc removeEventListener*(this: var AbstractWorker; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  AesCfbParams* {.importcpp: "client::AesCfbParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_iv*(this: var AesCfbParams): ptr Int8Array {.importcpp: "get_iv",
     header: "cheerp/clientlib.h".}
 
 proc set_iv*(this: var AesCfbParams; a2: ptr Int8Array) {.importcpp: "set_iv",
     header: "cheerp/clientlib.h".}
-type
-
-  AesCmacParams* {.importcpp: "client::AesCmacParams",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_length*(this: var AesCmacParams): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
 
 proc set_length*(this: var AesCmacParams; a2: cdouble) {.
     importcpp: "set_length", header: "cheerp/clientlib.h".}
-type
-
-  AudioNode* {.importcpp: "client::AudioNode", header: "cheerp/clientlib.h",
-               bycopy.} = object of EventTarget
-
-
 
 proc get_channelCount*(this: var AudioNode): cdouble {.
     importcpp: "get_channelCount", header: "cheerp/clientlib.h".}
@@ -10681,12 +12708,6 @@ proc set_prototype*(this: var AudioNode; a2: ptr AudioNode) {.
 proc constructAudioNode*(): AudioNode {.constructor,
                                         importcpp: "client::AudioNode(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  AnalyserNode* {.importcpp: "client::AnalyserNode",
-                  header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_fftSize*(this: var AnalyserNode): cdouble {.importcpp: "get_fftSize",
     header: "cheerp/clientlib.h".}
@@ -10735,12 +12756,6 @@ proc set_prototype*(this: var AnalyserNode; a2: ptr AnalyserNode) {.
 
 proc constructAnalyserNode*(): AnalyserNode {.constructor,
     importcpp: "client::AnalyserNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  Animation* {.importcpp: "client::Animation", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_currentTime*(this: var Animation): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
@@ -10833,23 +12848,12 @@ proc constructAnimation*(effect: ptr AnimationEffectReadOnly): Animation {.
 proc constructAnimation*(effect: ptr AnimationEffectReadOnly;
                          timeline: ptr AnimationTimeline): Animation {.
     constructor, importcpp: "client::Animation(@)", header: "cheerp/clientlib.h".}
-type
-
-  AnimationEffectReadOnly* {.importcpp: "client::AnimationEffectReadOnly",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_timing*(this: var AnimationEffectReadOnly): cdouble {.
     importcpp: "get_timing", header: "cheerp/clientlib.h".}
 
 proc getComputedTiming*(this: var AnimationEffectReadOnly): ptr ComputedTimingProperties {.
     importcpp: "getComputedTiming", header: "cheerp/clientlib.h".}
-type
-
-  Event* {.importcpp: "client::Event", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_bubbles*(this: var Event): bool {.importcpp: "get_bubbles",
     header: "cheerp/clientlib.h".}
@@ -10940,12 +12944,6 @@ proc get_CAPTURING_PHASE*(this: var Event): cdouble {.
 
 proc get_NONE*(this: var Event): cdouble {.importcpp: "get_NONE",
     header: "cheerp/clientlib.h".}
-type
-
-  AnimationEvent* {.importcpp: "client::AnimationEvent",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_animationName*(this: var AnimationEvent): ptr String {.
     importcpp: "get_animationName", header: "cheerp/clientlib.h".}
@@ -10966,12 +12964,6 @@ proc constructAnimationEvent*(typeArg: String;
                               eventInitDict: ptr AnimationEventInit): AnimationEvent {.
     constructor, importcpp: "client::AnimationEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  AnimationKeyFrame* {.importcpp: "client::AnimationKeyFrame",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_easing*(this: var AnimationKeyFrame): ptr String {.
     importcpp: "get_easing", header: "cheerp/clientlib.h".}
@@ -10990,12 +12982,6 @@ proc `[]`*(this: var AnimationKeyFrame; index: cint): ptr Object {.
 
 proc `[]`*(this: AnimationKeyFrame; index: cint): ptr Object {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  AnimationOptions* {.importcpp: "client::AnimationOptions",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_delay*(this: var AnimationOptions): cdouble {.importcpp: "get_delay",
     header: "cheerp/clientlib.h".}
@@ -11050,12 +13036,6 @@ proc get_iterations*(this: var AnimationOptions): cdouble {.
 
 proc set_iterations*(this: var AnimationOptions; a2: cdouble) {.
     importcpp: "set_iterations", header: "cheerp/clientlib.h".}
-type
-
-  AnimationPlaybackEvent* {.importcpp: "client::AnimationPlaybackEvent",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_currentTime*(this: var AnimationPlaybackEvent): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
@@ -11077,12 +13057,6 @@ proc constructAnimationPlaybackEvent*(`type`: String): AnimationPlaybackEvent {.
 proc constructAnimationPlaybackEvent*(`type`: String; eventInitDict: ptr AnimationPlaybackEventInit): AnimationPlaybackEvent {.
     constructor, importcpp: "client::AnimationPlaybackEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  AnimationPlaybackEventInit* {.importcpp: "client::AnimationPlaybackEventInit",
-                                header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_currentTime*(this: var AnimationPlaybackEventInit): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
@@ -11095,21 +13069,9 @@ proc get_timelineTime*(this: var AnimationPlaybackEventInit): cdouble {.
 
 proc set_timelineTime*(this: var AnimationPlaybackEventInit; a2: cdouble) {.
     importcpp: "set_timelineTime", header: "cheerp/clientlib.h".}
-type
-
-  AnimationTimeline* {.importcpp: "client::AnimationTimeline",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_currentTime*(this: var AnimationTimeline): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
-type
-
-  ApplicationCacheEventMap* {.importcpp: "client::ApplicationCacheEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cached*(this: var ApplicationCacheEventMap): ptr Event {.
     importcpp: "get_cached", header: "cheerp/clientlib.h".}
@@ -11158,12 +13120,6 @@ proc get_updateready*(this: var ApplicationCacheEventMap): ptr Event {.
 
 proc set_updateready*(this: var ApplicationCacheEventMap; a2: ptr Event) {.
     importcpp: "set_updateready", header: "cheerp/clientlib.h".}
-type
-
-  ApplicationCache* {.importcpp: "client::ApplicationCache",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_oncached*(this: var ApplicationCache): ptr EventListener {.
     importcpp: "get_oncached", header: "cheerp/clientlib.h".}
@@ -11295,23 +13251,12 @@ proc get_UNCACHED*(this: var ApplicationCache): cdouble {.
 
 proc get_UPDATEREADY*(this: var ApplicationCache): cdouble {.
     importcpp: "get_UPDATEREADY", header: "cheerp/clientlib.h".}
-type
-
-  AssignedNodesOptions* {.importcpp: "client::AssignedNodesOptions",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_flatten*(this: var AssignedNodesOptions): bool {.
     importcpp: "get_flatten", header: "cheerp/clientlib.h".}
 
 proc set_flatten*(this: var AssignedNodesOptions; a2: bool) {.
     importcpp: "set_flatten", header: "cheerp/clientlib.h".}
-type
-
-  Node* {.importcpp: "client::Node", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_baseURI*(this: var Node): ptr String {.importcpp: "get_baseURI",
     header: "cheerp/clientlib.h".}
@@ -11477,11 +13422,6 @@ proc get_PROCESSING_INSTRUCTION_NODE*(this: var Node): cdouble {.
 
 proc get_TEXT_NODE*(this: var Node): cdouble {.importcpp: "get_TEXT_NODE",
     header: "cheerp/clientlib.h".}
-type
-
-  Attr* {.importcpp: "client::Attr", header: "cheerp/clientlib.h", bycopy.} = object of Node
-
-
 
 proc get_name*(this: var Attr): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -11509,12 +13449,6 @@ proc set_prototype*(this: var Attr; a2: ptr Attr) {.importcpp: "set_prototype",
 
 proc constructAttr*(): Attr {.constructor, importcpp: "client::Attr(@)",
                               header: "cheerp/clientlib.h".}
-type
-
-  AudioBuffer* {.importcpp: "client::AudioBuffer", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_duration*(this: var AudioBuffer): cdouble {.importcpp: "get_duration",
     header: "cheerp/clientlib.h".}
@@ -11555,24 +13489,12 @@ proc set_prototype*(this: var AudioBuffer; a2: ptr AudioBuffer) {.
 
 proc constructAudioBuffer*(): AudioBuffer {.constructor,
     importcpp: "client::AudioBuffer(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioBufferSourceNodeEventMap* {.importcpp: "client::AudioBufferSourceNodeEventMap",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ended*(this: var AudioBufferSourceNodeEventMap): ptr Event {.
     importcpp: "get_ended", header: "cheerp/clientlib.h".}
 
 proc set_ended*(this: var AudioBufferSourceNodeEventMap; a2: ptr Event) {.
     importcpp: "set_ended", header: "cheerp/clientlib.h".}
-type
-
-  AudioBufferSourceNode* {.importcpp: "client::AudioBufferSourceNode",
-                           header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_buffer*(this: var AudioBufferSourceNode): ptr AudioBuffer {.
     importcpp: "get_buffer", header: "cheerp/clientlib.h".}
@@ -11682,24 +13604,12 @@ proc set_prototype*(this: var AudioBufferSourceNode;
 
 proc constructAudioBufferSourceNode*(): AudioBufferSourceNode {.constructor,
     importcpp: "client::AudioBufferSourceNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioContextEventMap* {.importcpp: "client::AudioContextEventMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_statechange*(this: var AudioContextEventMap): ptr Event {.
     importcpp: "get_statechange", header: "cheerp/clientlib.h".}
 
 proc set_statechange*(this: var AudioContextEventMap; a2: ptr Event) {.
     importcpp: "set_statechange", header: "cheerp/clientlib.h".}
-type
-
-  AudioContextBase* {.importcpp: "client::AudioContextBase",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_currentTime*(this: var AudioContextBase): cdouble {.
     importcpp: "get_currentTime", header: "cheerp/clientlib.h".}
@@ -11871,12 +13781,6 @@ proc removeEventListener*(this: var AudioContextBase; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  AudioContext* {.importcpp: "client::AudioContext",
-                  header: "cheerp/clientlib.h", bycopy.} = object of AudioContextBase
-
-
 
 proc suspend*(this: var AudioContext): ptr Promise {.importcpp: "suspend",
     header: "cheerp/clientlib.h".}
@@ -11889,12 +13793,6 @@ proc set_prototype*(this: var AudioContext; a2: ptr AudioContext) {.
 
 proc constructAudioContext*(): AudioContext {.constructor,
     importcpp: "client::AudioContext(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioDestinationNode* {.importcpp: "client::AudioDestinationNode",
-                          header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_maxChannelCount*(this: var AudioDestinationNode): cdouble {.
     importcpp: "get_maxChannelCount", header: "cheerp/clientlib.h".}
@@ -11907,12 +13805,6 @@ proc set_prototype*(this: var AudioDestinationNode; a2: ptr AudioDestinationNode
 
 proc constructAudioDestinationNode*(): AudioDestinationNode {.constructor,
     importcpp: "client::AudioDestinationNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioListener* {.importcpp: "client::AudioListener",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_dopplerFactor*(this: var AudioListener): cdouble {.
     importcpp: "get_dopplerFactor", header: "cheerp/clientlib.h".}
@@ -11944,12 +13836,6 @@ proc set_prototype*(this: var AudioListener; a2: ptr AudioListener) {.
 
 proc constructAudioListener*(): AudioListener {.constructor,
     importcpp: "client::AudioListener(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioParam* {.importcpp: "client::AudioParam", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_defaultValue*(this: var AudioParam): cdouble {.
     importcpp: "get_defaultValue", header: "cheerp/clientlib.h".}
@@ -11990,12 +13876,6 @@ proc set_prototype*(this: var AudioParam; a2: ptr AudioParam) {.
 
 proc constructAudioParam*(): AudioParam {.constructor,
     importcpp: "client::AudioParam(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioProcessingEvent* {.importcpp: "client::AudioProcessingEvent",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_inputBuffer*(this: var AudioProcessingEvent): ptr AudioBuffer {.
     importcpp: "get_inputBuffer", header: "cheerp/clientlib.h".}
@@ -12014,12 +13894,6 @@ proc set_prototype*(this: var AudioProcessingEvent; a2: ptr AudioProcessingEvent
 
 proc constructAudioProcessingEvent*(): AudioProcessingEvent {.constructor,
     importcpp: "client::AudioProcessingEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioTrack* {.importcpp: "client::AudioTrack", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_enabled*(this: var AudioTrack): bool {.importcpp: "get_enabled",
     header: "cheerp/clientlib.h".}
@@ -12056,12 +13930,6 @@ proc set_prototype*(this: var AudioTrack; a2: ptr AudioTrack) {.
 
 proc constructAudioTrack*(): AudioTrack {.constructor,
     importcpp: "client::AudioTrack(@)", header: "cheerp/clientlib.h".}
-type
-
-  AudioTrackListEventMap* {.importcpp: "client::AudioTrackListEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addtrack*(this: var AudioTrackListEventMap): ptr TrackEvent {.
     importcpp: "get_addtrack", header: "cheerp/clientlib.h".}
@@ -12080,12 +13948,6 @@ proc get_removetrack*(this: var AudioTrackListEventMap): ptr TrackEvent {.
 
 proc set_removetrack*(this: var AudioTrackListEventMap; a2: ptr TrackEvent) {.
     importcpp: "set_removetrack", header: "cheerp/clientlib.h".}
-type
-
-  AudioTrackList* {.importcpp: "client::AudioTrackList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_length*(this: var AudioTrackList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -12172,11 +14034,6 @@ proc set_prototype*(this: var AudioTrackList; a2: ptr AudioTrackList) {.
 
 proc constructAudioTrackList*(): AudioTrackList {.constructor,
     importcpp: "client::AudioTrackList(@)", header: "cheerp/clientlib.h".}
-type
-
-  BarProp* {.importcpp: "client::BarProp", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_visible*(this: var BarProp): bool {.importcpp: "get_visible",
     header: "cheerp/clientlib.h".}
@@ -12190,12 +14047,6 @@ proc set_prototype*(this: var BarProp; a2: ptr BarProp) {.
 proc constructBarProp*(): BarProp {.constructor,
                                     importcpp: "client::BarProp(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  BeforeUnloadEvent* {.importcpp: "client::BeforeUnloadEvent",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc set_returnValue*(this: var BeforeUnloadEvent; a2: ptr Object) {.
     importcpp: "set_returnValue", header: "cheerp/clientlib.h".}
@@ -12208,12 +14059,6 @@ proc set_prototype*(this: var BeforeUnloadEvent; a2: ptr BeforeUnloadEvent) {.
 
 proc constructBeforeUnloadEvent*(): BeforeUnloadEvent {.constructor,
     importcpp: "client::BeforeUnloadEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  BhxBrowser* {.importcpp: "client::BhxBrowser", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_lastError*(this: var BhxBrowser): ptr DOMException {.
     importcpp: "get_lastError", header: "cheerp/clientlib.h".}
@@ -12290,12 +14135,6 @@ proc set_prototype*(this: var BhxBrowser; a2: ptr BhxBrowser) {.
 
 proc constructBhxBrowser*(): BhxBrowser {.constructor,
     importcpp: "client::BhxBrowser(@)", header: "cheerp/clientlib.h".}
-type
-
-  BiquadFilterNode* {.importcpp: "client::BiquadFilterNode",
-                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_detune*(this: var BiquadFilterNode): ptr AudioParam {.
     importcpp: "get_detune", header: "cheerp/clientlib.h".}
@@ -12326,11 +14165,6 @@ proc set_prototype*(this: var BiquadFilterNode; a2: ptr BiquadFilterNode) {.
 
 proc constructBiquadFilterNode*(): BiquadFilterNode {.constructor,
     importcpp: "client::BiquadFilterNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  Blob* {.importcpp: "client::Blob", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_size*(this: var Blob): cdouble {.importcpp: "get_size",
     header: "cheerp/clientlib.h".}
@@ -12367,12 +14201,6 @@ proc constructBlob*(blobParts: ptr Array): Blob {.constructor,
 
 proc constructBlob*(blobParts: ptr Array; options: ptr BlobPropertyBag): Blob {.
     constructor, importcpp: "client::Blob(@)", header: "cheerp/clientlib.h".}
-type
-
-  BlobPropertyBag* {.importcpp: "client::BlobPropertyBag",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_endings*(this: var BlobPropertyBag): ptr String {.
     importcpp: "get_endings", header: "cheerp/clientlib.h".}
@@ -12385,11 +14213,6 @@ proc get_type*(this: var BlobPropertyBag): ptr String {.importcpp: "get_type",
 
 proc set_type*(this: var BlobPropertyBag; a2: String) {.importcpp: "set_type",
     header: "cheerp/clientlib.h".}
-type
-
-  Body* {.importcpp: "client::Body", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_bodyUsed*(this: var Body): bool {.importcpp: "get_bodyUsed",
     header: "cheerp/clientlib.h".}
@@ -12408,12 +14231,6 @@ proc json*(this: var Body): ptr Promise {.importcpp: "json",
 
 proc text*(this: var Body): ptr Promise {.importcpp: "text",
     header: "cheerp/clientlib.h".}
-type
-
-  BroadcastChannel* {.importcpp: "client::BroadcastChannel",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_name*(this: var BroadcastChannel): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -12488,12 +14305,6 @@ proc set_prototype*(this: var BroadcastChannel; a2: ptr BroadcastChannel) {.
 
 proc constructBroadcastChannel*(name: String): BroadcastChannel {.constructor,
     importcpp: "client::BroadcastChannel(@)", header: "cheerp/clientlib.h".}
-type
-
-  BroadcastChannelEventMap* {.importcpp: "client::BroadcastChannelEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_message*(this: var BroadcastChannelEventMap): ptr MessageEvent {.
     importcpp: "get_message", header: "cheerp/clientlib.h".}
@@ -12506,12 +14317,6 @@ proc get_messageerror*(this: var BroadcastChannelEventMap): ptr MessageEvent {.
 
 proc set_messageerror*(this: var BroadcastChannelEventMap; a2: ptr MessageEvent) {.
     importcpp: "set_messageerror", header: "cheerp/clientlib.h".}
-type
-
-  ByteLengthQueuingStrategy* {.importcpp: "client::ByteLengthQueuingStrategy",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_highWaterMark*(this: var ByteLengthQueuingStrategy): cdouble {.
     importcpp: "get_highWaterMark", header: "cheerp/clientlib.h".}
@@ -12535,21 +14340,9 @@ proc set_prototype*(this: var ByteLengthQueuingStrategy;
 proc constructByteLengthQueuingStrategy*(strategy: ptr QueuingStrategy): ByteLengthQueuingStrategy {.
     constructor, importcpp: "client::ByteLengthQueuingStrategy(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ChildNode* {.importcpp: "client::ChildNode", header: "cheerp/clientlib.h",
-               bycopy.} = object
-
-
 
 proc remove*(this: var ChildNode) {.importcpp: "remove",
                                     header: "cheerp/clientlib.h".}
-type
-
-  CharacterData* {.importcpp: "client::CharacterData",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Node
-
-
 
 proc get_data*(this: var CharacterData): ptr String {.importcpp: "get_data",
     header: "cheerp/clientlib.h".}
@@ -12584,11 +14377,6 @@ proc set_prototype*(this: var CharacterData; a2: ptr CharacterData) {.
 
 proc constructCharacterData*(): CharacterData {.constructor,
     importcpp: "client::CharacterData(@)", header: "cheerp/clientlib.h".}
-type
-
-  Text* {.importcpp: "client::Text", header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
-
-
 
 proc get_assignedSlot*(this: var Text): ptr HTMLSlotElement {.
     importcpp: "get_assignedSlot", header: "cheerp/clientlib.h".}
@@ -12610,12 +14398,6 @@ proc constructText*(): Text {.constructor, importcpp: "client::Text(@)",
 
 proc constructText*(data: String): Text {.constructor,
     importcpp: "client::Text(@)", header: "cheerp/clientlib.h".}
-type
-
-  CDATASection* {.importcpp: "client::CDATASection",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Text
-
-
 
 proc get_prototype*(this: var CDATASection): ptr CDATASection {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -12625,11 +14407,6 @@ proc set_prototype*(this: var CDATASection; a2: ptr CDATASection) {.
 
 proc constructCDATASection*(): CDATASection {.constructor,
     importcpp: "client::CDATASection(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSS* {.importcpp: "client::CSS", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc escape*(this: var CSS; value: String): ptr String {.importcpp: "escape",
     header: "cheerp/clientlib.h".}
@@ -12639,11 +14416,6 @@ proc supports*(this: var CSS; property: String): bool {.importcpp: "supports",
 
 proc supports*(this: var CSS; property: String; value: String): bool {.
     importcpp: "supports", header: "cheerp/clientlib.h".}
-type
-
-  CSSRule* {.importcpp: "client::CSSRule", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cssText*(this: var CSSRule): ptr String {.importcpp: "get_cssText",
     header: "cheerp/clientlib.h".}
@@ -12705,12 +14477,6 @@ proc get_UNKNOWN_RULE*(this: var CSSRule): cdouble {.
 
 proc get_VIEWPORT_RULE*(this: var CSSRule): cdouble {.
     importcpp: "get_VIEWPORT_RULE", header: "cheerp/clientlib.h".}
-type
-
-  CSSGroupingRule* {.importcpp: "client::CSSGroupingRule",
-                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_cssRules*(this: var CSSGroupingRule): ptr CSSRuleList {.
     importcpp: "get_cssRules", header: "cheerp/clientlib.h".}
@@ -12729,12 +14495,6 @@ proc set_prototype*(this: var CSSGroupingRule; a2: ptr CSSGroupingRule) {.
 
 proc constructCSSGroupingRule*(): CSSGroupingRule {.constructor,
     importcpp: "client::CSSGroupingRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSConditionRule* {.importcpp: "client::CSSConditionRule",
-                      header: "cheerp/clientlib.h", bycopy.} = object of CSSGroupingRule
-
-
 
 proc get_conditionText*(this: var CSSConditionRule): ptr String {.
     importcpp: "get_conditionText", header: "cheerp/clientlib.h".}
@@ -12750,12 +14510,6 @@ proc set_prototype*(this: var CSSConditionRule; a2: ptr CSSConditionRule) {.
 
 proc constructCSSConditionRule*(): CSSConditionRule {.constructor,
     importcpp: "client::CSSConditionRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSFontFaceRule* {.importcpp: "client::CSSFontFaceRule",
-                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_style*(this: var CSSFontFaceRule): ptr CSSStyleDeclaration {.
     importcpp: "get_style", header: "cheerp/clientlib.h".}
@@ -12768,12 +14522,6 @@ proc set_prototype*(this: var CSSFontFaceRule; a2: ptr CSSFontFaceRule) {.
 
 proc constructCSSFontFaceRule*(): CSSFontFaceRule {.constructor,
     importcpp: "client::CSSFontFaceRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSImportRule* {.importcpp: "client::CSSImportRule",
-                   header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_href*(this: var CSSImportRule): ptr String {.importcpp: "get_href",
     header: "cheerp/clientlib.h".}
@@ -12792,12 +14540,6 @@ proc set_prototype*(this: var CSSImportRule; a2: ptr CSSImportRule) {.
 
 proc constructCSSImportRule*(): CSSImportRule {.constructor,
     importcpp: "client::CSSImportRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSKeyframeRule* {.importcpp: "client::CSSKeyframeRule",
-                     header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_keyText*(this: var CSSKeyframeRule): ptr String {.
     importcpp: "get_keyText", header: "cheerp/clientlib.h".}
@@ -12816,12 +14558,6 @@ proc set_prototype*(this: var CSSKeyframeRule; a2: ptr CSSKeyframeRule) {.
 
 proc constructCSSKeyframeRule*(): CSSKeyframeRule {.constructor,
     importcpp: "client::CSSKeyframeRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSKeyframesRule* {.importcpp: "client::CSSKeyframesRule",
-                      header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_cssRules*(this: var CSSKeyframesRule): ptr CSSRuleList {.
     importcpp: "get_cssRules", header: "cheerp/clientlib.h".}
@@ -12849,12 +14585,6 @@ proc set_prototype*(this: var CSSKeyframesRule; a2: ptr CSSKeyframesRule) {.
 
 proc constructCSSKeyframesRule*(): CSSKeyframesRule {.constructor,
     importcpp: "client::CSSKeyframesRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSMediaRule* {.importcpp: "client::CSSMediaRule",
-                  header: "cheerp/clientlib.h", bycopy.} = object of CSSConditionRule
-
-
 
 proc get_media*(this: var CSSMediaRule): ptr MediaList {.importcpp: "get_media",
     header: "cheerp/clientlib.h".}
@@ -12867,12 +14597,6 @@ proc set_prototype*(this: var CSSMediaRule; a2: ptr CSSMediaRule) {.
 
 proc constructCSSMediaRule*(): CSSMediaRule {.constructor,
     importcpp: "client::CSSMediaRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSNamespaceRule* {.importcpp: "client::CSSNamespaceRule",
-                      header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_namespaceURI*(this: var CSSNamespaceRule): ptr String {.
     importcpp: "get_namespaceURI", header: "cheerp/clientlib.h".}
@@ -12888,12 +14612,6 @@ proc set_prototype*(this: var CSSNamespaceRule; a2: ptr CSSNamespaceRule) {.
 
 proc constructCSSNamespaceRule*(): CSSNamespaceRule {.constructor,
     importcpp: "client::CSSNamespaceRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSPageRule* {.importcpp: "client::CSSPageRule", header: "cheerp/clientlib.h",
-                 bycopy.} = object of CSSRule
-
-
 
 proc get_pseudoClass*(this: var CSSPageRule): ptr String {.
     importcpp: "get_pseudoClass", header: "cheerp/clientlib.h".}
@@ -12918,12 +14636,6 @@ proc set_prototype*(this: var CSSPageRule; a2: ptr CSSPageRule) {.
 
 proc constructCSSPageRule*(): CSSPageRule {.constructor,
     importcpp: "client::CSSPageRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSRuleList* {.importcpp: "client::CSSRuleList", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_length*(this: var CSSRuleList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -12945,12 +14657,6 @@ proc set_prototype*(this: var CSSRuleList; a2: ptr CSSRuleList) {.
 
 proc constructCSSRuleList*(): CSSRuleList {.constructor,
     importcpp: "client::CSSRuleList(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSStyleDeclaration* {.importcpp: "client::CSSStyleDeclaration",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_alignContent*(this: var CSSStyleDeclaration): ptr String {.
     importcpp: "get_alignContent", header: "cheerp/clientlib.h".}
@@ -15154,12 +16860,6 @@ proc set_prototype*(this: var CSSStyleDeclaration; a2: ptr CSSStyleDeclaration) 
 
 proc constructCSSStyleDeclaration*(): CSSStyleDeclaration {.constructor,
     importcpp: "client::CSSStyleDeclaration(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSStyleRule* {.importcpp: "client::CSSStyleRule",
-                  header: "cheerp/clientlib.h", bycopy.} = object of CSSRule
-
-
 
 proc get_selectorText*(this: var CSSStyleRule): ptr String {.
     importcpp: "get_selectorText", header: "cheerp/clientlib.h".}
@@ -15178,12 +16878,6 @@ proc set_prototype*(this: var CSSStyleRule; a2: ptr CSSStyleRule) {.
 
 proc constructCSSStyleRule*(): CSSStyleRule {.constructor,
     importcpp: "client::CSSStyleRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  StyleSheet* {.importcpp: "client::StyleSheet", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_disabled*(this: var StyleSheet): bool {.importcpp: "get_disabled",
     header: "cheerp/clientlib.h".}
@@ -15217,12 +16911,6 @@ proc set_prototype*(this: var StyleSheet; a2: ptr StyleSheet) {.
 
 proc constructStyleSheet*(): StyleSheet {.constructor,
     importcpp: "client::StyleSheet(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSStyleSheet* {.importcpp: "client::CSSStyleSheet",
-                   header: "cheerp/clientlib.h", bycopy.} = object of StyleSheet
-
-
 
 proc get_cssRules*(this: var CSSStyleSheet): ptr CSSRuleList {.
     importcpp: "get_cssRules", header: "cheerp/clientlib.h".}
@@ -15307,12 +16995,6 @@ proc set_prototype*(this: var CSSStyleSheet; a2: ptr CSSStyleSheet) {.
 
 proc constructCSSStyleSheet*(): CSSStyleSheet {.constructor,
     importcpp: "client::CSSStyleSheet(@)", header: "cheerp/clientlib.h".}
-type
-
-  CSSSupportsRule* {.importcpp: "client::CSSSupportsRule",
-                     header: "cheerp/clientlib.h", bycopy.} = object of CSSConditionRule
-
-
 
 proc get_prototype*(this: var CSSSupportsRule): ptr CSSSupportsRule {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -15322,11 +17004,6 @@ proc set_prototype*(this: var CSSSupportsRule; a2: ptr CSSSupportsRule) {.
 
 proc constructCSSSupportsRule*(): CSSSupportsRule {.constructor,
     importcpp: "client::CSSSupportsRule(@)", header: "cheerp/clientlib.h".}
-type
-
-  Cache* {.importcpp: "client::Cache", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc add*(this: var Cache; request: ptr Request): ptr Promise {.
     importcpp: "add", header: "cheerp/clientlib.h".}
@@ -15408,13 +17085,6 @@ proc set_prototype*(this: var Cache; a2: ptr Cache) {.
 
 proc constructCache*(): Cache {.constructor, importcpp: "client::Cache(@)",
                                 header: "cheerp/clientlib.h".}
-type
-
-  CacheStorage* {.importcpp: "client::CacheStorage",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object ##
-                              ## cheerp::interface_name(("delete"))
-
-
 
 proc _delete*(this: var CacheStorage; cacheName: String): ptr Promise {.
     importcpp: "_delete", header: "cheerp/clientlib.h".}
@@ -15450,12 +17120,6 @@ proc set_prototype*(this: var CacheStorage; a2: ptr CacheStorage) {.
 
 proc constructCacheStorage*(): CacheStorage {.constructor,
     importcpp: "client::CacheStorage(@)", header: "cheerp/clientlib.h".}
-type
-
-  Canvas2DContextAttributes* {.importcpp: "client::Canvas2DContextAttributes",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_alpha*(this: var Canvas2DContextAttributes): bool {.
     importcpp: "get_alpha", header: "cheerp/clientlib.h".}
@@ -15480,12 +17144,6 @@ proc `[]`*(this: var Canvas2DContextAttributes; index: cint): ptr Object {.
 
 proc `[]`*(this: Canvas2DContextAttributes; index: cint): ptr Object {.
     noSideEffect, importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  CanvasGradient* {.importcpp: "client::CanvasGradient",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc addColorStop*(this: var CanvasGradient; offset: cdouble; color: String) {.
     importcpp: "addColorStop", header: "cheerp/clientlib.h".}
@@ -15498,12 +17156,6 @@ proc set_prototype*(this: var CanvasGradient; a2: ptr CanvasGradient) {.
 
 proc constructCanvasGradient*(): CanvasGradient {.constructor,
     importcpp: "client::CanvasGradient(@)", header: "cheerp/clientlib.h".}
-type
-
-  CanvasPathMethods* {.importcpp: "client::CanvasPathMethods",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc arc*(this: var CanvasPathMethods; x: cdouble; y: cdouble; radius: cdouble;
           startAngle: cdouble; endAngle: cdouble) {.importcpp: "arc",
@@ -15550,12 +17202,6 @@ proc quadraticCurveTo*(this: var CanvasPathMethods; cpx: cdouble; cpy: cdouble;
 
 proc rect*(this: var CanvasPathMethods; x: cdouble; y: cdouble; w: cdouble;
            h: cdouble) {.importcpp: "rect", header: "cheerp/clientlib.h".}
-type
-
-  CanvasPattern* {.importcpp: "client::CanvasPattern",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc setTransform*(this: var CanvasPattern; matrix: ptr SVGMatrix) {.
     importcpp: "setTransform", header: "cheerp/clientlib.h".}
@@ -15568,12 +17214,6 @@ proc set_prototype*(this: var CanvasPattern; a2: ptr CanvasPattern) {.
 
 proc constructCanvasPattern*(): CanvasPattern {.constructor,
     importcpp: "client::CanvasPattern(@)", header: "cheerp/clientlib.h".}
-type
-
-  CanvasRenderingContext2D* {.importcpp: "client::CanvasRenderingContext2D",
-                              header: "cheerp/clientlib.h", bycopy.} = object of CanvasPathMethods
-
-
 
 proc get_canvas*(this: var CanvasRenderingContext2D): ptr HTMLCanvasElement {.
     importcpp: "get_canvas", header: "cheerp/clientlib.h".}
@@ -15934,12 +17574,6 @@ proc set_prototype*(this: var CanvasRenderingContext2D;
 proc constructCanvasRenderingContext2D*(): CanvasRenderingContext2D {.
     constructor, importcpp: "client::CanvasRenderingContext2D(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ChannelMergerNode* {.importcpp: "client::ChannelMergerNode",
-                       header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_prototype*(this: var ChannelMergerNode): ptr ChannelMergerNode {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -15949,12 +17583,6 @@ proc set_prototype*(this: var ChannelMergerNode; a2: ptr ChannelMergerNode) {.
 
 proc constructChannelMergerNode*(): ChannelMergerNode {.constructor,
     importcpp: "client::ChannelMergerNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  ChannelSplitterNode* {.importcpp: "client::ChannelSplitterNode",
-                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_prototype*(this: var ChannelSplitterNode): ptr ChannelSplitterNode {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -15964,12 +17592,6 @@ proc set_prototype*(this: var ChannelSplitterNode; a2: ptr ChannelSplitterNode) 
 
 proc constructChannelSplitterNode*(): ChannelSplitterNode {.constructor,
     importcpp: "client::ChannelSplitterNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  ClientRect* {.importcpp: "client::ClientRect", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_bottom*(this: var ClientRect): cdouble {.importcpp: "get_bottom",
     header: "cheerp/clientlib.h".}
@@ -16009,12 +17631,6 @@ proc set_prototype*(this: var ClientRect; a2: ptr ClientRect) {.
 
 proc constructClientRect*(): ClientRect {.constructor,
     importcpp: "client::ClientRect(@)", header: "cheerp/clientlib.h".}
-type
-
-  ClientRectList* {.importcpp: "client::ClientRectList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var ClientRectList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -16036,12 +17652,6 @@ proc set_prototype*(this: var ClientRectList; a2: ptr ClientRectList) {.
 
 proc constructClientRectList*(): ClientRectList {.constructor,
     importcpp: "client::ClientRectList(@)", header: "cheerp/clientlib.h".}
-type
-
-  ClipboardEvent* {.importcpp: "client::ClipboardEvent",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_clipboardData*(this: var ClipboardEvent): ptr DataTransfer {.
     importcpp: "get_clipboardData", header: "cheerp/clientlib.h".}
@@ -16059,12 +17669,6 @@ proc constructClipboardEvent*(`type`: String;
                               eventInitDict: ptr ClipboardEventInit): ClipboardEvent {.
     constructor, importcpp: "client::ClipboardEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ClipboardEventInit* {.importcpp: "client::ClipboardEventInit",
-                        header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_data*(this: var ClipboardEventInit): ptr String {.
     importcpp: "get_data", header: "cheerp/clientlib.h".}
@@ -16077,12 +17681,6 @@ proc get_dataType*(this: var ClipboardEventInit): ptr String {.
 
 proc set_dataType*(this: var ClipboardEventInit; a2: String) {.
     importcpp: "set_dataType", header: "cheerp/clientlib.h".}
-type
-
-  CloseEvent* {.importcpp: "client::CloseEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of Event
-
-
 
 proc get_code*(this: var CloseEvent): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -16110,11 +17708,6 @@ proc constructCloseEvent*(`type`: String): CloseEvent {.constructor,
 proc constructCloseEvent*(`type`: String; eventInitDict: ptr CloseEventInit): CloseEvent {.
     constructor, importcpp: "client::CloseEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Comment* {.importcpp: "client::Comment", header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
-
-
 
 proc get_text*(this: var Comment): ptr String {.importcpp: "get_text",
     header: "cheerp/clientlib.h".}
@@ -16134,11 +17727,6 @@ proc constructComment*(): Comment {.constructor,
 
 proc constructComment*(data: String): Comment {.constructor,
     importcpp: "client::Comment(@)", header: "cheerp/clientlib.h".}
-type
-
-  UIEvent* {.importcpp: "client::UIEvent", header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_detail*(this: var UIEvent): cdouble {.importcpp: "get_detail",
     header: "cheerp/clientlib.h".}
@@ -16161,12 +17749,6 @@ proc constructUIEvent*(typeArg: String): UIEvent {.constructor,
 
 proc constructUIEvent*(typeArg: String; eventInitDict: ptr UIEventInit): UIEvent {.
     constructor, importcpp: "client::UIEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  CompositionEvent* {.importcpp: "client::CompositionEvent",
-                      header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
-
-
 
 proc get_data*(this: var CompositionEvent): ptr String {.importcpp: "get_data",
     header: "cheerp/clientlib.h".}
@@ -16193,12 +17775,6 @@ proc constructCompositionEvent*(typeArg: String;
                                 eventInitDict: ptr CompositionEventInit): CompositionEvent {.
     constructor, importcpp: "client::CompositionEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ComputedTimingProperties* {.importcpp: "client::ComputedTimingProperties",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_activeDuration*(this: var ComputedTimingProperties): cdouble {.
     importcpp: "get_activeDuration", header: "cheerp/clientlib.h".}
@@ -16229,12 +17805,6 @@ proc get_progress*(this: var ComputedTimingProperties): cdouble {.
 
 proc set_progress*(this: var ComputedTimingProperties; a2: cdouble) {.
     importcpp: "set_progress", header: "cheerp/clientlib.h".}
-type
-
-  ConcatParams* {.importcpp: "client::ConcatParams",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_algorithmId*(this: var ConcatParams): ptr Uint8Array {.
     importcpp: "get_algorithmId", header: "cheerp/clientlib.h".}
@@ -16271,11 +17841,6 @@ proc get_publicInfo*(this: var ConcatParams): ptr Uint8Array {.
 
 proc set_publicInfo*(this: var ConcatParams; a2: ptr Uint8Array) {.
     importcpp: "set_publicInfo", header: "cheerp/clientlib.h".}
-type
-
-  Console* {.importcpp: "client::Console", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc clear*(this: var Console) {.importcpp: "clear",
                                  header: "cheerp/clientlib.h".}
@@ -16400,12 +17965,6 @@ proc get_prototype*(this: var Console): ptr Console {.
 
 proc set_prototype*(this: var Console; a2: ptr Console) {.
     importcpp: "set_prototype", header: "cheerp/clientlib.h".}
-type
-
-  ContentScriptGlobalScope* {.importcpp: "client::ContentScriptGlobalScope",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_msContentScript*(this: var ContentScriptGlobalScope): ptr ExtensionScriptApis {.
     importcpp: "get_msContentScript", header: "cheerp/clientlib.h".}
@@ -16423,12 +17982,6 @@ proc set_prototype*(this: var ContentScriptGlobalScope;
 proc constructContentScriptGlobalScope*(): ContentScriptGlobalScope {.
     constructor, importcpp: "client::ContentScriptGlobalScope(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ConvolverNode* {.importcpp: "client::ConvolverNode",
-                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_buffer*(this: var ConvolverNode): ptr AudioBuffer {.
     importcpp: "get_buffer", header: "cheerp/clientlib.h".}
@@ -16450,12 +18003,6 @@ proc set_prototype*(this: var ConvolverNode; a2: ptr ConvolverNode) {.
 
 proc constructConvolverNode*(): ConvolverNode {.constructor,
     importcpp: "client::ConvolverNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  Coordinates* {.importcpp: "client::Coordinates", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_accuracy*(this: var Coordinates): cdouble {.importcpp: "get_accuracy",
     header: "cheerp/clientlib.h".}
@@ -16486,12 +18033,6 @@ proc set_prototype*(this: var Coordinates; a2: ptr Coordinates) {.
 
 proc constructCoordinates*(): Coordinates {.constructor,
     importcpp: "client::Coordinates(@)", header: "cheerp/clientlib.h".}
-type
-
-  CountQueuingStrategy* {.importcpp: "client::CountQueuingStrategy",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_highWaterMark*(this: var CountQueuingStrategy): cdouble {.
     importcpp: "get_highWaterMark", header: "cheerp/clientlib.h".}
@@ -16511,11 +18052,6 @@ proc set_prototype*(this: var CountQueuingStrategy; a2: ptr CountQueuingStrategy
 proc constructCountQueuingStrategy*(strategy: ptr QueuingStrategy): CountQueuingStrategy {.
     constructor, importcpp: "client::CountQueuingStrategy(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Crypto* {.importcpp: "client::Crypto", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_subtle*(this: var Crypto): ptr SubtleCrypto {.importcpp: "get_subtle",
     header: "cheerp/clientlib.h".}
@@ -16558,12 +18094,6 @@ proc set_prototype*(this: var Crypto; a2: ptr Crypto) {.
 
 proc constructCrypto*(): Crypto {.constructor, importcpp: "client::Crypto(@)",
                                   header: "cheerp/clientlib.h".}
-type
-
-  CryptoKey* {.importcpp: "client::CryptoKey", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_algorithm*(this: var CryptoKey): ptr KeyAlgorithm {.
     importcpp: "get_algorithm", header: "cheerp/clientlib.h".}
@@ -16586,12 +18116,6 @@ proc set_prototype*(this: var CryptoKey; a2: ptr CryptoKey) {.
 proc constructCryptoKey*(): CryptoKey {.constructor,
                                         importcpp: "client::CryptoKey(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  CryptoKeyPair* {.importcpp: "client::CryptoKeyPair",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_privateKey*(this: var CryptoKeyPair): ptr CryptoKey {.
     importcpp: "get_privateKey", header: "cheerp/clientlib.h".}
@@ -16613,12 +18137,6 @@ proc set_prototype*(this: var CryptoKeyPair; a2: ptr CryptoKeyPair) {.
 
 proc constructCryptoKeyPair*(): CryptoKeyPair {.constructor,
     importcpp: "client::CryptoKeyPair(@)", header: "cheerp/clientlib.h".}
-type
-
-  CustomElementRegistry* {.importcpp: "client::CustomElementRegistry",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc define*(this: var CustomElementRegistry; name: String;
              constructor: ptr Function) {.importcpp: "define",
@@ -16630,12 +18148,6 @@ proc define*(this: var CustomElementRegistry; name: String;
 
 proc whenDefined*(this: var CustomElementRegistry; name: String): ptr Promise {.
     importcpp: "whenDefined", header: "cheerp/clientlib.h".}
-type
-
-  CustomEvent*[T] {.importcpp: "client::CustomEvent<\'0>",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_detail*[T](this: var CustomEvent[T]): ptr T {.importcpp: "get_detail",
     header: "cheerp/clientlib.h".}
@@ -16658,12 +18170,6 @@ proc constructCustomEvent*[T](typeArg: String;
                               eventInitDict: ptr CustomEventInit[T]): CustomEvent[
     T] {.constructor, importcpp: "client::CustomEvent<\'*0>(@)",
          header: "cheerp/clientlib.h".}
-type
-
-  DOMError* {.importcpp: "client::DOMError", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_name*(this: var DOMError): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -16680,12 +18186,6 @@ proc set_prototype*(this: var DOMError; a2: ptr DOMError) {.
 proc constructDOMError*(): DOMError {.constructor,
                                       importcpp: "client::DOMError(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  DOMException* {.importcpp: "client::DOMException",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_code*(this: var DOMException): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -16795,12 +18295,6 @@ proc get_VALIDATION_ERR*(this: var DOMException): cdouble {.
 
 proc get_WRONG_DOCUMENT_ERR*(this: var DOMException): cdouble {.
     importcpp: "get_WRONG_DOCUMENT_ERR", header: "cheerp/clientlib.h".}
-type
-
-  DOMImplementation* {.importcpp: "client::DOMImplementation",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc createDocument*(this: var DOMImplementation; namespaceURI: String;
                      qualifiedName: String; doctype: ptr DocumentType): ptr Document {.
@@ -16827,36 +18321,18 @@ proc set_prototype*(this: var DOMImplementation; a2: ptr DOMImplementation) {.
 
 proc constructDOMImplementation*(): DOMImplementation {.constructor,
     importcpp: "client::DOMImplementation(@)", header: "cheerp/clientlib.h".}
-type
-
-  DOML2DeprecatedColorProperty* {.importcpp: "client::DOML2DeprecatedColorProperty",
-                                  header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_color*(this: var DOML2DeprecatedColorProperty): ptr String {.
     importcpp: "get_color", header: "cheerp/clientlib.h".}
 
 proc set_color*(this: var DOML2DeprecatedColorProperty; a2: String) {.
     importcpp: "set_color", header: "cheerp/clientlib.h".}
-type
-
-  DOML2DeprecatedSizeProperty* {.importcpp: "client::DOML2DeprecatedSizeProperty",
-                                 header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_size*(this: var DOML2DeprecatedSizeProperty): cdouble {.
     importcpp: "get_size", header: "cheerp/clientlib.h".}
 
 proc set_size*(this: var DOML2DeprecatedSizeProperty; a2: cdouble) {.
     importcpp: "set_size", header: "cheerp/clientlib.h".}
-type
-
-  DOMParser* {.importcpp: "client::DOMParser", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc parseFromString*(this: var DOMParser; source: String; mimeType: String): ptr Document {.
     importcpp: "parseFromString", header: "cheerp/clientlib.h".}
@@ -16870,12 +18346,6 @@ proc set_prototype*(this: var DOMParser; a2: ptr DOMParser) {.
 proc constructDOMParser*(): DOMParser {.constructor,
                                         importcpp: "client::DOMParser(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  DOMRectReadOnly* {.importcpp: "client::DOMRectReadOnly",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_bottom*(this: var DOMRectReadOnly): cdouble {.importcpp: "get_bottom",
     header: "cheerp/clientlib.h".}
@@ -16934,11 +18404,6 @@ proc fromRect*(rectangle: ptr DOMRectInit): ptr DOMRectReadOnly {.
     importcpp: "client::DOMRectReadOnly::fromRect(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  DOMRect* {.importcpp: "client::DOMRect", header: "cheerp/clientlib.h", bycopy.} = object of DOMRectReadOnly
-
-
 
 proc get_height*(this: var DOMRect): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -16995,12 +18460,6 @@ proc fromRect*(rectangle: ptr DOMRectInit): ptr DOMRect {.
     importcpp: "client::DOMRect::fromRect(@)", header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  DOMRectList* {.importcpp: "client::DOMRectList", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_length*(this: var DOMRectList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -17013,12 +18472,6 @@ proc `[]`*(this: var DOMRectList; index: cint): ptr DOMRect {.importcpp: "#[@]",
 
 proc `[]`*(this: DOMRectList; index: cint): ptr DOMRect {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  DOMTokenList* {.importcpp: "client::DOMTokenList",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var DOMTokenList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -17061,12 +18514,6 @@ proc set_prototype*(this: var DOMTokenList; a2: ptr DOMTokenList) {.
 
 proc constructDOMTokenList*(): DOMTokenList {.constructor,
     importcpp: "client::DOMTokenList(@)", header: "cheerp/clientlib.h".}
-type
-
-  DOMSettableTokenList* {.importcpp: "client::DOMSettableTokenList",
-                          header: "cheerp/clientlib.h", bycopy.} = object of DOMTokenList
-
-
 
 proc get_value*(this: var DOMSettableTokenList): ptr String {.
     importcpp: "get_value", header: "cheerp/clientlib.h".}
@@ -17082,12 +18529,6 @@ proc set_prototype*(this: var DOMSettableTokenList; a2: ptr DOMSettableTokenList
 
 proc constructDOMSettableTokenList*(): DOMSettableTokenList {.constructor,
     importcpp: "client::DOMSettableTokenList(@)", header: "cheerp/clientlib.h".}
-type
-
-  DOMStringList* {.importcpp: "client::DOMStringList",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var DOMStringList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -17112,12 +18553,6 @@ proc set_prototype*(this: var DOMStringList; a2: ptr DOMStringList) {.
 
 proc constructDOMStringList*(): DOMStringList {.constructor,
     importcpp: "client::DOMStringList(@)", header: "cheerp/clientlib.h".}
-type
-
-  DOMStringMap* {.importcpp: "client::DOMStringMap",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc `[]`*(this: var DOMStringMap; index: cint): ptr Object {.importcpp: "#[@]",
     header: "cheerp/clientlib.h".}
@@ -17133,12 +18568,6 @@ proc set_prototype*(this: var DOMStringMap; a2: ptr DOMStringMap) {.
 
 proc constructDOMStringMap*(): DOMStringMap {.constructor,
     importcpp: "client::DOMStringMap(@)", header: "cheerp/clientlib.h".}
-type
-
-  TextTrackCue* {.importcpp: "client::TextTrackCue",
-                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_endTime*(this: var TextTrackCue): cdouble {.importcpp: "get_endTime",
     header: "cheerp/clientlib.h".}
@@ -17241,11 +18670,6 @@ proc set_prototype*(this: var TextTrackCue; a2: ptr TextTrackCue) {.
 proc constructTextTrackCue*(startTime: cdouble; endTime: cdouble; text: String): TextTrackCue {.
     constructor, importcpp: "client::TextTrackCue(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DataCue* {.importcpp: "client::DataCue", header: "cheerp/clientlib.h", bycopy.} = object of TextTrackCue
-
-
 
 proc get_data*(this: var DataCue): ptr ArrayBuffer {.importcpp: "get_data",
     header: "cheerp/clientlib.h".}
@@ -17306,12 +18730,6 @@ proc set_prototype*(this: var DataCue; a2: ptr DataCue) {.
 proc constructDataCue*(): DataCue {.constructor,
                                     importcpp: "client::DataCue(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  DataTransfer* {.importcpp: "client::DataTransfer",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_dropEffect*(this: var DataTransfer): ptr String {.
     importcpp: "get_dropEffect", header: "cheerp/clientlib.h".}
@@ -17358,12 +18776,6 @@ proc set_prototype*(this: var DataTransfer; a2: ptr DataTransfer) {.
 
 proc constructDataTransfer*(): DataTransfer {.constructor,
     importcpp: "client::DataTransfer(@)", header: "cheerp/clientlib.h".}
-type
-
-  DataTransferItem* {.importcpp: "client::DataTransferItem",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_kind*(this: var DataTransferItem): ptr String {.importcpp: "get_kind",
     header: "cheerp/clientlib.h".}
@@ -17385,12 +18797,6 @@ proc set_prototype*(this: var DataTransferItem; a2: ptr DataTransferItem) {.
 
 proc constructDataTransferItem*(): DataTransferItem {.constructor,
     importcpp: "client::DataTransferItem(@)", header: "cheerp/clientlib.h".}
-type
-
-  DataTransferItemList* {.importcpp: "client::DataTransferItemList",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var DataTransferItemList): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -17424,12 +18830,6 @@ proc set_prototype*(this: var DataTransferItemList; a2: ptr DataTransferItemList
 
 proc constructDataTransferItemList*(): DataTransferItemList {.constructor,
     importcpp: "client::DataTransferItemList(@)", header: "cheerp/clientlib.h".}
-type
-
-  DeferredPermissionRequest* {.importcpp: "client::DeferredPermissionRequest",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_id*(this: var DeferredPermissionRequest): cdouble {.
     importcpp: "get_id", header: "cheerp/clientlib.h".}
@@ -17456,12 +18856,6 @@ proc set_prototype*(this: var DeferredPermissionRequest;
 proc constructDeferredPermissionRequest*(): DeferredPermissionRequest {.
     constructor, importcpp: "client::DeferredPermissionRequest(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DelayNode* {.importcpp: "client::DelayNode", header: "cheerp/clientlib.h",
-               bycopy.} = object of AudioNode
-
-
 
 proc get_delayTime*(this: var DelayNode): ptr AudioParam {.
     importcpp: "get_delayTime", header: "cheerp/clientlib.h".}
@@ -17475,12 +18869,6 @@ proc set_prototype*(this: var DelayNode; a2: ptr DelayNode) {.
 proc constructDelayNode*(): DelayNode {.constructor,
                                         importcpp: "client::DelayNode(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  DeviceAcceleration* {.importcpp: "client::DeviceAcceleration",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_x*(this: var DeviceAcceleration): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -17499,12 +18887,6 @@ proc set_prototype*(this: var DeviceAcceleration; a2: ptr DeviceAcceleration) {.
 
 proc constructDeviceAcceleration*(): DeviceAcceleration {.constructor,
     importcpp: "client::DeviceAcceleration(@)", header: "cheerp/clientlib.h".}
-type
-
-  DeviceLightEvent* {.importcpp: "client::DeviceLightEvent",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_value*(this: var DeviceLightEvent): cdouble {.importcpp: "get_value",
     header: "cheerp/clientlib.h".}
@@ -17523,12 +18905,6 @@ proc constructDeviceLightEvent*(typeArg: String;
                                 eventInitDict: ptr DeviceLightEventInit): DeviceLightEvent {.
     constructor, importcpp: "client::DeviceLightEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DeviceMotionEvent* {.importcpp: "client::DeviceMotionEvent",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_acceleration*(this: var DeviceMotionEvent): ptr DeviceAcceleration {.
     importcpp: "get_acceleration", header: "cheerp/clientlib.h".}
@@ -17564,12 +18940,6 @@ proc constructDeviceMotionEvent*(typeArg: String;
                                  eventInitDict: ptr DeviceMotionEventInit): DeviceMotionEvent {.
     constructor, importcpp: "client::DeviceMotionEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DeviceOrientationEvent* {.importcpp: "client::DeviceOrientationEvent",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_absolute*(this: var DeviceOrientationEvent): bool {.
     importcpp: "get_absolute", header: "cheerp/clientlib.h".}
@@ -17603,12 +18973,6 @@ proc constructDeviceOrientationEvent*(typeArg: String): DeviceOrientationEvent {
 proc constructDeviceOrientationEvent*(typeArg: String; eventInitDict: ptr DeviceOrientationEventInit): DeviceOrientationEvent {.
     constructor, importcpp: "client::DeviceOrientationEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DeviceRotationRate* {.importcpp: "client::DeviceRotationRate",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_alpha*(this: var DeviceRotationRate): cdouble {.importcpp: "get_alpha",
     header: "cheerp/clientlib.h".}
@@ -17627,12 +18991,6 @@ proc set_prototype*(this: var DeviceRotationRate; a2: ptr DeviceRotationRate) {.
 
 proc constructDeviceRotationRate*(): DeviceRotationRate {.constructor,
     importcpp: "client::DeviceRotationRate(@)", header: "cheerp/clientlib.h".}
-type
-
-  DhImportKeyParams* {.importcpp: "client::DhImportKeyParams",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_generator*(this: var DhImportKeyParams): ptr Uint8Array {.
     importcpp: "get_generator", header: "cheerp/clientlib.h".}
@@ -17645,12 +19003,6 @@ proc get_prime*(this: var DhImportKeyParams): ptr Uint8Array {.
 
 proc set_prime*(this: var DhImportKeyParams; a2: ptr Uint8Array) {.
     importcpp: "set_prime", header: "cheerp/clientlib.h".}
-type
-
-  DhKeyAlgorithm* {.importcpp: "client::DhKeyAlgorithm",
-                    header: "cheerp/clientlib.h", bycopy.} = object of KeyAlgorithm
-
-
 
 proc get_generator*(this: var DhKeyAlgorithm): ptr Uint8Array {.
     importcpp: "get_generator", header: "cheerp/clientlib.h".}
@@ -17663,24 +19015,12 @@ proc get_prime*(this: var DhKeyAlgorithm): ptr Uint8Array {.
 
 proc set_prime*(this: var DhKeyAlgorithm; a2: ptr Uint8Array) {.
     importcpp: "set_prime", header: "cheerp/clientlib.h".}
-type
-
-  DhKeyDeriveParams* {.importcpp: "client::DhKeyDeriveParams",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_public*(this: var DhKeyDeriveParams): ptr CryptoKey {.
     importcpp: "get_public", header: "cheerp/clientlib.h".}
 
 proc set_public*(this: var DhKeyDeriveParams; a2: ptr CryptoKey) {.
     importcpp: "set_public", header: "cheerp/clientlib.h".}
-type
-
-  DhKeyGenParams* {.importcpp: "client::DhKeyGenParams",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_generator*(this: var DhKeyGenParams): ptr Uint8Array {.
     importcpp: "get_generator", header: "cheerp/clientlib.h".}
@@ -17693,12 +19033,6 @@ proc get_prime*(this: var DhKeyGenParams): ptr Uint8Array {.
 
 proc set_prime*(this: var DhKeyGenParams; a2: ptr Uint8Array) {.
     importcpp: "set_prime", header: "cheerp/clientlib.h".}
-type
-
-  GlobalEventHandlersEventMap* {.importcpp: "client::GlobalEventHandlersEventMap",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_pointercancel*(this: var GlobalEventHandlersEventMap): ptr PointerEvent {.
     importcpp: "get_pointercancel", header: "cheerp/clientlib.h".}
@@ -17759,12 +19093,6 @@ proc get_wheel*(this: var GlobalEventHandlersEventMap): ptr WheelEvent {.
 
 proc set_wheel*(this: var GlobalEventHandlersEventMap; a2: ptr WheelEvent) {.
     importcpp: "set_wheel", header: "cheerp/clientlib.h".}
-type
-
-  DocumentEventMap* {.importcpp: "client::DocumentEventMap",
-                      header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
-
-
 
 proc get_abort*(this: var DocumentEventMap): ptr UIEvent {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -18294,12 +19622,6 @@ proc get_webkitfullscreenerror*(this: var DocumentEventMap): ptr Event {.
 
 proc set_webkitfullscreenerror*(this: var DocumentEventMap; a2: ptr Event) {.
     importcpp: "set_webkitfullscreenerror", header: "cheerp/clientlib.h".}
-type
-
-  GlobalEventHandlers* {.importcpp: "client::GlobalEventHandlers",
-                         header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_onpointercancel*(this: var GlobalEventHandlers): ptr EventListener {.
     importcpp: "get_onpointercancel", header: "cheerp/clientlib.h".}
@@ -18398,12 +19720,6 @@ proc removeEventListener*(this: var GlobalEventHandlers; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  ParentNode* {.importcpp: "client::ParentNode", header: "cheerp/clientlib.h",
-                bycopy.} = object
-
-
 
 proc get_childElementCount*(this: var ParentNode): cdouble {.
     importcpp: "get_childElementCount", header: "cheerp/clientlib.h".}
@@ -18422,21 +19738,9 @@ proc querySelector*(this: var ParentNode; selectors: String): ptr Element {.
 
 proc querySelectorAll*(this: var ParentNode; selectors: String): ptr NodeListOf[
     Element] {.importcpp: "querySelectorAll", header: "cheerp/clientlib.h".}
-type
-
-  DocumentEvent* {.importcpp: "client::DocumentEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc createEvent*(this: var DocumentEvent; eventInterface: String): ptr Event {.
     importcpp: "createEvent", header: "cheerp/clientlib.h".}
-type
-
-  Document* {.importcpp: "client::Document", header: "cheerp/clientlib.h",
-              bycopy.} = object of Node
-
-
 
 proc get_URLUnencoded*(this: var Document): ptr String {.
     importcpp: "get_URLUnencoded", header: "cheerp/clientlib.h".}
@@ -19451,12 +20755,6 @@ proc set_prototype*(this: var Document; a2: ptr Document) {.
 proc constructDocument*(): Document {.constructor,
                                       importcpp: "client::Document(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  DocumentFragment* {.importcpp: "client::DocumentFragment",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Node
-
-
 
 proc getElementById*(this: var DocumentFragment; elementId: String): ptr HTMLElement {.
     importcpp: "getElementById", header: "cheerp/clientlib.h".}
@@ -19469,12 +20767,6 @@ proc set_prototype*(this: var DocumentFragment; a2: ptr DocumentFragment) {.
 
 proc constructDocumentFragment*(): DocumentFragment {.constructor,
     importcpp: "client::DocumentFragment(@)", header: "cheerp/clientlib.h".}
-type
-
-  DocumentOrShadowRoot* {.importcpp: "client::DocumentOrShadowRoot",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_activeElement*(this: var DocumentOrShadowRoot): ptr Element {.
     importcpp: "get_activeElement", header: "cheerp/clientlib.h".}
@@ -19490,12 +20782,6 @@ proc elementsFromPoint*(this: var DocumentOrShadowRoot; x: cdouble; y: cdouble):
 
 proc getSelection*(this: var DocumentOrShadowRoot): ptr Selection {.
     importcpp: "getSelection", header: "cheerp/clientlib.h".}
-type
-
-  DocumentType* {.importcpp: "client::DocumentType",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Node
-
-
 
 proc get_entities*(this: var DocumentType): ptr NamedNodeMap {.
     importcpp: "get_entities", header: "cheerp/clientlib.h".}
@@ -19523,12 +20809,6 @@ proc set_prototype*(this: var DocumentType; a2: ptr DocumentType) {.
 
 proc constructDocumentType*(): DocumentType {.constructor,
     importcpp: "client::DocumentType(@)", header: "cheerp/clientlib.h".}
-type
-
-  MouseEvent* {.importcpp: "client::MouseEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of UIEvent
-
-
 
 proc get_altKey*(this: var MouseEvent): bool {.importcpp: "get_altKey",
     header: "cheerp/clientlib.h".}
@@ -19626,12 +20906,6 @@ proc constructMouseEvent*(typeArg: String): MouseEvent {.constructor,
 proc constructMouseEvent*(typeArg: String; eventInitDict: ptr MouseEventInit): MouseEvent {.
     constructor, importcpp: "client::MouseEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DragEvent* {.importcpp: "client::DragEvent", header: "cheerp/clientlib.h",
-               bycopy.} = object of MouseEvent
-
-
 
 proc get_dataTransfer*(this: var DragEvent): ptr DataTransfer {.
     importcpp: "get_dataTransfer", header: "cheerp/clientlib.h".}
@@ -19658,12 +20932,6 @@ proc get_prototype*(this: var DragEvent): ptr DragEvent {.
 
 proc set_prototype*(this: var DragEvent; a2: ptr DragEvent) {.
     importcpp: "set_prototype", header: "cheerp/clientlib.h".}
-type
-
-  DynamicsCompressorNode* {.importcpp: "client::DynamicsCompressorNode",
-                            header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_attack*(this: var DynamicsCompressorNode): ptr AudioParam {.
     importcpp: "get_attack", header: "cheerp/clientlib.h".}
@@ -19692,28 +20960,12 @@ proc set_prototype*(this: var DynamicsCompressorNode;
 
 proc constructDynamicsCompressorNode*(): DynamicsCompressorNode {.constructor,
     importcpp: "client::DynamicsCompressorNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  EXT_blend_minmax* {.importcpp: "client::EXT_blend_minmax",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_MAX_EXT*(this: var EXT_blend_minmax): cdouble {.
     importcpp: "get_MAX_EXT", header: "cheerp/clientlib.h".}
 
 proc get_MIN_EXT*(this: var EXT_blend_minmax): cdouble {.
     importcpp: "get_MIN_EXT", header: "cheerp/clientlib.h".}
-type
-
-  EXT_frag_depth* {.importcpp: "client::EXT_frag_depth",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  EXT_sRGB* {.importcpp: "client::EXT_sRGB", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT*(this: var EXT_sRGB): cdouble {.
     importcpp: "get_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT",
@@ -19727,16 +20979,6 @@ proc get_SRGB_ALPHA_EXT*(this: var EXT_sRGB): cdouble {.
 
 proc get_SRGB_EXT*(this: var EXT_sRGB): cdouble {.importcpp: "get_SRGB_EXT",
     header: "cheerp/clientlib.h".}
-type
-
-  EXT_shader_texture_lod* {.importcpp: "client::EXT_shader_texture_lod",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  EXT_texture_filter_anisotropic* {.importcpp: "client::EXT_texture_filter_anisotropic",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_prototype*(this: var EXT_texture_filter_anisotropic): ptr EXT_texture_filter_anisotropic {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -19756,12 +20998,6 @@ proc get_MAX_TEXTURE_MAX_ANISOTROPY_EXT*(
 
 proc get_TEXTURE_MAX_ANISOTROPY_EXT*(this: var EXT_texture_filter_anisotropic): cdouble {.
     importcpp: "get_TEXTURE_MAX_ANISOTROPY_EXT", header: "cheerp/clientlib.h".}
-type
-
-  ElementEventMap* {.importcpp: "client::ElementEventMap",
-                     header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
-
-
 
 proc get_ariarequest*(this: var ElementEventMap): ptr Event {.
     importcpp: "get_ariarequest", header: "cheerp/clientlib.h".}
@@ -19924,12 +21160,6 @@ proc get_webkitfullscreenerror*(this: var ElementEventMap): ptr Event {.
 
 proc set_webkitfullscreenerror*(this: var ElementEventMap; a2: ptr Event) {.
     importcpp: "set_webkitfullscreenerror", header: "cheerp/clientlib.h".}
-type
-
-  ElementTraversal* {.importcpp: "client::ElementTraversal",
-                      header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_childElementCount*(this: var ElementTraversal): cdouble {.
     importcpp: "get_childElementCount", header: "cheerp/clientlib.h".}
@@ -19945,11 +21175,6 @@ proc get_nextElementSibling*(this: var ElementTraversal): ptr Element {.
 
 proc get_previousElementSibling*(this: var ElementTraversal): ptr Element {.
     importcpp: "get_previousElementSibling", header: "cheerp/clientlib.h".}
-type
-
-  Element* {.importcpp: "client::Element", header: "cheerp/clientlib.h", bycopy.} = object of Node
-
-
 
 proc get_assignedSlot*(this: var Element): ptr HTMLSlotElement {.
     importcpp: "get_assignedSlot", header: "cheerp/clientlib.h".}
@@ -20383,45 +21608,21 @@ proc set_prototype*(this: var Element; a2: ptr Element) {.
 proc constructElement*(): Element {.constructor,
                                     importcpp: "client::Element(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  ElementCSSInlineStyle* {.importcpp: "client::ElementCSSInlineStyle",
-                           header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_style*(this: var ElementCSSInlineStyle): ptr CSSStyleDeclaration {.
     importcpp: "get_style", header: "cheerp/clientlib.h".}
-type
-
-  ElementCreationOptions* {.importcpp: "client::ElementCreationOptions",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_is*(this: var ElementCreationOptions): ptr String {.
     importcpp: "get_is", header: "cheerp/clientlib.h".}
 
 proc set_is*(this: var ElementCreationOptions; a2: String) {.
     importcpp: "set_is", header: "cheerp/clientlib.h".}
-type
-
-  ElementDefinitionOptions* {.importcpp: "client::ElementDefinitionOptions",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_extends*(this: var ElementDefinitionOptions): ptr String {.
     importcpp: "get_extends", header: "cheerp/clientlib.h".}
 
 proc set_extends*(this: var ElementDefinitionOptions; a2: String) {.
     importcpp: "set_extends", header: "cheerp/clientlib.h".}
-type
-
-  ErrorEvent* {.importcpp: "client::ErrorEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of Event
-
-
 
 proc get_colno*(this: var ErrorEvent): cdouble {.importcpp: "get_colno",
     header: "cheerp/clientlib.h".}
@@ -20452,21 +21653,9 @@ proc constructErrorEvent*(typeArg: String): ErrorEvent {.constructor,
 proc constructErrorEvent*(typeArg: String; eventInitDict: ptr ErrorEventInit): ErrorEvent {.
     constructor, importcpp: "client::ErrorEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  EventListenerObject* {.importcpp: "client::EventListenerObject",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc handleEvent*(this: var EventListenerObject; evt: ptr Event) {.
     importcpp: "handleEvent", header: "cheerp/clientlib.h".}
-type
-
-  EventSource* {.importcpp: "client::EventSource", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_onerror*(this: var EventSource): ptr EventListener {.
     importcpp: "get_onerror", header: "cheerp/clientlib.h".}
@@ -20510,21 +21699,9 @@ proc constructEventSource*(url: String): EventSource {.constructor,
 proc constructEventSource*(url: String; eventSourceInitDict: ptr EventSourceInit): EventSource {.
     constructor, importcpp: "client::EventSource(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  EventSourceInit* {.importcpp: "client::EventSourceInit",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_withCredentials*(this: var EventSourceInit): bool {.
     importcpp: "get_withCredentials", header: "cheerp/clientlib.h".}
-type
-
-  ExtensionScriptApis* {.importcpp: "client::ExtensionScriptApis",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc extensionIdToShortId*(this: var ExtensionScriptApis; extensionId: String): cdouble {.
     importcpp: "extensionIdToShortId", header: "cheerp/clientlib.h".}
@@ -20576,12 +21753,6 @@ proc set_prototype*(this: var ExtensionScriptApis; a2: ptr ExtensionScriptApis) 
 
 proc constructExtensionScriptApis*(): ExtensionScriptApis {.constructor,
     importcpp: "client::ExtensionScriptApis(@)", header: "cheerp/clientlib.h".}
-type
-
-  External* {.importcpp: "client::External", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_prototype*(this: var External): ptr External {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -20592,11 +21763,6 @@ proc set_prototype*(this: var External; a2: ptr External) {.
 proc constructExternal*(): External {.constructor,
                                       importcpp: "client::External(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  File* {.importcpp: "client::File", header: "cheerp/clientlib.h", bycopy.} = object of Blob
-
-
 
 proc get_lastModified*(this: var File): cdouble {.importcpp: "get_lastModified",
     header: "cheerp/clientlib.h".}
@@ -20622,12 +21788,6 @@ proc constructFile*(parts: ptr Array; filename: String): File {.constructor,
 proc constructFile*(parts: ptr Array; filename: String;
                     properties: ptr FilePropertyBag): File {.constructor,
     importcpp: "client::File(@)", header: "cheerp/clientlib.h".}
-type
-
-  FileList* {.importcpp: "client::FileList", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_length*(this: var FileList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -20650,24 +21810,12 @@ proc set_prototype*(this: var FileList; a2: ptr FileList) {.
 proc constructFileList*(): FileList {.constructor,
                                       importcpp: "client::FileList(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  FilePropertyBag* {.importcpp: "client::FilePropertyBag",
-                     header: "cheerp/clientlib.h", bycopy.} = object of BlobPropertyBag
-
-
 
 proc get_lastModified*(this: var FilePropertyBag): cdouble {.
     importcpp: "get_lastModified", header: "cheerp/clientlib.h".}
 
 proc set_lastModified*(this: var FilePropertyBag; a2: cdouble) {.
     importcpp: "set_lastModified", header: "cheerp/clientlib.h".}
-type
-
-  FileReaderEventMap* {.importcpp: "client::FileReaderEventMap",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var FileReaderEventMap): ptr ProgressEvent {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -20704,12 +21852,6 @@ proc get_progress*(this: var FileReaderEventMap): ptr ProgressEvent {.
 
 proc set_progress*(this: var FileReaderEventMap; a2: ptr ProgressEvent) {.
     importcpp: "set_progress", header: "cheerp/clientlib.h".}
-type
-
-  FileReader* {.importcpp: "client::FileReader", header: "cheerp/clientlib.h",
-                bycopy.} = object of EventTarget
-
-
 
 proc get_error*(this: var FileReader): ptr DOMException {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -20832,12 +21974,6 @@ proc get_EMPTY*(this: var FileReader): cdouble {.importcpp: "get_EMPTY",
 
 proc get_LOADING*(this: var FileReader): cdouble {.importcpp: "get_LOADING",
     header: "cheerp/clientlib.h".}
-type
-
-  ProgressEvent* {.importcpp: "client::ProgressEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_lengthComputable*(this: var ProgressEvent): bool {.
     importcpp: "get_lengthComputable", header: "cheerp/clientlib.h".}
@@ -20867,21 +22003,9 @@ proc constructProgressEvent*(typeArg: String;
                              eventInitDict: ptr ProgressEventInit): ProgressEvent {.
     constructor, importcpp: "client::ProgressEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  FileReaderProgressEvent* {.importcpp: "client::FileReaderProgressEvent",
-                             header: "cheerp/clientlib.h", bycopy.} = object of ProgressEvent
-
-
 
 proc get_target*(this: var FileReaderProgressEvent): ptr FileReader {.
     importcpp: "get_target", header: "cheerp/clientlib.h".}
-type
-
-  FocusEvent* {.importcpp: "client::FocusEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of UIEvent
-
-
 
 proc get_relatedTarget*(this: var FocusEvent): ptr EventTarget {.
     importcpp: "get_relatedTarget", header: "cheerp/clientlib.h".}
@@ -20903,12 +22027,6 @@ proc constructFocusEvent*(typeArg: String): FocusEvent {.constructor,
 proc constructFocusEvent*(typeArg: String; eventInitDict: ptr FocusEventInit): FocusEvent {.
     constructor, importcpp: "client::FocusEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  FocusNavigationEvent* {.importcpp: "client::FocusNavigationEvent",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_navigationReason*(this: var FocusNavigationEvent): ptr String {.
     importcpp: "get_navigationReason", header: "cheerp/clientlib.h".}
@@ -20942,12 +22060,6 @@ proc constructFocusNavigationEvent*(`type`: String;
                                     eventInitDict: ptr FocusNavigationEventInit): FocusNavigationEvent {.
     constructor, importcpp: "client::FocusNavigationEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  FormData* {.importcpp: "client::FormData", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc append*(this: var FormData; name: String; value: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
@@ -20997,12 +22109,6 @@ proc constructFormData*(): FormData {.constructor,
 
 proc constructFormData*(form: ptr HTMLFormElement): FormData {.constructor,
     importcpp: "client::FormData(@)", header: "cheerp/clientlib.h".}
-type
-
-  GainNode* {.importcpp: "client::GainNode", header: "cheerp/clientlib.h",
-              bycopy.} = object of AudioNode
-
-
 
 proc get_gain*(this: var GainNode): ptr AudioParam {.importcpp: "get_gain",
     header: "cheerp/clientlib.h".}
@@ -21016,11 +22122,6 @@ proc set_prototype*(this: var GainNode; a2: ptr GainNode) {.
 proc constructGainNode*(): GainNode {.constructor,
                                       importcpp: "client::GainNode(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  Gamepad* {.importcpp: "client::Gamepad", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_axes*(this: var Gamepad): ptr Array {.importcpp: "get_axes",
     header: "cheerp/clientlib.h".}
@@ -21064,12 +22165,6 @@ proc set_prototype*(this: var Gamepad; a2: ptr Gamepad) {.
 proc constructGamepad*(): Gamepad {.constructor,
                                     importcpp: "client::Gamepad(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  GamepadButton* {.importcpp: "client::GamepadButton",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_pressed*(this: var GamepadButton): bool {.importcpp: "get_pressed",
     header: "cheerp/clientlib.h".}
@@ -21088,12 +22183,6 @@ proc set_prototype*(this: var GamepadButton; a2: ptr GamepadButton) {.
 
 proc constructGamepadButton*(): GamepadButton {.constructor,
     importcpp: "client::GamepadButton(@)", header: "cheerp/clientlib.h".}
-type
-
-  GamepadEvent* {.importcpp: "client::GamepadEvent",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_gamepad*(this: var GamepadEvent): ptr Gamepad {.
     importcpp: "get_gamepad", header: "cheerp/clientlib.h".}
@@ -21110,12 +22199,6 @@ proc constructGamepadEvent*(typeArg: String): GamepadEvent {.constructor,
 proc constructGamepadEvent*(typeArg: String; eventInitDict: ptr GamepadEventInit): GamepadEvent {.
     constructor, importcpp: "client::GamepadEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  GamepadHapticActuator* {.importcpp: "client::GamepadHapticActuator",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_type*(this: var GamepadHapticActuator): ptr String {.
     importcpp: "get_type", header: "cheerp/clientlib.h".}
@@ -21132,12 +22215,6 @@ proc set_prototype*(this: var GamepadHapticActuator;
 
 proc constructGamepadHapticActuator*(): GamepadHapticActuator {.constructor,
     importcpp: "client::GamepadHapticActuator(@)", header: "cheerp/clientlib.h".}
-type
-
-  GamepadPose* {.importcpp: "client::GamepadPose", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_angularAcceleration*(this: var GamepadPose): ptr Float32Array {.
     importcpp: "get_angularAcceleration", header: "cheerp/clientlib.h".}
@@ -21171,12 +22248,6 @@ proc set_prototype*(this: var GamepadPose; a2: ptr GamepadPose) {.
 
 proc constructGamepadPose*(): GamepadPose {.constructor,
     importcpp: "client::GamepadPose(@)", header: "cheerp/clientlib.h".}
-type
-
-  Geolocation* {.importcpp: "client::Geolocation", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc clearWatch*(this: var Geolocation; watchId: cdouble) {.
     importcpp: "clearWatch", header: "cheerp/clientlib.h".}
@@ -21216,21 +22287,9 @@ proc set_prototype*(this: var Geolocation; a2: ptr Geolocation) {.
 
 proc constructGeolocation*(): Geolocation {.constructor,
     importcpp: "client::Geolocation(@)", header: "cheerp/clientlib.h".}
-type
-
-  GetSVGDocument* {.importcpp: "client::GetSVGDocument",
-                    header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc getSVGDocument*(this: var GetSVGDocument): ptr Document {.
     importcpp: "getSVGDocument", header: "cheerp/clientlib.h".}
-type
-
-  GlobalFetch* {.importcpp: "client::GlobalFetch", header: "cheerp/clientlib.h",
-                 bycopy.} = object
-
-
 
 proc fetch*(this: var GlobalFetch): ptr Promise {.importcpp: "fetch",
     header: "cheerp/clientlib.h".}
@@ -21246,12 +22305,6 @@ proc fetch*(this: var GlobalFetch; input: String): ptr Promise {.
 
 proc fetch*(this: var GlobalFetch; input: String; init: ptr RequestInit): ptr Promise {.
     importcpp: "fetch", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAllCollection* {.importcpp: "client::HTMLAllCollection",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var HTMLAllCollection): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -21279,12 +22332,6 @@ proc set_prototype*(this: var HTMLAllCollection; a2: ptr HTMLAllCollection) {.
 
 proc constructHTMLAllCollection*(): HTMLAllCollection {.constructor,
     importcpp: "client::HTMLAllCollection(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLElement* {.importcpp: "client::HTMLElement", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Element
-
-
 
 proc get_accessKey*(this: var HTMLElement): ptr String {.
     importcpp: "get_accessKey", header: "cheerp/clientlib.h".}
@@ -21861,12 +22908,6 @@ proc set_prototype*(this: var HTMLElement; a2: ptr HTMLElement) {.
 
 proc constructHTMLElement*(): HTMLElement {.constructor,
     importcpp: "client::HTMLElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLHyperlinkElementUtils* {.importcpp: "client::HTMLHyperlinkElementUtils",
-                               header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_hash*(this: var HTMLHyperlinkElementUtils): ptr String {.
     importcpp: "get_hash", header: "cheerp/clientlib.h".}
@@ -21924,12 +22965,6 @@ proc set_search*(this: var HTMLHyperlinkElementUtils; a2: String) {.
 
 proc toString*(this: var HTMLHyperlinkElementUtils): ptr String {.
     importcpp: "toString", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAnchorElement* {.importcpp: "client::HTMLAnchorElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_Methods*(this: var HTMLAnchorElement): ptr String {.
     importcpp: "get_Methods", header: "cheerp/clientlib.h".}
@@ -22070,12 +23105,6 @@ proc set_prototype*(this: var HTMLAnchorElement; a2: ptr HTMLAnchorElement) {.
 
 proc constructHTMLAnchorElement*(): HTMLAnchorElement {.constructor,
     importcpp: "client::HTMLAnchorElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAppletElement* {.importcpp: "client::HTMLAppletElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLAppletElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -22198,12 +23227,6 @@ proc set_prototype*(this: var HTMLAppletElement; a2: ptr HTMLAppletElement) {.
 
 proc constructHTMLAppletElement*(): HTMLAppletElement {.constructor,
     importcpp: "client::HTMLAppletElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAreaElement* {.importcpp: "client::HTMLAreaElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_alt*(this: var HTMLAreaElement): ptr String {.importcpp: "get_alt",
     header: "cheerp/clientlib.h".}
@@ -22299,12 +23322,6 @@ proc set_prototype*(this: var HTMLAreaElement; a2: ptr HTMLAreaElement) {.
 
 proc constructHTMLAreaElement*(): HTMLAreaElement {.constructor,
     importcpp: "client::HTMLAreaElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLCollectionBase* {.importcpp: "client::HTMLCollectionBase",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var HTMLCollectionBase): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -22317,12 +23334,6 @@ proc `[]`*(this: var HTMLCollectionBase; index: cint): ptr Element {.
 
 proc `[]`*(this: HTMLCollectionBase; index: cint): ptr Element {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAreasCollection* {.importcpp: "client::HTMLAreasCollection",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
-
-
 
 proc get_prototype*(this: var HTMLAreasCollection): ptr HTMLAreasCollection {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -22332,12 +23343,6 @@ proc set_prototype*(this: var HTMLAreasCollection; a2: ptr HTMLAreasCollection) 
 
 proc constructHTMLAreasCollection*(): HTMLAreasCollection {.constructor,
     importcpp: "client::HTMLAreasCollection(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMediaElement* {.importcpp: "client::HTMLMediaElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_audioTracks*(this: var HTMLMediaElement): ptr AudioTrackList {.
     importcpp: "get_audioTracks", header: "cheerp/clientlib.h".}
@@ -22632,12 +23637,6 @@ proc get_NETWORK_LOADING*(this: var HTMLMediaElement): cdouble {.
 
 proc get_NETWORK_NO_SOURCE*(this: var HTMLMediaElement): cdouble {.
     importcpp: "get_NETWORK_NO_SOURCE", header: "cheerp/clientlib.h".}
-type
-
-  HTMLAudioElement* {.importcpp: "client::HTMLAudioElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElement
-
-
 
 proc addEventListener*(this: var HTMLAudioElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -22691,12 +23690,6 @@ proc set_prototype*(this: var HTMLAudioElement; a2: ptr HTMLAudioElement) {.
 
 proc constructHTMLAudioElement*(): HTMLAudioElement {.constructor,
     importcpp: "client::HTMLAudioElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLBRElement* {.importcpp: "client::HTMLBRElement",
-                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_clear*(this: var HTMLBRElement): ptr String {.importcpp: "get_clear",
     header: "cheerp/clientlib.h".}
@@ -22756,12 +23749,6 @@ proc set_prototype*(this: var HTMLBRElement; a2: ptr HTMLBRElement) {.
 
 proc constructHTMLBRElement*(): HTMLBRElement {.constructor,
     importcpp: "client::HTMLBRElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLBaseElement* {.importcpp: "client::HTMLBaseElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_href*(this: var HTMLBaseElement): ptr String {.importcpp: "get_href",
     header: "cheerp/clientlib.h".}
@@ -22827,12 +23814,6 @@ proc set_prototype*(this: var HTMLBaseElement; a2: ptr HTMLBaseElement) {.
 
 proc constructHTMLBaseElement*(): HTMLBaseElement {.constructor,
     importcpp: "client::HTMLBaseElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLBaseFontElement* {.importcpp: "client::HTMLBaseFontElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_face*(this: var HTMLBaseFontElement): ptr String {.
     importcpp: "get_face", header: "cheerp/clientlib.h".}
@@ -22898,12 +23879,6 @@ proc set_prototype*(this: var HTMLBaseFontElement; a2: ptr HTMLBaseFontElement) 
 
 proc constructHTMLBaseFontElement*(): HTMLBaseFontElement {.constructor,
     importcpp: "client::HTMLBaseFontElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLElementEventMap* {.importcpp: "client::HTMLElementEventMap",
-                         header: "cheerp/clientlib.h", bycopy.} = object of ElementEventMap
-
-
 
 proc get_abort*(this: var HTMLElementEventMap): ptr UIEvent {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -23307,12 +24282,6 @@ proc get_waiting*(this: var HTMLElementEventMap): ptr Event {.
 
 proc set_waiting*(this: var HTMLElementEventMap; a2: ptr Event) {.
     importcpp: "set_waiting", header: "cheerp/clientlib.h".}
-type
-
-  WindowEventHandlersEventMap* {.importcpp: "client::WindowEventHandlersEventMap",
-                                 header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_afterprint*(this: var WindowEventHandlersEventMap): ptr Event {.
     importcpp: "get_afterprint", header: "cheerp/clientlib.h".}
@@ -23389,12 +24358,6 @@ proc get_unload*(this: var WindowEventHandlersEventMap): ptr Event {.
 
 proc set_unload*(this: var WindowEventHandlersEventMap; a2: ptr Event) {.
     importcpp: "set_unload", header: "cheerp/clientlib.h".}
-type
-
-  HTMLBodyElementEventMap* {.importcpp: "client::HTMLBodyElementEventMap",
-                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_blur*(this: var HTMLBodyElementEventMap): ptr FocusEvent {.
     importcpp: "get_blur", header: "cheerp/clientlib.h".}
@@ -23437,12 +24400,6 @@ proc get_scroll*(this: var HTMLBodyElementEventMap): ptr UIEvent {.
 
 proc set_scroll*(this: var HTMLBodyElementEventMap; a2: ptr UIEvent) {.
     importcpp: "set_scroll", header: "cheerp/clientlib.h".}
-type
-
-  WindowEventHandlers* {.importcpp: "client::WindowEventHandlers",
-                         header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_onafterprint*(this: var WindowEventHandlers): ptr EventListener {.
     importcpp: "get_onafterprint", header: "cheerp/clientlib.h".}
@@ -23559,12 +24516,6 @@ proc removeEventListener*(this: var WindowEventHandlers; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  HTMLBodyElement* {.importcpp: "client::HTMLBodyElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_aLink*(this: var HTMLBodyElement): ptr String {.importcpp: "get_aLink",
     header: "cheerp/clientlib.h".}
@@ -23678,12 +24629,6 @@ proc set_prototype*(this: var HTMLBodyElement; a2: ptr HTMLBodyElement) {.
 
 proc constructHTMLBodyElement*(): HTMLBodyElement {.constructor,
     importcpp: "client::HTMLBodyElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLButtonElement* {.importcpp: "client::HTMLButtonElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_autofocus*(this: var HTMLButtonElement): bool {.
     importcpp: "get_autofocus", header: "cheerp/clientlib.h".}
@@ -23818,12 +24763,6 @@ proc set_prototype*(this: var HTMLButtonElement; a2: ptr HTMLButtonElement) {.
 
 proc constructHTMLButtonElement*(): HTMLButtonElement {.constructor,
     importcpp: "client::HTMLButtonElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLCanvasElement* {.importcpp: "client::HTMLCanvasElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_height*(this: var HTMLCanvasElement): cdouble {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -23904,12 +24843,6 @@ proc set_prototype*(this: var HTMLCanvasElement; a2: ptr HTMLCanvasElement) {.
 
 proc constructHTMLCanvasElement*(): HTMLCanvasElement {.constructor,
     importcpp: "client::HTMLCanvasElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLCollection* {.importcpp: "client::HTMLCollection",
-                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
-
-
 
 proc namedItem*(this: var HTMLCollection; name: String): ptr Element {.
     importcpp: "namedItem", header: "cheerp/clientlib.h".}
@@ -23922,12 +24855,6 @@ proc set_prototype*(this: var HTMLCollection; a2: ptr HTMLCollection) {.
 
 proc constructHTMLCollection*(): HTMLCollection {.constructor,
     importcpp: "client::HTMLCollection(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLCollectionOf*[T] {.importcpp: "client::HTMLCollectionOf<\'0>",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
-
-
 
 proc item*[T](this: var HTMLCollectionOf[T]; index: cdouble): ptr T {.
     importcpp: "item", header: "cheerp/clientlib.h".}
@@ -23940,12 +24867,6 @@ proc `[]`*[T](this: var HTMLCollectionOf[T]; index: cint): ptr T {.
 
 proc `[]`*[T](this: HTMLCollectionOf[T]; index: cint): ptr T {.noSideEffect,
     importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDListElement* {.importcpp: "client::HTMLDListElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_compact*(this: var HTMLDListElement): bool {.importcpp: "get_compact",
     header: "cheerp/clientlib.h".}
@@ -24005,12 +24926,6 @@ proc set_prototype*(this: var HTMLDListElement; a2: ptr HTMLDListElement) {.
 
 proc constructHTMLDListElement*(): HTMLDListElement {.constructor,
     importcpp: "client::HTMLDListElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDataElement* {.importcpp: "client::HTMLDataElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_value*(this: var HTMLDataElement): ptr String {.importcpp: "get_value",
     header: "cheerp/clientlib.h".}
@@ -24070,12 +24985,6 @@ proc set_prototype*(this: var HTMLDataElement; a2: ptr HTMLDataElement) {.
 
 proc constructHTMLDataElement*(): HTMLDataElement {.constructor,
     importcpp: "client::HTMLDataElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDataListElement* {.importcpp: "client::HTMLDataListElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_options*(this: var HTMLDataListElement): ptr HTMLCollectionOf[
     HTMLOptionElement] {.importcpp: "get_options", header: "cheerp/clientlib.h".}
@@ -24132,12 +25041,6 @@ proc set_prototype*(this: var HTMLDataListElement; a2: ptr HTMLDataListElement) 
 
 proc constructHTMLDataListElement*(): HTMLDataListElement {.constructor,
     importcpp: "client::HTMLDataListElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDetailsElement* {.importcpp: "client::HTMLDetailsElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_open*(this: var HTMLDetailsElement): bool {.importcpp: "get_open",
     header: "cheerp/clientlib.h".}
@@ -24197,12 +25100,6 @@ proc set_prototype*(this: var HTMLDetailsElement; a2: ptr HTMLDetailsElement) {.
 
 proc constructHTMLDetailsElement*(): HTMLDetailsElement {.constructor,
     importcpp: "client::HTMLDetailsElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDialogElement* {.importcpp: "client::HTMLDialogElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_open*(this: var HTMLDialogElement): bool {.importcpp: "get_open",
     header: "cheerp/clientlib.h".}
@@ -24280,12 +25177,6 @@ proc set_prototype*(this: var HTMLDialogElement; a2: ptr HTMLDialogElement) {.
 
 proc constructHTMLDialogElement*(): HTMLDialogElement {.constructor,
     importcpp: "client::HTMLDialogElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDirectoryElement* {.importcpp: "client::HTMLDirectoryElement",
-                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_compact*(this: var HTMLDirectoryElement): bool {.
     importcpp: "get_compact", header: "cheerp/clientlib.h".}
@@ -24345,12 +25236,6 @@ proc set_prototype*(this: var HTMLDirectoryElement; a2: ptr HTMLDirectoryElement
 
 proc constructHTMLDirectoryElement*(): HTMLDirectoryElement {.constructor,
     importcpp: "client::HTMLDirectoryElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDivElement* {.importcpp: "client::HTMLDivElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLDivElement): ptr String {.importcpp: "get_align",
     header: "cheerp/clientlib.h".}
@@ -24416,12 +25301,6 @@ proc set_prototype*(this: var HTMLDivElement; a2: ptr HTMLDivElement) {.
 
 proc constructHTMLDivElement*(): HTMLDivElement {.constructor,
     importcpp: "client::HTMLDivElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLDocument* {.importcpp: "client::HTMLDocument",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Document
-
-
 
 proc addEventListener*(this: var HTMLDocument; `type`: String;
                        listener: ptr EventListener) {.
@@ -24475,12 +25354,6 @@ proc set_prototype*(this: var HTMLDocument; a2: ptr HTMLDocument) {.
 
 proc constructHTMLDocument*(): HTMLDocument {.constructor,
     importcpp: "client::HTMLDocument(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLEmbedElement* {.importcpp: "client::HTMLEmbedElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_height*(this: var HTMLEmbedElement): ptr String {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -24594,12 +25467,6 @@ proc set_prototype*(this: var HTMLEmbedElement; a2: ptr HTMLEmbedElement) {.
 
 proc constructHTMLEmbedElement*(): HTMLEmbedElement {.constructor,
     importcpp: "client::HTMLEmbedElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFieldSetElement* {.importcpp: "client::HTMLFieldSetElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLFieldSetElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -24689,12 +25556,6 @@ proc set_prototype*(this: var HTMLFieldSetElement; a2: ptr HTMLFieldSetElement) 
 
 proc constructHTMLFieldSetElement*(): HTMLFieldSetElement {.constructor,
     importcpp: "client::HTMLFieldSetElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFontElement* {.importcpp: "client::HTMLFontElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_face*(this: var HTMLFontElement): ptr String {.importcpp: "get_face",
     header: "cheerp/clientlib.h".}
@@ -24754,12 +25615,6 @@ proc set_prototype*(this: var HTMLFontElement; a2: ptr HTMLFontElement) {.
 
 proc constructHTMLFontElement*(): HTMLFontElement {.constructor,
     importcpp: "client::HTMLFontElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFormControlsCollection* {.importcpp: "client::HTMLFormControlsCollection",
-                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionBase
-
-
 
 proc namedItem*(this: var HTMLFormControlsCollection; name: String): ptr HTMLCollection {.
     importcpp: "namedItem", header: "cheerp/clientlib.h".}
@@ -24774,12 +25629,6 @@ proc set_prototype*(this: var HTMLFormControlsCollection;
 proc constructHTMLFormControlsCollection*(): HTMLFormControlsCollection {.
     constructor, importcpp: "client::HTMLFormControlsCollection(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLFormElement* {.importcpp: "client::HTMLFormElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_acceptCharset*(this: var HTMLFormElement): ptr String {.
     importcpp: "get_acceptCharset", header: "cheerp/clientlib.h".}
@@ -24911,24 +25760,12 @@ proc set_prototype*(this: var HTMLFormElement; a2: ptr HTMLFormElement) {.
 
 proc constructHTMLFormElement*(): HTMLFormElement {.constructor,
     importcpp: "client::HTMLFormElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFrameElementEventMap* {.importcpp: "client::HTMLFrameElementEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_load*(this: var HTMLFrameElementEventMap): ptr Event {.
     importcpp: "get_load", header: "cheerp/clientlib.h".}
 
 proc set_load*(this: var HTMLFrameElementEventMap; a2: ptr Event) {.
     importcpp: "set_load", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFrameElement* {.importcpp: "client::HTMLFrameElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_border*(this: var HTMLFrameElement): ptr String {.
     importcpp: "get_border", header: "cheerp/clientlib.h".}
@@ -25060,12 +25897,6 @@ proc set_prototype*(this: var HTMLFrameElement; a2: ptr HTMLFrameElement) {.
 
 proc constructHTMLFrameElement*(): HTMLFrameElement {.constructor,
     importcpp: "client::HTMLFrameElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFrameSetElementEventMap* {.importcpp: "client::HTMLFrameSetElementEventMap",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_blur*(this: var HTMLFrameSetElementEventMap): ptr FocusEvent {.
     importcpp: "get_blur", header: "cheerp/clientlib.h".}
@@ -25108,12 +25939,6 @@ proc get_scroll*(this: var HTMLFrameSetElementEventMap): ptr UIEvent {.
 
 proc set_scroll*(this: var HTMLFrameSetElementEventMap; a2: ptr UIEvent) {.
     importcpp: "set_scroll", header: "cheerp/clientlib.h".}
-type
-
-  HTMLFrameSetElement* {.importcpp: "client::HTMLFrameSetElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_cols*(this: var HTMLFrameSetElement): ptr String {.
     importcpp: "get_cols", header: "cheerp/clientlib.h".}
@@ -25198,12 +26023,6 @@ proc set_prototype*(this: var HTMLFrameSetElement; a2: ptr HTMLFrameSetElement) 
 
 proc constructHTMLFrameSetElement*(): HTMLFrameSetElement {.constructor,
     importcpp: "client::HTMLFrameSetElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLHRElement* {.importcpp: "client::HTMLHRElement",
-                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLHRElement): ptr String {.importcpp: "get_align",
     header: "cheerp/clientlib.h".}
@@ -25275,12 +26094,6 @@ proc set_prototype*(this: var HTMLHRElement; a2: ptr HTMLHRElement) {.
 
 proc constructHTMLHRElement*(): HTMLHRElement {.constructor,
     importcpp: "client::HTMLHRElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLHeadElement* {.importcpp: "client::HTMLHeadElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_profile*(this: var HTMLHeadElement): ptr String {.
     importcpp: "get_profile", header: "cheerp/clientlib.h".}
@@ -25340,12 +26153,6 @@ proc set_prototype*(this: var HTMLHeadElement; a2: ptr HTMLHeadElement) {.
 
 proc constructHTMLHeadElement*(): HTMLHeadElement {.constructor,
     importcpp: "client::HTMLHeadElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLHeadingElement* {.importcpp: "client::HTMLHeadingElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLHeadingElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -25405,12 +26212,6 @@ proc set_prototype*(this: var HTMLHeadingElement; a2: ptr HTMLHeadingElement) {.
 
 proc constructHTMLHeadingElement*(): HTMLHeadingElement {.constructor,
     importcpp: "client::HTMLHeadingElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLHtmlElement* {.importcpp: "client::HTMLHtmlElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_version*(this: var HTMLHtmlElement): ptr String {.
     importcpp: "get_version", header: "cheerp/clientlib.h".}
@@ -25470,24 +26271,12 @@ proc set_prototype*(this: var HTMLHtmlElement; a2: ptr HTMLHtmlElement) {.
 
 proc constructHTMLHtmlElement*(): HTMLHtmlElement {.constructor,
     importcpp: "client::HTMLHtmlElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLIFrameElementEventMap* {.importcpp: "client::HTMLIFrameElementEventMap",
-                               header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_load*(this: var HTMLIFrameElementEventMap): ptr Event {.
     importcpp: "get_load", header: "cheerp/clientlib.h".}
 
 proc set_load*(this: var HTMLIFrameElementEventMap; a2: ptr Event) {.
     importcpp: "set_load", header: "cheerp/clientlib.h".}
-type
-
-  HTMLIFrameElement* {.importcpp: "client::HTMLIFrameElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLIFrameElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -25628,12 +26417,6 @@ proc set_prototype*(this: var HTMLIFrameElement; a2: ptr HTMLIFrameElement) {.
 
 proc constructHTMLIFrameElement*(): HTMLIFrameElement {.constructor,
     importcpp: "client::HTMLIFrameElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLImageElement* {.importcpp: "client::HTMLImageElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLImageElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -25825,12 +26608,6 @@ proc set_prototype*(this: var HTMLImageElement; a2: ptr HTMLImageElement) {.
 
 proc constructHTMLImageElement*(): HTMLImageElement {.constructor,
     importcpp: "client::HTMLImageElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLInputElement* {.importcpp: "client::HTMLInputElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_accept*(this: var HTMLInputElement): ptr String {.
     importcpp: "get_accept", header: "cheerp/clientlib.h".}
@@ -26161,12 +26938,6 @@ proc set_prototype*(this: var HTMLInputElement; a2: ptr HTMLInputElement) {.
 
 proc constructHTMLInputElement*(): HTMLInputElement {.constructor,
     importcpp: "client::HTMLInputElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLLIElement* {.importcpp: "client::HTMLLIElement",
-                   header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_type*(this: var HTMLLIElement): ptr String {.importcpp: "get_type",
     header: "cheerp/clientlib.h".}
@@ -26232,12 +27003,6 @@ proc set_prototype*(this: var HTMLLIElement; a2: ptr HTMLLIElement) {.
 
 proc constructHTMLLIElement*(): HTMLLIElement {.constructor,
     importcpp: "client::HTMLLIElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLLabelElement* {.importcpp: "client::HTMLLabelElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_control*(this: var HTMLLabelElement): ptr HTMLInputElement {.
     importcpp: "get_control", header: "cheerp/clientlib.h".}
@@ -26303,12 +27068,6 @@ proc set_prototype*(this: var HTMLLabelElement; a2: ptr HTMLLabelElement) {.
 
 proc constructHTMLLabelElement*(): HTMLLabelElement {.constructor,
     importcpp: "client::HTMLLabelElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLLegendElement* {.importcpp: "client::HTMLLegendElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLLegendElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -26371,21 +27130,9 @@ proc set_prototype*(this: var HTMLLegendElement; a2: ptr HTMLLegendElement) {.
 
 proc constructHTMLLegendElement*(): HTMLLegendElement {.constructor,
     importcpp: "client::HTMLLegendElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  LinkStyle* {.importcpp: "client::LinkStyle", header: "cheerp/clientlib.h",
-               bycopy.} = object
-
-
 
 proc get_sheet*(this: var LinkStyle): ptr StyleSheet {.importcpp: "get_sheet",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLLinkElement* {.importcpp: "client::HTMLLinkElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_charset*(this: var HTMLLinkElement): ptr String {.
     importcpp: "get_charset", header: "cheerp/clientlib.h".}
@@ -26511,12 +27258,6 @@ proc set_prototype*(this: var HTMLLinkElement; a2: ptr HTMLLinkElement) {.
 
 proc constructHTMLLinkElement*(): HTMLLinkElement {.constructor,
     importcpp: "client::HTMLLinkElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMainElement* {.importcpp: "client::HTMLMainElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc addEventListener*(this: var HTMLMainElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -26570,12 +27311,6 @@ proc set_prototype*(this: var HTMLMainElement; a2: ptr HTMLMainElement) {.
 
 proc constructHTMLMainElement*(): HTMLMainElement {.constructor,
     importcpp: "client::HTMLMainElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMapElement* {.importcpp: "client::HTMLMapElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_areas*(this: var HTMLMapElement): ptr HTMLAreasCollection {.
     importcpp: "get_areas", header: "cheerp/clientlib.h".}
@@ -26638,12 +27373,6 @@ proc set_prototype*(this: var HTMLMapElement; a2: ptr HTMLMapElement) {.
 
 proc constructHTMLMapElement*(): HTMLMapElement {.constructor,
     importcpp: "client::HTMLMapElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMarqueeElementEventMap* {.importcpp: "client::HTMLMarqueeElementEventMap",
-                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_bounce*(this: var HTMLMarqueeElementEventMap): ptr Event {.
     importcpp: "get_bounce", header: "cheerp/clientlib.h".}
@@ -26662,12 +27391,6 @@ proc get_start*(this: var HTMLMarqueeElementEventMap): ptr Event {.
 
 proc set_start*(this: var HTMLMarqueeElementEventMap; a2: ptr Event) {.
     importcpp: "set_start", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMarqueeElement* {.importcpp: "client::HTMLMarqueeElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_behavior*(this: var HTMLMarqueeElement): ptr String {.
     importcpp: "get_behavior", header: "cheerp/clientlib.h".}
@@ -26811,12 +27534,6 @@ proc set_prototype*(this: var HTMLMarqueeElement; a2: ptr HTMLMarqueeElement) {.
 
 proc constructHTMLMarqueeElement*(): HTMLMarqueeElement {.constructor,
     importcpp: "client::HTMLMarqueeElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMediaElementEventMap* {.importcpp: "client::HTMLMediaElementEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementEventMap
-
-
 
 proc get_encrypted*(this: var HTMLMediaElementEventMap): ptr MediaEncryptedEvent {.
     importcpp: "get_encrypted", header: "cheerp/clientlib.h".}
@@ -26830,12 +27547,6 @@ proc get_msneedkey*(this: var HTMLMediaElementEventMap): ptr Event {.
 
 proc set_msneedkey*(this: var HTMLMediaElementEventMap; a2: ptr Event) {.
     importcpp: "set_msneedkey", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMenuElement* {.importcpp: "client::HTMLMenuElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_compact*(this: var HTMLMenuElement): bool {.importcpp: "get_compact",
     header: "cheerp/clientlib.h".}
@@ -26901,12 +27612,6 @@ proc set_prototype*(this: var HTMLMenuElement; a2: ptr HTMLMenuElement) {.
 
 proc constructHTMLMenuElement*(): HTMLMenuElement {.constructor,
     importcpp: "client::HTMLMenuElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMetaElement* {.importcpp: "client::HTMLMetaElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_charset*(this: var HTMLMetaElement): ptr String {.
     importcpp: "get_charset", header: "cheerp/clientlib.h".}
@@ -26996,12 +27701,6 @@ proc set_prototype*(this: var HTMLMetaElement; a2: ptr HTMLMetaElement) {.
 
 proc constructHTMLMetaElement*(): HTMLMetaElement {.constructor,
     importcpp: "client::HTMLMetaElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLMeterElement* {.importcpp: "client::HTMLMeterElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_high*(this: var HTMLMeterElement): cdouble {.importcpp: "get_high",
     header: "cheerp/clientlib.h".}
@@ -27091,12 +27790,6 @@ proc set_prototype*(this: var HTMLMeterElement; a2: ptr HTMLMeterElement) {.
 
 proc constructHTMLMeterElement*(): HTMLMeterElement {.constructor,
     importcpp: "client::HTMLMeterElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLModElement* {.importcpp: "client::HTMLModElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_cite*(this: var HTMLModElement): ptr String {.importcpp: "get_cite",
     header: "cheerp/clientlib.h".}
@@ -27162,12 +27855,6 @@ proc set_prototype*(this: var HTMLModElement; a2: ptr HTMLModElement) {.
 
 proc constructHTMLModElement*(): HTMLModElement {.constructor,
     importcpp: "client::HTMLModElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLOListElement* {.importcpp: "client::HTMLOListElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_compact*(this: var HTMLOListElement): bool {.importcpp: "get_compact",
     header: "cheerp/clientlib.h".}
@@ -27239,12 +27926,6 @@ proc set_prototype*(this: var HTMLOListElement; a2: ptr HTMLOListElement) {.
 
 proc constructHTMLOListElement*(): HTMLOListElement {.constructor,
     importcpp: "client::HTMLOListElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLObjectElement* {.importcpp: "client::HTMLObjectElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_BaseHref*(this: var HTMLObjectElement): ptr String {.
     importcpp: "get_BaseHref", header: "cheerp/clientlib.h".}
@@ -27445,12 +28126,6 @@ proc set_prototype*(this: var HTMLObjectElement; a2: ptr HTMLObjectElement) {.
 
 proc constructHTMLObjectElement*(): HTMLObjectElement {.constructor,
     importcpp: "client::HTMLObjectElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLOptGroupElement* {.importcpp: "client::HTMLOptGroupElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_disabled*(this: var HTMLOptGroupElement): bool {.
     importcpp: "get_disabled", header: "cheerp/clientlib.h".}
@@ -27519,12 +28194,6 @@ proc set_prototype*(this: var HTMLOptGroupElement; a2: ptr HTMLOptGroupElement) 
 
 proc constructHTMLOptGroupElement*(): HTMLOptGroupElement {.constructor,
     importcpp: "client::HTMLOptGroupElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLOptionElement* {.importcpp: "client::HTMLOptionElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_defaultSelected*(this: var HTMLOptionElement): bool {.
     importcpp: "get_defaultSelected", header: "cheerp/clientlib.h".}
@@ -27620,13 +28289,6 @@ proc set_prototype*(this: var HTMLOptionElement; a2: ptr HTMLOptionElement) {.
 
 proc constructHTMLOptionElement*(): HTMLOptionElement {.constructor,
     importcpp: "client::HTMLOptionElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLOptionsCollection* {.importcpp: "client::HTMLOptionsCollection",
-                           header: "cheerp/clientlib.h", bycopy.} = object of HTMLCollectionOf[
-      HTMLOptionElement]
-
-
 
 proc get_length*(this: var HTMLOptionsCollection): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -27662,12 +28324,6 @@ proc set_prototype*(this: var HTMLOptionsCollection;
 
 proc constructHTMLOptionsCollection*(): HTMLOptionsCollection {.constructor,
     importcpp: "client::HTMLOptionsCollection(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLOutputElement* {.importcpp: "client::HTMLOutputElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_defaultValue*(this: var HTMLOutputElement): ptr String {.
     importcpp: "get_defaultValue", header: "cheerp/clientlib.h".}
@@ -27766,12 +28422,6 @@ proc set_prototype*(this: var HTMLOutputElement; a2: ptr HTMLOutputElement) {.
 
 proc constructHTMLOutputElement*(): HTMLOutputElement {.constructor,
     importcpp: "client::HTMLOutputElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLParagraphElement* {.importcpp: "client::HTMLParagraphElement",
-                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLParagraphElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -27837,12 +28487,6 @@ proc set_prototype*(this: var HTMLParagraphElement; a2: ptr HTMLParagraphElement
 
 proc constructHTMLParagraphElement*(): HTMLParagraphElement {.constructor,
     importcpp: "client::HTMLParagraphElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLParamElement* {.importcpp: "client::HTMLParamElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_name*(this: var HTMLParamElement): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -27920,12 +28564,6 @@ proc set_prototype*(this: var HTMLParamElement; a2: ptr HTMLParamElement) {.
 
 proc constructHTMLParamElement*(): HTMLParamElement {.constructor,
     importcpp: "client::HTMLParamElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLPictureElement* {.importcpp: "client::HTMLPictureElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc addEventListener*(this: var HTMLPictureElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -27979,12 +28617,6 @@ proc set_prototype*(this: var HTMLPictureElement; a2: ptr HTMLPictureElement) {.
 
 proc constructHTMLPictureElement*(): HTMLPictureElement {.constructor,
     importcpp: "client::HTMLPictureElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLPreElement* {.importcpp: "client::HTMLPreElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_width*(this: var HTMLPreElement): cdouble {.importcpp: "get_width",
     header: "cheerp/clientlib.h".}
@@ -28044,12 +28676,6 @@ proc set_prototype*(this: var HTMLPreElement; a2: ptr HTMLPreElement) {.
 
 proc constructHTMLPreElement*(): HTMLPreElement {.constructor,
     importcpp: "client::HTMLPreElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLProgressElement* {.importcpp: "client::HTMLProgressElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_form*(this: var HTMLProgressElement): ptr HTMLFormElement {.
     importcpp: "get_form", header: "cheerp/clientlib.h".}
@@ -28121,12 +28747,6 @@ proc set_prototype*(this: var HTMLProgressElement; a2: ptr HTMLProgressElement) 
 
 proc constructHTMLProgressElement*(): HTMLProgressElement {.constructor,
     importcpp: "client::HTMLProgressElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLQuoteElement* {.importcpp: "client::HTMLQuoteElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_cite*(this: var HTMLQuoteElement): ptr String {.importcpp: "get_cite",
     header: "cheerp/clientlib.h".}
@@ -28186,12 +28806,6 @@ proc set_prototype*(this: var HTMLQuoteElement; a2: ptr HTMLQuoteElement) {.
 
 proc constructHTMLQuoteElement*(): HTMLQuoteElement {.constructor,
     importcpp: "client::HTMLQuoteElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLScriptElement* {.importcpp: "client::HTMLScriptElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_async*(this: var HTMLScriptElement): bool {.importcpp: "get_async",
     header: "cheerp/clientlib.h".}
@@ -28311,12 +28925,6 @@ proc set_prototype*(this: var HTMLScriptElement; a2: ptr HTMLScriptElement) {.
 
 proc constructHTMLScriptElement*(): HTMLScriptElement {.constructor,
     importcpp: "client::HTMLScriptElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLSelectElement* {.importcpp: "client::HTMLSelectElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_autofocus*(this: var HTMLSelectElement): bool {.
     importcpp: "get_autofocus", header: "cheerp/clientlib.h".}
@@ -28483,12 +29091,6 @@ proc set_prototype*(this: var HTMLSelectElement; a2: ptr HTMLSelectElement) {.
 
 proc constructHTMLSelectElement*(): HTMLSelectElement {.constructor,
     importcpp: "client::HTMLSelectElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLSlotElement* {.importcpp: "client::HTMLSlotElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_name*(this: var HTMLSlotElement): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -28545,12 +29147,6 @@ proc removeEventListener*(this: var HTMLSlotElement; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  HTMLSourceElement* {.importcpp: "client::HTMLSourceElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_media*(this: var HTMLSourceElement): ptr String {.
     importcpp: "get_media", header: "cheerp/clientlib.h".}
@@ -28640,12 +29236,6 @@ proc set_prototype*(this: var HTMLSourceElement; a2: ptr HTMLSourceElement) {.
 
 proc constructHTMLSourceElement*(): HTMLSourceElement {.constructor,
     importcpp: "client::HTMLSourceElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLSpanElement* {.importcpp: "client::HTMLSpanElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc addEventListener*(this: var HTMLSpanElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -28699,12 +29289,6 @@ proc set_prototype*(this: var HTMLSpanElement; a2: ptr HTMLSpanElement) {.
 
 proc constructHTMLSpanElement*(): HTMLSpanElement {.constructor,
     importcpp: "client::HTMLSpanElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLStyleElement* {.importcpp: "client::HTMLStyleElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_disabled*(this: var HTMLStyleElement): bool {.
     importcpp: "get_disabled", header: "cheerp/clientlib.h".}
@@ -28776,12 +29360,6 @@ proc set_prototype*(this: var HTMLStyleElement; a2: ptr HTMLStyleElement) {.
 
 proc constructHTMLStyleElement*(): HTMLStyleElement {.constructor,
     importcpp: "client::HTMLStyleElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLSummaryElement* {.importcpp: "client::HTMLSummaryElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc addEventListener*(this: var HTMLSummaryElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -28835,12 +29413,6 @@ proc set_prototype*(this: var HTMLSummaryElement; a2: ptr HTMLSummaryElement) {.
 
 proc constructHTMLSummaryElement*(): HTMLSummaryElement {.constructor,
     importcpp: "client::HTMLSummaryElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableCaptionElement* {.importcpp: "client::HTMLTableCaptionElement",
-                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLTableCaptionElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -28902,12 +29474,6 @@ proc set_prototype*(this: var HTMLTableCaptionElement;
 proc constructHTMLTableCaptionElement*(): HTMLTableCaptionElement {.constructor,
     importcpp: "client::HTMLTableCaptionElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableCellElement* {.importcpp: "client::HTMLTableCellElement",
-                          header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_abbr*(this: var HTMLTableCellElement): ptr String {.
     importcpp: "get_abbr", header: "cheerp/clientlib.h".}
@@ -29048,12 +29614,6 @@ proc set_prototype*(this: var HTMLTableCellElement; a2: ptr HTMLTableCellElement
 
 proc constructHTMLTableCellElement*(): HTMLTableCellElement {.constructor,
     importcpp: "client::HTMLTableCellElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableColElement* {.importcpp: "client::HTMLTableColElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLTableColElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -29143,12 +29703,6 @@ proc set_prototype*(this: var HTMLTableColElement; a2: ptr HTMLTableColElement) 
 
 proc constructHTMLTableColElement*(): HTMLTableColElement {.constructor,
     importcpp: "client::HTMLTableColElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableDataCellElement* {.importcpp: "client::HTMLTableDataCellElement",
-                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLTableCellElement
-
-
 
 proc addEventListener*(this: var HTMLTableDataCellElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -29204,12 +29758,6 @@ proc set_prototype*(this: var HTMLTableDataCellElement;
 proc constructHTMLTableDataCellElement*(): HTMLTableDataCellElement {.
     constructor, importcpp: "client::HTMLTableDataCellElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableElement* {.importcpp: "client::HTMLTableElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLTableElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -29375,12 +29923,6 @@ proc set_prototype*(this: var HTMLTableElement; a2: ptr HTMLTableElement) {.
 
 proc constructHTMLTableElement*(): HTMLTableElement {.constructor,
     importcpp: "client::HTMLTableElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableHeaderCellElement* {.importcpp: "client::HTMLTableHeaderCellElement",
-                                header: "cheerp/clientlib.h", bycopy.} = object of HTMLTableCellElement
-
-
 
 proc get_scope*(this: var HTMLTableHeaderCellElement): ptr String {.
     importcpp: "get_scope", header: "cheerp/clientlib.h".}
@@ -29442,12 +29984,6 @@ proc set_prototype*(this: var HTMLTableHeaderCellElement;
 proc constructHTMLTableHeaderCellElement*(): HTMLTableHeaderCellElement {.
     constructor, importcpp: "client::HTMLTableHeaderCellElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableRowElement* {.importcpp: "client::HTMLTableRowElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLTableRowElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -29552,12 +30088,6 @@ proc set_prototype*(this: var HTMLTableRowElement; a2: ptr HTMLTableRowElement) 
 
 proc constructHTMLTableRowElement*(): HTMLTableRowElement {.constructor,
     importcpp: "client::HTMLTableRowElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTableSectionElement* {.importcpp: "client::HTMLTableSectionElement",
-                             header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_align*(this: var HTMLTableSectionElement): ptr String {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -29652,12 +30182,6 @@ proc set_prototype*(this: var HTMLTableSectionElement;
 proc constructHTMLTableSectionElement*(): HTMLTableSectionElement {.constructor,
     importcpp: "client::HTMLTableSectionElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLTemplateElement* {.importcpp: "client::HTMLTemplateElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_content*(this: var HTMLTemplateElement): ptr DocumentFragment {.
     importcpp: "get_content", header: "cheerp/clientlib.h".}
@@ -29714,12 +30238,6 @@ proc set_prototype*(this: var HTMLTemplateElement; a2: ptr HTMLTemplateElement) 
 
 proc constructHTMLTemplateElement*(): HTMLTemplateElement {.constructor,
     importcpp: "client::HTMLTemplateElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTextAreaElement* {.importcpp: "client::HTMLTextAreaElement",
-                         header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_autofocus*(this: var HTMLTextAreaElement): bool {.
     importcpp: "get_autofocus", header: "cheerp/clientlib.h".}
@@ -29891,12 +30409,6 @@ proc set_prototype*(this: var HTMLTextAreaElement; a2: ptr HTMLTextAreaElement) 
 
 proc constructHTMLTextAreaElement*(): HTMLTextAreaElement {.constructor,
     importcpp: "client::HTMLTextAreaElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTimeElement* {.importcpp: "client::HTMLTimeElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_dateTime*(this: var HTMLTimeElement): ptr String {.
     importcpp: "get_dateTime", header: "cheerp/clientlib.h".}
@@ -29956,12 +30468,6 @@ proc set_prototype*(this: var HTMLTimeElement; a2: ptr HTMLTimeElement) {.
 
 proc constructHTMLTimeElement*(): HTMLTimeElement {.constructor,
     importcpp: "client::HTMLTimeElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTitleElement* {.importcpp: "client::HTMLTitleElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_text*(this: var HTMLTitleElement): ptr String {.importcpp: "get_text",
     header: "cheerp/clientlib.h".}
@@ -30021,12 +30527,6 @@ proc set_prototype*(this: var HTMLTitleElement; a2: ptr HTMLTitleElement) {.
 
 proc constructHTMLTitleElement*(): HTMLTitleElement {.constructor,
     importcpp: "client::HTMLTitleElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLTrackElement* {.importcpp: "client::HTMLTrackElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_default*(this: var HTMLTrackElement): bool {.importcpp: "get_default",
     header: "cheerp/clientlib.h".}
@@ -30128,12 +30628,6 @@ proc get_LOADING*(this: var HTMLTrackElement): cdouble {.
 
 proc get_NONE*(this: var HTMLTrackElement): cdouble {.importcpp: "get_NONE",
     header: "cheerp/clientlib.h".}
-type
-
-  HTMLUListElement* {.importcpp: "client::HTMLUListElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc get_compact*(this: var HTMLUListElement): bool {.importcpp: "get_compact",
     header: "cheerp/clientlib.h".}
@@ -30199,12 +30693,6 @@ proc set_prototype*(this: var HTMLUListElement; a2: ptr HTMLUListElement) {.
 
 proc constructHTMLUListElement*(): HTMLUListElement {.constructor,
     importcpp: "client::HTMLUListElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLUnknownElement* {.importcpp: "client::HTMLUnknownElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of HTMLElement
-
-
 
 proc addEventListener*(this: var HTMLUnknownElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -30258,12 +30746,6 @@ proc set_prototype*(this: var HTMLUnknownElement; a2: ptr HTMLUnknownElement) {.
 
 proc constructHTMLUnknownElement*(): HTMLUnknownElement {.constructor,
     importcpp: "client::HTMLUnknownElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLVideoElementEventMap* {.importcpp: "client::HTMLVideoElementEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElementEventMap
-
-
 
 proc get_MSVideoFormatChanged*(this: var HTMLVideoElementEventMap): ptr Event {.
     importcpp: "get_MSVideoFormatChanged", header: "cheerp/clientlib.h".}
@@ -30284,12 +30766,6 @@ proc get_MSVideoOptimalLayoutChanged*(this: var HTMLVideoElementEventMap): ptr E
 proc set_MSVideoOptimalLayoutChanged*(this: var HTMLVideoElementEventMap;
                                       a2: ptr Event) {.
     importcpp: "set_MSVideoOptimalLayoutChanged", header: "cheerp/clientlib.h".}
-type
-
-  HTMLVideoElement* {.importcpp: "client::HTMLVideoElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of HTMLMediaElement
-
-
 
 proc get_height*(this: var HTMLVideoElement): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -30449,12 +30925,6 @@ proc set_prototype*(this: var HTMLVideoElement; a2: ptr HTMLVideoElement) {.
 
 proc constructHTMLVideoElement*(): HTMLVideoElement {.constructor,
     importcpp: "client::HTMLVideoElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HTMLegendElement* {.importcpp: "client::HTMLegendElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_form*(this: var HTMLegendElement): ptr HTMLFormElement {.
     importcpp: "get_form", header: "cheerp/clientlib.h".}
@@ -30467,12 +30937,6 @@ proc set_prototype*(this: var HTMLegendElement; a2: ptr HTMLegendElement) {.
 
 proc constructHTMLegendElement*(): HTMLegendElement {.constructor,
     importcpp: "client::HTMLegendElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  HashChangeEvent* {.importcpp: "client::HashChangeEvent",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_newURL*(this: var HashChangeEvent): ptr String {.
     importcpp: "get_newURL", header: "cheerp/clientlib.h".}
@@ -30493,11 +30957,6 @@ proc constructHashChangeEvent*(`type`: String;
                                eventInitDict: ptr HashChangeEventInit): HashChangeEvent {.
     constructor, importcpp: "client::HashChangeEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Headers* {.importcpp: "client::Headers", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc append*(this: var Headers; name: String; value: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
@@ -30535,11 +30994,6 @@ proc constructHeaders*(init: ptr Headers): Headers {.constructor,
 
 proc constructHeaders*(init: ptr Array): Headers {.constructor,
     importcpp: "client::Headers(@)", header: "cheerp/clientlib.h".}
-type
-
-  History* {.importcpp: "client::History", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var History): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -30594,12 +31048,6 @@ proc set_prototype*(this: var History; a2: ptr History) {.
 proc constructHistory*(): History {.constructor,
                                     importcpp: "client::History(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  HkdfCtrParams* {.importcpp: "client::HkdfCtrParams",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Algorithm
-
-
 
 proc get_context*(this: var HkdfCtrParams): ptr Int8Array {.
     importcpp: "get_context", header: "cheerp/clientlib.h".}
@@ -30618,16 +31066,6 @@ proc get_label*(this: var HkdfCtrParams): ptr Int8Array {.
 
 proc set_label*(this: var HkdfCtrParams; a2: ptr Int8Array) {.
     importcpp: "set_label", header: "cheerp/clientlib.h".}
-type
-
-  IDBArrayKey* {.importcpp: "client::IDBArrayKey", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Array
-
-
-  IDBCursor* {.importcpp: "client::IDBCursor", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_direction*(this: var IDBCursor): ptr String {.
     importcpp: "get_direction", header: "cheerp/clientlib.h".}
@@ -30686,12 +31124,6 @@ proc get_PREV*(this: var IDBCursor): ptr String {.importcpp: "get_PREV",
 
 proc get_PREV_NO_DUPLICATE*(this: var IDBCursor): ptr String {.
     importcpp: "get_PREV_NO_DUPLICATE", header: "cheerp/clientlib.h".}
-type
-
-  IDBCursorWithValue* {.importcpp: "client::IDBCursorWithValue",
-                        header: "cheerp/clientlib.h", bycopy.} = object of IDBCursor
-
-
 
 proc get_prototype*(this: var IDBCursorWithValue): ptr IDBCursorWithValue {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -30701,12 +31133,6 @@ proc set_prototype*(this: var IDBCursorWithValue; a2: ptr IDBCursorWithValue) {.
 
 proc constructIDBCursorWithValue*(): IDBCursorWithValue {.constructor,
     importcpp: "client::IDBCursorWithValue(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBDatabaseEventMap* {.importcpp: "client::IDBDatabaseEventMap",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var IDBDatabaseEventMap): ptr Event {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -30719,12 +31145,6 @@ proc get_error*(this: var IDBDatabaseEventMap): ptr Event {.
 
 proc set_error*(this: var IDBDatabaseEventMap; a2: ptr Event) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  IDBDatabase* {.importcpp: "client::IDBDatabase", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_name*(this: var IDBDatabase): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -30821,21 +31241,9 @@ proc set_prototype*(this: var IDBDatabase; a2: ptr IDBDatabase) {.
 
 proc constructIDBDatabase*(): IDBDatabase {.constructor,
     importcpp: "client::IDBDatabase(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBEnvironment* {.importcpp: "client::IDBEnvironment",
-                    header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_indexedDB*(this: var IDBEnvironment): ptr IDBFactory {.
     importcpp: "get_indexedDB", header: "cheerp/clientlib.h".}
-type
-
-  IDBFactory* {.importcpp: "client::IDBFactory", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc cmp*(this: var IDBFactory; first: ptr Object; second: ptr Object): cdouble {.
     importcpp: "cmp", header: "cheerp/clientlib.h".}
@@ -30857,12 +31265,6 @@ proc set_prototype*(this: var IDBFactory; a2: ptr IDBFactory) {.
 
 proc constructIDBFactory*(): IDBFactory {.constructor,
     importcpp: "client::IDBFactory(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBIndex* {.importcpp: "client::IDBIndex", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_keyPath*(this: var IDBIndex): ptr String {.importcpp: "get_keyPath",
     header: "cheerp/clientlib.h".}
@@ -30951,12 +31353,6 @@ proc set_prototype*(this: var IDBIndex; a2: ptr IDBIndex) {.
 proc constructIDBIndex*(): IDBIndex {.constructor,
                                       importcpp: "client::IDBIndex(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  IDBKeyRange* {.importcpp: "client::IDBKeyRange", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_lowerOpen*(this: var IDBKeyRange): bool {.importcpp: "get_lowerOpen",
     header: "cheerp/clientlib.h".}
@@ -31013,12 +31409,6 @@ proc upperBound*(upper: ptr Object; open: bool): ptr IDBKeyRange {.
     importcpp: "client::IDBKeyRange::upperBound(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  IDBObjectStore* {.importcpp: "client::IDBObjectStore",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_autoIncrement*(this: var IDBObjectStore): bool {.
     importcpp: "get_autoIncrement", header: "cheerp/clientlib.h".}
@@ -31147,12 +31537,6 @@ proc set_prototype*(this: var IDBObjectStore; a2: ptr IDBObjectStore) {.
 
 proc constructIDBObjectStore*(): IDBObjectStore {.constructor,
     importcpp: "client::IDBObjectStore(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBRequestEventMap* {.importcpp: "client::IDBRequestEventMap",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var IDBRequestEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -31165,12 +31549,6 @@ proc get_success*(this: var IDBRequestEventMap): ptr Event {.
 
 proc set_success*(this: var IDBRequestEventMap; a2: ptr Event) {.
     importcpp: "set_success", header: "cheerp/clientlib.h".}
-type
-
-  IDBOpenDBRequestEventMap* {.importcpp: "client::IDBOpenDBRequestEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of IDBRequestEventMap
-
-
 
 proc get_blocked*(this: var IDBOpenDBRequestEventMap): ptr Event {.
     importcpp: "get_blocked", header: "cheerp/clientlib.h".}
@@ -31184,12 +31562,6 @@ proc get_upgradeneeded*(this: var IDBOpenDBRequestEventMap): ptr IDBVersionChang
 proc set_upgradeneeded*(this: var IDBOpenDBRequestEventMap;
                         a2: ptr IDBVersionChangeEvent) {.
     importcpp: "set_upgradeneeded", header: "cheerp/clientlib.h".}
-type
-
-  IDBRequest* {.importcpp: "client::IDBRequest", header: "cheerp/clientlib.h",
-                bycopy.} = object of EventTarget
-
-
 
 proc get_error*(this: var IDBRequest): ptr DOMException {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -31267,12 +31639,6 @@ proc set_prototype*(this: var IDBRequest; a2: ptr IDBRequest) {.
 
 proc constructIDBRequest*(): IDBRequest {.constructor,
     importcpp: "client::IDBRequest(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBOpenDBRequest* {.importcpp: "client::IDBOpenDBRequest",
-                      header: "cheerp/clientlib.h", bycopy.} = object of IDBRequest
-
-
 
 proc get_onblocked*(this: var IDBOpenDBRequest): ptr EventListener {.
     importcpp: "get_onblocked", header: "cheerp/clientlib.h".}
@@ -31338,12 +31704,6 @@ proc set_prototype*(this: var IDBOpenDBRequest; a2: ptr IDBOpenDBRequest) {.
 
 proc constructIDBOpenDBRequest*(): IDBOpenDBRequest {.constructor,
     importcpp: "client::IDBOpenDBRequest(@)", header: "cheerp/clientlib.h".}
-type
-
-  IDBTransactionEventMap* {.importcpp: "client::IDBTransactionEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var IDBTransactionEventMap): ptr Event {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -31362,12 +31722,6 @@ proc get_error*(this: var IDBTransactionEventMap): ptr Event {.
 
 proc set_error*(this: var IDBTransactionEventMap; a2: ptr Event) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  IDBTransaction* {.importcpp: "client::IDBTransaction",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_db*(this: var IDBTransaction): ptr IDBDatabase {.importcpp: "get_db",
     header: "cheerp/clientlib.h".}
@@ -31463,12 +31817,6 @@ proc get_READ_WRITE*(this: var IDBTransaction): ptr String {.
 
 proc get_VERSION_CHANGE*(this: var IDBTransaction): ptr String {.
     importcpp: "get_VERSION_CHANGE", header: "cheerp/clientlib.h".}
-type
-
-  IDBVersionChangeEvent* {.importcpp: "client::IDBVersionChangeEvent",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_newVersion*(this: var IDBVersionChangeEvent): cdouble {.
     importcpp: "get_newVersion", header: "cheerp/clientlib.h".}
@@ -31485,12 +31833,6 @@ proc set_prototype*(this: var IDBVersionChangeEvent;
 
 proc constructIDBVersionChangeEvent*(): IDBVersionChangeEvent {.constructor,
     importcpp: "client::IDBVersionChangeEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  IIRFilterNode* {.importcpp: "client::IIRFilterNode",
-                   header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc getFrequencyResponse*(this: var IIRFilterNode;
                            frequencyHz: ptr Float32Array;
@@ -31506,12 +31848,6 @@ proc set_prototype*(this: var IIRFilterNode; a2: ptr IIRFilterNode) {.
 
 proc constructIIRFilterNode*(): IIRFilterNode {.constructor,
     importcpp: "client::IIRFilterNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  ImageBitmap* {.importcpp: "client::ImageBitmap", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_height*(this: var ImageBitmap): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -31521,12 +31857,6 @@ proc get_width*(this: var ImageBitmap): cdouble {.importcpp: "get_width",
 
 proc close*(this: var ImageBitmap) {.importcpp: "close",
                                      header: "cheerp/clientlib.h".}
-type
-
-  ImageBitmapOptions* {.importcpp: "client::ImageBitmapOptions",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_colorSpaceConversion*(this: var ImageBitmapOptions): ptr String {.
     importcpp: "get_colorSpaceConversion", header: "cheerp/clientlib.h".}
@@ -31563,12 +31893,6 @@ proc get_resizeWidth*(this: var ImageBitmapOptions): cdouble {.
 
 proc set_resizeWidth*(this: var ImageBitmapOptions; a2: cdouble) {.
     importcpp: "set_resizeWidth", header: "cheerp/clientlib.h".}
-type
-
-  ImageData* {.importcpp: "client::ImageData", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_data*(this: var ImageData): ptr Uint8ClampedArray {.
     importcpp: "get_data", header: "cheerp/clientlib.h".}
@@ -31591,12 +31915,6 @@ proc constructImageData*(width: cdouble; height: cdouble): ImageData {.
 proc constructImageData*(array: ptr Uint8ClampedArray; width: cdouble;
                          height: cdouble): ImageData {.constructor,
     importcpp: "client::ImageData(@)", header: "cheerp/clientlib.h".}
-type
-
-  IntersectionObserver* {.importcpp: "client::IntersectionObserver",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_root*(this: var IntersectionObserver): ptr Element {.
     importcpp: "get_root", header: "cheerp/clientlib.h".}
@@ -31633,12 +31951,6 @@ proc constructIntersectionObserver*(callback: ptr EventListener;
                                     options: ptr IntersectionObserverInit): IntersectionObserver {.
     constructor, importcpp: "client::IntersectionObserver(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  IntersectionObserverEntry* {.importcpp: "client::IntersectionObserverEntry",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_boundingClientRect*(this: var IntersectionObserverEntry): ptr ClientRect {.
     importcpp: "get_boundingClientRect", header: "cheerp/clientlib.h".}
@@ -31672,12 +31984,6 @@ proc constructIntersectionObserverEntry*(
     intersectionObserverEntryInit: ptr IntersectionObserverEntryInit): IntersectionObserverEntry {.
     constructor, importcpp: "client::IntersectionObserverEntry(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  KeyboardEvent* {.importcpp: "client::KeyboardEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
-
-
 
 proc get_altKey*(this: var KeyboardEvent): bool {.importcpp: "get_altKey",
     header: "cheerp/clientlib.h".}
@@ -31759,12 +32065,6 @@ proc get_DOM_KEY_LOCATION_RIGHT*(this: var KeyboardEvent): cdouble {.
 
 proc get_DOM_KEY_LOCATION_STANDARD*(this: var KeyboardEvent): cdouble {.
     importcpp: "get_DOM_KEY_LOCATION_STANDARD", header: "cheerp/clientlib.h".}
-type
-
-  ListeningStateChangedEvent* {.importcpp: "client::ListeningStateChangedEvent",
-                                header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_label*(this: var ListeningStateChangedEvent): ptr String {.
     importcpp: "get_label", header: "cheerp/clientlib.h".}
@@ -31782,12 +32082,6 @@ proc set_prototype*(this: var ListeningStateChangedEvent;
 proc constructListeningStateChangedEvent*(): ListeningStateChangedEvent {.
     constructor, importcpp: "client::ListeningStateChangedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Location* {.importcpp: "client::Location", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_hash*(this: var Location): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -31864,12 +32158,6 @@ proc set_prototype*(this: var Location; a2: ptr Location) {.
 proc constructLocation*(): Location {.constructor,
                                       importcpp: "client::Location(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  MSAssertion* {.importcpp: "client::MSAssertion", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_id*(this: var MSAssertion): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -31885,12 +32173,6 @@ proc set_prototype*(this: var MSAssertion; a2: ptr MSAssertion) {.
 
 proc constructMSAssertion*(): MSAssertion {.constructor,
     importcpp: "client::MSAssertion(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSBlobBuilder* {.importcpp: "client::MSBlobBuilder",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc append*(this: var MSBlobBuilder; data: ptr Object) {.importcpp: "append",
     header: "cheerp/clientlib.h".}
@@ -31912,12 +32194,6 @@ proc set_prototype*(this: var MSBlobBuilder; a2: ptr MSBlobBuilder) {.
 
 proc constructMSBlobBuilder*(): MSBlobBuilder {.constructor,
     importcpp: "client::MSBlobBuilder(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSCredentials* {.importcpp: "client::MSCredentials",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc getAssertion*(this: var MSCredentials; challenge: String): ptr Promise {.
     importcpp: "getAssertion", header: "cheerp/clientlib.h".}
@@ -31947,12 +32223,6 @@ proc set_prototype*(this: var MSCredentials; a2: ptr MSCredentials) {.
 
 proc constructMSCredentials*(): MSCredentials {.constructor,
     importcpp: "client::MSCredentials(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSDCCEvent* {.importcpp: "client::MSDCCEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of Event
-
-
 
 proc get_maxFr*(this: var MSDCCEvent): cdouble {.importcpp: "get_maxFr",
     header: "cheerp/clientlib.h".}
@@ -31969,12 +32239,6 @@ proc set_prototype*(this: var MSDCCEvent; a2: ptr MSDCCEvent) {.
 proc constructMSDCCEvent*(`type`: String; eventInitDict: ptr MSDCCEventInit): MSDCCEvent {.
     constructor, importcpp: "client::MSDCCEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MSDSHEvent* {.importcpp: "client::MSDSHEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of Event
-
-
 
 proc get_sources*(this: var MSDSHEvent): ptr Array {.importcpp: "get_sources",
     header: "cheerp/clientlib.h".}
@@ -31991,12 +32255,6 @@ proc set_prototype*(this: var MSDSHEvent; a2: ptr MSDSHEvent) {.
 proc constructMSDSHEvent*(`type`: String; eventInitDict: ptr MSDSHEventInit): MSDSHEvent {.
     constructor, importcpp: "client::MSDSHEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MSFIDOCredentialAssertion* {.importcpp: "client::MSFIDOCredentialAssertion",
-                               header: "cheerp/clientlib.h", bycopy.} = object of MSAssertion
-
-
 
 proc get_algorithm*(this: var MSFIDOCredentialAssertion): ptr String {.
     importcpp: "get_algorithm", header: "cheerp/clientlib.h".}
@@ -32017,12 +32275,6 @@ proc set_prototype*(this: var MSFIDOCredentialAssertion;
 proc constructMSFIDOCredentialAssertion*(): MSFIDOCredentialAssertion {.
     constructor, importcpp: "client::MSFIDOCredentialAssertion(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MSFIDOSignature* {.importcpp: "client::MSFIDOSignature",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_authnrData*(this: var MSFIDOSignature): ptr String {.
     importcpp: "get_authnrData", header: "cheerp/clientlib.h".}
@@ -32041,12 +32293,6 @@ proc set_prototype*(this: var MSFIDOSignature; a2: ptr MSFIDOSignature) {.
 
 proc constructMSFIDOSignature*(): MSFIDOSignature {.constructor,
     importcpp: "client::MSFIDOSignature(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSFIDOSignatureAssertion* {.importcpp: "client::MSFIDOSignatureAssertion",
-                              header: "cheerp/clientlib.h", bycopy.} = object of MSAssertion
-
-
 
 proc get_signature*(this: var MSFIDOSignatureAssertion): ptr MSFIDOSignature {.
     importcpp: "get_signature", header: "cheerp/clientlib.h".}
@@ -32061,12 +32307,6 @@ proc set_prototype*(this: var MSFIDOSignatureAssertion;
 proc constructMSFIDOSignatureAssertion*(): MSFIDOSignatureAssertion {.
     constructor, importcpp: "client::MSFIDOSignatureAssertion(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MSFileSaver* {.importcpp: "client::MSFileSaver", header: "cheerp/clientlib.h",
-                 bycopy.} = object
-
-
 
 proc msSaveBlob*(this: var MSFileSaver; blob: ptr Object): bool {.
     importcpp: "msSaveBlob", header: "cheerp/clientlib.h".}
@@ -32080,12 +32320,6 @@ proc msSaveOrOpenBlob*(this: var MSFileSaver; blob: ptr Object): bool {.
 proc msSaveOrOpenBlob*(this: var MSFileSaver; blob: ptr Object;
                        defaultName: String): bool {.
     importcpp: "msSaveOrOpenBlob", header: "cheerp/clientlib.h".}
-type
-
-  MSGesture* {.importcpp: "client::MSGesture", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_target*(this: var MSGesture): ptr Element {.importcpp: "get_target",
     header: "cheerp/clientlib.h".}
@@ -32108,12 +32342,6 @@ proc set_prototype*(this: var MSGesture; a2: ptr MSGesture) {.
 proc constructMSGesture*(): MSGesture {.constructor,
                                         importcpp: "client::MSGesture(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  MSGestureEvent* {.importcpp: "client::MSGestureEvent",
-                    header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
-
-
 
 proc get_clientX*(this: var MSGestureEvent): cdouble {.importcpp: "get_clientX",
     header: "cheerp/clientlib.h".}
@@ -32199,12 +32427,6 @@ proc get_MSGESTURE_FLAG_INERTIA*(this: var MSGestureEvent): cdouble {.
 
 proc get_MSGESTURE_FLAG_NONE*(this: var MSGestureEvent): cdouble {.
     importcpp: "get_MSGESTURE_FLAG_NONE", header: "cheerp/clientlib.h".}
-type
-
-  MSGraphicsTrust* {.importcpp: "client::MSGraphicsTrust",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_constrictionActive*(this: var MSGraphicsTrust): bool {.
     importcpp: "get_constrictionActive", header: "cheerp/clientlib.h".}
@@ -32220,12 +32442,6 @@ proc set_prototype*(this: var MSGraphicsTrust; a2: ptr MSGraphicsTrust) {.
 
 proc constructMSGraphicsTrust*(): MSGraphicsTrust {.constructor,
     importcpp: "client::MSGraphicsTrust(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSInputMethodContextEventMap* {.importcpp: "client::MSInputMethodContextEventMap",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_MSCandidateWindowHide*(this: var MSInputMethodContextEventMap): ptr Event {.
     importcpp: "get_MSCandidateWindowHide", header: "cheerp/clientlib.h".}
@@ -32247,12 +32463,6 @@ proc get_MSCandidateWindowUpdate*(this: var MSInputMethodContextEventMap): ptr E
 proc set_MSCandidateWindowUpdate*(this: var MSInputMethodContextEventMap;
                                   a2: ptr Event) {.
     importcpp: "set_MSCandidateWindowUpdate", header: "cheerp/clientlib.h".}
-type
-
-  MSInputMethodContext* {.importcpp: "client::MSInputMethodContext",
-                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_compositionEndOffset*(this: var MSInputMethodContext): cdouble {.
     importcpp: "get_compositionEndOffset", header: "cheerp/clientlib.h".}
@@ -32348,12 +32558,6 @@ proc set_prototype*(this: var MSInputMethodContext; a2: ptr MSInputMethodContext
 
 proc constructMSInputMethodContext*(): MSInputMethodContext {.constructor,
     importcpp: "client::MSInputMethodContext(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSMediaKeyError* {.importcpp: "client::MSMediaKeyError",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_code*(this: var MSMediaKeyError): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -32388,12 +32592,6 @@ proc get_MS_MEDIA_KEYERR_SERVICE*(this: var MSMediaKeyError): cdouble {.
 
 proc get_MS_MEDIA_KEYERR_UNKNOWN*(this: var MSMediaKeyError): cdouble {.
     importcpp: "get_MS_MEDIA_KEYERR_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  MSMediaKeyMessageEvent* {.importcpp: "client::MSMediaKeyMessageEvent",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_destinationURL*(this: var MSMediaKeyMessageEvent): ptr String {.
     importcpp: "get_destinationURL", header: "cheerp/clientlib.h".}
@@ -32410,12 +32608,6 @@ proc set_prototype*(this: var MSMediaKeyMessageEvent;
 
 proc constructMSMediaKeyMessageEvent*(): MSMediaKeyMessageEvent {.constructor,
     importcpp: "client::MSMediaKeyMessageEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSMediaKeyNeededEvent* {.importcpp: "client::MSMediaKeyNeededEvent",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_initData*(this: var MSMediaKeyNeededEvent): ptr Uint8Array {.
     importcpp: "get_initData", header: "cheerp/clientlib.h".}
@@ -32429,12 +32621,6 @@ proc set_prototype*(this: var MSMediaKeyNeededEvent;
 
 proc constructMSMediaKeyNeededEvent*(): MSMediaKeyNeededEvent {.constructor,
     importcpp: "client::MSMediaKeyNeededEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSMediaKeySession* {.importcpp: "client::MSMediaKeySession",
-                       header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_error*(this: var MSMediaKeySession): ptr MSMediaKeyError {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -32459,12 +32645,6 @@ proc set_prototype*(this: var MSMediaKeySession; a2: ptr MSMediaKeySession) {.
 
 proc constructMSMediaKeySession*(): MSMediaKeySession {.constructor,
     importcpp: "client::MSMediaKeySession(@)", header: "cheerp/clientlib.h".}
-type
-
-  MSMediaKeys* {.importcpp: "client::MSMediaKeys", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_keySystem*(this: var MSMediaKeys): ptr String {.
     importcpp: "get_keySystem", header: "cheerp/clientlib.h".}
@@ -32505,12 +32685,6 @@ proc isTypeSupportedWithFeatures*(keySystem: String; `type`: String): ptr String
     importcpp: "client::MSMediaKeys::isTypeSupportedWithFeatures(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  MSNavigatorDoNotTrack* {.importcpp: "client::MSNavigatorDoNotTrack",
-                           header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc confirmSiteSpecificTrackingException*(this: var MSNavigatorDoNotTrack;
     args: ptr ConfirmSiteSpecificExceptionsInformation): bool {.
@@ -32537,12 +32711,6 @@ proc storeSiteSpecificTrackingException*(this: var MSNavigatorDoNotTrack;
 proc storeWebWideTrackingException*(this: var MSNavigatorDoNotTrack;
                                     args: ptr StoreExceptionsInformation) {.
     importcpp: "storeWebWideTrackingException", header: "cheerp/clientlib.h".}
-type
-
-  MSPointerEvent* {.importcpp: "client::MSPointerEvent",
-                    header: "cheerp/clientlib.h", bycopy.} = object of MouseEvent
-
-
 
 proc get_height*(this: var MSPointerEvent): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -32605,12 +32773,6 @@ proc constructMSPointerEvent*(typeArg: String;
                               eventInitDict: ptr PointerEventInit): MSPointerEvent {.
     constructor, importcpp: "client::MSPointerEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MSStream* {.importcpp: "client::MSStream", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_type*(this: var MSStream): ptr String {.importcpp: "get_type",
     header: "cheerp/clientlib.h".}
@@ -32627,12 +32789,6 @@ proc set_prototype*(this: var MSStream; a2: ptr MSStream) {.
 proc constructMSStream*(): MSStream {.constructor,
                                       importcpp: "client::MSStream(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  MSStreamReaderEventMap* {.importcpp: "client::MSStreamReaderEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var MSStreamReaderEventMap): ptr UIEvent {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -32669,12 +32825,6 @@ proc get_progress*(this: var MSStreamReaderEventMap): ptr ProgressEvent {.
 
 proc set_progress*(this: var MSStreamReaderEventMap; a2: ptr ProgressEvent) {.
     importcpp: "set_progress", header: "cheerp/clientlib.h".}
-type
-
-  MSStreamReader* {.importcpp: "client::MSStreamReader",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_error*(this: var MSStreamReader): ptr DOMError {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -32820,12 +32970,6 @@ proc get_EMPTY*(this: var MSStreamReader): cdouble {.importcpp: "get_EMPTY",
 
 proc get_LOADING*(this: var MSStreamReader): cdouble {.importcpp: "get_LOADING",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaDeviceInfo* {.importcpp: "client::MediaDeviceInfo",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_deviceId*(this: var MediaDeviceInfo): ptr String {.
     importcpp: "get_deviceId", header: "cheerp/clientlib.h".}
@@ -32847,24 +32991,12 @@ proc set_prototype*(this: var MediaDeviceInfo; a2: ptr MediaDeviceInfo) {.
 
 proc constructMediaDeviceInfo*(): MediaDeviceInfo {.constructor,
     importcpp: "client::MediaDeviceInfo(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaDevicesEventMap* {.importcpp: "client::MediaDevicesEventMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_devicechange*(this: var MediaDevicesEventMap): ptr Event {.
     importcpp: "get_devicechange", header: "cheerp/clientlib.h".}
 
 proc set_devicechange*(this: var MediaDevicesEventMap; a2: ptr Event) {.
     importcpp: "set_devicechange", header: "cheerp/clientlib.h".}
-type
-
-  MediaDevices* {.importcpp: "client::MediaDevices",
-                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_ondevicechange*(this: var MediaDevices): ptr EventListener {.
     importcpp: "get_ondevicechange", header: "cheerp/clientlib.h".}
@@ -32934,12 +33066,6 @@ proc set_prototype*(this: var MediaDevices; a2: ptr MediaDevices) {.
 
 proc constructMediaDevices*(): MediaDevices {.constructor,
     importcpp: "client::MediaDevices(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaElementAudioSourceNode* {.importcpp: "client::MediaElementAudioSourceNode",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_prototype*(this: var MediaElementAudioSourceNode): ptr MediaElementAudioSourceNode {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -32951,12 +33077,6 @@ proc set_prototype*(this: var MediaElementAudioSourceNode;
 proc constructMediaElementAudioSourceNode*(): MediaElementAudioSourceNode {.
     constructor, importcpp: "client::MediaElementAudioSourceNode(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaEncryptedEvent* {.importcpp: "client::MediaEncryptedEvent",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_initData*(this: var MediaEncryptedEvent): ptr ArrayBuffer {.
     importcpp: "get_initData", header: "cheerp/clientlib.h".}
@@ -32978,12 +33098,6 @@ proc constructMediaEncryptedEvent*(`type`: String;
                                    eventInitDict: ptr MediaEncryptedEventInit): MediaEncryptedEvent {.
     constructor, importcpp: "client::MediaEncryptedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaError* {.importcpp: "client::MediaError", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_code*(this: var MediaError): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -33017,12 +33131,6 @@ proc get_MEDIA_ERR_SRC_NOT_SUPPORTED*(this: var MediaError): cdouble {.
 
 proc get_MS_MEDIA_ERR_ENCRYPTED*(this: var MediaError): cdouble {.
     importcpp: "get_MS_MEDIA_ERR_ENCRYPTED", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeyMessageEvent* {.importcpp: "client::MediaKeyMessageEvent",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_message*(this: var MediaKeyMessageEvent): ptr ArrayBuffer {.
     importcpp: "get_message", header: "cheerp/clientlib.h".}
@@ -33044,12 +33152,6 @@ proc constructMediaKeyMessageEvent*(`type`: String;
                                     eventInitDict: ptr MediaKeyMessageEventInit): MediaKeyMessageEvent {.
     constructor, importcpp: "client::MediaKeyMessageEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaKeySession* {.importcpp: "client::MediaKeySession",
-                     header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_closed*(this: var MediaKeySession): ptr Promise {.
     importcpp: "get_closed", header: "cheerp/clientlib.h".}
@@ -33157,12 +33259,6 @@ proc set_prototype*(this: var MediaKeySession; a2: ptr MediaKeySession) {.
 
 proc constructMediaKeySession*(): MediaKeySession {.constructor,
     importcpp: "client::MediaKeySession(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeyStatusMap* {.importcpp: "client::MediaKeyStatusMap",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_size*(this: var MediaKeyStatusMap): cdouble {.importcpp: "get_size",
     header: "cheerp/clientlib.h".}
@@ -33248,12 +33344,6 @@ proc set_prototype*(this: var MediaKeyStatusMap; a2: ptr MediaKeyStatusMap) {.
 
 proc constructMediaKeyStatusMap*(): MediaKeyStatusMap {.constructor,
     importcpp: "client::MediaKeyStatusMap(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeySystemAccess* {.importcpp: "client::MediaKeySystemAccess",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_keySystem*(this: var MediaKeySystemAccess): ptr String {.
     importcpp: "get_keySystem", header: "cheerp/clientlib.h".}
@@ -33272,12 +33362,6 @@ proc set_prototype*(this: var MediaKeySystemAccess; a2: ptr MediaKeySystemAccess
 
 proc constructMediaKeySystemAccess*(): MediaKeySystemAccess {.constructor,
     importcpp: "client::MediaKeySystemAccess(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaKeys* {.importcpp: "client::MediaKeys", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc createSession*(this: var MediaKeys): ptr MediaKeySession {.
     importcpp: "createSession", header: "cheerp/clientlib.h".}
@@ -33333,12 +33417,6 @@ proc set_prototype*(this: var MediaKeys; a2: ptr MediaKeys) {.
 proc constructMediaKeys*(): MediaKeys {.constructor,
                                         importcpp: "client::MediaKeys(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  MediaList* {.importcpp: "client::MediaList", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_length*(this: var MediaList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -33376,12 +33454,6 @@ proc set_prototype*(this: var MediaList; a2: ptr MediaList) {.
 proc constructMediaList*(): MediaList {.constructor,
                                         importcpp: "client::MediaList(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  MediaQueryList* {.importcpp: "client::MediaQueryList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_matches*(this: var MediaQueryList): bool {.importcpp: "get_matches",
     header: "cheerp/clientlib.h".}
@@ -33404,12 +33476,6 @@ proc set_prototype*(this: var MediaQueryList; a2: ptr MediaQueryList) {.
 
 proc constructMediaQueryList*(): MediaQueryList {.constructor,
     importcpp: "client::MediaQueryList(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaSource* {.importcpp: "client::MediaSource", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_activeSourceBuffers*(this: var MediaSource): ptr SourceBufferList {.
     importcpp: "get_activeSourceBuffers", header: "cheerp/clientlib.h".}
@@ -33451,12 +33517,6 @@ proc isTypeSupported*(`type`: String): bool {.
     importcpp: "client::MediaSource::isTypeSupported(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  MediaStreamEventMap* {.importcpp: "client::MediaStreamEventMap",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_active*(this: var MediaStreamEventMap): ptr Event {.
     importcpp: "get_active", header: "cheerp/clientlib.h".}
@@ -33482,12 +33542,6 @@ proc get_removetrack*(this: var MediaStreamEventMap): ptr MediaStreamTrackEvent 
 proc set_removetrack*(this: var MediaStreamEventMap;
                       a2: ptr MediaStreamTrackEvent) {.
     importcpp: "set_removetrack", header: "cheerp/clientlib.h".}
-type
-
-  MediaStream* {.importcpp: "client::MediaStream", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_active*(this: var MediaStream): bool {.importcpp: "get_active",
     header: "cheerp/clientlib.h".}
@@ -33601,12 +33655,6 @@ proc constructMediaStream*(stream: ptr MediaStream): MediaStream {.constructor,
 
 proc constructMediaStream*(tracks: ptr Array): MediaStream {.constructor,
     importcpp: "client::MediaStream(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamAudioSourceNode* {.importcpp: "client::MediaStreamAudioSourceNode",
-                                header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_prototype*(this: var MediaStreamAudioSourceNode): ptr MediaStreamAudioSourceNode {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -33618,12 +33666,6 @@ proc set_prototype*(this: var MediaStreamAudioSourceNode;
 proc constructMediaStreamAudioSourceNode*(): MediaStreamAudioSourceNode {.
     constructor, importcpp: "client::MediaStreamAudioSourceNode(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamError* {.importcpp: "client::MediaStreamError",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_constraintName*(this: var MediaStreamError): ptr String {.
     importcpp: "get_constraintName", header: "cheerp/clientlib.h".}
@@ -33642,12 +33684,6 @@ proc set_prototype*(this: var MediaStreamError; a2: ptr MediaStreamError) {.
 
 proc constructMediaStreamError*(): MediaStreamError {.constructor,
     importcpp: "client::MediaStreamError(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamErrorEvent* {.importcpp: "client::MediaStreamErrorEvent",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_error*(this: var MediaStreamErrorEvent): ptr MediaStreamError {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -33666,12 +33702,6 @@ proc constructMediaStreamErrorEvent*(typeArg: String): MediaStreamErrorEvent {.
 proc constructMediaStreamErrorEvent*(typeArg: String; eventInitDict: ptr MediaStreamErrorEventInit): MediaStreamErrorEvent {.
     constructor, importcpp: "client::MediaStreamErrorEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamEvent* {.importcpp: "client::MediaStreamEvent",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_stream*(this: var MediaStreamEvent): ptr MediaStream {.
     importcpp: "get_stream", header: "cheerp/clientlib.h".}
@@ -33686,12 +33716,6 @@ proc constructMediaStreamEvent*(`type`: String;
                                 eventInitDict: ptr MediaStreamEventInit): MediaStreamEvent {.
     constructor, importcpp: "client::MediaStreamEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamTrackEventMap* {.importcpp: "client::MediaStreamTrackEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ended*(this: var MediaStreamTrackEventMap): ptr MediaStreamErrorEvent {.
     importcpp: "get_ended", header: "cheerp/clientlib.h".}
@@ -33718,12 +33742,6 @@ proc get_unmute*(this: var MediaStreamTrackEventMap): ptr Event {.
 
 proc set_unmute*(this: var MediaStreamTrackEventMap; a2: ptr Event) {.
     importcpp: "set_unmute", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamTrack* {.importcpp: "client::MediaStreamTrack",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_enabled*(this: var MediaStreamTrack): bool {.importcpp: "get_enabled",
     header: "cheerp/clientlib.h".}
@@ -33847,12 +33865,6 @@ proc set_prototype*(this: var MediaStreamTrack; a2: ptr MediaStreamTrack) {.
 
 proc constructMediaStreamTrack*(): MediaStreamTrack {.constructor,
     importcpp: "client::MediaStreamTrack(@)", header: "cheerp/clientlib.h".}
-type
-
-  MediaStreamTrackEvent* {.importcpp: "client::MediaStreamTrackEvent",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_track*(this: var MediaStreamTrackEvent): ptr MediaStreamTrack {.
     importcpp: "get_track", header: "cheerp/clientlib.h".}
@@ -33871,12 +33883,6 @@ proc constructMediaStreamTrackEvent*(typeArg: String): MediaStreamTrackEvent {.
 proc constructMediaStreamTrackEvent*(typeArg: String; eventInitDict: ptr MediaStreamTrackEventInit): MediaStreamTrackEvent {.
     constructor, importcpp: "client::MediaStreamTrackEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MessageChannel* {.importcpp: "client::MessageChannel",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_port1*(this: var MessageChannel): ptr MessagePort {.
     importcpp: "get_port1", header: "cheerp/clientlib.h".}
@@ -33892,12 +33898,6 @@ proc set_prototype*(this: var MessageChannel; a2: ptr MessageChannel) {.
 
 proc constructMessageChannel*(): MessageChannel {.constructor,
     importcpp: "client::MessageChannel(@)", header: "cheerp/clientlib.h".}
-type
-
-  MessageEvent* {.importcpp: "client::MessageEvent",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_origin*(this: var MessageEvent): ptr String {.importcpp: "get_origin",
     header: "cheerp/clientlib.h".}
@@ -33925,24 +33925,12 @@ proc constructMessageEvent*(`type`: String): MessageEvent {.constructor,
 proc constructMessageEvent*(`type`: String; eventInitDict: ptr MessageEventInit): MessageEvent {.
     constructor, importcpp: "client::MessageEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MessagePortEventMap* {.importcpp: "client::MessagePortEventMap",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_message*(this: var MessagePortEventMap): ptr MessageEvent {.
     importcpp: "get_message", header: "cheerp/clientlib.h".}
 
 proc set_message*(this: var MessagePortEventMap; a2: ptr MessageEvent) {.
     importcpp: "set_message", header: "cheerp/clientlib.h".}
-type
-
-  MessagePort* {.importcpp: "client::MessagePort", header: "cheerp/clientlib.h",
-                 bycopy.} = object of EventTarget
-
-
 
 proc get_onmessage*(this: var MessagePort): ptr EventListener {.
     importcpp: "get_onmessage", header: "cheerp/clientlib.h".}
@@ -34024,12 +34012,6 @@ proc set_prototype*(this: var MessagePort; a2: ptr MessagePort) {.
 
 proc constructMessagePort*(): MessagePort {.constructor,
     importcpp: "client::MessagePort(@)", header: "cheerp/clientlib.h".}
-type
-
-  MimeType* {.importcpp: "client::MimeType", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_description*(this: var MimeType): ptr String {.
     importcpp: "get_description", header: "cheerp/clientlib.h".}
@@ -34052,12 +34034,6 @@ proc set_prototype*(this: var MimeType; a2: ptr MimeType) {.
 proc constructMimeType*(): MimeType {.constructor,
                                       importcpp: "client::MimeType(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  MimeTypeArray* {.importcpp: "client::MimeTypeArray",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var MimeTypeArray): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -34082,12 +34058,6 @@ proc set_prototype*(this: var MimeTypeArray; a2: ptr MimeTypeArray) {.
 
 proc constructMimeTypeArray*(): MimeTypeArray {.constructor,
     importcpp: "client::MimeTypeArray(@)", header: "cheerp/clientlib.h".}
-type
-
-  MutationEvent* {.importcpp: "client::MutationEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_attrChange*(this: var MutationEvent): cdouble {.
     importcpp: "get_attrChange", header: "cheerp/clientlib.h".}
@@ -34128,12 +34098,6 @@ proc get_MODIFICATION*(this: var MutationEvent): cdouble {.
 
 proc get_REMOVAL*(this: var MutationEvent): cdouble {.importcpp: "get_REMOVAL",
     header: "cheerp/clientlib.h".}
-type
-
-  MutationObserver* {.importcpp: "client::MutationObserver",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc disconnect*(this: var MutationObserver) {.importcpp: "disconnect",
     header: "cheerp/clientlib.h".}
@@ -34154,12 +34118,6 @@ proc set_prototype*(this: var MutationObserver; a2: ptr MutationObserver) {.
 proc constructMutationObserver*(callback: ptr EventListener): MutationObserver {.
     constructor, importcpp: "client::MutationObserver(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  MutationRecord* {.importcpp: "client::MutationRecord",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addedNodes*(this: var MutationRecord): ptr NodeList {.
     importcpp: "get_addedNodes", header: "cheerp/clientlib.h".}
@@ -34196,12 +34154,6 @@ proc set_prototype*(this: var MutationRecord; a2: ptr MutationRecord) {.
 
 proc constructMutationRecord*(): MutationRecord {.constructor,
     importcpp: "client::MutationRecord(@)", header: "cheerp/clientlib.h".}
-type
-
-  NamedNodeMap* {.importcpp: "client::NamedNodeMap",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var NamedNodeMap): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -34243,12 +34195,6 @@ proc set_prototype*(this: var NamedNodeMap; a2: ptr NamedNodeMap) {.
 
 proc constructNamedNodeMap*(): NamedNodeMap {.constructor,
     importcpp: "client::NamedNodeMap(@)", header: "cheerp/clientlib.h".}
-type
-
-  NavigatorID* {.importcpp: "client::NavigatorID", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_appCodeName*(this: var NavigatorID): ptr String {.
     importcpp: "get_appCodeName", header: "cheerp/clientlib.h".}
@@ -34276,29 +34222,9 @@ proc get_vendor*(this: var NavigatorID): ptr String {.importcpp: "get_vendor",
 
 proc get_vendorSub*(this: var NavigatorID): ptr String {.
     importcpp: "get_vendorSub", header: "cheerp/clientlib.h".}
-type
-
-  NavigatorOnLine* {.importcpp: "client::NavigatorOnLine",
-                     header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_onLine*(this: var NavigatorOnLine): bool {.importcpp: "get_onLine",
     header: "cheerp/clientlib.h".}
-type
-
-  NavigatorContentUtils* {.importcpp: "client::NavigatorContentUtils",
-                           header: "cheerp/clientlib.h", bycopy.} = object
-
-
-  NavigatorStorageUtils* {.importcpp: "client::NavigatorStorageUtils",
-                           header: "cheerp/clientlib.h", bycopy.} = object
-
-
-  NavigatorBeacon* {.importcpp: "client::NavigatorBeacon",
-                     header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc sendBeacon*(this: var NavigatorBeacon; url: String): bool {.
     importcpp: "sendBeacon", header: "cheerp/clientlib.h".}
@@ -34345,21 +34271,9 @@ proc sendBeacon*(this: var NavigatorBeacon; url: String; data: ptr FormData): bo
 
 proc sendBeacon*(this: var NavigatorBeacon; url: String; data: String): bool {.
     importcpp: "sendBeacon", header: "cheerp/clientlib.h".}
-type
-
-  NavigatorConcurrentHardware* {.importcpp: "client::NavigatorConcurrentHardware",
-                                 header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_hardwareConcurrency*(this: var NavigatorConcurrentHardware): cdouble {.
     importcpp: "get_hardwareConcurrency", header: "cheerp/clientlib.h".}
-type
-
-  NavigatorUserMedia* {.importcpp: "client::NavigatorUserMedia",
-                        header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_mediaDevices*(this: var NavigatorUserMedia): ptr MediaDevices {.
     importcpp: "get_mediaDevices", header: "cheerp/clientlib.h".}
@@ -34373,24 +34287,12 @@ proc getUserMedia*(this: var NavigatorUserMedia;
                    successCallback: ptr EventListener;
                    errorCallback: ptr EventListener) {.
     importcpp: "getUserMedia", header: "cheerp/clientlib.h".}
-type
-
-  NavigatorLanguage* {.importcpp: "client::NavigatorLanguage",
-                       header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_language*(this: var NavigatorLanguage): ptr String {.
     importcpp: "get_language", header: "cheerp/clientlib.h".}
 
 proc get_languages*(this: var NavigatorLanguage): ptr ReadonlyArray[String] {.
     importcpp: "get_languages", header: "cheerp/clientlib.h".}
-type
-
-  Navigator* {.importcpp: "client::Navigator", header: "cheerp/clientlib.h",
-               bycopy.} = object of NavigatorID
-
-
 
 proc get_activeVRDisplays*(this: var Navigator): ptr ReadonlyArray[VRDisplay] {.
     importcpp: "get_activeVRDisplays", header: "cheerp/clientlib.h".}
@@ -34480,12 +34382,6 @@ proc set_prototype*(this: var Navigator; a2: ptr Navigator) {.
 proc constructNavigator*(): Navigator {.constructor,
                                         importcpp: "client::Navigator(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  NodeFilter* {.importcpp: "client::NodeFilter", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc acceptNode*(this: var NodeFilter; node: ptr Node): cdouble {.
     importcpp: "acceptNode", header: "cheerp/clientlib.h".}
@@ -34537,12 +34433,6 @@ proc get_SHOW_PROCESSING_INSTRUCTION*(this: var NodeFilter): cdouble {.
 
 proc get_SHOW_TEXT*(this: var NodeFilter): cdouble {.importcpp: "get_SHOW_TEXT",
     header: "cheerp/clientlib.h".}
-type
-
-  NodeIterator* {.importcpp: "client::NodeIterator",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_expandEntityReferences*(this: var NodeIterator): bool {.
     importcpp: "get_expandEntityReferences", header: "cheerp/clientlib.h".}
@@ -34573,12 +34463,6 @@ proc set_prototype*(this: var NodeIterator; a2: ptr NodeIterator) {.
 
 proc constructNodeIterator*(): NodeIterator {.constructor,
     importcpp: "client::NodeIterator(@)", header: "cheerp/clientlib.h".}
-type
-
-  NodeList* {.importcpp: "client::NodeList", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_length*(this: var NodeList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -34601,12 +34485,6 @@ proc set_prototype*(this: var NodeList; a2: ptr NodeList) {.
 proc constructNodeList*(): NodeList {.constructor,
                                       importcpp: "client::NodeList(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  NodeListOf*[TNode] {.importcpp: "client::NodeListOf<\'0>",
-                       header: "cheerp/clientlib.h", bycopy.} = object of NodeList
-
-
 
 proc get_length*[TNode](this: var NodeListOf[TNode]): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -34622,24 +34500,12 @@ proc `[]`*[TNode](this: var NodeListOf[TNode]; index: cint): ptr TNode {.
 
 proc `[]`*[TNode](this: NodeListOf[TNode]; index: cint): ptr TNode {.
     noSideEffect, importcpp: "#[@]", header: "cheerp/clientlib.h".}
-type
-
-  NodeSelector* {.importcpp: "client::NodeSelector",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc querySelector*(this: var NodeSelector; selectors: String): ptr Element {.
     importcpp: "querySelector", header: "cheerp/clientlib.h".}
 
 proc querySelectorAll*(this: var NodeSelector; selectors: String): ptr NodeListOf[
     Element] {.importcpp: "querySelectorAll", header: "cheerp/clientlib.h".}
-type
-
-  NotificationEventMap* {.importcpp: "client::NotificationEventMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_click*(this: var NotificationEventMap): ptr Event {.
     importcpp: "get_click", header: "cheerp/clientlib.h".}
@@ -34664,12 +34530,6 @@ proc get_show*(this: var NotificationEventMap): ptr Event {.
 
 proc set_show*(this: var NotificationEventMap; a2: ptr Event) {.
     importcpp: "set_show", header: "cheerp/clientlib.h".}
-type
-
-  Notification* {.importcpp: "client::Notification",
-                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_body*(this: var Notification): ptr String {.importcpp: "get_body",
     header: "cheerp/clientlib.h".}
@@ -34785,12 +34645,6 @@ proc requestPermission*(callback: ptr EventListener): ptr Promise {.
     importcpp: "client::Notification::requestPermission(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  OfflineAudioCompletionEvent* {.importcpp: "client::OfflineAudioCompletionEvent",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_renderedBuffer*(this: var OfflineAudioCompletionEvent): ptr AudioBuffer {.
     importcpp: "get_renderedBuffer", header: "cheerp/clientlib.h".}
@@ -34805,12 +34659,6 @@ proc set_prototype*(this: var OfflineAudioCompletionEvent;
 proc constructOfflineAudioCompletionEvent*(): OfflineAudioCompletionEvent {.
     constructor, importcpp: "client::OfflineAudioCompletionEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  OfflineAudioContextEventMap* {.importcpp: "client::OfflineAudioContextEventMap",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of AudioContextEventMap
-
-
 
 proc get_complete*(this: var OfflineAudioContextEventMap): ptr OfflineAudioCompletionEvent {.
     importcpp: "get_complete", header: "cheerp/clientlib.h".}
@@ -34818,12 +34666,6 @@ proc get_complete*(this: var OfflineAudioContextEventMap): ptr OfflineAudioCompl
 proc set_complete*(this: var OfflineAudioContextEventMap;
                    a2: ptr OfflineAudioCompletionEvent) {.
     importcpp: "set_complete", header: "cheerp/clientlib.h".}
-type
-
-  OfflineAudioContext* {.importcpp: "client::OfflineAudioContext",
-                         header: "cheerp/clientlib.h", bycopy.} = object of AudioContextBase
-
-
 
 proc get_length*(this: var OfflineAudioContext): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -34894,24 +34736,12 @@ proc constructOfflineAudioContext*(numberOfChannels: cdouble; length: cdouble;
                                    sampleRate: cdouble): OfflineAudioContext {.
     constructor, importcpp: "client::OfflineAudioContext(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  OscillatorNodeEventMap* {.importcpp: "client::OscillatorNodeEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_ended*(this: var OscillatorNodeEventMap): ptr Event {.
     importcpp: "get_ended", header: "cheerp/clientlib.h".}
 
 proc set_ended*(this: var OscillatorNodeEventMap; a2: ptr Event) {.
     importcpp: "set_ended", header: "cheerp/clientlib.h".}
-type
-
-  OscillatorNode* {.importcpp: "client::OscillatorNode",
-                    header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_detune*(this: var OscillatorNode): ptr AudioParam {.
     importcpp: "get_detune", header: "cheerp/clientlib.h".}
@@ -34998,12 +34828,6 @@ proc set_prototype*(this: var OscillatorNode; a2: ptr OscillatorNode) {.
 
 proc constructOscillatorNode*(): OscillatorNode {.constructor,
     importcpp: "client::OscillatorNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  OverflowEvent* {.importcpp: "client::OverflowEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
-
-
 
 proc get_horizontalOverflow*(this: var OverflowEvent): bool {.
     importcpp: "get_horizontalOverflow", header: "cheerp/clientlib.h".}
@@ -35031,12 +34855,6 @@ proc get_HORIZONTAL*(this: var OverflowEvent): cdouble {.
 
 proc get_VERTICAL*(this: var OverflowEvent): cdouble {.
     importcpp: "get_VERTICAL", header: "cheerp/clientlib.h".}
-type
-
-  PageTransitionEvent* {.importcpp: "client::PageTransitionEvent",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_persisted*(this: var PageTransitionEvent): bool {.
     importcpp: "get_persisted", header: "cheerp/clientlib.h".}
@@ -35049,12 +34867,6 @@ proc set_prototype*(this: var PageTransitionEvent; a2: ptr PageTransitionEvent) 
 
 proc constructPageTransitionEvent*(): PageTransitionEvent {.constructor,
     importcpp: "client::PageTransitionEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  PannerNode* {.importcpp: "client::PannerNode", header: "cheerp/clientlib.h",
-                bycopy.} = object of AudioNode
-
-
 
 proc get_coneInnerAngle*(this: var PannerNode): cdouble {.
     importcpp: "get_coneInnerAngle", header: "cheerp/clientlib.h".}
@@ -35121,11 +34933,6 @@ proc set_prototype*(this: var PannerNode; a2: ptr PannerNode) {.
 
 proc constructPannerNode*(): PannerNode {.constructor,
     importcpp: "client::PannerNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  Path2D* {.importcpp: "client::Path2D", header: "cheerp/clientlib.h", bycopy.} = object of CanvasPathMethods
-
-
 
 proc get_prototype*(this: var Path2D): ptr Path2D {.importcpp: "get_prototype",
     header: "cheerp/clientlib.h".}
@@ -35141,12 +34948,6 @@ proc constructPath2D*(d: ptr Path2D): Path2D {.constructor,
 
 proc constructPath2D*(d: String): Path2D {.constructor,
     importcpp: "client::Path2D(@)", header: "cheerp/clientlib.h".}
-type
-
-  PaymentAddress* {.importcpp: "client::PaymentAddress",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addressLine*(this: var PaymentAddress): ptr Array {.
     importcpp: "get_addressLine", header: "cheerp/clientlib.h".}
@@ -35189,12 +34990,6 @@ proc set_prototype*(this: var PaymentAddress; a2: ptr PaymentAddress) {.
 
 proc constructPaymentAddress*(): PaymentAddress {.constructor,
     importcpp: "client::PaymentAddress(@)", header: "cheerp/clientlib.h".}
-type
-
-  PaymentRequestEventMap* {.importcpp: "client::PaymentRequestEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_shippingaddresschange*(this: var PaymentRequestEventMap): ptr Event {.
     importcpp: "get_shippingaddresschange", header: "cheerp/clientlib.h".}
@@ -35207,12 +35002,6 @@ proc get_shippingoptionchange*(this: var PaymentRequestEventMap): ptr Event {.
 
 proc set_shippingoptionchange*(this: var PaymentRequestEventMap; a2: ptr Event) {.
     importcpp: "set_shippingoptionchange", header: "cheerp/clientlib.h".}
-type
-
-  PaymentRequest* {.importcpp: "client::PaymentRequest",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_id*(this: var PaymentRequest): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -35308,12 +35097,6 @@ proc constructPaymentRequest*(methodData: ptr Array;
                               options: ptr PaymentOptions): PaymentRequest {.
     constructor, importcpp: "client::PaymentRequest(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  PaymentRequestUpdateEvent* {.importcpp: "client::PaymentRequestUpdateEvent",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc updateWith*(this: var PaymentRequestUpdateEvent;
                  detailsPromise: ptr Promise) {.importcpp: "updateWith",
@@ -35334,12 +35117,6 @@ proc constructPaymentRequestUpdateEvent*(`type`: String;
     eventInitDict: ptr PaymentRequestUpdateEventInit): PaymentRequestUpdateEvent {.
     constructor, importcpp: "client::PaymentRequestUpdateEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  PaymentResponse* {.importcpp: "client::PaymentResponse",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_methodName*(this: var PaymentResponse): ptr String {.
     importcpp: "get_methodName", header: "cheerp/clientlib.h".}
@@ -35373,12 +35150,6 @@ proc set_prototype*(this: var PaymentResponse; a2: ptr PaymentResponse) {.
 
 proc constructPaymentResponse*(): PaymentResponse {.constructor,
     importcpp: "client::PaymentResponse(@)", header: "cheerp/clientlib.h".}
-type
-
-  PerfWidgetExternal* {.importcpp: "client::PerfWidgetExternal",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_activeNetworkRequestCount*(this: var PerfWidgetExternal): cdouble {.
     importcpp: "get_activeNetworkRequestCount", header: "cheerp/clientlib.h".}
@@ -35441,12 +35212,6 @@ proc set_prototype*(this: var PerfWidgetExternal; a2: ptr PerfWidgetExternal) {.
 
 proc constructPerfWidgetExternal*(): PerfWidgetExternal {.constructor,
     importcpp: "client::PerfWidgetExternal(@)", header: "cheerp/clientlib.h".}
-type
-
-  Performance* {.importcpp: "client::Performance", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_navigation*(this: var Performance): ptr PerformanceNavigation {.
     importcpp: "get_navigation", header: "cheerp/clientlib.h".}
@@ -35499,12 +35264,6 @@ proc set_prototype*(this: var Performance; a2: ptr Performance) {.
 
 proc constructPerformance*(): Performance {.constructor,
     importcpp: "client::Performance(@)", header: "cheerp/clientlib.h".}
-type
-
-  PerformanceEntry* {.importcpp: "client::PerformanceEntry",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_duration*(this: var PerformanceEntry): cdouble {.
     importcpp: "get_duration", header: "cheerp/clientlib.h".}
@@ -35526,12 +35285,6 @@ proc set_prototype*(this: var PerformanceEntry; a2: ptr PerformanceEntry) {.
 
 proc constructPerformanceEntry*(): PerformanceEntry {.constructor,
     importcpp: "client::PerformanceEntry(@)", header: "cheerp/clientlib.h".}
-type
-
-  PerformanceMark* {.importcpp: "client::PerformanceMark",
-                     header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
-
-
 
 proc get_prototype*(this: var PerformanceMark): ptr PerformanceMark {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -35541,12 +35294,6 @@ proc set_prototype*(this: var PerformanceMark; a2: ptr PerformanceMark) {.
 
 proc constructPerformanceMark*(): PerformanceMark {.constructor,
     importcpp: "client::PerformanceMark(@)", header: "cheerp/clientlib.h".}
-type
-
-  PerformanceMeasure* {.importcpp: "client::PerformanceMeasure",
-                        header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
-
-
 
 proc get_prototype*(this: var PerformanceMeasure): ptr PerformanceMeasure {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -35556,12 +35303,6 @@ proc set_prototype*(this: var PerformanceMeasure; a2: ptr PerformanceMeasure) {.
 
 proc constructPerformanceMeasure*(): PerformanceMeasure {.constructor,
     importcpp: "client::PerformanceMeasure(@)", header: "cheerp/clientlib.h".}
-type
-
-  PerformanceNavigation* {.importcpp: "client::PerformanceNavigation",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_redirectCount*(this: var PerformanceNavigation): cdouble {.
     importcpp: "get_redirectCount", header: "cheerp/clientlib.h".}
@@ -35590,12 +35331,6 @@ proc get_TYPE_RELOAD*(this: var PerformanceNavigation): cdouble {.
 
 proc get_TYPE_RESERVED*(this: var PerformanceNavigation): cdouble {.
     importcpp: "get_TYPE_RESERVED", header: "cheerp/clientlib.h".}
-type
-
-  PerformanceNavigationTiming* {.importcpp: "client::PerformanceNavigationTiming",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
-
-
 
 proc get_connectEnd*(this: var PerformanceNavigationTiming): cdouble {.
     importcpp: "get_connectEnd", header: "cheerp/clientlib.h".}
@@ -35676,12 +35411,6 @@ proc set_prototype*(this: var PerformanceNavigationTiming;
 proc constructPerformanceNavigationTiming*(): PerformanceNavigationTiming {.
     constructor, importcpp: "client::PerformanceNavigationTiming(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  PerformanceResourceTiming* {.importcpp: "client::PerformanceResourceTiming",
-                               header: "cheerp/clientlib.h", bycopy.} = object of PerformanceEntry
-
-
 
 proc get_connectEnd*(this: var PerformanceResourceTiming): cdouble {.
     importcpp: "get_connectEnd", header: "cheerp/clientlib.h".}
@@ -35729,12 +35458,6 @@ proc set_prototype*(this: var PerformanceResourceTiming;
 proc constructPerformanceResourceTiming*(): PerformanceResourceTiming {.
     constructor, importcpp: "client::PerformanceResourceTiming(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  PerformanceTiming* {.importcpp: "client::PerformanceTiming",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_connectEnd*(this: var PerformanceTiming): cdouble {.
     importcpp: "get_connectEnd", header: "cheerp/clientlib.h".}
@@ -35810,12 +35533,6 @@ proc set_prototype*(this: var PerformanceTiming; a2: ptr PerformanceTiming) {.
 
 proc constructPerformanceTiming*(): PerformanceTiming {.constructor,
     importcpp: "client::PerformanceTiming(@)", header: "cheerp/clientlib.h".}
-type
-
-  PeriodicWave* {.importcpp: "client::PeriodicWave",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_prototype*(this: var PeriodicWave): ptr PeriodicWave {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -35825,12 +35542,6 @@ proc set_prototype*(this: var PeriodicWave; a2: ptr PeriodicWave) {.
 
 proc constructPeriodicWave*(): PeriodicWave {.constructor,
     importcpp: "client::PeriodicWave(@)", header: "cheerp/clientlib.h".}
-type
-
-  PermissionRequest* {.importcpp: "client::PermissionRequest",
-                       header: "cheerp/clientlib.h", bycopy.} = object of DeferredPermissionRequest
-
-
 
 proc get_state*(this: var PermissionRequest): ptr String {.
     importcpp: "get_state", header: "cheerp/clientlib.h".}
@@ -35846,12 +35557,6 @@ proc set_prototype*(this: var PermissionRequest; a2: ptr PermissionRequest) {.
 
 proc constructPermissionRequest*(): PermissionRequest {.constructor,
     importcpp: "client::PermissionRequest(@)", header: "cheerp/clientlib.h".}
-type
-
-  PermissionRequestedEvent* {.importcpp: "client::PermissionRequestedEvent",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_permissionRequest*(this: var PermissionRequestedEvent): ptr PermissionRequest {.
     importcpp: "get_permissionRequest", header: "cheerp/clientlib.h".}
@@ -35866,11 +35571,6 @@ proc set_prototype*(this: var PermissionRequestedEvent;
 proc constructPermissionRequestedEvent*(): PermissionRequestedEvent {.
     constructor, importcpp: "client::PermissionRequestedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Plugin* {.importcpp: "client::Plugin", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_description*(this: var Plugin): ptr String {.
     importcpp: "get_description", header: "cheerp/clientlib.h".}
@@ -35907,12 +35607,6 @@ proc set_prototype*(this: var Plugin; a2: ptr Plugin) {.
 
 proc constructPlugin*(): Plugin {.constructor, importcpp: "client::Plugin(@)",
                                   header: "cheerp/clientlib.h".}
-type
-
-  PluginArray* {.importcpp: "client::PluginArray", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_length*(this: var PluginArray): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -35943,12 +35637,6 @@ proc set_prototype*(this: var PluginArray; a2: ptr PluginArray) {.
 
 proc constructPluginArray*(): PluginArray {.constructor,
     importcpp: "client::PluginArray(@)", header: "cheerp/clientlib.h".}
-type
-
-  PointerEvent* {.importcpp: "client::PointerEvent",
-                  header: "cheerp/clientlib.h", bycopy.} = object of MouseEvent
-
-
 
 proc get_height*(this: var PointerEvent): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -36010,12 +35698,6 @@ proc constructPointerEvent*(typeArg: String): PointerEvent {.constructor,
 proc constructPointerEvent*(typeArg: String; eventInitDict: ptr PointerEventInit): PointerEvent {.
     constructor, importcpp: "client::PointerEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  PopStateEvent* {.importcpp: "client::PopStateEvent",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_prototype*(this: var PopStateEvent): ptr PopStateEvent {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -36030,12 +35712,6 @@ proc constructPopStateEvent*(`type`: String;
                              eventInitDict: ptr PopStateEventInit): PopStateEvent {.
     constructor, importcpp: "client::PopStateEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Position* {.importcpp: "client::Position", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_coords*(this: var Position): ptr Coordinates {.importcpp: "get_coords",
     header: "cheerp/clientlib.h".}
@@ -36052,12 +35728,6 @@ proc set_prototype*(this: var Position; a2: ptr Position) {.
 proc constructPosition*(): Position {.constructor,
                                       importcpp: "client::Position(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  PositionError* {.importcpp: "client::PositionError",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_code*(this: var PositionError): cdouble {.importcpp: "get_code",
     header: "cheerp/clientlib.h".}
@@ -36085,12 +35755,6 @@ proc get_POSITION_UNAVAILABLE*(this: var PositionError): cdouble {.
 
 proc get_TIMEOUT*(this: var PositionError): cdouble {.importcpp: "get_TIMEOUT",
     header: "cheerp/clientlib.h".}
-type
-
-  ProcessingInstruction* {.importcpp: "client::ProcessingInstruction",
-                           header: "cheerp/clientlib.h", bycopy.} = object of CharacterData
-
-
 
 proc get_target*(this: var ProcessingInstruction): ptr String {.
     importcpp: "get_target", header: "cheerp/clientlib.h".}
@@ -36104,21 +35768,9 @@ proc set_prototype*(this: var ProcessingInstruction;
 
 proc constructProcessingInstruction*(): ProcessingInstruction {.constructor,
     importcpp: "client::ProcessingInstruction(@)", header: "cheerp/clientlib.h".}
-type
-
-  PromiseRejectionEvent* {.importcpp: "client::PromiseRejectionEvent",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_promise*(this: var PromiseRejectionEvent): ptr Promise {.
     importcpp: "get_promise", header: "cheerp/clientlib.h".}
-type
-
-  PromiseRejectionEventInit* {.importcpp: "client::PromiseRejectionEventInit",
-                               header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_promise*(this: var PromiseRejectionEventInit): ptr Promise {.
     importcpp: "get_promise", header: "cheerp/clientlib.h".}
@@ -36128,12 +35780,6 @@ proc set_promise*(this: var PromiseRejectionEventInit; a2: ptr Promise) {.
 
 proc set_reason*(this: var PromiseRejectionEventInit; a2: ptr Object) {.
     importcpp: "set_reason", header: "cheerp/clientlib.h".}
-type
-
-  PushManager* {.importcpp: "client::PushManager", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_supportedContentEncodings*(this: var PushManager): ptr ReadonlyArray[
     String] {.importcpp: "get_supportedContentEncodings",
@@ -36163,12 +35809,6 @@ proc set_prototype*(this: var PushManager; a2: ptr PushManager) {.
 
 proc constructPushManager*(): PushManager {.constructor,
     importcpp: "client::PushManager(@)", header: "cheerp/clientlib.h".}
-type
-
-  PushSubscription* {.importcpp: "client::PushSubscription",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_endpoint*(this: var PushSubscription): ptr String {.
     importcpp: "get_endpoint", header: "cheerp/clientlib.h".}
@@ -36190,12 +35830,6 @@ proc set_prototype*(this: var PushSubscription; a2: ptr PushSubscription) {.
 
 proc constructPushSubscription*(): PushSubscription {.constructor,
     importcpp: "client::PushSubscription(@)", header: "cheerp/clientlib.h".}
-type
-
-  PushSubscriptionOptions* {.importcpp: "client::PushSubscriptionOptions",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_applicationServerKey*(this: var PushSubscriptionOptions): ptr ArrayBuffer {.
     importcpp: "get_applicationServerKey", header: "cheerp/clientlib.h".}
@@ -36213,12 +35847,6 @@ proc set_prototype*(this: var PushSubscriptionOptions;
 proc constructPushSubscriptionOptions*(): PushSubscriptionOptions {.constructor,
     importcpp: "client::PushSubscriptionOptions(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCDTMFToneChangeEvent* {.importcpp: "client::RTCDTMFToneChangeEvent",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_tone*(this: var RTCDTMFToneChangeEvent): ptr String {.
     importcpp: "get_tone", header: "cheerp/clientlib.h".}
@@ -36233,12 +35861,6 @@ proc set_prototype*(this: var RTCDTMFToneChangeEvent;
 proc constructRTCDTMFToneChangeEvent*(typeArg: String; eventInitDict: ptr RTCDTMFToneChangeEventInit): RTCDTMFToneChangeEvent {.
     constructor, importcpp: "client::RTCDTMFToneChangeEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCDtlsTransportEventMap* {.importcpp: "client::RTCDtlsTransportEventMap",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_dtlsstatechange*(this: var RTCDtlsTransportEventMap): ptr RTCDtlsTransportStateChangedEvent {.
     importcpp: "get_dtlsstatechange", header: "cheerp/clientlib.h".}
@@ -36252,12 +35874,6 @@ proc get_error*(this: var RTCDtlsTransportEventMap): ptr Event {.
 
 proc set_error*(this: var RTCDtlsTransportEventMap; a2: ptr Event) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  RTCStatsProvider* {.importcpp: "client::RTCStatsProvider",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc getStats*(this: var RTCStatsProvider): ptr Promise {.importcpp: "getStats",
     header: "cheerp/clientlib.h".}
@@ -36273,12 +35889,6 @@ proc set_prototype*(this: var RTCStatsProvider; a2: ptr RTCStatsProvider) {.
 
 proc constructRTCStatsProvider*(): RTCStatsProvider {.constructor,
     importcpp: "client::RTCStatsProvider(@)", header: "cheerp/clientlib.h".}
-type
-
-  RTCDtlsTransport* {.importcpp: "client::RTCDtlsTransport",
-                      header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
-
-
 
 proc get_ondtlsstatechange*(this: var RTCDtlsTransport): ptr EventListener {.
     importcpp: "get_ondtlsstatechange", header: "cheerp/clientlib.h".}
@@ -36366,12 +35976,6 @@ proc set_prototype*(this: var RTCDtlsTransport; a2: ptr RTCDtlsTransport) {.
 proc constructRTCDtlsTransport*(transport: ptr RTCIceTransport): RTCDtlsTransport {.
     constructor, importcpp: "client::RTCDtlsTransport(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCDtlsTransportStateChangedEvent* {.importcpp: "client::RTCDtlsTransportStateChangedEvent",
-                                       header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_state*(this: var RTCDtlsTransportStateChangedEvent): ptr String {.
     importcpp: "get_state", header: "cheerp/clientlib.h".}
@@ -36386,12 +35990,6 @@ proc set_prototype*(this: var RTCDtlsTransportStateChangedEvent;
 proc constructRTCDtlsTransportStateChangedEvent*(): RTCDtlsTransportStateChangedEvent {.
     constructor, importcpp: "client::RTCDtlsTransportStateChangedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCDtmfSenderEventMap* {.importcpp: "client::RTCDtmfSenderEventMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_tonechange*(this: var RTCDtmfSenderEventMap): ptr RTCDTMFToneChangeEvent {.
     importcpp: "get_tonechange", header: "cheerp/clientlib.h".}
@@ -36399,12 +35997,6 @@ proc get_tonechange*(this: var RTCDtmfSenderEventMap): ptr RTCDTMFToneChangeEven
 proc set_tonechange*(this: var RTCDtmfSenderEventMap;
                      a2: ptr RTCDTMFToneChangeEvent) {.
     importcpp: "set_tonechange", header: "cheerp/clientlib.h".}
-type
-
-  RTCDtmfSender* {.importcpp: "client::RTCDtmfSender",
-                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_canInsertDTMF*(this: var RTCDtmfSender): bool {.
     importcpp: "get_canInsertDTMF", header: "cheerp/clientlib.h".}
@@ -36490,12 +36082,6 @@ proc set_prototype*(this: var RTCDtmfSender; a2: ptr RTCDtmfSender) {.
 proc constructRTCDtmfSender*(sender: ptr RTCRtpSender): RTCDtmfSender {.
     constructor, importcpp: "client::RTCDtmfSender(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidate* {.importcpp: "client::RTCIceCandidate",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_candidate*(this: var RTCIceCandidate): ptr String {.
     importcpp: "get_candidate", header: "cheerp/clientlib.h".}
@@ -36527,12 +36113,6 @@ proc constructRTCIceCandidate*(): RTCIceCandidate {.constructor,
 proc constructRTCIceCandidate*(candidateInitDict: ptr RTCIceCandidateInit): RTCIceCandidate {.
     constructor, importcpp: "client::RTCIceCandidate(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceCandidatePairChangedEvent* {.importcpp: "client::RTCIceCandidatePairChangedEvent",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_pair*(this: var RTCIceCandidatePairChangedEvent): ptr RTCIceCandidatePair {.
     importcpp: "get_pair", header: "cheerp/clientlib.h".}
@@ -36547,12 +36127,6 @@ proc set_prototype*(this: var RTCIceCandidatePairChangedEvent;
 proc constructRTCIceCandidatePairChangedEvent*(): RTCIceCandidatePairChangedEvent {.
     constructor, importcpp: "client::RTCIceCandidatePairChangedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceGathererEventMap* {.importcpp: "client::RTCIceGathererEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var RTCIceGathererEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -36566,12 +36140,6 @@ proc get_localcandidate*(this: var RTCIceGathererEventMap): ptr RTCIceGathererEv
 proc set_localcandidate*(this: var RTCIceGathererEventMap;
                          a2: ptr RTCIceGathererEvent) {.
     importcpp: "set_localcandidate", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceGatherer* {.importcpp: "client::RTCIceGatherer",
-                    header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
-
-
 
 proc get_component*(this: var RTCIceGatherer): ptr String {.
     importcpp: "get_component", header: "cheerp/clientlib.h".}
@@ -36650,12 +36218,6 @@ proc set_prototype*(this: var RTCIceGatherer; a2: ptr RTCIceGatherer) {.
 proc constructRTCIceGatherer*(options: ptr RTCIceGatherOptions): RTCIceGatherer {.
     constructor, importcpp: "client::RTCIceGatherer(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCIceGathererEvent* {.importcpp: "client::RTCIceGathererEvent",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_candidate*(this: var RTCIceGathererEvent): ptr RTCIceCandidateDictionary {.
     importcpp: "get_candidate", header: "cheerp/clientlib.h".}
@@ -36668,12 +36230,6 @@ proc set_prototype*(this: var RTCIceGathererEvent; a2: ptr RTCIceGathererEvent) 
 
 proc constructRTCIceGathererEvent*(): RTCIceGathererEvent {.constructor,
     importcpp: "client::RTCIceGathererEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceTransportEventMap* {.importcpp: "client::RTCIceTransportEventMap",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_candidatepairchange*(this: var RTCIceTransportEventMap): ptr RTCIceCandidatePairChangedEvent {.
     importcpp: "get_candidatepairchange", header: "cheerp/clientlib.h".}
@@ -36688,12 +36244,6 @@ proc get_icestatechange*(this: var RTCIceTransportEventMap): ptr RTCIceTransport
 proc set_icestatechange*(this: var RTCIceTransportEventMap;
                          a2: ptr RTCIceTransportStateChangedEvent) {.
     importcpp: "set_icestatechange", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceTransport* {.importcpp: "client::RTCIceTransport",
-                     header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
-
-
 
 proc get_component*(this: var RTCIceTransport): ptr String {.
     importcpp: "get_component", header: "cheerp/clientlib.h".}
@@ -36801,12 +36351,6 @@ proc set_prototype*(this: var RTCIceTransport; a2: ptr RTCIceTransport) {.
 
 proc constructRTCIceTransport*(): RTCIceTransport {.constructor,
     importcpp: "client::RTCIceTransport(@)", header: "cheerp/clientlib.h".}
-type
-
-  RTCIceTransportStateChangedEvent* {.importcpp: "client::RTCIceTransportStateChangedEvent",
-                                      header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_state*(this: var RTCIceTransportStateChangedEvent): ptr String {.
     importcpp: "get_state", header: "cheerp/clientlib.h".}
@@ -36821,12 +36365,6 @@ proc set_prototype*(this: var RTCIceTransportStateChangedEvent;
 proc constructRTCIceTransportStateChangedEvent*(): RTCIceTransportStateChangedEvent {.
     constructor, importcpp: "client::RTCIceTransportStateChangedEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCPeerConnectionEventMap* {.importcpp: "client::RTCPeerConnectionEventMap",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addstream*(this: var RTCPeerConnectionEventMap): ptr MediaStreamEvent {.
     importcpp: "get_addstream", header: "cheerp/clientlib.h".}
@@ -36875,12 +36413,6 @@ proc get_signalingstatechange*(this: var RTCPeerConnectionEventMap): ptr Event {
 proc set_signalingstatechange*(this: var RTCPeerConnectionEventMap;
                                a2: ptr Event) {.
     importcpp: "set_signalingstatechange", header: "cheerp/clientlib.h".}
-type
-
-  RTCPeerConnection* {.importcpp: "client::RTCPeerConnection",
-                       header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_canTrickleIceCandidates*(this: var RTCPeerConnection): bool {.
     importcpp: "get_canTrickleIceCandidates", header: "cheerp/clientlib.h".}
@@ -37059,12 +36591,6 @@ proc set_prototype*(this: var RTCPeerConnection; a2: ptr RTCPeerConnection) {.
 proc constructRTCPeerConnection*(configuration: ptr RTCConfiguration): RTCPeerConnection {.
     constructor, importcpp: "client::RTCPeerConnection(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCPeerConnectionIceEvent* {.importcpp: "client::RTCPeerConnectionIceEvent",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_candidate*(this: var RTCPeerConnectionIceEvent): ptr RTCIceCandidate {.
     importcpp: "get_candidate", header: "cheerp/clientlib.h".}
@@ -37080,12 +36606,6 @@ proc constructRTCPeerConnectionIceEvent*(`type`: String;
     eventInitDict: ptr RTCPeerConnectionIceEventInit): RTCPeerConnectionIceEvent {.
     constructor, importcpp: "client::RTCPeerConnectionIceEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpReceiverEventMap* {.importcpp: "client::RTCRtpReceiverEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var RTCRtpReceiverEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -37105,12 +36625,6 @@ proc get_msdsh*(this: var RTCRtpReceiverEventMap): ptr Event {.
 
 proc set_msdsh*(this: var RTCRtpReceiverEventMap; a2: ptr Event) {.
     importcpp: "set_msdsh", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpReceiver* {.importcpp: "client::RTCRtpReceiver",
-                    header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
-
-
 
 proc get_onerror*(this: var RTCRtpReceiver): ptr EventListener {.
     importcpp: "get_onerror", header: "cheerp/clientlib.h".}
@@ -37244,12 +36758,6 @@ proc getCapabilities*(kind: String): ptr RTCRtpCapabilities {.
     importcpp: "client::RTCRtpReceiver::getCapabilities(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  RTCRtpSenderEventMap* {.importcpp: "client::RTCRtpSenderEventMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var RTCRtpSenderEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
@@ -37263,12 +36771,6 @@ proc get_ssrcconflict*(this: var RTCRtpSenderEventMap): ptr RTCSsrcConflictEvent
 proc set_ssrcconflict*(this: var RTCRtpSenderEventMap;
                        a2: ptr RTCSsrcConflictEvent) {.
     importcpp: "set_ssrcconflict", header: "cheerp/clientlib.h".}
-type
-
-  RTCRtpSender* {.importcpp: "client::RTCRtpSender",
-                  header: "cheerp/clientlib.h", bycopy.} = object of RTCStatsProvider
-
-
 
 proc get_onerror*(this: var RTCRtpSender): ptr EventListener {.
     importcpp: "get_onerror", header: "cheerp/clientlib.h".}
@@ -37395,12 +36897,6 @@ proc getCapabilities*(kind: String): ptr RTCRtpCapabilities {.
     importcpp: "client::RTCRtpSender::getCapabilities(@)",
     header: "cheerp/clientlib.h".}
   ## cheerp::static
-type
-
-  RTCSessionDescription* {.importcpp: "client::RTCSessionDescription",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_sdp*(this: var RTCSessionDescription): ptr String {.
     importcpp: "get_sdp", header: "cheerp/clientlib.h".}
@@ -37427,24 +36923,12 @@ proc constructRTCSessionDescription*(): RTCSessionDescription {.constructor,
 proc constructRTCSessionDescription*(descriptionInitDict: ptr RTCSessionDescriptionInit): RTCSessionDescription {.
     constructor, importcpp: "client::RTCSessionDescription(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  RTCSrtpSdesTransportEventMap* {.importcpp: "client::RTCSrtpSdesTransportEventMap",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_error*(this: var RTCSrtpSdesTransportEventMap): ptr Event {.
     importcpp: "get_error", header: "cheerp/clientlib.h".}
 
 proc set_error*(this: var RTCSrtpSdesTransportEventMap; a2: ptr Event) {.
     importcpp: "set_error", header: "cheerp/clientlib.h".}
-type
-
-  RTCSrtpSdesTransport* {.importcpp: "client::RTCSrtpSdesTransport",
-                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_onerror*(this: var RTCSrtpSdesTransport): ptr EventListener {.
     importcpp: "get_onerror", header: "cheerp/clientlib.h".}
@@ -37514,12 +36998,6 @@ proc getLocalParameters*(): ptr Array {.importcpp: "client::RTCSrtpSdesTransport
                                         header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  RTCSsrcConflictEvent* {.importcpp: "client::RTCSsrcConflictEvent",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_ssrc*(this: var RTCSsrcConflictEvent): cdouble {.importcpp: "get_ssrc",
     header: "cheerp/clientlib.h".}
@@ -37532,12 +37010,6 @@ proc set_prototype*(this: var RTCSsrcConflictEvent; a2: ptr RTCSsrcConflictEvent
 
 proc constructRTCSsrcConflictEvent*(): RTCSsrcConflictEvent {.constructor,
     importcpp: "client::RTCSsrcConflictEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  RandomSource* {.importcpp: "client::RandomSource",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc getRandomValues*[T](this: var RandomSource; array: ptr T): ptr T {.
     importcpp: "getRandomValues", header: "cheerp/clientlib.h".}
@@ -37550,11 +37022,6 @@ proc set_prototype*(this: var RandomSource; a2: ptr RandomSource) {.
 
 proc constructRandomSource*(): RandomSource {.constructor,
     importcpp: "client::RandomSource(@)", header: "cheerp/clientlib.h".}
-type
-
-  Range* {.importcpp: "client::Range", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_collapsed*(this: var Range): bool {.importcpp: "get_collapsed",
     header: "cheerp/clientlib.h".}
@@ -37664,12 +37131,6 @@ proc get_START_TO_END*(this: var Range): cdouble {.
 
 proc get_START_TO_START*(this: var Range): cdouble {.
     importcpp: "get_START_TO_START", header: "cheerp/clientlib.h".}
-type
-
-  ReadableStream* {.importcpp: "client::ReadableStream",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_locked*(this: var ReadableStream): bool {.importcpp: "get_locked",
     header: "cheerp/clientlib.h".}
@@ -37688,12 +37149,6 @@ proc set_prototype*(this: var ReadableStream; a2: ptr ReadableStream) {.
 
 proc constructReadableStream*(): ReadableStream {.constructor,
     importcpp: "client::ReadableStream(@)", header: "cheerp/clientlib.h".}
-type
-
-  ReadableStreamReader* {.importcpp: "client::ReadableStreamReader",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc cancel*(this: var ReadableStreamReader): ptr Promise {.importcpp: "cancel",
     header: "cheerp/clientlib.h".}
@@ -37712,11 +37167,6 @@ proc set_prototype*(this: var ReadableStreamReader; a2: ptr ReadableStreamReader
 
 proc constructReadableStreamReader*(): ReadableStreamReader {.constructor,
     importcpp: "client::ReadableStreamReader(@)", header: "cheerp/clientlib.h".}
-type
-
-  Request* {.importcpp: "client::Request", header: "cheerp/clientlib.h", bycopy.} = object of Body
-
-
 
 proc get_cache*(this: var Request): ptr String {.importcpp: "get_cache",
     header: "cheerp/clientlib.h".}
@@ -37780,12 +37230,6 @@ proc constructRequest*(input: String): Request {.constructor,
 
 proc constructRequest*(input: String; init: ptr RequestInit): Request {.
     constructor, importcpp: "client::Request(@)", header: "cheerp/clientlib.h".}
-type
-
-  Response* {.importcpp: "client::Response", header: "cheerp/clientlib.h",
-              bycopy.} = object of Body
-
-
 
 proc get_body*(this: var Response): ptr ReadableStream {.importcpp: "get_body",
     header: "cheerp/clientlib.h".}
@@ -37922,12 +37366,6 @@ proc redirect*(url: String; status: cdouble): ptr Response {.
     importcpp: "client::Response::redirect(@)", header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  SVGElement* {.importcpp: "client::SVGElement", header: "cheerp/clientlib.h",
-                bycopy.} = object of Element
-
-
 
 proc get_onclick*(this: var SVGElement): ptr EventListener {.
     importcpp: "get_onclick", header: "cheerp/clientlib.h".}
@@ -38053,12 +37491,6 @@ proc set_prototype*(this: var SVGElement; a2: ptr SVGElement) {.
 
 proc constructSVGElement*(): SVGElement {.constructor,
     importcpp: "client::SVGElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGTests* {.importcpp: "client::SVGTests", header: "cheerp/clientlib.h",
-              bycopy.} = object
-
-
 
 proc get_requiredExtensions*(this: var SVGTests): ptr SVGStringList {.
     importcpp: "get_requiredExtensions", header: "cheerp/clientlib.h".}
@@ -38071,12 +37503,6 @@ proc get_systemLanguage*(this: var SVGTests): ptr SVGStringList {.
 
 proc hasExtension*(this: var SVGTests; extension: String): bool {.
     importcpp: "hasExtension", header: "cheerp/clientlib.h".}
-type
-
-  SVGGraphicsElement* {.importcpp: "client::SVGGraphicsElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_farthestViewportElement*(this: var SVGGraphicsElement): ptr SVGElement {.
     importcpp: "get_farthestViewportElement", header: "cheerp/clientlib.h".}
@@ -38152,21 +37578,9 @@ proc set_prototype*(this: var SVGGraphicsElement; a2: ptr SVGGraphicsElement) {.
 
 proc constructSVGGraphicsElement*(): SVGGraphicsElement {.constructor,
     importcpp: "client::SVGGraphicsElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGURIReference* {.importcpp: "client::SVGURIReference",
-                     header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_href*(this: var SVGURIReference): ptr SVGAnimatedString {.
     importcpp: "get_href", header: "cheerp/clientlib.h".}
-type
-
-  SVGAElement* {.importcpp: "client::SVGAElement", header: "cheerp/clientlib.h",
-                 bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_target*(this: var SVGAElement): ptr SVGAnimatedString {.
     importcpp: "get_target", header: "cheerp/clientlib.h".}
@@ -38223,12 +37637,6 @@ proc set_prototype*(this: var SVGAElement; a2: ptr SVGAElement) {.
 
 proc constructSVGAElement*(): SVGAElement {.constructor,
     importcpp: "client::SVGAElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAngle* {.importcpp: "client::SVGAngle", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_unitType*(this: var SVGAngle): cdouble {.importcpp: "get_unitType",
     header: "cheerp/clientlib.h".}
@@ -38282,12 +37690,6 @@ proc get_SVG_ANGLETYPE_UNKNOWN*(this: var SVGAngle): cdouble {.
 
 proc get_SVG_ANGLETYPE_UNSPECIFIED*(this: var SVGAngle): cdouble {.
     importcpp: "get_SVG_ANGLETYPE_UNSPECIFIED", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedAngle* {.importcpp: "client::SVGAnimatedAngle",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedAngle): ptr SVGAngle {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38303,12 +37705,6 @@ proc set_prototype*(this: var SVGAnimatedAngle; a2: ptr SVGAnimatedAngle) {.
 
 proc constructSVGAnimatedAngle*(): SVGAnimatedAngle {.constructor,
     importcpp: "client::SVGAnimatedAngle(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedBoolean* {.importcpp: "client::SVGAnimatedBoolean",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedBoolean): bool {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38327,12 +37723,6 @@ proc set_prototype*(this: var SVGAnimatedBoolean; a2: ptr SVGAnimatedBoolean) {.
 
 proc constructSVGAnimatedBoolean*(): SVGAnimatedBoolean {.constructor,
     importcpp: "client::SVGAnimatedBoolean(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedEnumeration* {.importcpp: "client::SVGAnimatedEnumeration",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedEnumeration): cdouble {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38352,12 +37742,6 @@ proc set_prototype*(this: var SVGAnimatedEnumeration;
 
 proc constructSVGAnimatedEnumeration*(): SVGAnimatedEnumeration {.constructor,
     importcpp: "client::SVGAnimatedEnumeration(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedInteger* {.importcpp: "client::SVGAnimatedInteger",
-                        header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedInteger): cdouble {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38376,12 +37760,6 @@ proc set_prototype*(this: var SVGAnimatedInteger; a2: ptr SVGAnimatedInteger) {.
 
 proc constructSVGAnimatedInteger*(): SVGAnimatedInteger {.constructor,
     importcpp: "client::SVGAnimatedInteger(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedLength* {.importcpp: "client::SVGAnimatedLength",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedLength): ptr SVGLength {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38397,12 +37775,6 @@ proc set_prototype*(this: var SVGAnimatedLength; a2: ptr SVGAnimatedLength) {.
 
 proc constructSVGAnimatedLength*(): SVGAnimatedLength {.constructor,
     importcpp: "client::SVGAnimatedLength(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedLengthList* {.importcpp: "client::SVGAnimatedLengthList",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedLengthList): ptr SVGLengthList {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38419,12 +37791,6 @@ proc set_prototype*(this: var SVGAnimatedLengthList;
 
 proc constructSVGAnimatedLengthList*(): SVGAnimatedLengthList {.constructor,
     importcpp: "client::SVGAnimatedLengthList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedNumber* {.importcpp: "client::SVGAnimatedNumber",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedNumber): cdouble {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38443,12 +37809,6 @@ proc set_prototype*(this: var SVGAnimatedNumber; a2: ptr SVGAnimatedNumber) {.
 
 proc constructSVGAnimatedNumber*(): SVGAnimatedNumber {.constructor,
     importcpp: "client::SVGAnimatedNumber(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedNumberList* {.importcpp: "client::SVGAnimatedNumberList",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedNumberList): ptr SVGNumberList {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38465,24 +37825,12 @@ proc set_prototype*(this: var SVGAnimatedNumberList;
 
 proc constructSVGAnimatedNumberList*(): SVGAnimatedNumberList {.constructor,
     importcpp: "client::SVGAnimatedNumberList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedPoints* {.importcpp: "client::SVGAnimatedPoints",
-                       header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_animatedPoints*(this: var SVGAnimatedPoints): ptr SVGPointList {.
     importcpp: "get_animatedPoints", header: "cheerp/clientlib.h".}
 
 proc get_points*(this: var SVGAnimatedPoints): ptr SVGPointList {.
     importcpp: "get_points", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedPreserveAspectRatio* {.importcpp: "client::SVGAnimatedPreserveAspectRatio",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedPreserveAspectRatio): ptr SVGPreserveAspectRatio {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38500,12 +37848,6 @@ proc set_prototype*(this: var SVGAnimatedPreserveAspectRatio;
 proc constructSVGAnimatedPreserveAspectRatio*(): SVGAnimatedPreserveAspectRatio {.
     constructor, importcpp: "client::SVGAnimatedPreserveAspectRatio(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedRect* {.importcpp: "client::SVGAnimatedRect",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedRect): ptr SVGRect {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38521,12 +37863,6 @@ proc set_prototype*(this: var SVGAnimatedRect; a2: ptr SVGAnimatedRect) {.
 
 proc constructSVGAnimatedRect*(): SVGAnimatedRect {.constructor,
     importcpp: "client::SVGAnimatedRect(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedString* {.importcpp: "client::SVGAnimatedString",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedString): ptr String {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38545,12 +37881,6 @@ proc set_prototype*(this: var SVGAnimatedString; a2: ptr SVGAnimatedString) {.
 
 proc constructSVGAnimatedString*(): SVGAnimatedString {.constructor,
     importcpp: "client::SVGAnimatedString(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGAnimatedTransformList* {.importcpp: "client::SVGAnimatedTransformList",
-                              header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_animVal*(this: var SVGAnimatedTransformList): ptr SVGTransformList {.
     importcpp: "get_animVal", header: "cheerp/clientlib.h".}
@@ -38568,12 +37898,6 @@ proc set_prototype*(this: var SVGAnimatedTransformList;
 proc constructSVGAnimatedTransformList*(): SVGAnimatedTransformList {.
     constructor, importcpp: "client::SVGAnimatedTransformList(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGCircleElement* {.importcpp: "client::SVGCircleElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_cx*(this: var SVGCircleElement): ptr SVGAnimatedLength {.
     importcpp: "get_cx", header: "cheerp/clientlib.h".}
@@ -38636,12 +37960,6 @@ proc set_prototype*(this: var SVGCircleElement; a2: ptr SVGCircleElement) {.
 
 proc constructSVGCircleElement*(): SVGCircleElement {.constructor,
     importcpp: "client::SVGCircleElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGUnitTypes* {.importcpp: "client::SVGUnitTypes",
-                  header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_SVG_UNIT_TYPE_OBJECTBOUNDINGBOX*(this: var SVGUnitTypes): cdouble {.
     importcpp: "get_SVG_UNIT_TYPE_OBJECTBOUNDINGBOX",
@@ -38652,12 +37970,6 @@ proc get_SVG_UNIT_TYPE_UNKNOWN*(this: var SVGUnitTypes): cdouble {.
 
 proc get_SVG_UNIT_TYPE_USERSPACEONUSE*(this: var SVGUnitTypes): cdouble {.
     importcpp: "get_SVG_UNIT_TYPE_USERSPACEONUSE", header: "cheerp/clientlib.h".}
-type
-
-  SVGClipPathElement* {.importcpp: "client::SVGClipPathElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_clipPathUnits*(this: var SVGClipPathElement): ptr SVGAnimatedEnumeration {.
     importcpp: "get_clipPathUnits", header: "cheerp/clientlib.h".}
@@ -38714,13 +38026,6 @@ proc set_prototype*(this: var SVGClipPathElement; a2: ptr SVGClipPathElement) {.
 
 proc constructSVGClipPathElement*(): SVGClipPathElement {.constructor,
     importcpp: "client::SVGClipPathElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGComponentTransferFunctionElement* {.
-      importcpp: "client::SVGComponentTransferFunctionElement",
-      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_amplitude*(this: var SVGComponentTransferFunctionElement): ptr SVGAnimatedNumber {.
     importcpp: "get_amplitude", header: "cheerp/clientlib.h".}
@@ -38829,12 +38134,6 @@ proc get_SVG_FECOMPONENTTRANSFER_TYPE_UNKNOWN*(
     this: var SVGComponentTransferFunctionElement): cdouble {.
     importcpp: "get_SVG_FECOMPONENTTRANSFER_TYPE_UNKNOWN",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGDefsElement* {.importcpp: "client::SVGDefsElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc addEventListener*(this: var SVGDefsElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -38888,12 +38187,6 @@ proc set_prototype*(this: var SVGDefsElement; a2: ptr SVGDefsElement) {.
 
 proc constructSVGDefsElement*(): SVGDefsElement {.constructor,
     importcpp: "client::SVGDefsElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGDescElement* {.importcpp: "client::SVGDescElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGDescElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -38947,12 +38240,6 @@ proc set_prototype*(this: var SVGDescElement; a2: ptr SVGDescElement) {.
 
 proc constructSVGDescElement*(): SVGDescElement {.constructor,
     importcpp: "client::SVGDescElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGElementEventMap* {.importcpp: "client::SVGElementEventMap",
-                        header: "cheerp/clientlib.h", bycopy.} = object of ElementEventMap
-
-
 
 proc get_click*(this: var SVGElementEventMap): ptr MouseEvent {.
     importcpp: "get_click", header: "cheerp/clientlib.h".}
@@ -39013,12 +38300,6 @@ proc get_mouseup*(this: var SVGElementEventMap): ptr MouseEvent {.
 
 proc set_mouseup*(this: var SVGElementEventMap; a2: ptr MouseEvent) {.
     importcpp: "set_mouseup", header: "cheerp/clientlib.h".}
-type
-
-  SVGElementInstance* {.importcpp: "client::SVGElementInstance",
-                        header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_childNodes*(this: var SVGElementInstance): ptr SVGElementInstanceList {.
     importcpp: "get_childNodes", header: "cheerp/clientlib.h".}
@@ -39052,12 +38333,6 @@ proc set_prototype*(this: var SVGElementInstance; a2: ptr SVGElementInstance) {.
 
 proc constructSVGElementInstance*(): SVGElementInstance {.constructor,
     importcpp: "client::SVGElementInstance(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGElementInstanceList* {.importcpp: "client::SVGElementInstanceList",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var SVGElementInstanceList): cdouble {.
     importcpp: "get_length", header: "cheerp/clientlib.h".}
@@ -39074,12 +38349,6 @@ proc set_prototype*(this: var SVGElementInstanceList;
 
 proc constructSVGElementInstanceList*(): SVGElementInstanceList {.constructor,
     importcpp: "client::SVGElementInstanceList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGEllipseElement* {.importcpp: "client::SVGEllipseElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_cx*(this: var SVGEllipseElement): ptr SVGAnimatedLength {.
     importcpp: "get_cx", header: "cheerp/clientlib.h".}
@@ -39145,13 +38414,6 @@ proc set_prototype*(this: var SVGEllipseElement; a2: ptr SVGEllipseElement) {.
 
 proc constructSVGEllipseElement*(): SVGEllipseElement {.constructor,
     importcpp: "client::SVGEllipseElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFilterPrimitiveStandardAttributes* {.
-      importcpp: "client::SVGFilterPrimitiveStandardAttributes",
-      header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_height*(this: var SVGFilterPrimitiveStandardAttributes): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -39167,12 +38429,6 @@ proc get_x*(this: var SVGFilterPrimitiveStandardAttributes): ptr SVGAnimatedLeng
 
 proc get_y*(this: var SVGFilterPrimitiveStandardAttributes): ptr SVGAnimatedLength {.
     importcpp: "get_y", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEBlendElement* {.importcpp: "client::SVGFEBlendElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEBlendElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -39286,12 +38542,6 @@ proc get_SVG_FEBLEND_MODE_SOFT_LIGHT*(this: var SVGFEBlendElement): cdouble {.
 
 proc get_SVG_FEBLEND_MODE_UNKNOWN*(this: var SVGFEBlendElement): cdouble {.
     importcpp: "get_SVG_FEBLEND_MODE_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEColorMatrixElement* {.importcpp: "client::SVGFEColorMatrixElement",
-                             header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEColorMatrixElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -39376,12 +38626,6 @@ proc get_SVG_FECOLORMATRIX_TYPE_SATURATE*(this: var SVGFEColorMatrixElement): cd
 proc get_SVG_FECOLORMATRIX_TYPE_UNKNOWN*(this: var SVGFEColorMatrixElement): cdouble {.
     importcpp: "get_SVG_FECOLORMATRIX_TYPE_UNKNOWN",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFEComponentTransferElement* {.importcpp: "client::SVGFEComponentTransferElement",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEComponentTransferElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -39441,12 +38685,6 @@ proc set_prototype*(this: var SVGFEComponentTransferElement;
 proc constructSVGFEComponentTransferElement*(): SVGFEComponentTransferElement {.
     constructor, importcpp: "client::SVGFEComponentTransferElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFECompositeElement* {.importcpp: "client::SVGFECompositeElement",
-                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFECompositeElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -39545,12 +38783,6 @@ proc get_SVG_FECOMPOSITE_OPERATOR_UNKNOWN*(this: var SVGFECompositeElement): cdo
 
 proc get_SVG_FECOMPOSITE_OPERATOR_XOR*(this: var SVGFECompositeElement): cdouble {.
     importcpp: "get_SVG_FECOMPOSITE_OPERATOR_XOR", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEConvolveMatrixElement* {.importcpp: "client::SVGFEConvolveMatrixElement",
-                                header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_bias*(this: var SVGFEConvolveMatrixElement): ptr SVGAnimatedNumber {.
     importcpp: "get_bias", header: "cheerp/clientlib.h".}
@@ -39654,12 +38886,6 @@ proc get_SVG_EDGEMODE_UNKNOWN*(this: var SVGFEConvolveMatrixElement): cdouble {.
 
 proc get_SVG_EDGEMODE_WRAP*(this: var SVGFEConvolveMatrixElement): cdouble {.
     importcpp: "get_SVG_EDGEMODE_WRAP", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEDiffuseLightingElement* {.importcpp: "client::SVGFEDiffuseLightingElement",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_diffuseConstant*(this: var SVGFEDiffuseLightingElement): ptr SVGAnimatedNumber {.
     importcpp: "get_diffuseConstant", header: "cheerp/clientlib.h".}
@@ -39730,12 +38956,6 @@ proc set_prototype*(this: var SVGFEDiffuseLightingElement;
 proc constructSVGFEDiffuseLightingElement*(): SVGFEDiffuseLightingElement {.
     constructor, importcpp: "client::SVGFEDiffuseLightingElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFEDisplacementMapElement* {.importcpp: "client::SVGFEDisplacementMapElement",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEDisplacementMapElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -39821,12 +39041,6 @@ proc get_SVG_CHANNEL_R*(this: var SVGFEDisplacementMapElement): cdouble {.
 
 proc get_SVG_CHANNEL_UNKNOWN*(this: var SVGFEDisplacementMapElement): cdouble {.
     importcpp: "get_SVG_CHANNEL_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEDistantLightElement* {.importcpp: "client::SVGFEDistantLightElement",
-                              header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_azimuth*(this: var SVGFEDistantLightElement): ptr SVGAnimatedNumber {.
     importcpp: "get_azimuth", header: "cheerp/clientlib.h".}
@@ -39888,12 +39102,6 @@ proc set_prototype*(this: var SVGFEDistantLightElement;
 proc constructSVGFEDistantLightElement*(): SVGFEDistantLightElement {.
     constructor, importcpp: "client::SVGFEDistantLightElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFEFloodElement* {.importcpp: "client::SVGFEFloodElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGFEFloodElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -39947,12 +39155,6 @@ proc set_prototype*(this: var SVGFEFloodElement; a2: ptr SVGFEFloodElement) {.
 
 proc constructSVGFEFloodElement*(): SVGFEFloodElement {.constructor,
     importcpp: "client::SVGFEFloodElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEFuncAElement* {.importcpp: "client::SVGFEFuncAElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
-
-
 
 proc addEventListener*(this: var SVGFEFuncAElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -40006,12 +39208,6 @@ proc set_prototype*(this: var SVGFEFuncAElement; a2: ptr SVGFEFuncAElement) {.
 
 proc constructSVGFEFuncAElement*(): SVGFEFuncAElement {.constructor,
     importcpp: "client::SVGFEFuncAElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEFuncBElement* {.importcpp: "client::SVGFEFuncBElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
-
-
 
 proc addEventListener*(this: var SVGFEFuncBElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -40065,12 +39261,6 @@ proc set_prototype*(this: var SVGFEFuncBElement; a2: ptr SVGFEFuncBElement) {.
 
 proc constructSVGFEFuncBElement*(): SVGFEFuncBElement {.constructor,
     importcpp: "client::SVGFEFuncBElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEFuncGElement* {.importcpp: "client::SVGFEFuncGElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
-
-
 
 proc addEventListener*(this: var SVGFEFuncGElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -40124,12 +39314,6 @@ proc set_prototype*(this: var SVGFEFuncGElement; a2: ptr SVGFEFuncGElement) {.
 
 proc constructSVGFEFuncGElement*(): SVGFEFuncGElement {.constructor,
     importcpp: "client::SVGFEFuncGElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEFuncRElement* {.importcpp: "client::SVGFEFuncRElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGComponentTransferFunctionElement
-
-
 
 proc addEventListener*(this: var SVGFEFuncRElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -40183,12 +39367,6 @@ proc set_prototype*(this: var SVGFEFuncRElement; a2: ptr SVGFEFuncRElement) {.
 
 proc constructSVGFEFuncRElement*(): SVGFEFuncRElement {.constructor,
     importcpp: "client::SVGFEFuncRElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEGaussianBlurElement* {.importcpp: "client::SVGFEGaussianBlurElement",
-                              header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEGaussianBlurElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -40257,12 +39435,6 @@ proc set_prototype*(this: var SVGFEGaussianBlurElement;
 proc constructSVGFEGaussianBlurElement*(): SVGFEGaussianBlurElement {.
     constructor, importcpp: "client::SVGFEGaussianBlurElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFEImageElement* {.importcpp: "client::SVGFEImageElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_preserveAspectRatio*(this: var SVGFEImageElement): ptr SVGAnimatedPreserveAspectRatio {.
     importcpp: "get_preserveAspectRatio", header: "cheerp/clientlib.h".}
@@ -40319,12 +39491,6 @@ proc set_prototype*(this: var SVGFEImageElement; a2: ptr SVGFEImageElement) {.
 
 proc constructSVGFEImageElement*(): SVGFEImageElement {.constructor,
     importcpp: "client::SVGFEImageElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEMergeElement* {.importcpp: "client::SVGFEMergeElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGFEMergeElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -40378,12 +39544,6 @@ proc set_prototype*(this: var SVGFEMergeElement; a2: ptr SVGFEMergeElement) {.
 
 proc constructSVGFEMergeElement*(): SVGFEMergeElement {.constructor,
     importcpp: "client::SVGFEMergeElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEMergeNodeElement* {.importcpp: "client::SVGFEMergeNodeElement",
-                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEMergeNodeElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -40441,12 +39601,6 @@ proc set_prototype*(this: var SVGFEMergeNodeElement;
 
 proc constructSVGFEMergeNodeElement*(): SVGFEMergeNodeElement {.constructor,
     importcpp: "client::SVGFEMergeNodeElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEMorphologyElement* {.importcpp: "client::SVGFEMorphologyElement",
-                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFEMorphologyElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -40524,12 +39678,6 @@ proc get_SVG_MORPHOLOGY_OPERATOR_ERODE*(this: var SVGFEMorphologyElement): cdoub
 proc get_SVG_MORPHOLOGY_OPERATOR_UNKNOWN*(this: var SVGFEMorphologyElement): cdouble {.
     importcpp: "get_SVG_MORPHOLOGY_OPERATOR_UNKNOWN",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFEOffsetElement* {.importcpp: "client::SVGFEOffsetElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_dx*(this: var SVGFEOffsetElement): ptr SVGAnimatedNumber {.
     importcpp: "get_dx", header: "cheerp/clientlib.h".}
@@ -40592,12 +39740,6 @@ proc set_prototype*(this: var SVGFEOffsetElement; a2: ptr SVGFEOffsetElement) {.
 
 proc constructSVGFEOffsetElement*(): SVGFEOffsetElement {.constructor,
     importcpp: "client::SVGFEOffsetElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFEPointLightElement* {.importcpp: "client::SVGFEPointLightElement",
-                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_x*(this: var SVGFEPointLightElement): ptr SVGAnimatedNumber {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -40661,12 +39803,6 @@ proc set_prototype*(this: var SVGFEPointLightElement;
 
 proc constructSVGFEPointLightElement*(): SVGFEPointLightElement {.constructor,
     importcpp: "client::SVGFEPointLightElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFESpecularLightingElement* {.importcpp: "client::SVGFESpecularLightingElement",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFESpecularLightingElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -40741,12 +39877,6 @@ proc set_prototype*(this: var SVGFESpecularLightingElement;
 proc constructSVGFESpecularLightingElement*(): SVGFESpecularLightingElement {.
     constructor, importcpp: "client::SVGFESpecularLightingElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGFESpotLightElement* {.importcpp: "client::SVGFESpotLightElement",
-                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_limitingConeAngle*(this: var SVGFESpotLightElement): ptr SVGAnimatedNumber {.
     importcpp: "get_limitingConeAngle", header: "cheerp/clientlib.h".}
@@ -40825,12 +39955,6 @@ proc set_prototype*(this: var SVGFESpotLightElement;
 
 proc constructSVGFESpotLightElement*(): SVGFESpotLightElement {.constructor,
     importcpp: "client::SVGFESpotLightElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFETileElement* {.importcpp: "client::SVGFETileElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_in1*(this: var SVGFETileElement): ptr SVGAnimatedString {.
     importcpp: "get_in1", header: "cheerp/clientlib.h".}
@@ -40887,12 +40011,6 @@ proc set_prototype*(this: var SVGFETileElement; a2: ptr SVGFETileElement) {.
 
 proc constructSVGFETileElement*(): SVGFETileElement {.constructor,
     importcpp: "client::SVGFETileElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFETurbulenceElement* {.importcpp: "client::SVGFETurbulenceElement",
-                            header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_baseFrequencyX*(this: var SVGFETurbulenceElement): ptr SVGAnimatedNumber {.
     importcpp: "get_baseFrequencyX", header: "cheerp/clientlib.h".}
@@ -40985,12 +40103,6 @@ proc get_SVG_TURBULENCE_TYPE_TURBULENCE*(this: var SVGFETurbulenceElement): cdou
 
 proc get_SVG_TURBULENCE_TYPE_UNKNOWN*(this: var SVGFETurbulenceElement): cdouble {.
     importcpp: "get_SVG_TURBULENCE_TYPE_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGFilterElement* {.importcpp: "client::SVGFilterElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_filterResX*(this: var SVGFilterElement): ptr SVGAnimatedInteger {.
     importcpp: "get_filterResX", header: "cheerp/clientlib.h".}
@@ -41072,24 +40184,12 @@ proc set_prototype*(this: var SVGFilterElement; a2: ptr SVGFilterElement) {.
 
 proc constructSVGFilterElement*(): SVGFilterElement {.constructor,
     importcpp: "client::SVGFilterElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGFitToViewBox* {.importcpp: "client::SVGFitToViewBox",
-                     header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_preserveAspectRatio*(this: var SVGFitToViewBox): ptr SVGAnimatedPreserveAspectRatio {.
     importcpp: "get_preserveAspectRatio", header: "cheerp/clientlib.h".}
 
 proc get_viewBox*(this: var SVGFitToViewBox): ptr SVGAnimatedRect {.
     importcpp: "get_viewBox", header: "cheerp/clientlib.h".}
-type
-
-  SVGForeignObjectElement* {.importcpp: "client::SVGForeignObjectElement",
-                             header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_height*(this: var SVGForeignObjectElement): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -41157,12 +40257,6 @@ proc set_prototype*(this: var SVGForeignObjectElement;
 proc constructSVGForeignObjectElement*(): SVGForeignObjectElement {.constructor,
     importcpp: "client::SVGForeignObjectElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGGElement* {.importcpp: "client::SVGGElement", header: "cheerp/clientlib.h",
-                 bycopy.} = object of SVGGraphicsElement
-
-
 
 proc addEventListener*(this: var SVGGElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -41216,12 +40310,6 @@ proc set_prototype*(this: var SVGGElement; a2: ptr SVGGElement) {.
 
 proc constructSVGGElement*(): SVGGElement {.constructor,
     importcpp: "client::SVGGElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGGradientElement* {.importcpp: "client::SVGGradientElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_gradientTransform*(this: var SVGGradientElement): ptr SVGAnimatedTransformList {.
     importcpp: "get_gradientTransform", header: "cheerp/clientlib.h".}
@@ -41296,12 +40384,6 @@ proc get_SVG_SPREADMETHOD_REPEAT*(this: var SVGGradientElement): cdouble {.
 
 proc get_SVG_SPREADMETHOD_UNKNOWN*(this: var SVGGradientElement): cdouble {.
     importcpp: "get_SVG_SPREADMETHOD_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGImageElement* {.importcpp: "client::SVGImageElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_height*(this: var SVGImageElement): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -41370,12 +40452,6 @@ proc set_prototype*(this: var SVGImageElement; a2: ptr SVGImageElement) {.
 
 proc constructSVGImageElement*(): SVGImageElement {.constructor,
     importcpp: "client::SVGImageElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGLength* {.importcpp: "client::SVGLength", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_unitType*(this: var SVGLength): cdouble {.importcpp: "get_unitType",
     header: "cheerp/clientlib.h".}
@@ -41447,12 +40523,6 @@ proc get_SVG_LENGTHTYPE_PX*(this: var SVGLength): cdouble {.
 
 proc get_SVG_LENGTHTYPE_UNKNOWN*(this: var SVGLength): cdouble {.
     importcpp: "get_SVG_LENGTHTYPE_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGLengthList* {.importcpp: "client::SVGLengthList",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGLengthList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -41488,12 +40558,6 @@ proc set_prototype*(this: var SVGLengthList; a2: ptr SVGLengthList) {.
 
 proc constructSVGLengthList*(): SVGLengthList {.constructor,
     importcpp: "client::SVGLengthList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGLineElement* {.importcpp: "client::SVGLineElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_x1*(this: var SVGLineElement): ptr SVGAnimatedLength {.
     importcpp: "get_x1", header: "cheerp/clientlib.h".}
@@ -41559,12 +40623,6 @@ proc set_prototype*(this: var SVGLineElement; a2: ptr SVGLineElement) {.
 
 proc constructSVGLineElement*(): SVGLineElement {.constructor,
     importcpp: "client::SVGLineElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGLinearGradientElement* {.importcpp: "client::SVGLinearGradientElement",
-                              header: "cheerp/clientlib.h", bycopy.} = object of SVGGradientElement
-
-
 
 proc get_x1*(this: var SVGLinearGradientElement): ptr SVGAnimatedLength {.
     importcpp: "get_x1", header: "cheerp/clientlib.h".}
@@ -41632,12 +40690,6 @@ proc set_prototype*(this: var SVGLinearGradientElement;
 proc constructSVGLinearGradientElement*(): SVGLinearGradientElement {.
     constructor, importcpp: "client::SVGLinearGradientElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGMarkerElement* {.importcpp: "client::SVGMarkerElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_markerHeight*(this: var SVGMarkerElement): ptr SVGAnimatedLength {.
     importcpp: "get_markerHeight", header: "cheerp/clientlib.h".}
@@ -41737,12 +40789,6 @@ proc get_SVG_MARKER_ORIENT_AUTO*(this: var SVGMarkerElement): cdouble {.
 
 proc get_SVG_MARKER_ORIENT_UNKNOWN*(this: var SVGMarkerElement): cdouble {.
     importcpp: "get_SVG_MARKER_ORIENT_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGMaskElement* {.importcpp: "client::SVGMaskElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_height*(this: var SVGMaskElement): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -41814,12 +40860,6 @@ proc set_prototype*(this: var SVGMaskElement; a2: ptr SVGMaskElement) {.
 
 proc constructSVGMaskElement*(): SVGMaskElement {.constructor,
     importcpp: "client::SVGMaskElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGMatrix* {.importcpp: "client::SVGMatrix", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_a*(this: var SVGMatrix): cdouble {.importcpp: "get_a",
     header: "cheerp/clientlib.h".}
@@ -41900,12 +40940,6 @@ proc set_prototype*(this: var SVGMatrix; a2: ptr SVGMatrix) {.
 proc constructSVGMatrix*(): SVGMatrix {.constructor,
                                         importcpp: "client::SVGMatrix(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  SVGMetadataElement* {.importcpp: "client::SVGMetadataElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGMetadataElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -41959,12 +40993,6 @@ proc set_prototype*(this: var SVGMetadataElement; a2: ptr SVGMetadataElement) {.
 
 proc constructSVGMetadataElement*(): SVGMetadataElement {.constructor,
     importcpp: "client::SVGMetadataElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGNumber* {.importcpp: "client::SVGNumber", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_value*(this: var SVGNumber): cdouble {.importcpp: "get_value",
     header: "cheerp/clientlib.h".}
@@ -41981,12 +41009,6 @@ proc set_prototype*(this: var SVGNumber; a2: ptr SVGNumber) {.
 proc constructSVGNumber*(): SVGNumber {.constructor,
                                         importcpp: "client::SVGNumber(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  SVGNumberList* {.importcpp: "client::SVGNumberList",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGNumberList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -42022,12 +41044,6 @@ proc set_prototype*(this: var SVGNumberList; a2: ptr SVGNumberList) {.
 
 proc constructSVGNumberList*(): SVGNumberList {.constructor,
     importcpp: "client::SVGNumberList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathElement* {.importcpp: "client::SVGPathElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_pathSegList*(this: var SVGPathElement): ptr SVGPathSegList {.
     importcpp: "get_pathSegList", header: "cheerp/clientlib.h".}
@@ -42172,12 +41188,6 @@ proc set_prototype*(this: var SVGPathElement; a2: ptr SVGPathElement) {.
 
 proc constructSVGPathElement*(): SVGPathElement {.constructor,
     importcpp: "client::SVGPathElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSeg* {.importcpp: "client::SVGPathSeg", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_pathSegType*(this: var SVGPathSeg): cdouble {.
     importcpp: "get_pathSegType", header: "cheerp/clientlib.h".}
@@ -42257,12 +41267,6 @@ proc get_PATHSEG_MOVETO_REL*(this: var SVGPathSeg): cdouble {.
 
 proc get_PATHSEG_UNKNOWN*(this: var SVGPathSeg): cdouble {.
     importcpp: "get_PATHSEG_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegArcAbs* {.importcpp: "client::SVGPathSegArcAbs",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_angle*(this: var SVGPathSegArcAbs): cdouble {.importcpp: "get_angle",
     header: "cheerp/clientlib.h".}
@@ -42314,12 +41318,6 @@ proc set_prototype*(this: var SVGPathSegArcAbs; a2: ptr SVGPathSegArcAbs) {.
 
 proc constructSVGPathSegArcAbs*(): SVGPathSegArcAbs {.constructor,
     importcpp: "client::SVGPathSegArcAbs(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegArcRel* {.importcpp: "client::SVGPathSegArcRel",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_angle*(this: var SVGPathSegArcRel): cdouble {.importcpp: "get_angle",
     header: "cheerp/clientlib.h".}
@@ -42371,12 +41369,6 @@ proc set_prototype*(this: var SVGPathSegArcRel; a2: ptr SVGPathSegArcRel) {.
 
 proc constructSVGPathSegArcRel*(): SVGPathSegArcRel {.constructor,
     importcpp: "client::SVGPathSegArcRel(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegClosePath* {.importcpp: "client::SVGPathSegClosePath",
-                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_prototype*(this: var SVGPathSegClosePath): ptr SVGPathSegClosePath {.
     importcpp: "get_prototype", header: "cheerp/clientlib.h".}
@@ -42386,12 +41378,6 @@ proc set_prototype*(this: var SVGPathSegClosePath; a2: ptr SVGPathSegClosePath) 
 
 proc constructSVGPathSegClosePath*(): SVGPathSegClosePath {.constructor,
     importcpp: "client::SVGPathSegClosePath(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoCubicAbs* {.importcpp: "client::SVGPathSegCurvetoCubicAbs",
-                               header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoCubicAbs): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42439,12 +41425,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoCubicAbs;
 proc constructSVGPathSegCurvetoCubicAbs*(): SVGPathSegCurvetoCubicAbs {.
     constructor, importcpp: "client::SVGPathSegCurvetoCubicAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoCubicRel* {.importcpp: "client::SVGPathSegCurvetoCubicRel",
-                               header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoCubicRel): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42492,12 +41472,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoCubicRel;
 proc constructSVGPathSegCurvetoCubicRel*(): SVGPathSegCurvetoCubicRel {.
     constructor, importcpp: "client::SVGPathSegCurvetoCubicRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoCubicSmoothAbs* {.importcpp: "client::SVGPathSegCurvetoCubicSmoothAbs",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoCubicSmoothAbs): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42533,12 +41507,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoCubicSmoothAbs;
 proc constructSVGPathSegCurvetoCubicSmoothAbs*(): SVGPathSegCurvetoCubicSmoothAbs {.
     constructor, importcpp: "client::SVGPathSegCurvetoCubicSmoothAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoCubicSmoothRel* {.importcpp: "client::SVGPathSegCurvetoCubicSmoothRel",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoCubicSmoothRel): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42574,12 +41542,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoCubicSmoothRel;
 proc constructSVGPathSegCurvetoCubicSmoothRel*(): SVGPathSegCurvetoCubicSmoothRel {.
     constructor, importcpp: "client::SVGPathSegCurvetoCubicSmoothRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoQuadraticAbs* {.importcpp: "client::SVGPathSegCurvetoQuadraticAbs",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoQuadraticAbs): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42615,12 +41577,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoQuadraticAbs;
 proc constructSVGPathSegCurvetoQuadraticAbs*(): SVGPathSegCurvetoQuadraticAbs {.
     constructor, importcpp: "client::SVGPathSegCurvetoQuadraticAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoQuadraticRel* {.importcpp: "client::SVGPathSegCurvetoQuadraticRel",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoQuadraticRel): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42656,13 +41612,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoQuadraticRel;
 proc constructSVGPathSegCurvetoQuadraticRel*(): SVGPathSegCurvetoQuadraticRel {.
     constructor, importcpp: "client::SVGPathSegCurvetoQuadraticRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoQuadraticSmoothAbs* {.
-      importcpp: "client::SVGPathSegCurvetoQuadraticSmoothAbs",
-      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoQuadraticSmoothAbs): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42686,13 +41635,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoQuadraticSmoothAbs;
 proc constructSVGPathSegCurvetoQuadraticSmoothAbs*(): SVGPathSegCurvetoQuadraticSmoothAbs {.
     constructor, importcpp: "client::SVGPathSegCurvetoQuadraticSmoothAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegCurvetoQuadraticSmoothRel* {.
-      importcpp: "client::SVGPathSegCurvetoQuadraticSmoothRel",
-      header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegCurvetoQuadraticSmoothRel): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42716,12 +41658,6 @@ proc set_prototype*(this: var SVGPathSegCurvetoQuadraticSmoothRel;
 proc constructSVGPathSegCurvetoQuadraticSmoothRel*(): SVGPathSegCurvetoQuadraticSmoothRel {.
     constructor, importcpp: "client::SVGPathSegCurvetoQuadraticSmoothRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoAbs* {.importcpp: "client::SVGPathSegLinetoAbs",
-                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegLinetoAbs): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42743,12 +41679,6 @@ proc set_prototype*(this: var SVGPathSegLinetoAbs; a2: ptr SVGPathSegLinetoAbs) 
 
 proc constructSVGPathSegLinetoAbs*(): SVGPathSegLinetoAbs {.constructor,
     importcpp: "client::SVGPathSegLinetoAbs(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoHorizontalAbs* {.importcpp: "client::SVGPathSegLinetoHorizontalAbs",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegLinetoHorizontalAbs): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42766,12 +41696,6 @@ proc set_prototype*(this: var SVGPathSegLinetoHorizontalAbs;
 proc constructSVGPathSegLinetoHorizontalAbs*(): SVGPathSegLinetoHorizontalAbs {.
     constructor, importcpp: "client::SVGPathSegLinetoHorizontalAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoHorizontalRel* {.importcpp: "client::SVGPathSegLinetoHorizontalRel",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegLinetoHorizontalRel): cdouble {.
     importcpp: "get_x", header: "cheerp/clientlib.h".}
@@ -42789,12 +41713,6 @@ proc set_prototype*(this: var SVGPathSegLinetoHorizontalRel;
 proc constructSVGPathSegLinetoHorizontalRel*(): SVGPathSegLinetoHorizontalRel {.
     constructor, importcpp: "client::SVGPathSegLinetoHorizontalRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoRel* {.importcpp: "client::SVGPathSegLinetoRel",
-                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegLinetoRel): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42816,12 +41734,6 @@ proc set_prototype*(this: var SVGPathSegLinetoRel; a2: ptr SVGPathSegLinetoRel) 
 
 proc constructSVGPathSegLinetoRel*(): SVGPathSegLinetoRel {.constructor,
     importcpp: "client::SVGPathSegLinetoRel(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoVerticalAbs* {.importcpp: "client::SVGPathSegLinetoVerticalAbs",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_y*(this: var SVGPathSegLinetoVerticalAbs): cdouble {.
     importcpp: "get_y", header: "cheerp/clientlib.h".}
@@ -42839,12 +41751,6 @@ proc set_prototype*(this: var SVGPathSegLinetoVerticalAbs;
 proc constructSVGPathSegLinetoVerticalAbs*(): SVGPathSegLinetoVerticalAbs {.
     constructor, importcpp: "client::SVGPathSegLinetoVerticalAbs(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegLinetoVerticalRel* {.importcpp: "client::SVGPathSegLinetoVerticalRel",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_y*(this: var SVGPathSegLinetoVerticalRel): cdouble {.
     importcpp: "get_y", header: "cheerp/clientlib.h".}
@@ -42862,12 +41768,6 @@ proc set_prototype*(this: var SVGPathSegLinetoVerticalRel;
 proc constructSVGPathSegLinetoVerticalRel*(): SVGPathSegLinetoVerticalRel {.
     constructor, importcpp: "client::SVGPathSegLinetoVerticalRel(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegList* {.importcpp: "client::SVGPathSegList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGPathSegList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -42903,12 +41803,6 @@ proc set_prototype*(this: var SVGPathSegList; a2: ptr SVGPathSegList) {.
 
 proc constructSVGPathSegList*(): SVGPathSegList {.constructor,
     importcpp: "client::SVGPathSegList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegMovetoAbs* {.importcpp: "client::SVGPathSegMovetoAbs",
-                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegMovetoAbs): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42930,12 +41824,6 @@ proc set_prototype*(this: var SVGPathSegMovetoAbs; a2: ptr SVGPathSegMovetoAbs) 
 
 proc constructSVGPathSegMovetoAbs*(): SVGPathSegMovetoAbs {.constructor,
     importcpp: "client::SVGPathSegMovetoAbs(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPathSegMovetoRel* {.importcpp: "client::SVGPathSegMovetoRel",
-                         header: "cheerp/clientlib.h", bycopy.} = object of SVGPathSeg
-
-
 
 proc get_x*(this: var SVGPathSegMovetoRel): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -42957,12 +41845,6 @@ proc set_prototype*(this: var SVGPathSegMovetoRel; a2: ptr SVGPathSegMovetoRel) 
 
 proc constructSVGPathSegMovetoRel*(): SVGPathSegMovetoRel {.constructor,
     importcpp: "client::SVGPathSegMovetoRel(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPatternElement* {.importcpp: "client::SVGPatternElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_height*(this: var SVGPatternElement): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -43037,12 +41919,6 @@ proc set_prototype*(this: var SVGPatternElement; a2: ptr SVGPatternElement) {.
 
 proc constructSVGPatternElement*(): SVGPatternElement {.constructor,
     importcpp: "client::SVGPatternElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPoint* {.importcpp: "client::SVGPoint", header: "cheerp/clientlib.h",
-              bycopy.} = object of Object
-
-
 
 proc get_x*(this: var SVGPoint): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -43068,12 +41944,6 @@ proc set_prototype*(this: var SVGPoint; a2: ptr SVGPoint) {.
 proc constructSVGPoint*(): SVGPoint {.constructor,
                                       importcpp: "client::SVGPoint(@)",
                                       header: "cheerp/clientlib.h".}
-type
-
-  SVGPointList* {.importcpp: "client::SVGPointList",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGPointList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -43108,12 +41978,6 @@ proc set_prototype*(this: var SVGPointList; a2: ptr SVGPointList) {.
 
 proc constructSVGPointList*(): SVGPointList {.constructor,
     importcpp: "client::SVGPointList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPolygonElement* {.importcpp: "client::SVGPolygonElement",
-                       header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc addEventListener*(this: var SVGPolygonElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -43167,12 +42031,6 @@ proc set_prototype*(this: var SVGPolygonElement; a2: ptr SVGPolygonElement) {.
 
 proc constructSVGPolygonElement*(): SVGPolygonElement {.constructor,
     importcpp: "client::SVGPolygonElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPolylineElement* {.importcpp: "client::SVGPolylineElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc addEventListener*(this: var SVGPolylineElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -43226,12 +42084,6 @@ proc set_prototype*(this: var SVGPolylineElement; a2: ptr SVGPolylineElement) {.
 
 proc constructSVGPolylineElement*(): SVGPolylineElement {.constructor,
     importcpp: "client::SVGPolylineElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGPreserveAspectRatio* {.importcpp: "client::SVGPreserveAspectRatio",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_align*(this: var SVGPreserveAspectRatio): cdouble {.
     importcpp: "get_align", header: "cheerp/clientlib.h".}
@@ -43306,12 +42158,6 @@ proc get_SVG_PRESERVEASPECTRATIO_XMINYMID*(this: var SVGPreserveAspectRatio): cd
 proc get_SVG_PRESERVEASPECTRATIO_XMINYMIN*(this: var SVGPreserveAspectRatio): cdouble {.
     importcpp: "get_SVG_PRESERVEASPECTRATIO_XMINYMIN",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGRadialGradientElement* {.importcpp: "client::SVGRadialGradientElement",
-                              header: "cheerp/clientlib.h", bycopy.} = object of SVGGradientElement
-
-
 
 proc get_cx*(this: var SVGRadialGradientElement): ptr SVGAnimatedLength {.
     importcpp: "get_cx", header: "cheerp/clientlib.h".}
@@ -43382,11 +42228,6 @@ proc set_prototype*(this: var SVGRadialGradientElement;
 proc constructSVGRadialGradientElement*(): SVGRadialGradientElement {.
     constructor, importcpp: "client::SVGRadialGradientElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGRect* {.importcpp: "client::SVGRect", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_height*(this: var SVGRect): cdouble {.importcpp: "get_height",
     header: "cheerp/clientlib.h".}
@@ -43421,12 +42262,6 @@ proc set_prototype*(this: var SVGRect; a2: ptr SVGRect) {.
 proc constructSVGRect*(): SVGRect {.constructor,
                                     importcpp: "client::SVGRect(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  SVGRectElement* {.importcpp: "client::SVGRectElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_height*(this: var SVGRectElement): ptr SVGAnimatedLength {.
     importcpp: "get_height", header: "cheerp/clientlib.h".}
@@ -43498,12 +42333,6 @@ proc set_prototype*(this: var SVGRectElement; a2: ptr SVGRectElement) {.
 
 proc constructSVGRectElement*(): SVGRectElement {.constructor,
     importcpp: "client::SVGRectElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGSVGElementEventMap* {.importcpp: "client::SVGSVGElementEventMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of SVGElementEventMap
-
-
 
 proc get_SVGAbort*(this: var SVGSVGElementEventMap): ptr Event {.
     importcpp: "get_SVGAbort", header: "cheerp/clientlib.h".}
@@ -43540,12 +42369,6 @@ proc get_SVGZoom*(this: var SVGSVGElementEventMap): ptr SVGZoomEvent {.
 
 proc set_SVGZoom*(this: var SVGSVGElementEventMap; a2: ptr SVGZoomEvent) {.
     importcpp: "set_SVGZoom", header: "cheerp/clientlib.h".}
-type
-
-  SVGZoomAndPan* {.importcpp: "client::SVGZoomAndPan",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_zoomAndPan*(this: var SVGZoomAndPan): cdouble {.
     importcpp: "get_zoomAndPan", header: "cheerp/clientlib.h".}
@@ -43558,12 +42381,6 @@ proc get_SVG_ZOOMANDPAN_MAGNIFY*(this: var SVGZoomAndPan): cdouble {.
 
 proc get_SVG_ZOOMANDPAN_UNKNOWN*(this: var SVGZoomAndPan): cdouble {.
     importcpp: "get_SVG_ZOOMANDPAN_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGSVGElement* {.importcpp: "client::SVGSVGElement",
-                   header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_contentScriptType*(this: var SVGSVGElement): ptr String {.
     importcpp: "get_contentScriptType", header: "cheerp/clientlib.h".}
@@ -43779,12 +42596,6 @@ proc set_prototype*(this: var SVGSVGElement; a2: ptr SVGSVGElement) {.
 
 proc constructSVGSVGElement*(): SVGSVGElement {.constructor,
     importcpp: "client::SVGSVGElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGScriptElement* {.importcpp: "client::SVGScriptElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_type*(this: var SVGScriptElement): ptr String {.importcpp: "get_type",
     header: "cheerp/clientlib.h".}
@@ -43844,12 +42655,6 @@ proc set_prototype*(this: var SVGScriptElement; a2: ptr SVGScriptElement) {.
 
 proc constructSVGScriptElement*(): SVGScriptElement {.constructor,
     importcpp: "client::SVGScriptElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGStopElement* {.importcpp: "client::SVGStopElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_offset*(this: var SVGStopElement): ptr SVGAnimatedNumber {.
     importcpp: "get_offset", header: "cheerp/clientlib.h".}
@@ -43906,12 +42711,6 @@ proc set_prototype*(this: var SVGStopElement; a2: ptr SVGStopElement) {.
 
 proc constructSVGStopElement*(): SVGStopElement {.constructor,
     importcpp: "client::SVGStopElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGStringList* {.importcpp: "client::SVGStringList",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGStringList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -43945,12 +42744,6 @@ proc set_prototype*(this: var SVGStringList; a2: ptr SVGStringList) {.
 
 proc constructSVGStringList*(): SVGStringList {.constructor,
     importcpp: "client::SVGStringList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGStylable* {.importcpp: "client::SVGStylable", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc set_className*(this: var SVGStylable; a2: ptr Object) {.
     importcpp: "set_className", header: "cheerp/clientlib.h".}
@@ -43963,12 +42756,6 @@ proc set_prototype*(this: var SVGStylable; a2: ptr SVGStylable) {.
 
 proc constructSVGStylable*(): SVGStylable {.constructor,
     importcpp: "client::SVGStylable(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGStyleElement* {.importcpp: "client::SVGStyleElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_disabled*(this: var SVGStyleElement): bool {.importcpp: "get_disabled",
     header: "cheerp/clientlib.h".}
@@ -44046,12 +42833,6 @@ proc set_prototype*(this: var SVGStyleElement; a2: ptr SVGStyleElement) {.
 
 proc constructSVGStyleElement*(): SVGStyleElement {.constructor,
     importcpp: "client::SVGStyleElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGSwitchElement* {.importcpp: "client::SVGSwitchElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc addEventListener*(this: var SVGSwitchElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -44105,12 +42886,6 @@ proc set_prototype*(this: var SVGSwitchElement; a2: ptr SVGSwitchElement) {.
 
 proc constructSVGSwitchElement*(): SVGSwitchElement {.constructor,
     importcpp: "client::SVGSwitchElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGSymbolElement* {.importcpp: "client::SVGSymbolElement",
-                      header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGSymbolElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -44164,12 +42939,6 @@ proc set_prototype*(this: var SVGSymbolElement; a2: ptr SVGSymbolElement) {.
 
 proc constructSVGSymbolElement*(): SVGSymbolElement {.constructor,
     importcpp: "client::SVGSymbolElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGTextContentElement* {.importcpp: "client::SVGTextContentElement",
-                           header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_lengthAdjust*(this: var SVGTextContentElement): ptr SVGAnimatedEnumeration {.
     importcpp: "get_lengthAdjust", header: "cheerp/clientlib.h".}
@@ -44268,12 +43037,6 @@ proc get_LENGTHADJUST_SPACINGANDGLYPHS*(this: var SVGTextContentElement): cdoubl
 
 proc get_LENGTHADJUST_UNKNOWN*(this: var SVGTextContentElement): cdouble {.
     importcpp: "get_LENGTHADJUST_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGTextPositioningElement* {.importcpp: "client::SVGTextPositioningElement",
-                               header: "cheerp/clientlib.h", bycopy.} = object of SVGTextContentElement
-
-
 
 proc get_dx*(this: var SVGTextPositioningElement): ptr SVGAnimatedLengthList {.
     importcpp: "get_dx", header: "cheerp/clientlib.h".}
@@ -44344,12 +43107,6 @@ proc set_prototype*(this: var SVGTextPositioningElement;
 proc constructSVGTextPositioningElement*(): SVGTextPositioningElement {.
     constructor, importcpp: "client::SVGTextPositioningElement(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SVGTSpanElement* {.importcpp: "client::SVGTSpanElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of SVGTextPositioningElement
-
-
 
 proc addEventListener*(this: var SVGTSpanElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -44403,12 +43160,6 @@ proc set_prototype*(this: var SVGTSpanElement; a2: ptr SVGTSpanElement) {.
 
 proc constructSVGTSpanElement*(): SVGTSpanElement {.constructor,
     importcpp: "client::SVGTSpanElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGTextElement* {.importcpp: "client::SVGTextElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGTextPositioningElement
-
-
 
 proc addEventListener*(this: var SVGTextElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -44462,12 +43213,6 @@ proc set_prototype*(this: var SVGTextElement; a2: ptr SVGTextElement) {.
 
 proc constructSVGTextElement*(): SVGTextElement {.constructor,
     importcpp: "client::SVGTextElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGTextPathElement* {.importcpp: "client::SVGTextPathElement",
-                        header: "cheerp/clientlib.h", bycopy.} = object of SVGTextContentElement
-
-
 
 proc get_method*(this: var SVGTextPathElement): ptr SVGAnimatedEnumeration {.
     importcpp: "get_method", header: "cheerp/clientlib.h".}
@@ -44548,12 +43293,6 @@ proc get_TEXTPATH_SPACINGTYPE_EXACT*(this: var SVGTextPathElement): cdouble {.
 
 proc get_TEXTPATH_SPACINGTYPE_UNKNOWN*(this: var SVGTextPathElement): cdouble {.
     importcpp: "get_TEXTPATH_SPACINGTYPE_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGTitleElement* {.importcpp: "client::SVGTitleElement",
-                     header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc addEventListener*(this: var SVGTitleElement; `type`: String;
                        listener: ptr EventListener) {.
@@ -44607,12 +43346,6 @@ proc set_prototype*(this: var SVGTitleElement; a2: ptr SVGTitleElement) {.
 
 proc constructSVGTitleElement*(): SVGTitleElement {.constructor,
     importcpp: "client::SVGTitleElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGTransform* {.importcpp: "client::SVGTransform",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_angle*(this: var SVGTransform): cdouble {.importcpp: "get_angle",
     header: "cheerp/clientlib.h".}
@@ -44670,12 +43403,6 @@ proc get_SVG_TRANSFORM_TRANSLATE*(this: var SVGTransform): cdouble {.
 
 proc get_SVG_TRANSFORM_UNKNOWN*(this: var SVGTransform): cdouble {.
     importcpp: "get_SVG_TRANSFORM_UNKNOWN", header: "cheerp/clientlib.h".}
-type
-
-  SVGTransformList* {.importcpp: "client::SVGTransformList",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_numberOfItems*(this: var SVGTransformList): cdouble {.
     importcpp: "get_numberOfItems", header: "cheerp/clientlib.h".}
@@ -44718,12 +43445,6 @@ proc set_prototype*(this: var SVGTransformList; a2: ptr SVGTransformList) {.
 
 proc constructSVGTransformList*(): SVGTransformList {.constructor,
     importcpp: "client::SVGTransformList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGUseElement* {.importcpp: "client::SVGUseElement",
-                   header: "cheerp/clientlib.h", bycopy.} = object of SVGGraphicsElement
-
-
 
 proc get_animatedInstanceRoot*(this: var SVGUseElement): ptr SVGElementInstance {.
     importcpp: "get_animatedInstanceRoot", header: "cheerp/clientlib.h".}
@@ -44795,12 +43516,6 @@ proc set_prototype*(this: var SVGUseElement; a2: ptr SVGUseElement) {.
 
 proc constructSVGUseElement*(): SVGUseElement {.constructor,
     importcpp: "client::SVGUseElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGViewElement* {.importcpp: "client::SVGViewElement",
-                    header: "cheerp/clientlib.h", bycopy.} = object of SVGElement
-
-
 
 proc get_viewTarget*(this: var SVGViewElement): ptr SVGStringList {.
     importcpp: "get_viewTarget", header: "cheerp/clientlib.h".}
@@ -44857,12 +43572,6 @@ proc set_prototype*(this: var SVGViewElement; a2: ptr SVGViewElement) {.
 
 proc constructSVGViewElement*(): SVGViewElement {.constructor,
     importcpp: "client::SVGViewElement(@)", header: "cheerp/clientlib.h".}
-type
-
-  SVGZoomEvent* {.importcpp: "client::SVGZoomEvent",
-                  header: "cheerp/clientlib.h", bycopy.} = object of UIEvent
-
-
 
 proc get_newScale*(this: var SVGZoomEvent): cdouble {.importcpp: "get_newScale",
     header: "cheerp/clientlib.h".}
@@ -44887,12 +43596,6 @@ proc set_prototype*(this: var SVGZoomEvent; a2: ptr SVGZoomEvent) {.
 
 proc constructSVGZoomEvent*(): SVGZoomEvent {.constructor,
     importcpp: "client::SVGZoomEvent(@)", header: "cheerp/clientlib.h".}
-type
-
-  ScopedCredential* {.importcpp: "client::ScopedCredential",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_id*(this: var ScopedCredential): ptr ArrayBuffer {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -44908,12 +43611,6 @@ proc set_prototype*(this: var ScopedCredential; a2: ptr ScopedCredential) {.
 
 proc constructScopedCredential*(): ScopedCredential {.constructor,
     importcpp: "client::ScopedCredential(@)", header: "cheerp/clientlib.h".}
-type
-
-  ScopedCredentialInfo* {.importcpp: "client::ScopedCredentialInfo",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_credential*(this: var ScopedCredentialInfo): ptr ScopedCredential {.
     importcpp: "get_credential", header: "cheerp/clientlib.h".}
@@ -44929,23 +43626,12 @@ proc set_prototype*(this: var ScopedCredentialInfo; a2: ptr ScopedCredentialInfo
 
 proc constructScopedCredentialInfo*(): ScopedCredentialInfo {.constructor,
     importcpp: "client::ScopedCredentialInfo(@)", header: "cheerp/clientlib.h".}
-type
-
-  ScreenEventMap* {.importcpp: "client::ScreenEventMap",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_MSOrientationChange*(this: var ScreenEventMap): ptr Event {.
     importcpp: "get_MSOrientationChange", header: "cheerp/clientlib.h".}
 
 proc set_MSOrientationChange*(this: var ScreenEventMap; a2: ptr Event) {.
     importcpp: "set_MSOrientationChange", header: "cheerp/clientlib.h".}
-type
-
-  Screen* {.importcpp: "client::Screen", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_availHeight*(this: var Screen): cdouble {.importcpp: "get_availHeight",
     header: "cheerp/clientlib.h".}
@@ -45068,12 +43754,6 @@ proc set_prototype*(this: var Screen; a2: ptr Screen) {.
 
 proc constructScreen*(): Screen {.constructor, importcpp: "client::Screen(@)",
                                   header: "cheerp/clientlib.h".}
-type
-
-  ScriptProcessorNodeEventMap* {.importcpp: "client::ScriptProcessorNodeEventMap",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_audioprocess*(this: var ScriptProcessorNodeEventMap): ptr AudioProcessingEvent {.
     importcpp: "get_audioprocess", header: "cheerp/clientlib.h".}
@@ -45081,12 +43761,6 @@ proc get_audioprocess*(this: var ScriptProcessorNodeEventMap): ptr AudioProcessi
 proc set_audioprocess*(this: var ScriptProcessorNodeEventMap;
                        a2: ptr AudioProcessingEvent) {.
     importcpp: "set_audioprocess", header: "cheerp/clientlib.h".}
-type
-
-  ScriptProcessorNode* {.importcpp: "client::ScriptProcessorNode",
-                         header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_bufferSize*(this: var ScriptProcessorNode): cdouble {.
     importcpp: "get_bufferSize", header: "cheerp/clientlib.h".}
@@ -45149,24 +43823,12 @@ proc set_prototype*(this: var ScriptProcessorNode; a2: ptr ScriptProcessorNode) 
 
 proc constructScriptProcessorNode*(): ScriptProcessorNode {.constructor,
     importcpp: "client::ScriptProcessorNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  ScrollOptions* {.importcpp: "client::ScrollOptions",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_behavior*(this: var ScrollOptions): ptr String {.
     importcpp: "get_behavior", header: "cheerp/clientlib.h".}
 
 proc set_behavior*(this: var ScrollOptions; a2: String) {.
     importcpp: "set_behavior", header: "cheerp/clientlib.h".}
-type
-
-  ScrollIntoViewOptions* {.importcpp: "client::ScrollIntoViewOptions",
-                           header: "cheerp/clientlib.h", bycopy.} = object of ScrollOptions
-
-
 
 proc get_block*(this: var ScrollIntoViewOptions): ptr String {.
     importcpp: "get_block", header: "cheerp/clientlib.h".}
@@ -45179,12 +43841,6 @@ proc get_inline*(this: var ScrollIntoViewOptions): ptr String {.
 
 proc set_inline*(this: var ScrollIntoViewOptions; a2: String) {.
     importcpp: "set_inline", header: "cheerp/clientlib.h".}
-type
-
-  ScrollToOptions* {.importcpp: "client::ScrollToOptions",
-                     header: "cheerp/clientlib.h", bycopy.} = object of ScrollOptions
-
-
 
 proc get_left*(this: var ScrollToOptions): cdouble {.importcpp: "get_left",
     header: "cheerp/clientlib.h".}
@@ -45197,12 +43853,6 @@ proc get_top*(this: var ScrollToOptions): cdouble {.importcpp: "get_top",
 
 proc set_top*(this: var ScrollToOptions; a2: cdouble) {.importcpp: "set_top",
     header: "cheerp/clientlib.h".}
-type
-
-  SecurityPolicyViolationEvent* {.importcpp: "client::SecurityPolicyViolationEvent",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_blockedURI*(this: var SecurityPolicyViolationEvent): ptr String {.
     importcpp: "get_blockedURI", header: "cheerp/clientlib.h".}
@@ -45249,12 +43899,6 @@ proc constructSecurityPolicyViolationEvent*(`type`: String;
     eventInitDict: ptr SecurityPolicyViolationEventInit): SecurityPolicyViolationEvent {.
     constructor, importcpp: "client::SecurityPolicyViolationEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  Selection* {.importcpp: "client::Selection", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_anchorNode*(this: var Selection): ptr Node {.
     importcpp: "get_anchorNode", header: "cheerp/clientlib.h".}
@@ -45345,12 +43989,6 @@ proc set_prototype*(this: var Selection; a2: ptr Selection) {.
 proc constructSelection*(): Selection {.constructor,
                                         importcpp: "client::Selection(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  ServiceUIFrameContext* {.importcpp: "client::ServiceUIFrameContext",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc getCachedFrameMessage*(this: var ServiceUIFrameContext; key: String): ptr String {.
     importcpp: "getCachedFrameMessage", header: "cheerp/clientlib.h".}
@@ -45358,24 +43996,12 @@ proc getCachedFrameMessage*(this: var ServiceUIFrameContext; key: String): ptr S
 proc postFrameMessage*(this: var ServiceUIFrameContext; key: String;
                        data: String) {.importcpp: "postFrameMessage",
                                        header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerEventMap* {.importcpp: "client::ServiceWorkerEventMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of AbstractWorkerEventMap
-
-
 
 proc get_statechange*(this: var ServiceWorkerEventMap): ptr Event {.
     importcpp: "get_statechange", header: "cheerp/clientlib.h".}
 
 proc set_statechange*(this: var ServiceWorkerEventMap; a2: ptr Event) {.
     importcpp: "set_statechange", header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorker* {.importcpp: "client::ServiceWorker",
-                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_onstatechange*(this: var ServiceWorker): ptr EventListener {.
     importcpp: "get_onstatechange", header: "cheerp/clientlib.h".}
@@ -45454,12 +44080,6 @@ proc set_prototype*(this: var ServiceWorker; a2: ptr ServiceWorker) {.
 
 proc constructServiceWorker*(): ServiceWorker {.constructor,
     importcpp: "client::ServiceWorker(@)", header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerContainerEventMap* {.importcpp: "client::ServiceWorkerContainerEventMap",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_controllerchange*(this: var ServiceWorkerContainerEventMap): ptr Event {.
     importcpp: "get_controllerchange", header: "cheerp/clientlib.h".}
@@ -45481,12 +44101,6 @@ proc get_messageerror*(this: var ServiceWorkerContainerEventMap): ptr MessageEve
 proc set_messageerror*(this: var ServiceWorkerContainerEventMap;
                        a2: ptr MessageEvent) {.importcpp: "set_messageerror",
     header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerContainer* {.importcpp: "client::ServiceWorkerContainer",
-                            header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_controller*(this: var ServiceWorkerContainer): ptr ServiceWorker {.
     importcpp: "get_controller", header: "cheerp/clientlib.h".}
@@ -45585,12 +44199,6 @@ proc set_prototype*(this: var ServiceWorkerContainer;
 
 proc constructServiceWorkerContainer*(): ServiceWorkerContainer {.constructor,
     importcpp: "client::ServiceWorkerContainer(@)", header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerMessageEvent* {.importcpp: "client::ServiceWorkerMessageEvent",
-                               header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_lastEventId*(this: var ServiceWorkerMessageEvent): ptr String {.
     importcpp: "get_lastEventId", header: "cheerp/clientlib.h".}
@@ -45619,24 +44227,12 @@ proc constructServiceWorkerMessageEvent*(`type`: String;
     eventInitDict: ptr ServiceWorkerMessageEventInit): ServiceWorkerMessageEvent {.
     constructor, importcpp: "client::ServiceWorkerMessageEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerRegistrationEventMap* {.importcpp: "client::ServiceWorkerRegistrationEventMap",
-                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_updatefound*(this: var ServiceWorkerRegistrationEventMap): ptr Event {.
     importcpp: "get_updatefound", header: "cheerp/clientlib.h".}
 
 proc set_updatefound*(this: var ServiceWorkerRegistrationEventMap; a2: ptr Event) {.
     importcpp: "set_updatefound", header: "cheerp/clientlib.h".}
-type
-
-  ServiceWorkerRegistration* {.importcpp: "client::ServiceWorkerRegistration",
-                               header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_active*(this: var ServiceWorkerRegistration): ptr ServiceWorker {.
     importcpp: "get_active", header: "cheerp/clientlib.h".}
@@ -45737,12 +44333,6 @@ proc set_prototype*(this: var ServiceWorkerRegistration;
 proc constructServiceWorkerRegistration*(): ServiceWorkerRegistration {.
     constructor, importcpp: "client::ServiceWorkerRegistration(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  ShadowRoot* {.importcpp: "client::ShadowRoot", header: "cheerp/clientlib.h",
-                bycopy.} = object of DocumentOrShadowRoot
-
-
 
 proc get_host*(this: var ShadowRoot): ptr Element {.importcpp: "get_host",
     header: "cheerp/clientlib.h".}
@@ -45752,12 +44342,6 @@ proc get_innerHTML*(this: var ShadowRoot): ptr String {.
 
 proc set_innerHTML*(this: var ShadowRoot; a2: String) {.
     importcpp: "set_innerHTML", header: "cheerp/clientlib.h".}
-type
-
-  ShadowRootInit* {.importcpp: "client::ShadowRootInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_delegatesFocus*(this: var ShadowRootInit): bool {.
     importcpp: "get_delegatesFocus", header: "cheerp/clientlib.h".}
@@ -45770,12 +44354,6 @@ proc get_mode*(this: var ShadowRootInit): ptr String {.importcpp: "get_mode",
 
 proc set_mode*(this: var ShadowRootInit; a2: String) {.importcpp: "set_mode",
     header: "cheerp/clientlib.h".}
-type
-
-  SourceBuffer* {.importcpp: "client::SourceBuffer",
-                  header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_appendWindowEnd*(this: var SourceBuffer): cdouble {.
     importcpp: "get_appendWindowEnd", header: "cheerp/clientlib.h".}
@@ -45870,12 +44448,6 @@ proc set_prototype*(this: var SourceBuffer; a2: ptr SourceBuffer) {.
 
 proc constructSourceBuffer*(): SourceBuffer {.constructor,
     importcpp: "client::SourceBuffer(@)", header: "cheerp/clientlib.h".}
-type
-
-  SourceBufferList* {.importcpp: "client::SourceBufferList",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_length*(this: var SourceBufferList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -45897,24 +44469,12 @@ proc set_prototype*(this: var SourceBufferList; a2: ptr SourceBufferList) {.
 
 proc constructSourceBufferList*(): SourceBufferList {.constructor,
     importcpp: "client::SourceBufferList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisEventMap* {.importcpp: "client::SpeechSynthesisEventMap",
-                             header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_voiceschanged*(this: var SpeechSynthesisEventMap): ptr Event {.
     importcpp: "get_voiceschanged", header: "cheerp/clientlib.h".}
 
 proc set_voiceschanged*(this: var SpeechSynthesisEventMap; a2: ptr Event) {.
     importcpp: "set_voiceschanged", header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesis* {.importcpp: "client::SpeechSynthesis",
-                     header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_onvoiceschanged*(this: var SpeechSynthesis): ptr EventListener {.
     importcpp: "get_onvoiceschanged", header: "cheerp/clientlib.h".}
@@ -45998,12 +44558,6 @@ proc set_prototype*(this: var SpeechSynthesis; a2: ptr SpeechSynthesis) {.
 
 proc constructSpeechSynthesis*(): SpeechSynthesis {.constructor,
     importcpp: "client::SpeechSynthesis(@)", header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisEvent* {.importcpp: "client::SpeechSynthesisEvent",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_charIndex*(this: var SpeechSynthesisEvent): cdouble {.
     importcpp: "get_charIndex", header: "cheerp/clientlib.h".}
@@ -46034,12 +44588,6 @@ proc constructSpeechSynthesisEvent*(`type`: String;
                                     eventInitDict: ptr SpeechSynthesisEventInit): SpeechSynthesisEvent {.
     constructor, importcpp: "client::SpeechSynthesisEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisUtteranceEventMap* {.importcpp: "client::SpeechSynthesisUtteranceEventMap",
-                                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_boundary*(this: var SpeechSynthesisUtteranceEventMap): ptr Event {.
     importcpp: "get_boundary", header: "cheerp/clientlib.h".}
@@ -46082,12 +44630,6 @@ proc get_start*(this: var SpeechSynthesisUtteranceEventMap): ptr Event {.
 
 proc set_start*(this: var SpeechSynthesisUtteranceEventMap; a2: ptr Event) {.
     importcpp: "set_start", header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisUtterance* {.importcpp: "client::SpeechSynthesisUtterance",
-                              header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_lang*(this: var SpeechSynthesisUtterance): ptr String {.
     importcpp: "get_lang", header: "cheerp/clientlib.h".}
@@ -46225,12 +44767,6 @@ proc constructSpeechSynthesisUtterance*(): SpeechSynthesisUtterance {.
 proc constructSpeechSynthesisUtterance*(text: String): SpeechSynthesisUtterance {.
     constructor, importcpp: "client::SpeechSynthesisUtterance(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  SpeechSynthesisVoice* {.importcpp: "client::SpeechSynthesisVoice",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_default*(this: var SpeechSynthesisVoice): bool {.
     importcpp: "get_default", header: "cheerp/clientlib.h".}
@@ -46255,12 +44791,6 @@ proc set_prototype*(this: var SpeechSynthesisVoice; a2: ptr SpeechSynthesisVoice
 
 proc constructSpeechSynthesisVoice*(): SpeechSynthesisVoice {.constructor,
     importcpp: "client::SpeechSynthesisVoice(@)", header: "cheerp/clientlib.h".}
-type
-
-  StereoPannerNode* {.importcpp: "client::StereoPannerNode",
-                      header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_pan*(this: var StereoPannerNode): ptr AudioParam {.
     importcpp: "get_pan", header: "cheerp/clientlib.h".}
@@ -46273,11 +44803,6 @@ proc set_prototype*(this: var StereoPannerNode; a2: ptr StereoPannerNode) {.
 
 proc constructStereoPannerNode*(): StereoPannerNode {.constructor,
     importcpp: "client::StereoPannerNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  Storage* {.importcpp: "client::Storage", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var Storage): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -46312,12 +44837,6 @@ proc set_prototype*(this: var Storage; a2: ptr Storage) {.
 proc constructStorage*(): Storage {.constructor,
                                     importcpp: "client::Storage(@)",
                                     header: "cheerp/clientlib.h".}
-type
-
-  StorageEvent* {.importcpp: "client::StorageEvent",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_key*(this: var StorageEvent): ptr String {.importcpp: "get_key",
     header: "cheerp/clientlib.h".}
@@ -46346,12 +44865,6 @@ proc constructStorageEvent*(`type`: String): StorageEvent {.constructor,
 proc constructStorageEvent*(`type`: String; eventInitDict: ptr StorageEventInit): StorageEvent {.
     constructor, importcpp: "client::StorageEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  StorageEventInit* {.importcpp: "client::StorageEventInit",
-                      header: "cheerp/clientlib.h", bycopy.} = object of EventInit
-
-
 
 proc get_key*(this: var StorageEventInit): ptr String {.importcpp: "get_key",
     header: "cheerp/clientlib.h".}
@@ -46382,12 +44895,6 @@ proc get_url*(this: var StorageEventInit): ptr String {.importcpp: "get_url",
 
 proc set_url*(this: var StorageEventInit; a2: String) {.importcpp: "set_url",
     header: "cheerp/clientlib.h".}
-type
-
-  StyleMedia* {.importcpp: "client::StyleMedia", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_type*(this: var StyleMedia): ptr String {.importcpp: "get_type",
     header: "cheerp/clientlib.h".}
@@ -46403,12 +44910,6 @@ proc set_prototype*(this: var StyleMedia; a2: ptr StyleMedia) {.
 
 proc constructStyleMedia*(): StyleMedia {.constructor,
     importcpp: "client::StyleMedia(@)", header: "cheerp/clientlib.h".}
-type
-
-  StyleSheetList* {.importcpp: "client::StyleSheetList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var StyleSheetList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -46430,12 +44931,6 @@ proc set_prototype*(this: var StyleSheetList; a2: ptr StyleSheetList) {.
 
 proc constructStyleSheetList*(): StyleSheetList {.constructor,
     importcpp: "client::StyleSheetList(@)", header: "cheerp/clientlib.h".}
-type
-
-  SubtleCrypto* {.importcpp: "client::SubtleCrypto",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc decrypt*(this: var SubtleCrypto; algorithm: String; key: ptr CryptoKey;
               data: ptr Int8Array): ptr Promise {.importcpp: "decrypt",
@@ -47061,12 +45556,6 @@ proc set_prototype*(this: var SubtleCrypto; a2: ptr SubtleCrypto) {.
 
 proc constructSubtleCrypto*(): SubtleCrypto {.constructor,
     importcpp: "client::SubtleCrypto(@)", header: "cheerp/clientlib.h".}
-type
-
-  SyncManager* {.importcpp: "client::SyncManager", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc getTags*(this: var SyncManager): ptr Promise {.importcpp: "getTags",
     header: "cheerp/clientlib.h".}
@@ -47082,12 +45571,6 @@ proc set_prototype*(this: var SyncManager; a2: ptr SyncManager) {.
 
 proc constructSyncManager*(): SyncManager {.constructor,
     importcpp: "client::SyncManager(@)", header: "cheerp/clientlib.h".}
-type
-
-  TextDecoder* {.importcpp: "client::TextDecoder", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_encoding*(this: var TextDecoder): ptr String {.
     importcpp: "get_encoding", header: "cheerp/clientlib.h".}
@@ -47193,12 +45676,6 @@ proc constructTextDecoder*(label: String): TextDecoder {.constructor,
 proc constructTextDecoder*(label: String; options: ptr TextDecoderOptions): TextDecoder {.
     constructor, importcpp: "client::TextDecoder(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  TextEncoder* {.importcpp: "client::TextEncoder", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_encoding*(this: var TextEncoder): ptr String {.
     importcpp: "get_encoding", header: "cheerp/clientlib.h".}
@@ -47217,12 +45694,6 @@ proc set_prototype*(this: var TextEncoder; a2: ptr TextEncoder) {.
 
 proc constructTextEncoder*(): TextEncoder {.constructor,
     importcpp: "client::TextEncoder(@)", header: "cheerp/clientlib.h".}
-type
-
-  TextEvent* {.importcpp: "client::TextEvent", header: "cheerp/clientlib.h",
-               bycopy.} = object of UIEvent
-
-
 
 proc get_data*(this: var TextEvent): ptr String {.importcpp: "get_data",
     header: "cheerp/clientlib.h".}
@@ -47271,12 +45742,6 @@ proc get_DOM_INPUT_METHOD_UNKNOWN*(this: var TextEvent): cdouble {.
 
 proc get_DOM_INPUT_METHOD_VOICE*(this: var TextEvent): cdouble {.
     importcpp: "get_DOM_INPUT_METHOD_VOICE", header: "cheerp/clientlib.h".}
-type
-
-  TextMetrics* {.importcpp: "client::TextMetrics", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_width*(this: var TextMetrics): cdouble {.importcpp: "get_width",
     header: "cheerp/clientlib.h".}
@@ -47289,12 +45754,6 @@ proc set_prototype*(this: var TextMetrics; a2: ptr TextMetrics) {.
 
 proc constructTextMetrics*(): TextMetrics {.constructor,
     importcpp: "client::TextMetrics(@)", header: "cheerp/clientlib.h".}
-type
-
-  TextTrackEventMap* {.importcpp: "client::TextTrackEventMap",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_cuechange*(this: var TextTrackEventMap): ptr Event {.
     importcpp: "get_cuechange", header: "cheerp/clientlib.h".}
@@ -47313,12 +45772,6 @@ proc get_load*(this: var TextTrackEventMap): ptr Event {.importcpp: "get_load",
 
 proc set_load*(this: var TextTrackEventMap; a2: ptr Event) {.
     importcpp: "set_load", header: "cheerp/clientlib.h".}
-type
-
-  TextTrack* {.importcpp: "client::TextTrack", header: "cheerp/clientlib.h",
-               bycopy.} = object of EventTarget
-
-
 
 proc get_activeCues*(this: var TextTrack): ptr TextTrackCueList {.
     importcpp: "get_activeCues", header: "cheerp/clientlib.h".}
@@ -47446,12 +45899,6 @@ proc get_NONE*(this: var TextTrack): cdouble {.importcpp: "get_NONE",
 
 proc get_SHOWING*(this: var TextTrack): cdouble {.importcpp: "get_SHOWING",
     header: "cheerp/clientlib.h".}
-type
-
-  TextTrackCueEventMap* {.importcpp: "client::TextTrackCueEventMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_enter*(this: var TextTrackCueEventMap): ptr Event {.
     importcpp: "get_enter", header: "cheerp/clientlib.h".}
@@ -47464,12 +45911,6 @@ proc get_exit*(this: var TextTrackCueEventMap): ptr Event {.
 
 proc set_exit*(this: var TextTrackCueEventMap; a2: ptr Event) {.
     importcpp: "set_exit", header: "cheerp/clientlib.h".}
-type
-
-  TextTrackCueList* {.importcpp: "client::TextTrackCueList",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_length*(this: var TextTrackCueList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -47494,24 +45935,12 @@ proc set_prototype*(this: var TextTrackCueList; a2: ptr TextTrackCueList) {.
 
 proc constructTextTrackCueList*(): TextTrackCueList {.constructor,
     importcpp: "client::TextTrackCueList(@)", header: "cheerp/clientlib.h".}
-type
-
-  TextTrackListEventMap* {.importcpp: "client::TextTrackListEventMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addtrack*(this: var TextTrackListEventMap): ptr TrackEvent {.
     importcpp: "get_addtrack", header: "cheerp/clientlib.h".}
 
 proc set_addtrack*(this: var TextTrackListEventMap; a2: ptr TrackEvent) {.
     importcpp: "set_addtrack", header: "cheerp/clientlib.h".}
-type
-
-  TextTrackList* {.importcpp: "client::TextTrackList",
-                   header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_length*(this: var TextTrackList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -47583,12 +46012,6 @@ proc set_prototype*(this: var TextTrackList; a2: ptr TextTrackList) {.
 
 proc constructTextTrackList*(): TextTrackList {.constructor,
     importcpp: "client::TextTrackList(@)", header: "cheerp/clientlib.h".}
-type
-
-  TimeRanges* {.importcpp: "client::TimeRanges", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_length*(this: var TimeRanges): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -47607,11 +46030,6 @@ proc set_prototype*(this: var TimeRanges; a2: ptr TimeRanges) {.
 
 proc constructTimeRanges*(): TimeRanges {.constructor,
     importcpp: "client::TimeRanges(@)", header: "cheerp/clientlib.h".}
-type
-
-  Touch* {.importcpp: "client::Touch", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_clientX*(this: var Touch): cdouble {.importcpp: "get_clientX",
     header: "cheerp/clientlib.h".}
@@ -47645,12 +46063,6 @@ proc set_prototype*(this: var Touch; a2: ptr Touch) {.
 
 proc constructTouch*(): Touch {.constructor, importcpp: "client::Touch(@)",
                                 header: "cheerp/clientlib.h".}
-type
-
-  TouchEvent* {.importcpp: "client::TouchEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of UIEvent
-
-
 
 proc get_altKey*(this: var TouchEvent): bool {.importcpp: "get_altKey",
     header: "cheerp/clientlib.h".}
@@ -47694,12 +46106,6 @@ proc constructTouchEvent*(`type`: String): TouchEvent {.constructor,
 proc constructTouchEvent*(`type`: String; touchEventInit: ptr TouchEventInit): TouchEvent {.
     constructor, importcpp: "client::TouchEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  TouchEventInit* {.importcpp: "client::TouchEventInit",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventModifierInit
-
-
 
 proc get_changedTouches*(this: var TouchEventInit): ptr Array {.
     importcpp: "get_changedTouches", header: "cheerp/clientlib.h".}
@@ -47718,12 +46124,6 @@ proc get_touches*(this: var TouchEventInit): ptr Array {.
 
 proc set_touches*(this: var TouchEventInit; a2: ptr Array) {.
     importcpp: "set_touches", header: "cheerp/clientlib.h".}
-type
-
-  TouchList* {.importcpp: "client::TouchList", header: "cheerp/clientlib.h",
-               bycopy.} = object of Object
-
-
 
 proc get_length*(this: var TouchList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -47746,12 +46146,6 @@ proc set_prototype*(this: var TouchList; a2: ptr TouchList) {.
 proc constructTouchList*(): TouchList {.constructor,
                                         importcpp: "client::TouchList(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  TrackEvent* {.importcpp: "client::TrackEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of Event
-
-
 
 proc get_track*(this: var TrackEvent): ptr VideoTrack {.importcpp: "get_track",
     header: "cheerp/clientlib.h".}
@@ -47768,12 +46162,6 @@ proc constructTrackEvent*(typeArg: String): TrackEvent {.constructor,
 proc constructTrackEvent*(typeArg: String; eventInitDict: ptr TrackEventInit): TrackEvent {.
     constructor, importcpp: "client::TrackEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  TransitionEvent* {.importcpp: "client::TransitionEvent",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_elapsedTime*(this: var TransitionEvent): cdouble {.
     importcpp: "get_elapsedTime", header: "cheerp/clientlib.h".}
@@ -47799,12 +46187,6 @@ proc constructTransitionEvent*(typeArg: String;
                                eventInitDict: ptr TransitionEventInit): TransitionEvent {.
     constructor, importcpp: "client::TransitionEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  TreeWalker* {.importcpp: "client::TreeWalker", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_currentNode*(this: var TreeWalker): ptr Node {.
     importcpp: "get_currentNode", header: "cheerp/clientlib.h".}
@@ -47853,11 +46235,6 @@ proc set_prototype*(this: var TreeWalker; a2: ptr TreeWalker) {.
 
 proc constructTreeWalker*(): TreeWalker {.constructor,
     importcpp: "client::TreeWalker(@)", header: "cheerp/clientlib.h".}
-type
-
-  URL* {.importcpp: "client::URL", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_hash*(this: var URL): ptr String {.importcpp: "get_hash",
     header: "cheerp/clientlib.h".}
@@ -47957,12 +46334,6 @@ proc revokeObjectURL*(url: String) {.importcpp: "client::URL::revokeObjectURL(@)
                                      header: "cheerp/clientlib.h".}
   ##
                               ## cheerp::static
-type
-
-  URLSearchParams* {.importcpp: "client::URLSearchParams",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc append*(this: var URLSearchParams; name: String; value: String) {.
     importcpp: "append", header: "cheerp/clientlib.h".}
@@ -47997,12 +46368,6 @@ proc constructURLSearchParams*(init: String): URLSearchParams {.constructor,
 proc constructURLSearchParams*(init: ptr URLSearchParams): URLSearchParams {.
     constructor, importcpp: "client::URLSearchParams(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  VRDisplay* {.importcpp: "client::VRDisplay", header: "cheerp/clientlib.h",
-               bycopy.} = object of EventTarget
-
-
 
 proc get_capabilities*(this: var VRDisplay): ptr VRDisplayCapabilities {.
     importcpp: "get_capabilities", header: "cheerp/clientlib.h".}
@@ -48076,12 +46441,6 @@ proc set_prototype*(this: var VRDisplay; a2: ptr VRDisplay) {.
 proc constructVRDisplay*(): VRDisplay {.constructor,
                                         importcpp: "client::VRDisplay(@)",
                                         header: "cheerp/clientlib.h".}
-type
-
-  VRDisplayCapabilities* {.importcpp: "client::VRDisplayCapabilities",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_canPresent*(this: var VRDisplayCapabilities): bool {.
     importcpp: "get_canPresent", header: "cheerp/clientlib.h".}
@@ -48107,12 +46466,6 @@ proc set_prototype*(this: var VRDisplayCapabilities;
 
 proc constructVRDisplayCapabilities*(): VRDisplayCapabilities {.constructor,
     importcpp: "client::VRDisplayCapabilities(@)", header: "cheerp/clientlib.h".}
-type
-
-  VRDisplayEvent* {.importcpp: "client::VRDisplayEvent",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Event
-
-
 
 proc get_display*(this: var VRDisplayEvent): ptr VRDisplay {.
     importcpp: "get_display", header: "cheerp/clientlib.h".}
@@ -48130,12 +46483,6 @@ proc constructVRDisplayEvent*(`type`: String;
                               eventInitDict: ptr VRDisplayEventInit): VRDisplayEvent {.
     constructor, importcpp: "client::VRDisplayEvent(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  VREyeParameters* {.importcpp: "client::VREyeParameters",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_fieldOfView*(this: var VREyeParameters): ptr VRFieldOfView {.
     importcpp: "get_fieldOfView", header: "cheerp/clientlib.h".}
@@ -48157,12 +46504,6 @@ proc set_prototype*(this: var VREyeParameters; a2: ptr VREyeParameters) {.
 
 proc constructVREyeParameters*(): VREyeParameters {.constructor,
     importcpp: "client::VREyeParameters(@)", header: "cheerp/clientlib.h".}
-type
-
-  VRFieldOfView* {.importcpp: "client::VRFieldOfView",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_downDegrees*(this: var VRFieldOfView): cdouble {.
     importcpp: "get_downDegrees", header: "cheerp/clientlib.h".}
@@ -48184,12 +46525,6 @@ proc set_prototype*(this: var VRFieldOfView; a2: ptr VRFieldOfView) {.
 
 proc constructVRFieldOfView*(): VRFieldOfView {.constructor,
     importcpp: "client::VRFieldOfView(@)", header: "cheerp/clientlib.h".}
-type
-
-  VRFrameData* {.importcpp: "client::VRFrameData", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_leftProjectionMatrix*(this: var VRFrameData): ptr Float32Array {.
     importcpp: "get_leftProjectionMatrix", header: "cheerp/clientlib.h".}
@@ -48217,11 +46552,6 @@ proc set_prototype*(this: var VRFrameData; a2: ptr VRFrameData) {.
 
 proc constructVRFrameData*(): VRFrameData {.constructor,
     importcpp: "client::VRFrameData(@)", header: "cheerp/clientlib.h".}
-type
-
-  VRPose* {.importcpp: "client::VRPose", header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_angularAcceleration*(this: var VRPose): ptr Float32Array {.
     importcpp: "get_angularAcceleration", header: "cheerp/clientlib.h".}
@@ -48252,12 +46582,6 @@ proc set_prototype*(this: var VRPose; a2: ptr VRPose) {.
 
 proc constructVRPose*(): VRPose {.constructor, importcpp: "client::VRPose(@)",
                                   header: "cheerp/clientlib.h".}
-type
-
-  ValidityState* {.importcpp: "client::ValidityState",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_badInput*(this: var ValidityState): bool {.importcpp: "get_badInput",
     header: "cheerp/clientlib.h".}
@@ -48300,12 +46624,6 @@ proc set_prototype*(this: var ValidityState; a2: ptr ValidityState) {.
 
 proc constructValidityState*(): ValidityState {.constructor,
     importcpp: "client::ValidityState(@)", header: "cheerp/clientlib.h".}
-type
-
-  VideoPlaybackQuality* {.importcpp: "client::VideoPlaybackQuality",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_corruptedVideoFrames*(this: var VideoPlaybackQuality): cdouble {.
     importcpp: "get_corruptedVideoFrames", header: "cheerp/clientlib.h".}
@@ -48330,12 +46648,6 @@ proc set_prototype*(this: var VideoPlaybackQuality; a2: ptr VideoPlaybackQuality
 
 proc constructVideoPlaybackQuality*(): VideoPlaybackQuality {.constructor,
     importcpp: "client::VideoPlaybackQuality(@)", header: "cheerp/clientlib.h".}
-type
-
-  VideoTrack* {.importcpp: "client::VideoTrack", header: "cheerp/clientlib.h",
-                bycopy.} = object of Object
-
-
 
 proc get_id*(this: var VideoTrack): ptr String {.importcpp: "get_id",
     header: "cheerp/clientlib.h".}
@@ -48372,12 +46684,6 @@ proc set_prototype*(this: var VideoTrack; a2: ptr VideoTrack) {.
 
 proc constructVideoTrack*(): VideoTrack {.constructor,
     importcpp: "client::VideoTrack(@)", header: "cheerp/clientlib.h".}
-type
-
-  VideoTrackListEventMap* {.importcpp: "client::VideoTrackListEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_addtrack*(this: var VideoTrackListEventMap): ptr TrackEvent {.
     importcpp: "get_addtrack", header: "cheerp/clientlib.h".}
@@ -48396,12 +46702,6 @@ proc get_removetrack*(this: var VideoTrackListEventMap): ptr TrackEvent {.
 
 proc set_removetrack*(this: var VideoTrackListEventMap; a2: ptr TrackEvent) {.
     importcpp: "set_removetrack", header: "cheerp/clientlib.h".}
-type
-
-  VideoTrackList* {.importcpp: "client::VideoTrackList",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_length*(this: var VideoTrackList): cdouble {.importcpp: "get_length",
     header: "cheerp/clientlib.h".}
@@ -48491,12 +46791,6 @@ proc set_prototype*(this: var VideoTrackList; a2: ptr VideoTrackList) {.
 
 proc constructVideoTrackList*(): VideoTrackList {.constructor,
     importcpp: "client::VideoTrackList(@)", header: "cheerp/clientlib.h".}
-type
-
-  WaveShaperNode* {.importcpp: "client::WaveShaperNode",
-                    header: "cheerp/clientlib.h", bycopy.} = object of AudioNode
-
-
 
 proc get_curve*(this: var WaveShaperNode): ptr Float32Array {.
     importcpp: "get_curve", header: "cheerp/clientlib.h".}
@@ -48518,12 +46812,6 @@ proc set_prototype*(this: var WaveShaperNode; a2: ptr WaveShaperNode) {.
 
 proc constructWaveShaperNode*(): WaveShaperNode {.constructor,
     importcpp: "client::WaveShaperNode(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebAuthentication* {.importcpp: "client::WebAuthentication",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc getAssertion*(this: var WebAuthentication;
                    assertionChallenge: ptr Int8Array): ptr Promise {.
@@ -48774,12 +47062,6 @@ proc set_prototype*(this: var WebAuthentication; a2: ptr WebAuthentication) {.
 
 proc constructWebAuthentication*(): WebAuthentication {.constructor,
     importcpp: "client::WebAuthentication(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebAuthnAssertion* {.importcpp: "client::WebAuthnAssertion",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_authenticatorData*(this: var WebAuthnAssertion): ptr ArrayBuffer {.
     importcpp: "get_authenticatorData", header: "cheerp/clientlib.h".}
@@ -48801,12 +47083,6 @@ proc set_prototype*(this: var WebAuthnAssertion; a2: ptr WebAuthnAssertion) {.
 
 proc constructWebAuthnAssertion*(): WebAuthnAssertion {.constructor,
     importcpp: "client::WebAuthnAssertion(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitCSSMatrix* {.importcpp: "client::WebKitCSSMatrix",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_a*(this: var WebKitCSSMatrix): cdouble {.importcpp: "get_a",
     header: "cheerp/clientlib.h".}
@@ -48999,12 +47275,6 @@ proc constructWebKitCSSMatrix*(): WebKitCSSMatrix {.constructor,
 
 proc constructWebKitCSSMatrix*(text: String): WebKitCSSMatrix {.constructor,
     importcpp: "client::WebKitCSSMatrix(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitEntry* {.importcpp: "client::WebKitEntry", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_filesystem*(this: var WebKitEntry): ptr WebKitFileSystem {.
     importcpp: "get_filesystem", header: "cheerp/clientlib.h".}
@@ -49029,12 +47299,6 @@ proc set_prototype*(this: var WebKitEntry; a2: ptr WebKitEntry) {.
 
 proc constructWebKitEntry*(): WebKitEntry {.constructor,
     importcpp: "client::WebKitEntry(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitDirectoryEntry* {.importcpp: "client::WebKitDirectoryEntry",
-                          header: "cheerp/clientlib.h", bycopy.} = object of WebKitEntry
-
-
 
 proc createReader*(this: var WebKitDirectoryEntry): ptr WebKitDirectoryReader {.
     importcpp: "createReader", header: "cheerp/clientlib.h".}
@@ -49047,12 +47311,6 @@ proc set_prototype*(this: var WebKitDirectoryEntry; a2: ptr WebKitDirectoryEntry
 
 proc constructWebKitDirectoryEntry*(): WebKitDirectoryEntry {.constructor,
     importcpp: "client::WebKitDirectoryEntry(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitDirectoryReader* {.importcpp: "client::WebKitDirectoryReader",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc readEntries*(this: var WebKitDirectoryReader;
                   successCallback: ptr EventListener) {.
@@ -49072,12 +47330,6 @@ proc set_prototype*(this: var WebKitDirectoryReader;
 
 proc constructWebKitDirectoryReader*(): WebKitDirectoryReader {.constructor,
     importcpp: "client::WebKitDirectoryReader(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitFileEntry* {.importcpp: "client::WebKitFileEntry",
-                     header: "cheerp/clientlib.h", bycopy.} = object of WebKitEntry
-
-
 
 proc file*(this: var WebKitFileEntry; successCallback: ptr EventListener) {.
     importcpp: "file", header: "cheerp/clientlib.h".}
@@ -49094,12 +47346,6 @@ proc set_prototype*(this: var WebKitFileEntry; a2: ptr WebKitFileEntry) {.
 
 proc constructWebKitFileEntry*(): WebKitFileEntry {.constructor,
     importcpp: "client::WebKitFileEntry(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitFileSystem* {.importcpp: "client::WebKitFileSystem",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_name*(this: var WebKitFileSystem): ptr String {.importcpp: "get_name",
     header: "cheerp/clientlib.h".}
@@ -49115,12 +47361,6 @@ proc set_prototype*(this: var WebKitFileSystem; a2: ptr WebKitFileSystem) {.
 
 proc constructWebKitFileSystem*(): WebKitFileSystem {.constructor,
     importcpp: "client::WebKitFileSystem(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebKitPoint* {.importcpp: "client::WebKitPoint", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_x*(this: var WebKitPoint): cdouble {.importcpp: "get_x",
     header: "cheerp/clientlib.h".}
@@ -49148,12 +47388,6 @@ proc constructWebKitPoint*(x: cdouble): WebKitPoint {.constructor,
 
 proc constructWebKitPoint*(x: cdouble; y: cdouble): WebKitPoint {.constructor,
     importcpp: "client::WebKitPoint(@)", header: "cheerp/clientlib.h".}
-type
-
-  WebSocketEventMap* {.importcpp: "client::WebSocketEventMap",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_close*(this: var WebSocketEventMap): ptr CloseEvent {.
     importcpp: "get_close", header: "cheerp/clientlib.h".}
@@ -49178,12 +47412,6 @@ proc get_open*(this: var WebSocketEventMap): ptr Event {.importcpp: "get_open",
 
 proc set_open*(this: var WebSocketEventMap; a2: ptr Event) {.
     importcpp: "set_open", header: "cheerp/clientlib.h".}
-type
-
-  WebSocket* {.importcpp: "client::WebSocket", header: "cheerp/clientlib.h",
-               bycopy.} = object of EventTarget
-
-
 
 proc get_binaryType*(this: var WebSocket): ptr String {.
     importcpp: "get_binaryType", header: "cheerp/clientlib.h".}
@@ -49321,12 +47549,6 @@ proc get_CONNECTING*(this: var WebSocket): cdouble {.
 
 proc get_OPEN*(this: var WebSocket): cdouble {.importcpp: "get_OPEN",
     header: "cheerp/clientlib.h".}
-type
-
-  WheelEvent* {.importcpp: "client::WheelEvent", header: "cheerp/clientlib.h",
-                bycopy.} = object of MouseEvent
-
-
 
 proc get_deltaMode*(this: var WheelEvent): cdouble {.importcpp: "get_deltaMode",
     header: "cheerp/clientlib.h".}
@@ -49383,12 +47605,6 @@ proc get_DOM_DELTA_PAGE*(this: var WheelEvent): cdouble {.
 
 proc get_DOM_DELTA_PIXEL*(this: var WheelEvent): cdouble {.
     importcpp: "get_DOM_DELTA_PIXEL", header: "cheerp/clientlib.h".}
-type
-
-  WindowEventMap* {.importcpp: "client::WindowEventMap",
-                    header: "cheerp/clientlib.h", bycopy.} = object of GlobalEventHandlersEventMap
-
-
 
 proc get_abort*(this: var WindowEventMap): ptr UIEvent {.importcpp: "get_abort",
     header: "cheerp/clientlib.h".}
@@ -49990,12 +48206,6 @@ proc get_waiting*(this: var WindowEventMap): ptr Event {.
 
 proc set_waiting*(this: var WindowEventMap; a2: ptr Event) {.
     importcpp: "set_waiting", header: "cheerp/clientlib.h".}
-type
-
-  WindowTimersExtension* {.importcpp: "client::WindowTimersExtension",
-                           header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc clearImmediate*(this: var WindowTimersExtension; handle: cdouble) {.
     importcpp: "clearImmediate", header: "cheerp/clientlib.h".}
@@ -50005,12 +48215,6 @@ proc setImmediate*(this: var WindowTimersExtension; handler: ptr EventListener):
 
 proc setImmediate*(this: var WindowTimersExtension; handler: ptr Object): cdouble {.
     importcpp: "setImmediate", header: "cheerp/clientlib.h".}
-type
-
-  WindowTimers* {.importcpp: "client::WindowTimers",
-                  header: "cheerp/clientlib.h", bycopy.} = object of WindowTimersExtension
-
-
 
 proc clearInterval*(this: var WindowTimers) {.importcpp: "clearInterval",
     header: "cheerp/clientlib.h".}
@@ -50045,50 +48249,21 @@ proc setTimeout*(this: var WindowTimers; handler: ptr Object): cdouble {.
 proc setTimeout*(this: var WindowTimers; handler: ptr Object;
                  timeout: ptr Object): cdouble {.importcpp: "setTimeout",
     header: "cheerp/clientlib.h".}
-type
-
-  WindowSessionStorage* {.importcpp: "client::WindowSessionStorage",
-                          header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_sessionStorage*(this: var WindowSessionStorage): ptr Storage {.
     importcpp: "get_sessionStorage", header: "cheerp/clientlib.h".}
-type
-
-  WindowLocalStorage* {.importcpp: "client::WindowLocalStorage",
-                        header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_localStorage*(this: var WindowLocalStorage): ptr Storage {.
     importcpp: "get_localStorage", header: "cheerp/clientlib.h".}
-type
-
-  WindowConsole* {.importcpp: "client::WindowConsole",
-                   header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_console*(this: var WindowConsole): ptr Console {.
     importcpp: "get_console", header: "cheerp/clientlib.h".}
-type
-
-  WindowBase64* {.importcpp: "client::WindowBase64",
-                  header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc atob*(this: var WindowBase64; encodedString: String): ptr String {.
     importcpp: "atob", header: "cheerp/clientlib.h".}
 
 proc btoa*(this: var WindowBase64; rawString: String): ptr String {.
     importcpp: "btoa", header: "cheerp/clientlib.h".}
-type
-
-  Window* {.importcpp: "client::Window", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_Blob*(this: var Window): ptr Blob {.importcpp: "get_Blob",
     header: "cheerp/clientlib.h".}
@@ -51227,23 +49402,12 @@ proc set_prototype*(this: var Window; a2: ptr Window) {.
 
 proc constructWindow*(): Window {.constructor, importcpp: "client::Window(@)",
                                   header: "cheerp/clientlib.h".}
-type
-
-  WorkerEventMap* {.importcpp: "client::WorkerEventMap",
-                    header: "cheerp/clientlib.h", bycopy.} = object of AbstractWorkerEventMap
-
-
 
 proc get_message*(this: var WorkerEventMap): ptr MessageEvent {.
     importcpp: "get_message", header: "cheerp/clientlib.h".}
 
 proc set_message*(this: var WorkerEventMap; a2: ptr MessageEvent) {.
     importcpp: "set_message", header: "cheerp/clientlib.h".}
-type
-
-  Worker* {.importcpp: "client::Worker", header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_onmessage*(this: var Worker): ptr EventListener {.
     importcpp: "get_onmessage", header: "cheerp/clientlib.h".}
@@ -51318,12 +49482,6 @@ proc set_prototype*(this: var Worker; a2: ptr Worker) {.
 
 proc constructWorker*(stringUrl: String): Worker {.constructor,
     importcpp: "client::Worker(@)", header: "cheerp/clientlib.h".}
-type
-
-  WritableStream* {.importcpp: "client::WritableStream",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_locked*(this: var WritableStream): bool {.importcpp: "get_locked",
     header: "cheerp/clientlib.h".}
@@ -51354,12 +49512,6 @@ proc constructWritableStream*(underlyingSink: ptr UnderlyingSink;
                               strategy: ptr QueuingStrategy): WritableStream {.
     constructor, importcpp: "client::WritableStream(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  WritableStreamDefaultController* {.importcpp: "client::WritableStreamDefaultController",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc error*(this: var WritableStreamDefaultController) {.importcpp: "error",
     header: "cheerp/clientlib.h".}
@@ -51377,12 +49529,6 @@ proc set_prototype*(this: var WritableStreamDefaultController;
 proc constructWritableStreamDefaultController*(): WritableStreamDefaultController {.
     constructor, importcpp: "client::WritableStreamDefaultController(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  WritableStreamDefaultWriter* {.importcpp: "client::WritableStreamDefaultWriter",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_closed*(this: var WritableStreamDefaultWriter): ptr Promise {.
     importcpp: "get_closed", header: "cheerp/clientlib.h".}
@@ -51421,12 +49567,6 @@ proc set_prototype*(this: var WritableStreamDefaultWriter;
 proc constructWritableStreamDefaultWriter*(): WritableStreamDefaultWriter {.
     constructor, importcpp: "client::WritableStreamDefaultWriter(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  XMLDocument* {.importcpp: "client::XMLDocument", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Document
-
-
 
 proc addEventListener*(this: var XMLDocument; `type`: String;
                        listener: ptr EventListener) {.
@@ -51480,12 +49620,6 @@ proc set_prototype*(this: var XMLDocument; a2: ptr XMLDocument) {.
 
 proc constructXMLDocument*(): XMLDocument {.constructor,
     importcpp: "client::XMLDocument(@)", header: "cheerp/clientlib.h".}
-type
-
-  XMLHttpRequestEventTargetEventMap* {.importcpp: "client::XMLHttpRequestEventTargetEventMap",
-                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_abort*(this: var XMLHttpRequestEventTargetEventMap): ptr Event {.
     importcpp: "get_abort", header: "cheerp/clientlib.h".}
@@ -51531,24 +49665,12 @@ proc get_timeout*(this: var XMLHttpRequestEventTargetEventMap): ptr ProgressEven
 proc set_timeout*(this: var XMLHttpRequestEventTargetEventMap;
                   a2: ptr ProgressEvent) {.importcpp: "set_timeout",
     header: "cheerp/clientlib.h".}
-type
-
-  XMLHttpRequestEventMap* {.importcpp: "client::XMLHttpRequestEventMap",
-                            header: "cheerp/clientlib.h", bycopy.} = object of XMLHttpRequestEventTargetEventMap
-
-
 
 proc get_readystatechange*(this: var XMLHttpRequestEventMap): ptr Event {.
     importcpp: "get_readystatechange", header: "cheerp/clientlib.h".}
 
 proc set_readystatechange*(this: var XMLHttpRequestEventMap; a2: ptr Event) {.
     importcpp: "set_readystatechange", header: "cheerp/clientlib.h".}
-type
-
-  XMLHttpRequestEventTarget* {.importcpp: "client::XMLHttpRequestEventTarget",
-                               header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_onabort*(this: var XMLHttpRequestEventTarget): ptr EventListener {.
     importcpp: "get_onabort", header: "cheerp/clientlib.h".}
@@ -51635,12 +49757,6 @@ proc removeEventListener*(this: var XMLHttpRequestEventTarget; `type`: String;
                           listener: ptr EventListenerObject;
                           options: ptr EventListenerOptions) {.
     importcpp: "removeEventListener", header: "cheerp/clientlib.h".}
-type
-
-  XMLHttpRequest* {.importcpp: "client::XMLHttpRequest",
-                    header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc get_msCaching*(this: var XMLHttpRequest): ptr String {.
     importcpp: "get_msCaching", header: "cheerp/clientlib.h".}
@@ -51797,12 +49913,6 @@ proc get_OPENED*(this: var XMLHttpRequest): cdouble {.importcpp: "get_OPENED",
 
 proc get_UNSENT*(this: var XMLHttpRequest): cdouble {.importcpp: "get_UNSENT",
     header: "cheerp/clientlib.h".}
-type
-
-  XMLHttpRequestUpload* {.importcpp: "client::XMLHttpRequestUpload",
-                          header: "cheerp/clientlib.h", bycopy.} = object of EventTarget
-
-
 
 proc addEventListener*(this: var XMLHttpRequestUpload; `type`: String;
                        listener: ptr EventListener) {.
@@ -51856,12 +49966,6 @@ proc set_prototype*(this: var XMLHttpRequestUpload; a2: ptr XMLHttpRequestUpload
 
 proc constructXMLHttpRequestUpload*(): XMLHttpRequestUpload {.constructor,
     importcpp: "client::XMLHttpRequestUpload(@)", header: "cheerp/clientlib.h".}
-type
-
-  XMLSerializer* {.importcpp: "client::XMLSerializer",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc serializeToString*(this: var XMLSerializer; target: ptr Node): ptr String {.
     importcpp: "serializeToString", header: "cheerp/clientlib.h".}
@@ -51874,12 +49978,6 @@ proc set_prototype*(this: var XMLSerializer; a2: ptr XMLSerializer) {.
 
 proc constructXMLSerializer*(): XMLSerializer {.constructor,
     importcpp: "client::XMLSerializer(@)", header: "cheerp/clientlib.h".}
-type
-
-  XPathEvaluator* {.importcpp: "client::XPathEvaluator",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc createExpression*(this: var XPathEvaluator; expression: String;
                        resolver: ptr XPathNSResolver): ptr XPathExpression {.
@@ -51904,12 +50002,6 @@ proc set_prototype*(this: var XPathEvaluator; a2: ptr XPathEvaluator) {.
 
 proc constructXPathEvaluator*(): XPathEvaluator {.constructor,
     importcpp: "client::XPathEvaluator(@)", header: "cheerp/clientlib.h".}
-type
-
-  XPathExpression* {.importcpp: "client::XPathExpression",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc evaluate*(this: var XPathExpression; contextNode: ptr Node;
                `type`: cdouble; result: ptr XPathResult): ptr XPathResult {.
@@ -51923,12 +50015,6 @@ proc set_prototype*(this: var XPathExpression; a2: ptr XPathExpression) {.
 
 proc constructXPathExpression*(): XPathExpression {.constructor,
     importcpp: "client::XPathExpression(@)", header: "cheerp/clientlib.h".}
-type
-
-  XPathNSResolver* {.importcpp: "client::XPathNSResolver",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc lookupNamespaceURI*(this: var XPathNSResolver; prefix: String): ptr String {.
     importcpp: "lookupNamespaceURI", header: "cheerp/clientlib.h".}
@@ -51941,12 +50027,6 @@ proc set_prototype*(this: var XPathNSResolver; a2: ptr XPathNSResolver) {.
 
 proc constructXPathNSResolver*(): XPathNSResolver {.constructor,
     importcpp: "client::XPathNSResolver(@)", header: "cheerp/clientlib.h".}
-type
-
-  XPathResult* {.importcpp: "client::XPathResult", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc get_booleanValue*(this: var XPathResult): bool {.
     importcpp: "get_booleanValue", header: "cheerp/clientlib.h".}
@@ -52013,12 +50093,6 @@ proc get_UNORDERED_NODE_ITERATOR_TYPE*(this: var XPathResult): cdouble {.
 
 proc get_UNORDERED_NODE_SNAPSHOT_TYPE*(this: var XPathResult): cdouble {.
     importcpp: "get_UNORDERED_NODE_SNAPSHOT_TYPE", header: "cheerp/clientlib.h".}
-type
-
-  XSLTProcessor* {.importcpp: "client::XSLTProcessor",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc clearParameters*(this: var XSLTProcessor) {.importcpp: "clearParameters",
     header: "cheerp/clientlib.h".}
@@ -52052,12 +50126,6 @@ proc set_prototype*(this: var XSLTProcessor; a2: ptr XSLTProcessor) {.
 
 proc constructXSLTProcessor*(): XSLTProcessor {.constructor,
     importcpp: "client::XSLTProcessor(@)", header: "cheerp/clientlib.h".}
-type
-
-  webkitRTCPeerConnection* {.importcpp: "client::webkitRTCPeerConnection",
-                             header: "cheerp/clientlib.h", bycopy.} = object of RTCPeerConnection
-
-
 
 proc addEventListener*(this: var webkitRTCPeerConnection; `type`: String;
                        listener: ptr EventListener) {.
@@ -52113,105 +50181,6 @@ proc set_prototype*(this: var webkitRTCPeerConnection;
 proc constructwebkitRTCPeerConnection*(configuration: ptr RTCConfiguration): webkitRTCPeerConnection {.
     constructor, importcpp: "client::webkitRTCPeerConnection(@)",
     header: "cheerp/clientlib.h".}
-type
-
-  DecodeErrorCallback* {.importcpp: "client::DecodeErrorCallback",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  DecodeSuccessCallback* {.importcpp: "client::DecodeSuccessCallback",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  ErrorEventHandler* {.importcpp: "client::ErrorEventHandler",
-                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  EventHandlerNonNull* {.importcpp: "client::EventHandlerNonNull",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  ForEachCallback* {.importcpp: "client::ForEachCallback",
-                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  FrameRequestCallback* {.importcpp: "client::FrameRequestCallback",
-                          header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  FunctionStringCallback* {.importcpp: "client::FunctionStringCallback",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  IntersectionObserverCallback* {.importcpp: "client::IntersectionObserverCallback",
-                                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  MSLaunchUriCallback* {.importcpp: "client::MSLaunchUriCallback",
-                         header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  MediaQueryListListener* {.importcpp: "client::MediaQueryListListener",
-                            header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  MutationCallback* {.importcpp: "client::MutationCallback",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  NavigatorUserMediaErrorCallback* {.importcpp: "client::NavigatorUserMediaErrorCallback",
-                                     header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  NavigatorUserMediaSuccessCallback* {.importcpp: "client::NavigatorUserMediaSuccessCallback",
-                                       header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  NotificationPermissionCallback* {.importcpp: "client::NotificationPermissionCallback",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  PositionCallback* {.importcpp: "client::PositionCallback",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  PositionErrorCallback* {.importcpp: "client::PositionErrorCallback",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  RTCPeerConnectionErrorCallback* {.importcpp: "client::RTCPeerConnectionErrorCallback",
-                                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  RTCSessionDescriptionCallback* {.importcpp: "client::RTCSessionDescriptionCallback",
-                                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  RTCStatsCallback* {.importcpp: "client::RTCStatsCallback",
-                      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  VoidFunction* {.importcpp: "client::VoidFunction",
-                  header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  WritableStreamChunkCallback* {.importcpp: "client::WritableStreamChunkCallback",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  WritableStreamDefaultControllerCallback* {.
-      importcpp: "client::WritableStreamDefaultControllerCallback",
-      header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  WritableStreamErrorCallback* {.importcpp: "client::WritableStreamErrorCallback",
-                                 header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
-  HTMLElementTagNameMap* {.importcpp: "client::HTMLElementTagNameMap",
-                           header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_a*(this: var HTMLElementTagNameMap): ptr HTMLAnchorElement {.
     importcpp: "get_a", header: "cheerp/clientlib.h".}
@@ -52969,12 +50938,6 @@ proc get_xmp*(this: var HTMLElementTagNameMap): ptr HTMLPreElement {.
 
 proc set_xmp*(this: var HTMLElementTagNameMap; a2: ptr HTMLPreElement) {.
     importcpp: "set_xmp", header: "cheerp/clientlib.h".}
-type
-
-  SVGElementTagNameMap* {.importcpp: "client::SVGElementTagNameMap",
-                          header: "cheerp/clientlib.h", bycopy.} = object
-
-
 
 proc get_circle*(this: var SVGElementTagNameMap): ptr SVGCircleElement {.
     importcpp: "get_circle", header: "cheerp/clientlib.h".}
@@ -53310,25 +51273,9 @@ proc get_view*(this: var SVGElementTagNameMap): ptr SVGViewElement {.
 
 proc set_view*(this: var SVGElementTagNameMap; a2: ptr SVGViewElement) {.
     importcpp: "set_view", header: "cheerp/clientlib.h".}
-type
-
-  ElementTagNameMap* {.importcpp: "client::ElementTagNameMap",
-                       header: "cheerp/clientlib.h", bycopy.} = object of HTMLElementTagNameMap
-
-
-  ActiveXObject* {.importcpp: "client::ActiveXObject",
-                   header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc constructActiveXObject*(s: String): ActiveXObject {.constructor,
     importcpp: "client::ActiveXObject(@)", header: "cheerp/clientlib.h".}
-type
-
-  ITextWriter* {.importcpp: "client::ITextWriter", header: "cheerp/clientlib.h",
-                 bycopy.} = object of Object
-
-
 
 proc Write*(this: var ITextWriter; s: String) {.importcpp: "Write",
     header: "cheerp/clientlib.h".}
@@ -53338,12 +51285,6 @@ proc WriteLine*(this: var ITextWriter; s: String) {.importcpp: "WriteLine",
 
 proc Close*(this: var ITextWriter) {.importcpp: "Close",
                                      header: "cheerp/clientlib.h".}
-type
-
-  TextStreamBase* {.importcpp: "client::TextStreamBase",
-                    header: "cheerp/clientlib.h", bycopy.} = object of Object
-
-
 
 proc get_Column*(this: var TextStreamBase): cdouble {.importcpp: "get_Column",
     header: "cheerp/clientlib.h".}
@@ -53359,12 +51300,6 @@ proc set_Line*(this: var TextStreamBase; a2: cdouble) {.importcpp: "set_Line",
 
 proc Close*(this: var TextStreamBase) {.importcpp: "Close",
                                         header: "cheerp/clientlib.h".}
-type
-
-  TextStreamWriter* {.importcpp: "client::TextStreamWriter",
-                      header: "cheerp/clientlib.h", bycopy.} = object of TextStreamBase
-
-
 
 proc Write*(this: var TextStreamWriter; s: String) {.importcpp: "Write",
     header: "cheerp/clientlib.h".}
@@ -53374,12 +51309,6 @@ proc WriteBlankLines*(this: var TextStreamWriter; intLines: cdouble) {.
 
 proc WriteLine*(this: var TextStreamWriter; s: String) {.importcpp: "WriteLine",
     header: "cheerp/clientlib.h".}
-type
-
-  TextStreamReader* {.importcpp: "client::TextStreamReader",
-                      header: "cheerp/clientlib.h", bycopy.} = object of TextStreamBase
-
-
 
 proc Read*(this: var TextStreamReader; characters: cdouble): ptr String {.
     importcpp: "Read", header: "cheerp/clientlib.h".}
