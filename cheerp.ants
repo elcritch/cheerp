@@ -89,6 +89,12 @@ antExport ImporterConfig:
             - LineDelete:
               match: peg"'String* replace(RegExp'"
             - LineDelete:
+              match: peg"'TArray<String>* '"
+            - LineDelete:
+              match: peg"'int search(RegExp'"
+            - LineDelete:
+              match: peg"'(EventListener* callback'"
+            - LineDelete:
               match: peg"'static_cast<T*>((client::Object*)nullptr);'"
               until: peg"'Array::operator[](index)'"
               inclusive: true

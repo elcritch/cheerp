@@ -96,18 +96,6 @@ proc lastIndexOf*(this: String; a2: String): cint {.noSideEffect,
 proc lastIndexOf*(this: String; a2: String; a3: cint): cint {.noSideEffect,
     importcpp: "lastIndexOf", header: "cheerp/types.h".}
 
-proc split*(this: String; a2: String): ptr TArray[String] {.noSideEffect,
-    importcpp: "split", header: "cheerp/types.h".}
-
-proc split*(this: String; a2: String; limit: cint): ptr TArray[String] {.
-    noSideEffect, importcpp: "split", header: "cheerp/types.h".}
-
-proc split*(this: String; a2: ptr RegExp): ptr TArray[String] {.noSideEffect,
-    importcpp: "split", header: "cheerp/types.h".}
-
-proc split*(this: String; a2: ptr RegExp; limit: cint): ptr TArray[String] {.
-    noSideEffect, importcpp: "split", header: "cheerp/types.h".}
-
 proc fromCharCode*(c: cint): ptr String {.
     importcpp: "client::String::fromCharCode(@)", header: "cheerp/types.h".}
   ##
@@ -122,16 +110,7 @@ proc endsWith*(this: String; a2: String): bool {.noSideEffect,
 proc localeCompare*(this: String; a2: String): cint {.noSideEffect,
     importcpp: "localeCompare", header: "cheerp/types.h".}
 
-proc match*(this: String; a2: String): ptr TArray[String] {.noSideEffect,
-    importcpp: "match", header: "cheerp/types.h".}
-
-proc match*(this: String; a2: ptr RegExp): ptr TArray[String] {.noSideEffect,
-    importcpp: "match", header: "cheerp/types.h".}
-
 proc search*(this: String; a2: String): cint {.noSideEffect,
-    importcpp: "search", header: "cheerp/types.h".}
-
-proc search*(this: String; a2: ptr RegExp): cint {.noSideEffect,
     importcpp: "search", header: "cheerp/types.h".}
 
 proc slice*(this: String; start: cint): ptr String {.noSideEffect,
@@ -241,30 +220,6 @@ proc join*(this: Array; a2: String): ptr String {.noSideEffect,
 proc reverse*(this: var Array): ptr Array {.importcpp: "reverse",
     header: "cheerp/types.h".}
 
-proc sort*(this: var Array; callback: ptr EventListener): ptr Array {.
-    importcpp: "sort", header: "cheerp/types.h".}
-
-proc every*(this: var Array; callback: ptr EventListener): bool {.
-    importcpp: "every", header: "cheerp/types.h".}
-
-proc some*(this: var Array; callback: ptr EventListener): bool {.
-    importcpp: "some", header: "cheerp/types.h".}
-
-proc forEach*(this: var Array; callback: ptr EventListener) {.
-    importcpp: "forEach", header: "cheerp/types.h".}
-
-proc map*(this: var Array; callback: ptr EventListener): ptr Array {.
-    importcpp: "map", header: "cheerp/types.h".}
-
-proc filter*(this: var Array; callback: ptr EventListener): ptr Array {.
-    importcpp: "filter", header: "cheerp/types.h".}
-
-proc reduce*(this: var Array; callback: ptr EventListener): ptr Object {.
-    importcpp: "reduce", header: "cheerp/types.h".}
-
-proc reduceRight*(this: var Array; callback: ptr EventListener): ptr Object {.
-    importcpp: "reduceRight", header: "cheerp/types.h".}
-
 proc isArray*(a1: ptr Object): bool {.importcpp: "client::Array::isArray(@)",
                                       header: "cheerp/types.h".}
   ##
@@ -294,9 +249,6 @@ proc get_size*(this: var Map): cint {.importcpp: "get_size",
                                       header: "cheerp/types.h".}
 
 proc clear*(this: var Map) {.importcpp: "clear", header: "cheerp/types.h".}
-
-proc forEach*(this: var Map; callback: ptr EventListener) {.
-    importcpp: "forEach", header: "cheerp/types.h".}
 type
 
   Number* {.importcpp: "client::Number", header: "cheerp/types.h", bycopy.} = object of Object
