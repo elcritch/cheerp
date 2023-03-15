@@ -4,43 +4,97 @@ import cimporter/configs
 antExport ImporterConfig:
   cimports:list:
     - ImportConfig:
-      name: "rosidl_runtime_c"
-      sources: "deps/rosidl/rosidl_runtime_c/include"
-      headerPrefix: "rosidl_runtime_c/"
+      name: "cheerp"
+      sources: "client/cheerp/"
+      headerPrefix: "cheerp/"
       globs: ["**/*.h"]
       includes: [
-        "deps/rcutils/include",
-        "deps/rosidl/rosidl_runtime_c/include",
-        "deps/rosidl/rosidl_typesupport_interface/include",
-        "deps/rosidl/rosidl_typesupport_introspection_c/include",
+        "client/",
         ]
-      defines: []
+      defines: ["LEAN_CXX_LIB"]
       skipFiles: []
-      renameFiles:list:
-        - Replace:
-          pattern: peg"^'string.' .+"
-          repl: "rstring$1"
 
-      c2NimCfgs:list:
-        - C2NimCfg:
-          fileMatch: peg"'u16string.h'"
-          rawNims: str"""
-              type
-                uintLeast16T * {.importc: "uint_least16_t", header: "stddef.h", bycopy.} = object
-              """
-        - C2NimCfg:
-          fileMatch: peg"'service_type_support_struct.h'"
-          rawNims: str"""
-              import rcutils/allocator
-              """
-        - C2NimCfg:
-          fileMatch: peg"'message_initialization.h'"
-          rawNims: str"""
-              """
+      # c2NimCfgs:list:
+      #   - C2NimCfg:
+      #     fileMatch: peg"'u16string.h'"
+      #     rawNims: str"""
+      #         type
+      #           uintLeast16T * {.importc: "uint_least16_t", header: "stddef.h", bycopy.} = object
+      #         """
       sourceMods:list:
         - CSrcMods:
-          fileMatch: peg"'testing'"
-          
+          fileMatch: peg"'.h'"
+          substitutes:list:
+            Replace(pattern: peg"'[[cheerp::genericjs]]'", repl: "")
+            Replace(pattern: peg"'__attribute__((noinline))'", repl: "")
+        - CSrcMods:
+          fileMatch: peg"'client.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'typename... Args'"
+              until: peg"'}'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'#define _CHEERP'"
+        - CSrcMods:
+          fileMatch: peg"'types.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'static_cast<T*>((client::Object*)nullptr);'"
+              until: peg"'Array::operator[](index)'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'typename... Args'"
+              until: peg"'... args'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'String* concat(Args... args)'"
+              until: peg"'}'"
+              inclusive: true
+            - LineDelete:
+              match: peg"'TArray(Args... args'"
+              until: peg"'}'"
+              inclusive: true
+        - CSrcMods:
+          fileMatch: peg"'jsobject.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'explicit operator double' / 'explicit operator int() const'"
+              until: peg"'}'"
+              inclusive: true
+        - CSrcMods:
+          fileMatch: peg"'clientlib.h'"
+          deletes:list:
+            - LineDelete:
+              match: peg"'template<class ReturnType = Object*> ReturnType get_value'"
+            - LineDelete:
+              match: peg"'template<class ReturnType = Object*> ReturnType get'"
+            - LineDelete:
+              match: peg"'template<typename... Args> Array* concat'"
+            - LineDelete:
+              match: peg"'template<typename... Args> double max'"
+            - LineDelete:
+              match: peg"'template<typename... Args> double min'"
+            - LineDelete:
+              match: peg"'template<class ReturnType = Object*> ReturnType compile'"
+            - LineDelete:
+              match: peg"'String* get_$'"
+            - LineDelete:
+              match: peg"'template<class ReturnType = Object*> ReturnType'"
+            - LineDelete:
+              match: peg"'template<typename... Args> static'"
+            - LineDelete:
+              match: peg"'template<typename... Args> ' \ident+ "
+            - LineDelete:
+              match: peg"'void set_memory'"
+              until: peg"'void clear()'"
+              inclusive: false
+            - LineDelete:
+              match: peg"'Console();'"
+              until: peg"'void _assert(bool condition'"
+              inclusive: true
+
+
 
           
         
