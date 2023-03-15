@@ -1,2 +1,3 @@
 *.h.pp
 src/cheerp/clientlib
+/tests/nimcache
